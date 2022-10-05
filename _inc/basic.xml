@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="basic">
+		<image name="frame" extra="true">
+			<zIndex>1000</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.9 0.78</size>
+			<pos>0.5 0.54</pos>
+			<color>202020ef</color>
+		</image>
+		<image name="logo">
+			<pos>0.79 0.074</pos>
+			<maxSize>0.26 0.11</maxSize>
+			<origin>1 0.5</origin>
+		</image>
+		<text name="systemName" extra="true">
+			<zIndex>1000</zIndex>
+			<text>${system.fullName}</text>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontSize>0.03</fontSize>
+			<origin>0 1</origin>
+			<pos>0.05 0.15</pos>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+		</text>
+		<textlist name="gamelist">
+			<zIndex>1001</zIndex>
+			<origin>0.5 0.5</origin>
+			<size>0.9 0.78</size>
+			<pos>0.5 0.54</pos>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ddddee</primaryColor>
+			<secondaryColor>ff0000</secondaryColor>
+			<selectorColor>404040aa</selectorColor>	  		
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>center</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+			<forceUppercase>true</forceUppercase>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+			<lines>15</lines>
+			</textlist>
+	</view>
+</theme>

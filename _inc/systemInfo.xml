@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="systemInfo">
+			<zIndex>1000</zIndex>
+            <pos>0 0.62</pos>
+            <backgroundColor>00000000</backgroundColor>
+            <color>ddddee</color>
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+            <fontSize>0.02</fontSize>
+            <glowColor>00000005</glowColor>
+            <opacity>0</opacity>
+			<storyboard>
+                <animation property="opacity" from="0" to="0" duration="550" mode="easeIn"/>
+                <animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="550"/>
+            </storyboard>
+		</text>
+	</view>
+</theme>

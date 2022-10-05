@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="menu,system,basic,video">
+		<helpsystem name="help">
+			<textColor>ddddee</textColor>
+			<fontSize>0.02</fontSize>
+			<origin>0 0.5</origin>
+			<pos>0.004 0.982</pos>
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<iconColor>bbbbff</iconColor>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:arcadeIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_arcade_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_arcade_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_arcade_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_arcade_a.png</iconA>
+			<iconB>./help/icon_arcade_b.png</iconB>
+			<iconX>./help/icon_arcade_x.png</iconX>
+			<iconY>./help/icon_arcade_y.png</iconY>
+			<iconL>./help/icon_arcade_l.png</iconL>
+			<iconR>./help/icon_arcade_r.png</iconR>
+			<iconStart>./help/icon_arcade_start.png</iconStart>
+			<iconSelect>./help/icon_arcade_select.png</iconSelect>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:psxIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_psx_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_psx_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_psx_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_psx_a.png</iconA>
+			<iconB>./help/icon_psx_b.png</iconB>
+			<iconX>./help/icon_psx_x.png</iconX>
+			<iconY>./help/icon_psx_y.png</iconY>
+			<iconL>./help/icon_psx_l.png</iconL>
+			<iconR>./help/icon_psx_r.png</iconR>
+			<iconStart>./help/icon_psx_start.png</iconStart>
+			<iconSelect>./help/icon_psx_select.png</iconSelect>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:snesIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_snes_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_snes_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_snes_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_snes_a.png</iconA>
+			<iconB>./help/icon_snes_b.png</iconB>
+			<iconX>./help/icon_snes_x.png</iconX>
+			<iconY>./help/icon_snes_y.png</iconY>
+			<iconL>./help/icon_snes_l.png</iconL>
+			<iconR>./help/icon_snes_r.png</iconR>
+			<iconStart>./help/icon_snes_start.png</iconStart>
+			<iconSelect>./help/icon_snes_select.png</iconSelect>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:snesAltIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_snesalt_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_snesalt_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_snesalt_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_snesalt_a.png</iconA>
+			<iconB>./help/icon_snesalt_b.png</iconB>
+			<iconX>./help/icon_snesalt_x.png</iconX>
+			<iconY>./help/icon_snesalt_y.png</iconY>
+			<iconL>./help/icon_snesalt_l.png</iconL>
+			<iconR>./help/icon_snesalt_r.png</iconR>
+			<iconStart>./help/icon_snesalt_start.png</iconStart>
+			<iconSelect>./help/icon_snesalt_select.png</iconSelect>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:xboxIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_xbox_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_xbox_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_xbox_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_xbox_a.png</iconA>
+			<iconB>./help/icon_xbox_b.png</iconB>
+			<iconX>./help/icon_xbox_x.png</iconX>
+			<iconY>./help/icon_xbox_y.png</iconY>
+			<iconL>./help/icon_xbox_l.png</iconL>
+			<iconR>./help/icon_xbox_r.png</iconR>
+			<iconStart>./help/icon_xbox_start.png</iconStart>
+			<iconSelect>./help/icon_xbox_select.png</iconSelect>
+		</helpsystem>
+		<helpsystem name="help" ifSubset="helpIcons:xboxOneIcons">
+			<iconColor>ffffff</iconColor>
+			<iconUpDown>./help/icon_xboxone_updown.png</iconUpDown>
+			<iconLeftRight>./help/icon_xboxone_leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./help/icon_xboxone_all.png</iconUpDownLeftRight>
+			<iconA>./help/icon_xboxone_a.png</iconA>
+			<iconB>./help/icon_xboxone_b.png</iconB>
+			<iconX>./help/icon_xboxone_x.png</iconX>
+			<iconY>./help/icon_xboxone_y.png</iconY>
+			<iconL>./help/icon_xboxone_l.png</iconL>
+			<iconR>./help/icon_xboxone_r.png</iconR>
+			<iconStart>./help/icon_xboxone_start.png</iconStart>
+			<iconSelect>./help/icon_xboxone_select.png</iconSelect>
+		</helpsystem>
+	</view>
+</theme>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system,basic,video">
+		<image name="background" extra="true">
+			<zIndex>100</zIndex>
+			<path>./background/scanlines.jpg</path>
+			<size>1 1</size>
+			<tile>true</tile>
+			<gradientType>vertical</gradientType>
+		</image>
+	</view>
+	<view name="system">
+		<image name="background" extra="true">
+            <color>505050</color>
+            <colorEnd>202020</colorEnd>
+		</image>
+	</view>
+	<view name="basic,video">
+		<image name="background" extra="true">
+            <color>202020</color>
+            <colorEnd>505050</colorEnd>
+		</image>
+	</view>
+</theme>

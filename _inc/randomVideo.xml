@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<video name="randomVideo" extra="true">
+			<zIndex>2000</zIndex>
+			<path>{random}</path>
+			<size>0 0</size>
+			<opacity>0</opacity>
+			<delay>0.3</delay>
+		</video>
+	</view>
+</theme>

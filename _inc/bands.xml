@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system,basic,video">
+		<image name="band1,band2,band3,band4" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>200</zIndex>
+            <size>0.030 3</size>
+            <origin>0 0.5</origin>
+			<y>0.5</y>
+			<opacity>0.5</opacity>
+			<path>./logo/${system.theme}.png</path>
+			<path>./logo/${system.theme}-${lang}.png</path>
+		</image>
+		<image name="band1,band2,band3,band4" region="us" extra="true">
+			<path>./logo/us/${system.theme}.png</path>
+		</image>
+		<image name="band1,band2,band3,band4" region="jp" extra="true">
+			<path>./logo/jp/${system.theme}.png</path>
+		</image>
+		<image name="band1" extra="true">
+            <x>0.80</x>
+			<flipY>true</flipY>
+			<storyboard repeatAt="5000">
+				<animation property="offsetY" from="0.8" to="-1" mode="easeOut" duration="5000"/>
+				<animation property="offsetY" from="-1" to="1" mode="easeInOut" duration="5000" begin="5000"/>
+				<animation property="offsetY" from="1" to="-1" mode="easeInOut" duration="5000" begin="10000"/>
+			</storyboard>
+        </image>
+        <image name="band2" extra="true">
+            <x>0.83001</x>
+			<flipY>true</flipY>
+			<storyboard repeatAt="5500">
+				<animation property="offsetY" from="-0.8" to="1" mode="easeOut" duration="5500"/>
+				<animation property="offsetY" from="1" to="-1" mode="easeInOut" duration="5000" begin="5500"/>
+				<animation property="offsetY" from="-1" to="1" mode="easeInOut" duration="5000" begin="11000"/>
+			</storyboard>
+        </image>
+       <image name="band3" extra="true">
+            <x>0.86002</x>
+			<flipX>true</flipX>
+			<storyboard repeatAt="6000">
+				<animation property="offsetY" from="0.8" to="-1" mode="easeOut" duration="6000"/>
+				<animation property="offsetY" from="-1" to="1" mode="easeInOut" duration="5000" begin="6000"/>
+				<animation property="offsetY" from="1" to="-1" mode="easeInOut" duration="5000" begin="12000"/>
+			</storyboard>
+         </image>
+        <image name="band4" extra="true">
+            <x>0.89003</x>
+			<flipX>true</flipX>
+			<storyboard repeatAt="6500">
+				<animation property="offsetY" from="-0.8" to="1" mode="easeOut" duration="6500"/>
+				<animation property="offsetY" from="1" to="-1" mode="easeInOut" duration="5000" begin="6500"/>
+				<animation property="offsetY" from="-1" to="1" mode="easeInOut" duration="5000" begin="13000"/>
+			</storyboard>
+         </image>
+	</view>
+</theme>

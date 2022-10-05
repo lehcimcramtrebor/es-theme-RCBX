@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="logoText">
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.06</fontSize>
+			<color>FFFFFFFF</color>
+			<glowColor>00000010</glowColor>
+			<glowSize>3</glowSize>
+			<forceUppercase>false</forceUppercase>    
+		</text>
+	</view>
+</theme>

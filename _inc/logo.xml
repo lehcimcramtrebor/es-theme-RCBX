@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system,basic,video">
+		<image name="logo">
+			<path>./logo/${system.theme}.png</path>
+			<path>./logo/${system.theme}-${lang}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>100</zIndex>
+		</image>
+		<image name="logo" region="eu"/>
+		<image name="logo" region="us">
+			<path>./logo/us/${system.theme}.png</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./logo/jp/${system.theme}.png</path>
+		</image>
+	</view>
+</theme>

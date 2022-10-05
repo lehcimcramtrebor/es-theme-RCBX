@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="screen">
+		<batteryIndicator name="batteryIndicator">
+			<pos>0.955 0.012</pos>
+			<pos verticalScreen="true">0.9 0.013</pos>
+			<size>0.033 0.0275</size>
+			<horizontalAlignment>right</horizontalAlignment>
+			<incharge>./batteryIndicator/incharge.svg</incharge>
+			<full>./batteryIndicator/full.svg</full>
+			<at75>./batteryIndicator/75.svg</at75>
+			<at50>./batteryIndicator/50.svg</at50>
+			<at25>./batteryIndicator/25.svg</at25>
+			<empty>./batteryIndicator/empty.svg</empty>
+			<color>dddddd</color>
+		</batteryIndicator>
+	</view>
+</theme>

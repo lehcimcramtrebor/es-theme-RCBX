@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<pos>0.01 0.012</pos>
+			<size>0.185 0.023</size>
+			<itemSpacing>0.003</itemSpacing>
+			<color>FFFFFF90</color>
+			<imagePath>./controllerActivity/gamepad.svg</imagePath>
+			<gunPath>./controllerActivity/gun.svg</gunPath>
+			<activityColor>A0A0FFC0</activityColor>
+			<hotkeyColor>FFA0A0C0</hotkeyColor>
+		</controllerActivity>
+	</view>
+</theme>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<carousel name="systemcarousel">
+			<zIndex>1000</zIndex>
+			<color>202020</color>
+			<defaultTransition>instant</defaultTransition>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+		</carousel>
+	</view>
+</theme>

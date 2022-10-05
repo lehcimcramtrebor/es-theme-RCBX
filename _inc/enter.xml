@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="enter" extra="true">
+			<zIndex>1000</zIndex>
+            <pos>0 0.32</pos>
+			<size>1 1</size>
+			<alignment>center</alignment>
+			<forceUppercase>true</forceUppercase>
+            <color>ddddee</color>
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+            <fontSize>0.02</fontSize>
+            <glowColor>00000005</glowColor>
+			<text>${lang.enter}</text>
+		</text>
+		<image name="enterIcon" extra="true">
+			<zIndex>1000</zIndex>
+			<path>./help/icon_b.svg</path>
+			<path ifSubset="helpIcons:arcadeIcons">./help/icon_arcade_b.png</path>
+			<path ifSubset="helpIcons:psxIcons">./help/icon_psx_b.png</path>
+			<path ifSubset="helpIcons:snesIcons">./help/icon_snes_b.png</path>
+			<path ifSubset="helpIcons:snesAltIcons">./help/icon_snesAlt_b.png</path>
+			<path ifSubset="helpIcons:xboxIcons">./help/icon_xbox_b.png</path>
+			<path ifSubset="helpIcons:xboxOneIcons">./help/icon_xboxOne_b.png</path>
+			<maxSize>1 0.02</maxSize>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.79</pos>
+			<color>bbbbff</color>
+		</image>
+		<control name="enter,enterIcon" extra="true">
+			<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1500" mode="easeIn"/>
+                <animation property="opacity" from="0" to="1" duration="800" mode="easeInOut" autoreverse="true" repeat="forever" begin="1500"/>
+            </storyboard>
+		</control>
+	</view>
+</theme>

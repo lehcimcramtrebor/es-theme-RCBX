@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="menu">
+		<menuText name="menutitle">
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+			<color>ccccee</color>
+		</menuText>
+		<menuText name="menufooter">
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontSize>0.018</fontSize>
+			<color>ddddee</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>ddddee</color>
+			<separatorColor>00000000</separatorColor>
+			<selectorColor>404040</selectorColor>
+			<selectorColorEnd>303030</selectorColorEnd>
+			<selectedColor>ffffff</selectedColor>
+			<selectorGradientType>horizontal</selectorGradientType>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontSize>0.018</fontSize>
+			<color>bbbbff</color>
+		</menuTextSmall>
+		<menuGroup name="menugroup">
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<color>bbbbff</color>
+			<separatorColor>00000000</separatorColor>
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>2.5</lineSpacing>
+		</menuGroup>
+		<menuBackground name="menubg">
+			<color>242424</color>
+			<cornerSize>32 32</cornerSize>
+			<path>./menuframe.png</path>
+			<scrollbarColor>ddddddd</scrollbarColor>
+			<scrollbarCorner>0.49</scrollbarCorner>
+			<scrollbarSize>0.003</scrollbarSize>
+			<scrollbarAlignment>innerright</scrollbarAlignment>
+		</menuBackground>
+		<menuIcons name="menuicons">
+			<iconKodi>./menu/Kodi.png</iconKodi>
+			<iconSystem>./menu/System.png</iconSystem>
+			<iconUpdates>./menu/Updates.png</iconUpdates>
+			<iconGames>./menu/Games.png</iconGames>
+			<iconControllers>./menu/Controllers.png</iconControllers>
+			<iconUI>./menu/UI.png</iconUI>
+			<iconSound>./menu/Sound.png</iconSound>
+			<iconNetwork>./menu/Network.png</iconNetwork>
+			<iconScraper>./menu/Scraper.png</iconScraper>
+			<iconAdvanced>./menu/Advanced.png</iconAdvanced>
+			<iconQuit>./menu/Quit.png</iconQuit>
+			<iconRestart>./menu/Restart.png</iconRestart>
+			<iconShutdown>./menu/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./menu/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./menu/Contest.png</iconRetroachievements>
+			<iconManual>./menu/Manual.png</iconManual>
+		</menuIcons>
+		<menuTextEdit name="menutextedit">
+			<inactive>./menutextinput_ninepatch.png</inactive>
+			<active>./menu/textinput_ninepatch_active.png</active>
+		</menuTextEdit>
+		<menuButton name="menubutton">
+			<path>./menubutton.png</path>
+			<filledPath>./menu/button_filled.png</filledPath>
+			<cornerSize>8 8</cornerSize>
+		</menuButton>
+	</view>
+</theme>

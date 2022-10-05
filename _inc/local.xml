@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<lang.helpIcons>help icons</lang.helpIcons>
+		<lang.defaultIcons>default</lang.defaultIcons>
+		<lang.arcadeIcons>arcade</lang.arcadeIcons>
+		<lang.psxIcons>psx</lang.psxIcons>
+		<lang.snesIcons>snes</lang.snesIcons>
+		<lang.snesAltIcons>snes alternate</lang.snesAltIcons>
+		<lang.xboxIcons>xbox</lang.xboxIcons>
+		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
+		
+		<lang.enter>enter gamelist</lang.enter>
+	</variables>
+</theme>
