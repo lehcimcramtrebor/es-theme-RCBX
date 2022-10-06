@@ -5,12 +5,13 @@
 		<video name="randomVideo" extra="true">
 			<zIndex>101</zIndex>
 			<path>{random}</path>
-			<minSize>0.33 1</minSize>
+			<minSize>0.4 1</minSize>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<delay>0.4</delay>
 			<effect>slide</effect>
 			<color>66666633</color>
+			<color ifSubset="luminosity:boost">66666666</color>
 			<saturation>2</saturation>
 		</video>
 	</view>

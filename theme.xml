@@ -18,6 +18,12 @@
         <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>	
+	<!--subset luminosity-->
+    <subset name="luminosity" displayName="${lang.luminosity}">
+        <include name="default" displayName="${lang.default}"/>
+        <include name="boost" displayName="${lang.boost}"/>
+    </subset>	
+		
 	<!--parts-->
 	<include>./_inc/clock.xml</include>
 	<include>./_inc/controllerActivity.xml</include>

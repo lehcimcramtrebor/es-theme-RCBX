@@ -11,6 +11,10 @@
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
 				
+		<lang.luminosity>luminosity</lang.luminosity>
+		<lang.default>default</lang.default>
+		<lang.boost>boost</lang.boost>
+				
 		<lang.enter>explore</lang.enter>
 		
 		<lang.yes>yes</lang.yes>
