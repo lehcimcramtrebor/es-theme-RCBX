@@ -8,12 +8,6 @@
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local_${lang}.xml</include>
 	
-	<!--subset random songs-->
-    <subset name="randomSongs" displayName="${lang.randomSongs}">
-        <include name="no" displayName="${lang.no}"/>
-        <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
-    </subset>
-
 	<!--subset help icons-->
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
@@ -35,7 +29,7 @@
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
-	<include>./_inc/colors.xml</include>
+	<include>./_inc/randomVideo.xml</include>
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>

@@ -6,7 +6,7 @@
 			<path>./logo/${system.theme}.png</path>
 			<path>./logo/${system.theme}-${lang}.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>100</zIndex>
+			<zIndex>1000</zIndex>
 			<storyboard event="activate">
 				<animation property="saturation" to="1" mode="linear" duration="1"/>
 				<animation property="offsetY" to="-0.25" mode="linear" duration="250" begin="1000"/>			

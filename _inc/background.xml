@@ -3,11 +3,12 @@
 	<formatVersion>7</formatVersion>
 	<view name="system,basic,video">
 		<image name="background" extra="true">
-			<zIndex>100</zIndex>
+			<zIndex>105</zIndex>
 			<path>./background/scanlines.jpg</path>
 			<size>1 1</size>
 			<tile>true</tile>
 			<gradientType>vertical</gradientType>
+			<opacity>0.35</opacity>
 		</image>
 	</view>
 	<view name="system">
@@ -17,25 +18,39 @@
 		</image>
 		<image name="randomBox01" extra="true">
 			<linearSmooth>true</linearSmooth>
-			<zIndex>101</zIndex>
+			<zIndex>103</zIndex>
 			<path>{random:thumbnail}</path>
 			<maxSize>0.8 1</maxSize>
 			<gradientType>horizontal</gradientType>
 			<color>ffffff66</color>
 			<colorEnd>80808000</colorEnd>
+			<saturation>1.2</saturation>
 			<origin>1 0</origin>
 			<pos>0.4 0</pos>
+			<storyboard repeat="forever">
+				<animation property="offsetX" to="-0.4" mode="linear" duration="25" autoreverse="true" repeat="5" begin="9750"/>			
+			</storyboard>
 		</image>
 		<image name="randomBox02" extra="true">
 			<linearSmooth>true</linearSmooth>
-			<zIndex>101</zIndex>
+			<zIndex>103</zIndex>
 			<path>{random:thumbnail}</path>
 			<maxSize>0.8 1</maxSize>
 			<gradientType>horizontal</gradientType>
 			<color>80808000</color>
 			<colorEnd>ffffff66</colorEnd>
+			<saturation>1.2</saturation>
 			<origin>0 0</origin>
 			<pos>0.6 0</pos>
+			<storyboard repeat="forever">
+				<animation property="offsetX" to="0.4" mode="linear" duration="25" autoreverse="true" repeat="5" begin="9750"/>			
+			</storyboard>
+		</image>
+		<image name="mask" extra="true">
+			<zIndex>102</zIndex>
+			<path>./background/mask.png</path>
+			<size>1 1</size>
+			<color>000000</color>
 		</image>
 	</view>
 	<view name="basic,video">

@@ -3,11 +3,15 @@
 	<formatVersion>7</formatVersion>
 	<view name="system">
 		<video name="randomVideo" extra="true">
-			<zIndex>2000</zIndex>
+			<zIndex>101</zIndex>
 			<path>{random}</path>
-			<size>0 0</size>
-			<opacity>0</opacity>
-			<delay>0.3</delay>
+			<minSize>0.33 1</minSize>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<delay>0.4</delay>
+			<effect>slide</effect>
+			<color>66666633</color>
+			<saturation>2</saturation>
 		</video>
 	</view>
 </theme>
