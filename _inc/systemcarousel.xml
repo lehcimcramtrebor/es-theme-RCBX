@@ -4,9 +4,68 @@
 	<view name="system">
 		<carousel name="systemcarousel">
 			<zIndex>1000</zIndex>
-			<color>202020</color>
+			<color>00000000</color>
+			<size>1 1</size>
+			<pos>0 0</pos>
 			<defaultTransition>instant</defaultTransition>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 		</carousel>
+		<image name="backgroundCarousel" extra="true">
+			<zIndex>999</zIndex>
+			<path>./parts/plain.png</path>
+			<size>1 0.24</size>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<color>202020ef</color>
+		</image>
+		<image name="randomArt01" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1001</zIndex>
+			<path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.165 0.5</pos>
+			<maxSize>0.23 0.23</maxSize>
+			<opacity>0</opacity>
+			<storyboard repeatAt="10000">
+				<animation property="opacity" to="1" mode="linear" duration="250" begin="1000"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="9500"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="9750"/>			
+				<animation property="scale" to="1" mode="linear" duration="250" begin="10250"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="19500"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="19750"/>			
+			</storyboard>
+		</image>
+		<image name="randomArt02" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1001</zIndex>
+			<path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>0.23 0.23</maxSize>
+			<opacity>0</opacity>
+			<storyboard repeatAt="10000">
+				<animation property="opacity" to="1" mode="linear" duration="250" begin="1000"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="9625"/>			
+				<animation property="scale" to="0" mode="linear" duration="125" begin="9875"/>			
+				<animation property="scale" to="1" mode="linear" duration="250" begin="10375"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="19625"/>			
+				<animation property="scale" to="0" mode="linear" duration="125" begin="19875"/>			
+			</storyboard>
+		</image>
+		<image name="randomArt03" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1001</zIndex>
+			<path>{random:marquee}</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.835 0.5</pos>
+			<maxSize>0.23 0.23</maxSize>
+			<opacity>0</opacity>
+			<storyboard repeatAt="10000">
+				<animation property="opacity" to="1" mode="linear" duration="250" begin="1000"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="9750"/>			
+				<animation property="scale" to="1" mode="linear" duration="250" begin="10500"/>			
+				<animation property="scale" to="0" mode="linear" duration="250" begin="19750"/>			
+			</storyboard>
+		</image>
 	</view>
 </theme>

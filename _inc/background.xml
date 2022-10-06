@@ -15,6 +15,28 @@
             <color>505050</color>
             <colorEnd>202020</colorEnd>
 		</image>
+		<image name="randomBox01" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>101</zIndex>
+			<path>{random:thumbnail}</path>
+			<maxSize>0.8 1</maxSize>
+			<gradientType>horizontal</gradientType>
+			<color>ffffff66</color>
+			<colorEnd>80808000</colorEnd>
+			<origin>1 0</origin>
+			<pos>0.4 0</pos>
+		</image>
+		<image name="randomBox02" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>101</zIndex>
+			<path>{random:thumbnail}</path>
+			<maxSize>0.8 1</maxSize>
+			<gradientType>horizontal</gradientType>
+			<color>80808000</color>
+			<colorEnd>ffffff66</colorEnd>
+			<origin>0 0</origin>
+			<pos>0.6 0</pos>
+		</image>
 	</view>
 	<view name="basic,video">
 		<image name="background" extra="true">

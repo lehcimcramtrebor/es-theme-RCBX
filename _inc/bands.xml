@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="system,basic,video">
 		<image name="band1,band2,band3,band4" extra="true">
+			<saturation>1.3</saturation>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>200</zIndex>
             <size>0.030 3</size>

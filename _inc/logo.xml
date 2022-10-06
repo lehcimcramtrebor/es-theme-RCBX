@@ -7,6 +7,18 @@
 			<path>./logo/${system.theme}-${lang}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>100</zIndex>
+			<storyboard event="activate">
+				<animation property="saturation" to="1" mode="linear" duration="1"/>
+				<animation property="offsetY" to="-0.25" mode="linear" duration="250" begin="1000"/>			
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="saturation" to="0" mode="linear" duration="1"/>			
+				<animation property="opacity" to="0" mode="linear" duration="250" begin="1000"/>			
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="saturation" to="0" mode="linear" duration="1"/>						
+				<animation property="opacity" to="0" mode="linear" duration="250" begin="1000"/>			
+			</storyboard>
 		</image>
 		<image name="logo" region="eu"/>
 		<image name="logo" region="us">
