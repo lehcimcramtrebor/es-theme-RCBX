@@ -11,6 +11,7 @@
 			<opacity>0.5</opacity>
 			<path>./logo/${system.theme}.png</path>
 			<path>./logo/${system.theme}-${lang}.png</path>
+			<saturation>1.2</saturation>
 		</image>
 		<image name="band1,band2,band3,band4" region="us" extra="true">
 			<path>./logo/us/${system.theme}.png</path>

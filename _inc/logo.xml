@@ -7,6 +7,7 @@
 			<path>./logo/${system.theme}-${lang}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>100</zIndex>
+			<saturation>1.2</saturation>
 		</image>
 		<image name="logo" region="eu"/>
 		<image name="logo" region="us">
