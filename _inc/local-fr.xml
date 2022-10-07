@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<lang.helpIcons>boutons des icônes de l'aide</lang.helpIcons>
+		<lang.defaultIcons>par défaut</lang.defaultIcons>
+		<lang.arcadeIcons>arcade</lang.arcadeIcons>
+		<lang.psxIcons>psx</lang.psxIcons>
+		<lang.snesIcons>snes</lang.snesIcons>
+		<lang.snesAltIcons>snes alternatif</lang.snesAltIcons>
+		<lang.xboxIcons>xbox</lang.xboxIcons>
+		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
+
+		<lang.randomSongs>sons aléatoires</lang.randomSongs>
+		
+		<lang.yes>oui</lang.yes>
+		<lang.no>non</lang.no>
+
+		<lang.enter>explorer la liste</lang.enter>
+		<lang.rating>notation</lang.rating>
+	</variables>
+</theme>

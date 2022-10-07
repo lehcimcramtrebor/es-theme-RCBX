@@ -45,7 +45,7 @@
 			<origin>0 0</origin>
 			<pos>0.45 0.173</pos>
 			<maxSize>0.34 0.424</maxSize>
-			<delay>1.7</delay>
+			<delay>0.3</delay>
 			<effect>none</effect>
 			<showSnapshotNoVideo>true</showSnapshotNoVideo>
 			<showSnapshotDelay>true</showSnapshotDelay>
@@ -205,12 +205,23 @@
  			<w>0.155</w>
 			<h>0.023</h>
         </text>
+        <text name="lbl_rating" extra="true">
+			<text>${lang.rating}: </text>
+			<zIndex>1001</zIndex>
+			<alignment>right</alignment>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<origin>1 1</origin>
+            <pos>0.7 0.635</pos>
+        </text>
         <rating name="md_rating">
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1001</zIndex>
-			<color>bbbbff</color>
-            <pos>0.62 0.62</pos>
-            <size>0.08 0.03</size>
+			<color>ddddee</color>
+            <pos>0.745 0.618</pos>
+            <size>0.08 0.022</size>
 			<origin>0.5 0.5</origin>
         </rating>
         <text name="md_description">
@@ -223,13 +234,13 @@
             <size>0.32 0.255</size>
             <fontSize>0.02</fontSize>
 			<storyboard event="open">
-				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
@@ -241,24 +252,47 @@
 		<image name="md_thumbnail">
 			<zIndex>1001</zIndex>
 			<path>./parts/plain.png</path>
-			<origin>0 0</origin>
-            <pos>0.805 0.597</pos>
-            <maxSize>0.155 0.308</maxSize>
+			<origin>1 1</origin>
+            <pos>0.96 0.905</pos>
+            <maxSize>0.155 0.27</maxSize>
+			<storyboard event="open">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+				<animation property="offsetY" from="0.005" mode="easeOut" duration="250"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+				<animation property="offsetY" from="-0.005" mode="easeOut" duration="250"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="60"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="60"/>
+			</storyboard>
 		</image>
 		<image name="md_marquee">
 			<zIndex>1001</zIndex>
 			<path>./parts/plain.png</path>
 			<origin>0.5 0.5</origin>
-            <pos>0.61 0.77525</pos>
-            <maxSize>0.22 0.255</maxSize>
+            <pos>0.63 0.77525</pos>
+            <maxSize>0.18 0.255</maxSize>
+			<saturation>1.2</saturation>
 			<storyboard event="open">
-				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
+				<animation property="offsetX" from="0.05" mode="easeOutCubic" duration="250"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
+				<animation property="offsetX" from="-0.05" mode="easeOutCubic" duration="250"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
@@ -267,6 +301,219 @@
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
+		<image name="md_flag">
+			<origin>0 1</origin>
+			<pos>0.45 0.63</pos>
+			<maxSize>0.022 0.02</maxSize>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1002</zIndex>
+		</image>
 
+		<image name="ghost_flag" extra="true">
+			<origin>0 1</origin>
+			<pos>0.45 0.63</pos>
+			<path>./parts/ghostFlag.png</path>
+			<maxSize>0.022 0.02</maxSize>
+			<color>ddddee</color>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1001</zIndex>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
+		<image name="md_manual,md_nomanual">
+			<origin>0 1</origin>
+			<pos>0.48 0.63</pos>
+			<path>./parts/book.png</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>ddddee</color>
+			<zIndex>1002</zIndex>
+		</image>
+		
+		<image name="ghost_manual" extra="true">
+			<origin>0 1</origin>
+			<pos>0.48 0.63</pos>
+			<path>./parts/book.png</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>80808080</color>
+			<zIndex>1001</zIndex>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
+
+		<image name="md_nomanual">
+			<color>00000000</color>
+		</image>
+	
+		<image name="md_savestate,md_nosavestate">
+			<origin>0 1</origin>
+			<path>./parts/SaveState.png</path>
+			<pos>0.5 0.63</pos>
+			<maxSize>0.02 0.02</maxSize>
+			<color>ddddee</color>
+			<zIndex>1002</zIndex>
+		</image>
+
+		<image name="ghost_savestate" extra="true">
+			<origin>0 1</origin>
+			<path>./parts/SaveState.png</path>
+			<pos>0.5 0.63</pos>
+			<maxSize>0.02 0.02</maxSize>
+			<color>80808080</color>
+			<zIndex>1001</zIndex>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
+  
+		<image name="md_nosavestate">
+			<color>00000000</color>
+		</image>
+	
+		<image name="md_cheevos,md_notcheevos">
+			<origin>0 1</origin>
+			<path>./parts/Contest.png</path>
+			<pos>0.52 0.63</pos>
+			<maxSize>0.02 0.02</maxSize>     
+			<color>ddddee</color>
+			<zIndex>1002</zIndex>
+		</image>
+ 		
+		<image name="ghost_cheevos" extra="true">
+			<origin>0 1</origin>
+			<path>./parts/Contest.png</path>
+			<pos>0.52 0.63</pos>
+			<maxSize>0.02 0.02</maxSize>     
+			<color>80808080</color>
+			<zIndex>1001</zIndex>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
+
+		<image name="md_notcheevos">
+			<color>00000000</color>
+		</image> 
+	
+		<image name="md_kidgame, md_notkidgame"> 
+			<origin>0 1</origin>
+			<pos>0.54 0.63</pos>
+			<path>./parts/kid.svg</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>ddddee</color>
+			<zIndex>1002</zIndex>
+			<linearSmooth>true</linearSmooth>
+		</image>
+
+		<image name="ghost_kidgame" extra="true"> 
+			<origin>0 1</origin>
+			<pos>0.54 0.63</pos>
+			<path>./parts/kid.svg</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>80808080</color>
+			<zIndex>1001</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
+
+		<image name="md_notkidgame"> 
+			<color>00000000</color>
+		</image>
+
+		<image name="md_hidden">
+			<origin>0 1</origin>
+			<pos>0.56 0.63</pos>
+			<path>./parts/hidden.svg</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>ddddee</color>
+			<zIndex>1002</zIndex>
+		</image>
+
+		<image name="ghost_hidden" extra="true">
+			<origin>0 1</origin>
+			<pos>0.56 0.63</pos>
+			<path>./parts/hidden.svg</path>
+			<maxSize>0.02 0.02</maxSize>
+			<color>80808080</color>
+			<zIndex>1001</zIndex>
+			<storyboard event="open">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activateNext">
+                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+            </storyboard>
+			<storyboard event="activatePrev">
+                <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
+           </storyboard>
+			<storyboard event="deactivateNext">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+			<storyboard event="deactivatePrev">
+                <animation property="opacity" from="0" to="0" duration="1" mode="easeIn"/>
+            </storyboard>
+		</image>
 	</view>
 </theme>

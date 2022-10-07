@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
+	
+	<!--variable to display region first-->
+	<variables region="eu">	<v.region> </v.region> </variables>
+	
 	<!--localisation-->
 	<include>./_inc/local.xml</include>
-	<include>./_inc/local_${lang}.xml</include>
+	<include>./_inc/local-${lang}.xml</include>
 	
 	<!--subsets-->
+    <subset name="randomSongs" displayName="${lang.randomSongs}">
+        <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
@@ -27,7 +35,6 @@
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
-	<include>./_inc/randomVideo.xml</include>
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>

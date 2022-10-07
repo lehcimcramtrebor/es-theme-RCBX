@@ -10,7 +10,13 @@
 		<lang.snesAltIcons>snes alternate</lang.snesAltIcons>
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
+
+		<lang.randomSongs>random songs</lang.randomSongs>
 		
-		<lang.enter>enter gamelist</lang.enter>
+		<lang.yes>yes</lang.yes>
+		<lang.no>no</lang.no>
+
+		<lang.enter>enter</lang.enter>
+		<lang.rating>rating</lang.rating>
 	</variables>
 </theme>
