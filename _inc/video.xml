@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="video">
+		<image name="frame" extra="true">
+			<zIndex>1000</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>0.5 0.5</origin>
+            <pos>0.22 0.54</pos>
+            <size>0.39 0.78</size>
+			<color>202020ef</color>
+		</image>
+		<image name="frame2" extra="true">
+			<zIndex>1000</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>0.5 0.5</origin>
+            <pos>0.705 0.54</pos>
+            <size>0.54 0.78</size>
+			<color>202020ef</color>
+		</image>
+		<image name="logo">
+			<pos>0.035 0.074</pos>
+			<maxSize>0.26 0.11</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		<textlist name="gamelist">
+			<zIndex>1001</zIndex>
+			<origin>0.5 0.5</origin>
+            <pos>0.22 0.54</pos>
+            <size>0.39 0.78</size>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>ddddee</primaryColor>
+			<secondaryColor>ff0000</secondaryColor>
+			<selectorColor>404040aa</selectorColor>	  		
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.025</fontSize>
+			<alignment>left</alignment>
+            <horizontalMargin>0.01</horizontalMargin>
+			<forceUppercase>true</forceUppercase>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+			<lines>15</lines>
+			</textlist>
+		<video name="md_video">
+			<zIndex>1001</zIndex>
+			<origin>0 0</origin>
+			<pos>0.45 0.173</pos>
+			<maxSize>0.34 0.424</maxSize>
+			<delay>1.7</delay>
+			<effect>none</effect>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>
+        <text name="md_lbl_releasedate">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.17</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <datetime name="md_releasedate">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.195</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </datetime>
+        <text name="md_lbl_developer">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.23</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_developer">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<alignment>left</alignment>
+            <x>0.805</x>
+			<y>0.255</y>
+ 			<w>0.155</w>
+			<h>0.023</h>			
+        </text>
+        <text name="md_lbl_publisher">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.29</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_publisher">
+			<zIndex>1001</zIndex>
+			<forceUppercase>true</forceUppercase>
+			<fontSize>0.02</fontSize>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.315</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_lbl_genre">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.35</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_genre">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+ 			<y>0.375</y>
+			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_lbl_players">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.41</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_players">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.435</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_lbl_lastplayed">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.46</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <datetime name="md_lastplayed">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.485</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </datetime>
+        <text name="md_lbl_playcount">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>bbbbff</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.52</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <text name="md_playcount">
+			<zIndex>1001</zIndex>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>ddddee</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <x>0.805</x>
+			<y>0.545</y>
+ 			<w>0.155</w>
+			<h>0.023</h>
+        </text>
+        <rating name="md_rating">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1001</zIndex>
+			<color>bbbbff</color>
+            <pos>0.62 0.62</pos>
+            <size>0.08 0.03</size>
+			<origin>0.5 0.5</origin>
+        </rating>
+        <text name="md_description">
+			<zIndex>1001</zIndex>
+			<forceUppercase>true</forceUppercase>
+			<color>00000000</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+            <lineSpacing>1.2</lineSpacing>
+            <pos>0.45 0.65</pos>
+            <size>0.32 0.255</size>
+            <fontSize>0.02</fontSize>
+			<storyboard event="open">
+				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="color" to="ddddee" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+        </text>
+		<image name="md_thumbnail">
+			<zIndex>1001</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>0 0</origin>
+            <pos>0.805 0.597</pos>
+            <maxSize>0.155 0.308</maxSize>
+		</image>
+		<image name="md_marquee">
+			<zIndex>1001</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>0.5 0.5</origin>
+            <pos>0.61 0.77525</pos>
+            <maxSize>0.22 0.255</maxSize>
+			<storyboard event="open">
+				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="250" begin="750"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</image>
+
+	</view>
+</theme>
