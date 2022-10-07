@@ -3,9 +3,8 @@
 	<formatVersion>7</formatVersion>
 	<view name="system,basic,video">
 		<image name="band1,band2,band3,band4" extra="true">
-			<saturation>1.3</saturation>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>500</zIndex>
+			<zIndex>200</zIndex>
             <size>0.030 3</size>
             <origin>0 0.5</origin>
 			<y>0.5</y>
@@ -20,7 +19,6 @@
 			<path>./logo/jp/${system.theme}.png</path>
 		</image>
 		<image name="band1" extra="true">
-            <color>29adff</color>
             <x>0.80</x>
 			<flipY>true</flipY>
 			<storyboard repeatAt="5000">
@@ -30,7 +28,6 @@
 			</storyboard>
         </image>
         <image name="band2" extra="true">
-            <color>fff1e8</color>
             <x>0.83001</x>
 			<flipY>true</flipY>
 			<storyboard repeatAt="5500">
@@ -40,7 +37,6 @@
 			</storyboard>
         </image>
        <image name="band3" extra="true">
-            <color>ff004d</color>
             <x>0.86002</x>
 			<flipX>true</flipX>
 			<storyboard repeatAt="6000">
