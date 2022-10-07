@@ -28,7 +28,6 @@
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
 	<include>./_inc/randomVideo.xml</include>
-	<include>./_inc/colors.xml</include>
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>
