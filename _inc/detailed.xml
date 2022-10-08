@@ -52,33 +52,7 @@
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 		</video>
-		<image name="md_fanart" ifSubset="paintGamelist:yes">
-			<linearSmooth>true</linearSmooth>
-			<zIndex>101</zIndex>
-			<pos>0 0</pos>
-			<maxSize>99 1</maxSize>
-			<origin>0 0</origin>
-			<gradientType>horizontal</gradientType>
-			<color>cccccc80</color>
-			<colorEnd>00000000</colorEnd>
-			<opacity>0</opacity>
-			<storyboard event="open">
-				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="350"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="350"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-		</image>
-        <text name="md_lbl_releasedate">
+		<text name="md_lbl_releasedate">
 			<zIndex>1001</zIndex>
 			<fontSize>0.02</fontSize>
 			<forceUppercase>true</forceUppercase>
