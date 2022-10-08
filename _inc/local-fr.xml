@@ -2,6 +2,13 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<lang.music>musique</lang.music>
+		<lang.allowGeneral>autoriser la musique du système</lang.allowGeneral>
+		<lang.useRecalboxMusic>utiliser la musique de recalbox</lang.useRecalboxMusic>
+		<lang.useComixZoneMusic>utiliser l'album comix zone</lang.useComixZoneMusic>
+		<lang.useOldBatoceraMusic>utiliser les anciennes musiques batocera</lang.useOldBatoceraMusic>
+		<lang.notAllowMusic>couper la musique</lang.notAllowMusic>
+
 		<lang.helpIcons>boutons des icônes de l'aide</lang.helpIcons>
 		<lang.defaultIcons>par défaut</lang.defaultIcons>
 		<lang.arcadeIcons>arcade</lang.arcadeIcons>
@@ -11,10 +18,29 @@
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
 
-		<lang.randomSongs>sons aléatoires</lang.randomSongs>
+		<lang.randomVideos>vidéos aléatoires</lang.randomVideos>
+		<lang.onlyAudio>seulement l'audio</lang.onlyAudio>
+		<lang.inFrame>dans un cadre</lang.inFrame>
+		<lang.onWall>sur le mur</lang.onWall>
+		<lang.fullScreen>plein écran</lang.fullScreen>
+
+		<lang.randomVideosAudio>audio de la vidéo aléatoire</lang.randomVideosAudio>
+		<lang.mdVideosAudio>audio des vidéos de jeux</lang.mdVideosAudio>
+
+		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
+
+		<lang.extendedInfos>informations étendues</lang.extendedInfos>
 		
 		<lang.yes>oui</lang.yes>
 		<lang.no>non</lang.no>
+		<lang.on>activé</lang.on>
+		<lang.off>désactivé</lang.off>
+
+		<lang.games>jeux</lang.games>
+		<lang.favorites>favoris</lang.favorites>
+		<lang.gamesPlayed>jeux joués</lang.gamesPlayed>
+		<lang.mostPlayed>le plus joué</lang.mostPlayed>
+		<lang.lastPlayedDate>dernière partie</lang.lastPlayedDate>
 
 		<lang.enter>explorer la liste</lang.enter>
 		<lang.rating>notation</lang.rating>

@@ -10,10 +10,24 @@
 	<include>./_inc/local-${lang}.xml</include>
 	
 	<!--subsets-->
-    <subset name="randomSongs" displayName="${lang.randomSongs}">
-        <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
+    <subset name="music" displayName="${lang.music}">
+        <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
+        <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
+        <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
+        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
+        <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
+   </subset>
+     <subset name="randomVideos" displayName="${lang.randomVideos}">
         <include name="no" displayName="${lang.no}"/>
+        <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
+        <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
+        <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
+        <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
     </subset>
+    <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
+        <include name="on" displayName="${lang.on}"/>
+        <include name="off" displayName="${lang.off}"/>
+   </subset>
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
@@ -22,6 +36,18 @@
         <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
         <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
+    </subset>
+    <subset name="extendedInfos" displayName="${lang.extendedInfos}">
+        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="video">
+        <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="video">
+        <include name="on" displayName="${lang.on}"/>
+        <include name="off" displayName="${lang.off}"/>
     </subset>
 	
 	<!--parts-->

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="systemInfo" visible="false"/>
+		<text name="systemInfoEx" extra="true">
+		<!-- possible bindings are :
+		{binding:total}, {binding:played}, {binding:favorites}, {binding:hidden}, {binding:gamesPlayed}
+		{binding:mostPlayed}, {binding:lastPlayedDate}
+		-->
+		<text>${lang.games} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.gamesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayed} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}</text>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<forceUppercase>true</forceUppercase>
+			<fontSize>0.02</fontSize>
+			<pos>0.03 0.56</pos>
+			<size>0.94 0.28</size>
+			<zIndex>1000</zIndex>
+			<color>ddddee</color>
+			<glowColor>00000005</glowColor>
+			<glowSize>1</glowSize>
+			<storyboard>
+                <animation property="opacity" from="0" to="0" duration="650" mode="easeIn"/>
+                <animation property="opacity" from="0" to="1" duration="250" mode="easeInOut" begin="650"/>
+            </storyboard>
+		</text>
+		<text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
+			<text>Collections : {binding:subSystems}</text>
+			<text lang="fr">Nombre de collections : {binding:subSystems}</text>
+		</text>
+		<text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots'">
+			<text>Items : {binding:total}</text>
+			<text lang="fr">Nombre d'élements : {binding:total}</text>
+			<text lang="es">Número de elementos: {binding:total}</text>
+		</text>
+	</view>
+</theme>
