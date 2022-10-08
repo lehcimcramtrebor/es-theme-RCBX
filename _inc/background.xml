@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system,basic,video">
+	<view name="system,basic,detailed">
 		<image name="background" extra="true">
 			<zIndex>100</zIndex>
 			<path>./background/scanlines.jpg</path>
@@ -16,7 +16,7 @@
             <colorEnd>202020</colorEnd>
 		</image>
 	</view>
-	<view name="basic,video">
+	<view name="basic,detailed">
 		<image name="background" extra="true">
             <color>202020</color>
             <colorEnd>505050</colorEnd>

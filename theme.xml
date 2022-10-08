@@ -64,5 +64,5 @@
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>
-	<include>./_inc/video.xml</include>
+	<include>./_inc/detailed.xml</include>
 </theme>
