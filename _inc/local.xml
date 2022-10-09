@@ -28,7 +28,12 @@
 		<lang.mdVideosAudio>games videos audio</lang.mdVideosAudio>
 
 		<lang.paintSystem>paint system wall</lang.paintSystem>
+		<lang.paintSystemForce>system view paint intensity</lang.paintSystemForce>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
+		<lang.paintGamelistForce>gamelist view paint intensity</lang.paintGamelistForce>
+		<lang.softPaint>soft</lang.softPaint>
+		<lang.mediumPaint>medium</lang.mediumPaint>
+		<lang.vividPaint>high</lang.vividPaint>
 
 		<lang.extendedInfos>extended infos</lang.extendedInfos>
 		

@@ -28,7 +28,12 @@
 		<lang.mdVideosAudio>audio des vidéos de jeux</lang.mdVideosAudio>
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
+		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
+		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
+		<lang.softPaint>léger</lang.softPaint>
+		<lang.mediumPaint>moyen</lang.mediumPaint>
+		<lang.vividPaint>haute</lang.vividPaint>
 
 		<lang.extendedInfos>informations étendues</lang.extendedInfos>
 		
