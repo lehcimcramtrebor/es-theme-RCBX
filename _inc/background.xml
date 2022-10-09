@@ -4,7 +4,11 @@
 	<view name="system,basic,detailed">
 		<image name="background" extra="true">
 			<zIndex>100</zIndex>
-			<path>./background/scanlines.jpg</path>
+			<path ifSubset="backgroundFx:flat">./background/flat.jpg</path>
+			<path ifSubset="backgroundFx:scanlines">./background/scanlines.jpg</path>
+			<path ifSubset="backgroundFx:scanlinesvertical">./background/scanlinesVertical.jpg</path>
+			<path ifSubset="backgroundFx:crt">./background/crt.jpg</path>
+			<path ifSubset="backgroundFx:phosphore">./background/phosphore.jpg</path>
 			<size>1 1</size>
 			<tile>true</tile>
 			<gradientType>vertical</gradientType>
@@ -14,6 +18,8 @@
 		<image name="background" extra="true">
             <color>505050</color>
             <colorEnd>202020</colorEnd>
+            <color ifSubset="backgroundFx:flat,paintSystem:no">202020</color>
+            <colorEnd ifSubset="backgroundFx:flat,paintSystem:no">202020</colorEnd>
 		</image>
 		<image name="paintSystem" ifSubset="paintSystem:yes" extra="true">
 			<path>{random:fanart}</path>
@@ -29,8 +35,12 @@
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
-			<color>cccccc80</color>
-			<colorEnd>80808003</colorEnd>
+			<color>80808080</color>
+			<colorEnd>00000000</colorEnd>
+			<color ifSubset="paintSystemForce:darkPaint">cccccc80</color>
+			<colorEnd ifSubset="paintSystemForce:darkPaint">00000000</colorEnd>
+			<color ifSubset="paintSystemForce:softPaint">cccccc80</color>
+			<colorEnd ifSubset="paintSystemForce:softPaint">80808003</colorEnd>
 			<color ifSubset="paintSystemForce:mediumPaint">eeeeee90</color>
 			<colorEnd ifSubset="paintSystemForce:mediumPaint">90909010</colorEnd>
 			<saturation ifSubset="paintSystemForce:mediumPaint">1.05</saturation>
@@ -50,6 +60,8 @@
             <colorEnd>505050</colorEnd>
             <color ifSubset="paintGamelist:yes">505050</color>
             <colorEnd ifSubset="paintGamelist:yes">202020</colorEnd>
+            <color ifSubset="backgroundFx:flat">202020</color>
+            <colorEnd ifSubset="backgroundFx:flat">202020</colorEnd>
 		</image>
 	</view>
 	<view name="detailed">
@@ -60,14 +72,18 @@
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
-			<color>cccccc80</color>
-			<colorEnd>80808003</colorEnd>
+			<color>80808080</color>
+			<colorEnd>00000000</colorEnd>
+			<color ifSubset="paintGamelistForce:darkPaint">cccccc80</color>
+			<colorEnd ifSubset="paintGamelistForce:darkPaint">00000000</colorEnd>
+			<color ifSubset="paintGamelistForce:softPaint">cccccc80</color>
+			<colorEnd ifSubset="paintGamelistForce:softPaint">80808003</colorEnd>
 			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee90</color>
 			<colorEnd ifSubset="paintGamelistForce:mediumPaint">90909010</colorEnd>
 			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintGamelistForce:vividPaint">ffffff99</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">ffffff10</colorEnd>
-			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard event="open">
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>

@@ -11,28 +11,37 @@
 	
 	<!--subsets-->
     <subset name="music" displayName="${lang.music}">
-        <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
+        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
-        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
+        <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
    </subset>
      <subset name="randomVideos" displayName="${lang.randomVideos}">
-        <include name="no" displayName="${lang.no}"/>
-        <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
         <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
         <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
+        <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
-        <include name="on" displayName="${lang.on}"/>
         <include name="off" displayName="${lang.off}"/>
+        <include name="on" displayName="${lang.on}"/>
+   </subset>
+    <subset name="backgroundFx" displayName="${lang.backgroundFx}">
+        <include name="scanlines" displayName="${lang.scanlines}"/>
+        <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
+        <include name="crt" displayName="${lang.crt}"/>
+        <include name="phosphore" displayName="${lang.phosphore}"/>
+        <include name="flat" displayName="${lang.flat}"/>
    </subset>
     <subset name="paintSystem" displayName="${lang.paintSystem}">
-        <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
    </subset>
     <subset name="paintSystemForce" displayName="${lang.paintSystemForce}" ifSubset="paintSystem:yes">
+        <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
@@ -55,13 +64,15 @@
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="video">
+        <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
    </subset>
    <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="video">
-        <include name="on" displayName="${lang.on}"/>
         <include name="off" displayName="${lang.off}"/>
+        <include name="on" displayName="${lang.on}"/>
     </subset>
 	
 	<!--parts-->

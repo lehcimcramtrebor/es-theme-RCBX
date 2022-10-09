@@ -18,6 +18,13 @@
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
 
+		<lang.backgroundFx>background fx</lang.backgroundFx>
+		<lang.flat>flat</lang.flat>
+		<lang.crt>crt</lang.crt>
+		<lang.phosphore>phosphore</lang.phosphore>
+		<lang.scanlines>scanlines</lang.scanlines>
+		<lang.scanlinesvertical>vertical scanlines</lang.scanlinesvertical>
+
 		<lang.randomVideos>random videos</lang.randomVideos>
 		<lang.onlyAudio>only audio</lang.onlyAudio>
 		<lang.inFrame>in frame</lang.inFrame>
@@ -31,9 +38,11 @@
 		<lang.paintSystemForce>system view paint intensity</lang.paintSystemForce>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
 		<lang.paintGamelistForce>gamelist view paint intensity</lang.paintGamelistForce>
-		<lang.softPaint>soft</lang.softPaint>
-		<lang.mediumPaint>medium</lang.mediumPaint>
-		<lang.vividPaint>high</lang.vividPaint>
+		<lang.fadedPaint>1-faded</lang.fadedPaint>
+		<lang.darkPaint>2-dark</lang.darkPaint>
+		<lang.softPaint>3-soft</lang.softPaint>
+		<lang.mediumPaint>4-medium</lang.mediumPaint>
+		<lang.vividPaint>5-high</lang.vividPaint>
 
 		<lang.extendedInfos>extended infos</lang.extendedInfos>
 		
