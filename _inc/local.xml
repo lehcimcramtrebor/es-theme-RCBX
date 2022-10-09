@@ -6,6 +6,7 @@
 		<lang.allowGeneral>allow general music</lang.allowGeneral>
 		<lang.useRecalboxMusic>use recalbox music</lang.useRecalboxMusic>
 		<lang.useComixZoneMusic>use comix zone album</lang.useComixZoneMusic>
+		<lang.useRetrobatMusic>use retrobat album</lang.useRetrobatMusic>
 		<lang.useOldBatoceraMusic>use old batocera musics</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>cut all music</lang.notAllowMusic>
 

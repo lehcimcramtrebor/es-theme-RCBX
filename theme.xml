@@ -14,6 +14,7 @@
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
+        <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
    </subset>
