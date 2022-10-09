@@ -33,10 +33,10 @@
 			<colorEnd>80808003</colorEnd>
 			<color ifSubset="paintSystemForce:mediumPaint">eeeeee90</color>
 			<colorEnd ifSubset="paintSystemForce:mediumPaint">90909010</colorEnd>
-			<saturation ifSubset="paintSystemForce:mediumPaint">1.1</saturation>
+			<saturation ifSubset="paintSystemForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintSystemForce:vividPaint">ffffff99</color>
 			<colorEnd ifSubset="paintSystemForce:vividPaint">ffffff10</colorEnd>
-			<saturation ifSubset="paintSystemForce:vividPaint">1.2</saturation>
+			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
@@ -48,6 +48,8 @@
 		<image name="background" extra="true">
             <color>202020</color>
             <colorEnd>505050</colorEnd>
+            <color ifSubset="paintGamelist:yes">505050</color>
+            <colorEnd ifSubset="paintGamelist:yes">202020</colorEnd>
 		</image>
 	</view>
 	<view name="detailed">
@@ -62,9 +64,10 @@
 			<colorEnd>80808003</colorEnd>
 			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee90</color>
 			<colorEnd ifSubset="paintGamelistForce:mediumPaint">90909010</colorEnd>
-			<saturation ifSubset="paintGamelistForce:mediumPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintGamelistForce:vividPaint">ffffff99</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">ffffff10</colorEnd>
+			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard event="open">
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
