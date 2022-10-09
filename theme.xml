@@ -8,6 +8,9 @@
 	<!--localisation-->
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local-${lang}.xml</include>
+
+	<!--support-->
+	<include>./_support/support.xml</include>
 	
 	<!--subsets-->
     <subset name="music" displayName="${lang.music}">

@@ -1,0 +1,67 @@
+<!--
+Paypal theme donation
+By Helmic
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+       <variables>
+
+        <lang.pp.donation>support developers</lang.pp.donation>
+        <lang.pp.donation lang="fr">soutenir les développeurs</lang.pp.donation>
+
+		<lang.pp.themecreator>this theme creator</lang.pp.themecreator>
+		<lang.pp.themecreator lang="fr">le créateur de ce thème</lang.pp.themecreator>
+
+		<lang.pp.retrobat>retrobat</lang.pp.retrobat>
+
+		<lang.pp.batocera>batocera</lang.pp.batocera>
+
+		<lang.pp.emuelec>emuelec</lang.pp.emuelec>
+
+		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
+
+		<lang.pp.no>no</lang.pp.no>
+		<lang.pp.no lang="fr">non</lang.pp.no>
+
+	</variables>
+
+    <subset name="donation" displayName="${lang.pp.donation}">
+		<include name="no" displayName="${lang.pp.no}"/>
+        <include name="retrobat" displayName="${lang.pp.retrobat}"/>
+        <include name="batocera" displayName="${lang.pp.batocera}"/>
+        <include name="emuelec" displayName="${lang.pp.emuelec}"/>
+<!--        <include name="amberelec" displayName="${lang.pp.amberelec}"/>-->
+        <include name="themecreator" displayName="${lang.pp.themecreator}"/>
+    </subset>
+
+    <view name="system">
+
+
+		<image name="donation" extra="true" ifSubset="donation:retrobat|batocera|emuelec|amberelec|themecreator">
+			<linearSmooth>true</linearSmooth>
+			<path ifSubset="donation:batocera">./batocera.png</path>
+			<path ifSubset="donation:retrobat">./retrobat.png</path>
+			<path ifSubset="donation:emuelec">./emuelec.png</path>
+			<path ifSubset="donation:amberelec">./amberelec.png</path>
+			<path ifSubset="donation:themecreator">./creator.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<maxSize>0.5 0.7</maxSize>
+			<zIndex>30000</zIndex>
+		</image>
+  
+		<image name="donationFade" extra="true"  ifSubset="donation:retrobat|batocera|emuelec|amberelec|themecreator">
+			<path>./white.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<zIndex>9998</zIndex>
+			<color>000000aa</color>
+		</image>
+
+	</view>
+	
+</theme>
