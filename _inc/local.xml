@@ -21,12 +21,13 @@
 		<lang.randomVideos>random videos</lang.randomVideos>
 		<lang.onlyAudio>only audio</lang.onlyAudio>
 		<lang.inFrame>in frame</lang.inFrame>
-		<lang.onWall>on wall</lang.onWall>
+		<lang.onWall>on wall (disable wall paint)</lang.onWall>
 		<lang.fullScreen>full screen</lang.fullScreen>
 
 		<lang.randomVideosAudio>random video audio</lang.randomVideosAudio>
 		<lang.mdVideosAudio>games videos audio</lang.mdVideosAudio>
 
+		<lang.paintSystem>paint system wall</lang.paintSystem>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
 
 		<lang.extendedInfos>extended infos</lang.extendedInfos>

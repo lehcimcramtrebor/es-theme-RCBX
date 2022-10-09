@@ -28,6 +28,10 @@
         <include name="on" displayName="${lang.on}"/>
         <include name="off" displayName="${lang.off}"/>
    </subset>
+    <subset name="paintSystem" displayName="${lang.paintSystem}">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+   </subset>
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
@@ -65,4 +69,7 @@
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>
 	<include>./_inc/detailed.xml</include>
+
+	<!--themes specifics properties-->
+	<include>./_inc/specifics/${system.theme}.xml</include>
 </theme>

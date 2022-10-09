@@ -15,6 +15,28 @@
             <color>505050</color>
             <colorEnd>202020</colorEnd>
 		</image>
+		<image name="paintSystem" ifSubset="paintSystem:yes" extra="true">
+			<path>{random:fanart}</path>
+			<path>./../_rcbxCustom/paints/${system.theme}.jpg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/paints/${system.theme}.jpg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.jpg</path>
+			<path>./../_rcbxCustom/paints/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/paints/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.png</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>101</zIndex>
+			<pos>0 0</pos>
+			<maxSize>99 1</maxSize>
+			<origin>0 0</origin>
+			<gradientType>horizontal</gradientType>
+			<color>cccccc80</color>
+			<colorEnd>00000000</colorEnd>
+			<opacity>0</opacity>
+			<storyboard>
+				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
+			</storyboard>
+			<visible ifSubset="randomVideos:onWall">false</visible>
+		</image>
 	</view>
 	<view name="basic,detailed">
 		<image name="background" extra="true">

@@ -4,6 +4,9 @@
 	<view name="system">
 		<video name="randomVideo" extra="true">
 			<path>{random}</path>
+			<path>./../_rcbxCustom/videos/${system.theme}.mp4</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/videos/${system.theme}.mp4</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/videos/${system.theme}.mp4</path>
 			<delay>0.3</delay>
 		</video>
 		<!--only audio-->
