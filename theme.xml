@@ -36,7 +36,7 @@
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
-   </subset>
+  </subset>
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>

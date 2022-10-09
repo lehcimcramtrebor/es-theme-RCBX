@@ -30,11 +30,13 @@
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
 			<color>cccccc80</color>
-			<colorEnd>10101033</colorEnd>
-			<color ifSubset="paintSystemForce:mediumPaint">eeeeee80</color>
-			<colorEnd ifSubset="paintSystemForce:mediumPaint">20202033</colorEnd>
-			<color ifSubset="paintSystemForce:vividPaint">ffffff80</color>
-			<colorEnd ifSubset="paintSystemForce:vividPaint">cccccc33</colorEnd>
+			<colorEnd>80808003</colorEnd>
+			<color ifSubset="paintSystemForce:mediumPaint">eeeeee90</color>
+			<colorEnd ifSubset="paintSystemForce:mediumPaint">90909010</colorEnd>
+			<saturation ifSubset="paintSystemForce:mediumPaint">1.1</saturation>
+			<color ifSubset="paintSystemForce:vividPaint">ffffff99</color>
+			<colorEnd ifSubset="paintSystemForce:vividPaint">ffffff10</colorEnd>
+			<saturation ifSubset="paintSystemForce:vividPaint">1.2</saturation>
 			<opacity>0</opacity>
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
@@ -57,11 +59,12 @@
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
 			<color>cccccc80</color>
-			<colorEnd>10101033</colorEnd>
-			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee80</color>
-			<colorEnd ifSubset="paintGamelistForce:mediumPaint">20202033</colorEnd>
-			<color ifSubset="paintGamelistForce:vividPaint">ffffff80</color>
-			<colorEnd ifSubset="paintGamelistForce:vividPaint">cccccc33</colorEnd>
+			<colorEnd>80808003</colorEnd>
+			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee90</color>
+			<colorEnd ifSubset="paintGamelistForce:mediumPaint">90909010</colorEnd>
+			<saturation ifSubset="paintGamelistForce:mediumPaint">1.1</saturation>
+			<color ifSubset="paintGamelistForce:vividPaint">ffffff99</color>
+			<colorEnd ifSubset="paintGamelistForce:vividPaint">ffffff10</colorEnd>
 			<opacity>0</opacity>
 			<storyboard event="open">
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
