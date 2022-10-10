@@ -11,7 +11,7 @@
 			<path ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</path>
 		</image>
 	</view>
-	<view name="basic,detailed,grid">
+	<view name="basic,detailed,grid,gamecarousel">
 		<image name="md_fanart" ifSubset="paintGamelist:yes">
 			<visible>false</visible>
 		</image>

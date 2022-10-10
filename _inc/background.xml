@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system,basic,detailed,grid">
+	<view name="system,basic,detailed,grid,gamecarousel">
 		<image name="background" extra="true">
 			<zIndex>100</zIndex>
 			<path ifSubset="backgroundFx:flat">./background/flat.jpg</path>
@@ -54,7 +54,7 @@
 			<visible ifSubset="randomVideos:onWall">false</visible>
 		</image>
 	</view>
-	<view name="basic,detailed,grid">
+	<view name="basic,detailed,grid,gamecarousel">
 		<image name="background" extra="true">
             <color>202020</color>
             <colorEnd>505050</colorEnd>
@@ -64,7 +64,7 @@
             <colorEnd ifSubset="backgroundFx:flat">202020</colorEnd>
 		</image>
 	</view>
-	<view name="detailed,grid">
+	<view name="detailed,grid,gamecarousel">
 		<image name="md_fanart" ifSubset="paintGamelist:yes">
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>

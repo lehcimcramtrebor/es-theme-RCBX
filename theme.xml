@@ -74,33 +74,33 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed,grid">
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed,grid,gamecarousel">
         <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed,grid">
+    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed,grid,gamecarousel">
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
    </subset>
-   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid">
+   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
-     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid">
+     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid,gamecarousel">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid">
+    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed,grid">
+    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed,grid,gamecarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.010"/>
         <include name="0.011"/>
@@ -119,14 +119,14 @@ by Helmic.-->
         <include name="0.024"/>
         <include name="0.025"/>
     </subset>
-    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid">
+    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid,gamecarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed,grid">
+    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed,grid,gamecarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.016"/>
         <include name="0.017"/>
@@ -204,6 +204,7 @@ by Helmic.-->
 	<include>./_inc/commons.xml</include>
 	<include>./_inc/detailed.xml</include>
 	<include>./_inc/grid.xml</include>
+	<include>./_inc/gamecarousel.xml</include>
 
 	<!--themes specifics properties-->
 	<include>./_inc/specifics/${system.theme}.xml</include>
