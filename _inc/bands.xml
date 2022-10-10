@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system,basic,detailed">
+	<view name="system,basic,detailed,grid">
 		<image name="band1,band2,band3,band4" extra="true">
 			<linearSmooth>true</linearSmooth>
 			<zIndex>200</zIndex>

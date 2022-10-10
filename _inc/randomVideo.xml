@@ -24,6 +24,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
 			<roundCorners>0.05</roundCorners>
+			<shader ifSubset="randomShader:yes">:/shaders/scanlines.glsl</shader>
 		</video>
 		<!--on wall-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">
@@ -44,6 +45,7 @@
 			<pos>0.5 0.5</pos>
 			<color>cccccc</color>
 			<delay>2</delay>
+			<shader ifSubset="randomShader:yes">:/shaders/scanlines.glsl</shader>
 		</video>
 		<video name="randomVideo" extra="true" ifSubset="randomVideosAudio:on">
 			<audio>true</audio>

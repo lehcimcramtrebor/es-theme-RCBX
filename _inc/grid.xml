@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="grid">
+		<imagegrid name="gamegrid">
+			<zIndex>1001</zIndex>
+            <pos>0.025 0.15</pos>
+            <size>0.39 0.78</size>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+			<margin>0 0.0125</margin>
+			<padding>0.0125 0.025 0.0125 0</padding>
+			<autoLayout>2 2</autoLayout>
+			<animateSelection>false</animateSelection>
+			<centerSelection>false</centerSelection>
+			<scrollbarColor>bbbbff33</scrollbarColor>
+			<scrollbarCorner>0</scrollbarCorner>
+			<scrollbarSize>0.0025</scrollbarSize>
+		</imagegrid>
+		<gridtile name="default">
+			<backgroundColor>00000000</backgroundColor>
+			<backgroundCornerSize>9 9</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>5 5</padding>
+			<imageColor>cccccc</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<backgroundCenterColor>00000000</backgroundCenterColor>
+			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<imageColor>ffffff</imageColor>
+		</gridtile>
+		<text name="gridtile">
+			<color>ffffff80</color>
+			<backgroundColor>00000000</backgroundColor>
+			<fontSize>0.018</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<alignment>center</alignment>
+			<size>1 0.24</size>
+		</text>
+		<text name="gridtile:selected">
+			<color>FFFFFF</color>
+			<glowColor>00000005</glowColor>
+			<glowSize>1</glowSize>
+		</text>
+		<image name="gridtile.image">
+			<linearSmooth>true</linearSmooth>
+		</image>  
+		<ninepatch name="gridtile.background:selected">
+			<animateColor>ddddee66</animateColor>
+			<animateColorTime>500</animateColorTime>
+		</ninepatch>
+        <text name="md_description">
+			<color>ddddee</color>
+        </text>
+		<image name="md_marquee">
+			<zIndex>1001</zIndex>
+			<path>./parts/plain.png</path>
+			<origin>1 1</origin>
+            <pos>0.96 0.91</pos>
+            <maxSize>0.155 0.31</maxSize>
+			<storyboard event="open">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+				<animation property="offsetY" from="0.005" mode="easeOut" duration="250"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" mode="linear" duration="120"/>
+				<animation property="offsetY" from="-0.005" mode="easeOut" duration="250"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="60"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="60"/>
+			</storyboard>
+		</image>
+	</view>
+	<include>./gamelistParameters.xml</include>
+</theme>

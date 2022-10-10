@@ -10,6 +10,8 @@
 		<lang.useOldBatoceraMusic>utiliser les anciennes musiques batocera</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>couper la musique</lang.notAllowMusic>
 
+		<lang.translucent>mode translucide</lang.translucent>
+
 		<lang.helpIcons>boutons des icônes de l'aide</lang.helpIcons>
 		<lang.defaultIcons>par défaut</lang.defaultIcons>
 		<lang.arcadeIcons>arcade</lang.arcadeIcons>
@@ -34,6 +36,9 @@
 
 		<lang.randomVideosAudio>audio de la vidéo aléatoire</lang.randomVideosAudio>
 		<lang.mdVideosAudio>audio des vidéos de jeux</lang.mdVideosAudio>
+
+		<lang.randomShader>shader des vidéos aléatoires</lang.randomShader>
+		<lang.mdShader>shader des vidéos de jeux</lang.mdShader>
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>

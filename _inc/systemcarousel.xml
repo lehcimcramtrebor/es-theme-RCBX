@@ -5,6 +5,7 @@
 		<carousel name="systemcarousel">
 			<zIndex>1000</zIndex>
 			<color>202020</color>
+			<color ifSubset="translucent:yes">20202080</color>
 			<defaultTransition>instant</defaultTransition>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 		</carousel>

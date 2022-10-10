@@ -22,12 +22,20 @@ by Helmic.-->
         <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
-   </subset>
-     <subset name="randomVideos" displayName="${lang.randomVideos}">
+	</subset>
+     <subset name="translucent" displayName="${lang.translucent}">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
+	<subset name="randomVideos" displayName="${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
         <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
         <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+	<subset name="randomShader" displayName="${lang.randomShader}">
+        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
@@ -65,29 +73,33 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed">
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed,grid">
         <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed">
+    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed,grid">
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
    </subset>
-   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed">
+   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
-    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed">
+     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed">
+    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed,grid">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.010"/>
         <include name="0.011"/>
@@ -106,14 +118,14 @@ by Helmic.-->
         <include name="0.024"/>
         <include name="0.025"/>
     </subset>
-    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed">
+    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed">
+    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed,grid">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.016"/>
         <include name="0.017"/>
@@ -188,7 +200,9 @@ by Helmic.-->
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>
+	<include>./_inc/commons.xml</include>
 	<include>./_inc/detailed.xml</include>
+	<include>./_inc/grid.xml</include>
 
 	<!--themes specifics properties-->
 	<include>./_inc/specifics/${system.theme}.xml</include>
