@@ -237,6 +237,7 @@
 			<color>ddddee</color>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1001</zIndex>
+			<visible if="${system.theme} == 'custom-collections'">false</visible>
 			<storyboard event="open">
                 <animation property="opacity" from="0" to="1" duration="1" mode="linear"/>
             </storyboard>
