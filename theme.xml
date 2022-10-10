@@ -24,8 +24,8 @@ by Helmic.-->
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
 	</subset>
      <subset name="translucent" displayName="${lang.translucent}">
-        <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
 	<subset name="randomVideos" displayName="${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
