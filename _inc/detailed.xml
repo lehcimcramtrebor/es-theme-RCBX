@@ -52,160 +52,89 @@
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 		</video>
-		<text name="md_lbl_releasedate">
+		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
 			<zIndex>1001</zIndex>
+            <x>0.805</x>
+ 			<w>0.16</w>
+			<h>0.023</h>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<forceUppercase>true</forceUppercase>
-			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize lang="es,eu,ja,nl,pl,pt,ru,sv,cs">0.017</fontSize>
+			<fontSize lang="el">0.011</fontSize>
+			<fontSize lang="ca">0.013</fontSize>
+			<fontSize lang="cy">0.015</fontSize>
+			<fontPath lang="ca,cy,el">./fonts/CabinCondensed-Regular.ttf</fontPath>
+		</text>
+		<datetime name="md_releasedate,md_lastplayed">
+			<zIndex>1001</zIndex>
             <x>0.805</x>
-			<y>0.17</y>
- 			<w>0.155</w>
+ 			<w>0.16</w>
 			<h>0.023</h>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<fontSize lang="es,eu,ja,nl,pl,pt,ru,sv,cs">0.017</fontSize>
+			<fontSize lang="el">0.011</fontSize>
+			<fontSize lang="ca">0.013</fontSize>
+			<fontSize lang="cy">0.015</fontSize>
+			<fontPath lang="ca,cy,el">./fonts/CabinCondensed-Regular.ttf</fontPath>
+		</datetime>
+		<text name="md_lbl_releasedate">
+			<color>bbbbff</color>
+			<y>0.17</y>
         </text>
         <datetime name="md_releasedate">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.195</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </datetime>
         <text name="md_lbl_developer">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.23</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_developer">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-			<alignment>left</alignment>
-            <x>0.805</x>
 			<y>0.255</y>
- 			<w>0.155</w>
-			<h>0.023</h>			
         </text>
         <text name="md_lbl_publisher">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.29</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_publisher">
-			<zIndex>1001</zIndex>
-			<forceUppercase>true</forceUppercase>
-			<fontSize>0.02</fontSize>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.315</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_lbl_genre">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.35</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_genre">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
  			<y>0.375</y>
-			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_lbl_players">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.41</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_players">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.435</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_lbl_lastplayed">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.46</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <datetime name="md_lastplayed">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.485</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </datetime>
         <text name="md_lbl_playcount">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>bbbbff</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.52</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="md_playcount">
-			<zIndex>1001</zIndex>
-			<fontSize>0.02</fontSize>
-			<forceUppercase>true</forceUppercase>
 			<color>ddddee</color>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-            <x>0.805</x>
 			<y>0.545</y>
- 			<w>0.155</w>
-			<h>0.023</h>
         </text>
         <text name="lbl_rating" extra="true">
 			<text>${lang.rating}: </text>
