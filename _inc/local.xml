@@ -10,7 +10,10 @@
 		<lang.useOldBatoceraMusic>use old batocera musics</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>cut all music</lang.notAllowMusic>
 
-		<lang.translucent>translucent mode</lang.translucent>
+		<lang.mode>transparency level</lang.mode>
+		<lang.plain>plain</lang.plain>
+		<lang.transparent>transparent</lang.transparent>
+		<lang.translucent>translucent</lang.translucent>
 
 		<lang.helpIcons>help icons</lang.helpIcons>
 		<lang.defaultIcons>default</lang.defaultIcons>

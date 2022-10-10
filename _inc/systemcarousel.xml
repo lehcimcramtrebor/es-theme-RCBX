@@ -5,9 +5,11 @@
 		<carousel name="systemcarousel">
 			<zIndex>1000</zIndex>
 			<color>202020</color>
-			<color ifSubset="translucent:yes">10101066</color>
-			<colorEnd ifSubset="translucent:yes">20202066</colorEnd>
-			<gradientType ifSubset="translucent:yes">vertical</gradientType>
+			<color ifSubset="mode:transparent">10101080</color>
+			<colorEnd ifSubset="mode:transparent">20202080</colorEnd>
+			<color ifSubset="mode:translucent">10101066</color>
+			<colorEnd ifSubset="mode:translucent">20202066</colorEnd>
+			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 			<defaultTransition>instant</defaultTransition>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 		</carousel>
