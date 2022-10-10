@@ -9,7 +9,9 @@
             <pos>0.22 0.54</pos>
             <size>0.39 0.78</size>
 			<color>202020ef</color>
-			<color ifSubset="translucent:yes">20202080</color>
+			<color ifSubset="translucent:yes">10101066</color>
+			<colorEnd ifSubset="translucent:yes">20202066</colorEnd>
+			<gradientType ifSubset="translucent:yes">vertical</gradientType>
 		</image>
 		<image name="frame2" extra="true">
 			<zIndex>1000</zIndex>
@@ -18,7 +20,9 @@
             <pos>0.705 0.54</pos>
             <size>0.54 0.78</size>
 			<color>202020ef</color>
-			<color ifSubset="translucent:yes">20202080</color>
+			<color ifSubset="translucent:yes">10101066</color>
+			<colorEnd ifSubset="translucent:yes">20202066</colorEnd>
+			<gradientType ifSubset="translucent:yes">vertical</gradientType>
 		</image>
 		<image name="logo">
 			<pos>0.027 0.13</pos>
