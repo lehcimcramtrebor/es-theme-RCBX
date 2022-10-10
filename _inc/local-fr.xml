@@ -61,13 +61,13 @@
 		<lang.enter>explorer la liste</lang.enter>
 		<lang.rating>notation</lang.rating>
 
-		<lang.metadatasFont>type d'écriture des métadonnées</lang.metadatasFont>
-		<lang.descriptionFont>type d'écriture de la description</lang.descriptionFont>
-		<lang.gamelistFont>type d'écriture de la liste</lang.gamelistFont>
-		<lang.metadatasFontSize>taille de la police des métadonnées</lang.metadatasFontSize>
-		<lang.descriptionFontSize>taille de la police de la description</lang.descriptionFontSize>
-		<lang.gamelistFontSize>taille de la police de la liste</lang.gamelistFontSize>
-		<lang.gamelistLines>nombre de lignes de la liste</lang.gamelistLines>
+		<lang.metadatasFont>métadonnées - type d'écriture</lang.metadatasFont>
+		<lang.metadatasFontSize>métadonnées - taille de la police</lang.metadatasFontSize>
+		<lang.descriptionFont>description - type d'écriture</lang.descriptionFont>
+		<lang.descriptionFontSize>description - taille de la police</lang.descriptionFontSize>
+		<lang.gamelistFont>liste - type d'écriture</lang.gamelistFont>
+		<lang.gamelistFontSize>liste - taille de la police</lang.gamelistFontSize>
+		<lang.gamelistLines>liste - nombre de lignes</lang.gamelistLines>
 		<lang.auto>automatique</lang.auto>
 		<lang.regular>régulière</lang.regular>
 		<lang.regularBold>régulière grasse</lang.regularBold>
