@@ -8,12 +8,6 @@
 			<fontPath ifSubset="gamelistFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontPath ifSubset="gamelistFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize ifSubset="gamelistFontSize:0.016">0.016</fontSize>
-			<fontSize ifSubset="gamelistFontSize:0.017">0.017</fontSize>
-			<fontSize ifSubset="gamelistFontSize:0.018">0.018</fontSize>
-			<fontSize ifSubset="gamelistFontSize:0.019">0.019</fontSize>
-			<fontSize ifSubset="gamelistFontSize:0.020">0.020</fontSize>
-			<fontSize ifSubset="gamelistFontSize:0.021">0.021</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.022">0.022</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.023">0.023</fontSize>
 			<fontSize ifSubset="gamelistFontSize:0.024">0.024</fontSize>
@@ -41,9 +35,6 @@
 			<lines ifSubset="gamelistLines:19">19</lines>
 			<lines ifSubset="gamelistLines:21">21</lines>
 			<lines ifSubset="gamelistLines:23">23</lines>
-			<lines ifSubset="gamelistLines:25">25</lines>
-			<lines ifSubset="gamelistLines:27">27</lines>
-			<lines ifSubset="gamelistLines:29">29</lines>
 		</textlist>
 	</view>
 </theme>

@@ -142,12 +142,6 @@ by Helmic.-->
     </subset>
     <subset name="gamelistFontSize" displayName="${lang.gamelistFontSize}" appliesTo="basic,detailed">
         <include name="auto" displayName="${lang.auto}"/>
-        <include name="0.016"/>
-        <include name="0.017"/>
-        <include name="0.018"/>
-        <include name="0.019"/>
-        <include name="0.020"/>
-        <include name="0.021"/>
         <include name="0.022"/>
         <include name="0.023"/>
         <include name="0.024"/>
@@ -178,9 +172,6 @@ by Helmic.-->
         <include name="19"/>
         <include name="21"/>
         <include name="23"/>
-        <include name="25"/>
-        <include name="27"/>
-        <include name="29"/>
     </subset>
 	
 	<!--parts-->
