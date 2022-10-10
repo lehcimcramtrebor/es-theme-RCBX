@@ -55,11 +55,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
    </subset>
     <subset name="paintSystemForce" displayName="${lang.paintSystemForce}" ifSubset="paintSystem:yes">
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
-        <include name="darkPaint" displayName="${lang.darkPaint}"/>
   </subset>
     <subset name="helpIcons" displayName="${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
@@ -79,11 +79,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed,grid">
-        <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
    </subset>
    <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid">
         <include name="off" displayName="${lang.off}"/>
