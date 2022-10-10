@@ -43,4 +43,5 @@
 			<lines>15</lines>
 			</textlist>
 	</view>
+	<include>./gamelistParameters.xml</include>
 </theme>

@@ -60,5 +60,18 @@
 
 		<lang.enter>enter</lang.enter>
 		<lang.rating>rating</lang.rating>
+
+		<lang.metadatasFont>metadatas font type</lang.metadatasFont>
+		<lang.descriptionFont>description font type</lang.descriptionFont>
+		<lang.gamelistFont>gamelist font type</lang.gamelistFont>
+		<lang.metadatasFontSize>metadatas font size</lang.metadatasFontSize>
+		<lang.descriptionFontSize>description font size</lang.descriptionFontSize>
+		<lang.gamelistFontSize>gamelist font size</lang.gamelistFontSize>
+		<lang.gamelistLines>gamelist lines</lang.gamelistLines>
+		<lang.auto>automatic</lang.auto>
+		<lang.regular>regular</lang.regular>
+		<lang.regularBold>regular bold</lang.regularBold>
+		<lang.condensed>condensed</lang.condensed>
+		<lang.condensedBold>condensed bold</lang.condensedBold>
 	</variables>
 </theme>

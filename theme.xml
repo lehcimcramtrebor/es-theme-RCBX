@@ -65,20 +65,122 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="video">
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed">
         <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="video">
+    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed">
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
    </subset>
-   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="video">
+   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
+    </subset>
+    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="regular" displayName="${lang.regular}"/>
+        <include name="regularBold" displayName="${lang.regularBold}"/>
+        <include name="condensed" displayName="${lang.condensed}"/>
+        <include name="condensedBold" displayName="${lang.condensedBold}"/>
+    </subset>
+    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0.010"/>
+        <include name="0.011"/>
+        <include name="0.012"/>
+        <include name="0.013"/>
+        <include name="0.014"/>
+        <include name="0.015"/>
+        <include name="0.016"/>
+        <include name="0.017"/>
+        <include name="0.018"/>
+        <include name="0.019"/>
+        <include name="0.020"/>
+        <include name="0.021"/>
+        <include name="0.022"/>
+        <include name="0.023"/>
+        <include name="0.024"/>
+        <include name="0.025"/>
+    </subset>
+    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="regular" displayName="${lang.regular}"/>
+        <include name="regularBold" displayName="${lang.regularBold}"/>
+        <include name="condensed" displayName="${lang.condensed}"/>
+        <include name="condensedBold" displayName="${lang.condensedBold}"/>
+    </subset>
+    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0.016"/>
+        <include name="0.017"/>
+        <include name="0.018"/>
+        <include name="0.019"/>
+        <include name="0.020"/>
+        <include name="0.021"/>
+        <include name="0.022"/>
+        <include name="0.023"/>
+        <include name="0.024"/>
+        <include name="0.025"/>
+        <include name="0.026"/>
+        <include name="0.027"/>
+        <include name="0.028"/>
+        <include name="0.029"/>
+        <include name="0.030"/>
+        <include name="0.031"/>
+        <include name="0.032"/>
+    </subset>
+    <subset name="gamelistFont" displayName="${lang.gamelistFont}" appliesTo="basic,detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="regular" displayName="${lang.regular}"/>
+        <include name="regularBold" displayName="${lang.regularBold}"/>
+        <include name="condensed" displayName="${lang.condensed}"/>
+        <include name="condensedBold" displayName="${lang.condensedBold}"/>
+    </subset>
+    <subset name="gamelistFontSize" displayName="${lang.gamelistFontSize}" appliesTo="basic,detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0.016"/>
+        <include name="0.017"/>
+        <include name="0.018"/>
+        <include name="0.019"/>
+        <include name="0.020"/>
+        <include name="0.021"/>
+        <include name="0.022"/>
+        <include name="0.023"/>
+        <include name="0.024"/>
+        <include name="0.025"/>
+        <include name="0.026"/>
+        <include name="0.027"/>
+        <include name="0.028"/>
+        <include name="0.029"/>
+        <include name="0.030"/>
+        <include name="0.031"/>
+        <include name="0.032"/>
+        <include name="0.033"/>
+        <include name="0.034"/>
+        <include name="0.035"/>
+        <include name="0.036"/>
+        <include name="0.037"/>
+        <include name="0.038"/>
+        <include name="0.039"/>
+        <include name="0.040"/>
+    </subset>
+    <subset name="gamelistLines" displayName="${lang.gamelistLines}" appliesTo="basic,detailed">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="9"/>
+        <include name="11"/>
+        <include name="13"/>
+        <include name="15"/>
+        <include name="17"/>
+        <include name="19"/>
+        <include name="21"/>
+        <include name="23"/>
+        <include name="25"/>
+        <include name="27"/>
+        <include name="29"/>
     </subset>
 	
 	<!--parts-->

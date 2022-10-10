@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="basic,detailed">
+		<textlist name="gamelist">
+			<!--manual parameters-->
+			<fontPath ifSubset="gamelistFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontPath ifSubset="gamelistFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<fontSize ifSubset="gamelistFontSize:0.016">0.016</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.017">0.017</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.018">0.018</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.019">0.019</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.020">0.020</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.021">0.021</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.022">0.022</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.023">0.023</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.024">0.024</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.025">0.025</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.026">0.026</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.027">0.027</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.028">0.028</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.029">0.029</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.030">0.030</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.031">0.031</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.032">0.032</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.033">0.033</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.034">0.034</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.035">0.035</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.036">0.036</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.037">0.037</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.038">0.038</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.039">0.039</fontSize>
+			<fontSize ifSubset="gamelistFontSize:0.040">0.040</fontSize>
+			<lines ifSubset="gamelistLines:9">9</lines>
+			<lines ifSubset="gamelistLines:11">11</lines>
+			<lines ifSubset="gamelistLines:13">13</lines>
+			<lines ifSubset="gamelistLines:15">15</lines>
+			<lines ifSubset="gamelistLines:17">17</lines>
+			<lines ifSubset="gamelistLines:19">19</lines>
+			<lines ifSubset="gamelistLines:21">21</lines>
+			<lines ifSubset="gamelistLines:23">23</lines>
+			<lines ifSubset="gamelistLines:25">25</lines>
+			<lines ifSubset="gamelistLines:27">27</lines>
+			<lines ifSubset="gamelistLines:29">29</lines>
+		</textlist>
+	</view>
+</theme>
