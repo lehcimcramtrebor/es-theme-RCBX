@@ -56,6 +56,8 @@
 		<lang.paintSystemForce>system view paint intensity</lang.paintSystemForce>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
 		<lang.paintGamelistForce>gamelist view paint intensity</lang.paintGamelistForce>
+		<lang.fanart>with fanarts</lang.fanart>
+		<lang.custom>with custom</lang.custom>
 		<lang.fadedPaint>1-faded</lang.fadedPaint>
 		<lang.darkPaint>2-dark</lang.darkPaint>
 		<lang.softPaint>3-soft</lang.softPaint>

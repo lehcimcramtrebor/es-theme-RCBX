@@ -83,18 +83,19 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="detailed,grid,gamecarousel">
-        <include name="yes" displayName="${lang.yes}">./_inc/randomVideo.xml</include>
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel">
+        <include name="yes" displayName="${lang.fanart}"/>
+        <include name="custom" displayName="${lang.custom}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes" appliesTo="detailed,grid,gamecarousel">
+     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
    </subset>
-   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel">
+  <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
