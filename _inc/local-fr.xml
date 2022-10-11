@@ -15,6 +15,15 @@
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucide</lang.translucent>
 
+		<lang.texture>texture des cadres</lang.texture>
+		<lang.textureDot>quadrillée</lang.textureDot>
+		<lang.texturePlain>pleine</lang.texturePlain>
+
+		<lang.carousel>carrousel</lang.carousel>
+		<lang.legacy>horizontal</lang.legacy>
+		<lang.vertical>vertical</lang.vertical>
+		<lang.wheel>roue</lang.wheel>
+
 		<lang.helpIcons>boutons des icônes de l'aide</lang.helpIcons>
 		<lang.defaultIcons>par défaut</lang.defaultIcons>
 		<lang.arcadeIcons>arcade</lang.arcadeIcons>
@@ -81,5 +90,7 @@
 		<lang.regularBold>régulière grasse</lang.regularBold>
 		<lang.condensed>condensée</lang.condensed>
 		<lang.condensedBold>condensée grasse</lang.condensedBold>
+
+		<lang.bigGamecarousel>grand carrousel de jeux</lang.bigGamecarousel>
 	</variables>
 </theme>

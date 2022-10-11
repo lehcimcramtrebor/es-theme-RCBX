@@ -38,5 +38,8 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}</text>
 			<text lang="fr">Nombre d'élements : {binding:total}</text>
 			<text lang="es">Número de elementos: {binding:total}</text>
 		</text>
+		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
+			<pos>0.14 0.61</pos>
+		</text>
 	</view>
 </theme>

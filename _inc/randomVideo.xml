@@ -25,6 +25,9 @@
 			<pos>0.5 0.2</pos>
 			<roundCorners>0.05</roundCorners>
 			<shader ifSubset="randomShader:yes">:/shaders/scanlines.glsl</shader>
+			<!--carousel vertical-->
+			<pos ifSubset="carousel:vertical|wheel">0.61 0.5</pos>
+			
 		</video>
 		<!--on wall-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">

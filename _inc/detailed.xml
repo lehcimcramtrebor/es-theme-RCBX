@@ -21,7 +21,6 @@
 		</textlist>
 		<image name="md_thumbnail">
 			<zIndex>1001</zIndex>
-			<path>./parts/plain.png</path>
 			<origin>1 1</origin>
             <pos>0.96 0.905</pos>
             <maxSize>0.155 0.27</maxSize>
@@ -45,7 +44,6 @@
 		</image>
 		<image name="md_marquee">
 			<zIndex>1001</zIndex>
-			<path>./parts/plain.png</path>
 			<origin>0.5 0.5</origin>
             <pos>0.63 0.77525</pos>
             <maxSize>0.18 0.255</maxSize>

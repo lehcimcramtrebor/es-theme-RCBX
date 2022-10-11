@@ -16,6 +16,14 @@
 			<scrollSound>./sounds/scroll.wav</scrollSound>
             <logoRotation>28</logoRotation>
             <logoRotationOrigin>-1.8 0.54</logoRotationOrigin>
+			<origin ifSubset="bigGamecarousel:yes">0 0</origin>
+            <size ifSubset="bigGamecarousel:yes">0.42 1</size>
+			<logoSize ifSubset="bigGamecarousel:yes">0.36 0.18</logoSize>
+			<logoScale ifSubset="bigGamecarousel:yes">2</logoScale>
+			<logoRotation ifSubset="bigGamecarousel:yes">18</logoRotation>
+			<logoRotationOrigin ifSubset="bigGamecarousel:yes">-2 0.5</logoRotationOrigin>
+			<maxLogoCount ifSubset="bigGamecarousel:yes">9</maxLogoCount>
+			<pos ifSubset="bigGamecarousel:yes">0 0</pos>
 			</gamecarousel>    
 		<text name="gamecarouselLogoText">
 			<color>bbbbff</color>
@@ -28,7 +36,6 @@
 		</text>		
 		<image name="md_thumbnail">
 			<zIndex>1001</zIndex>
-			<path>./parts/plain.png</path>
 			<origin>1 1</origin>
             <pos>0.96 0.905</pos>
             <maxSize>0.155 0.27</maxSize>
@@ -53,5 +60,12 @@
         <text name="md_description">
 			<color>ddddee</color>
         </text>
+		<image name="frame" extra="true" ifSubset="bigGamecarousel:yes">
+			<visible>false</visible>
+		</image>
+		<image name="logo" ifSubset="bigGamecarousel:yes">
+			<origin>1 1</origin>
+			<x>0.78</x>
+		</image>
 	</view>
 </theme>

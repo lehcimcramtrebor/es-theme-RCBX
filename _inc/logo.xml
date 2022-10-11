@@ -5,6 +5,18 @@
 		<image name="logo">
 			<path>./logo/${system.theme}.png</path>
 			<path>./logo/${system.theme}-${lang}.png</path>
+			<path>./../_rcbxCustom/logos/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/${system.theme}.png</path>
+			<path>./../_rcbxCustom/logos/${system.theme}-${lang}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/${system.theme}-${lang}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/${system.theme}-${lang}.png</path>
+			<path>./../_rcbxCustom/logos/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/${system.theme}.svg</path>
+			<path>./../_rcbxCustom/logos/${system.theme}-${lang}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/${system.theme}-${lang}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/${system.theme}-${lang}.svg</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1000</zIndex>
 			<saturation>1.2</saturation>
@@ -12,9 +24,21 @@
 		<image name="logo" region="eu"/>
 		<image name="logo" region="us">
 			<path>./logo/us/${system.theme}.png</path>
+			<path>./../_rcbxCustom/logos/us/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/us/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/us/${system.theme}.png</path>
+			<path>./../_rcbxCustom/logos/us/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/us/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/us/${system.theme}.svg</path>
 		</image>
 		<image name="logo" region="jp">
 			<path>./logo/jp/${system.theme}.png</path>
+			<path>./../_rcbxCustom/logos/jp/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/jp/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/jp/${system.theme}.png</path>
+			<path>./../_rcbxCustom/logos/jp/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/logos/jp/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/logos/jp/${system.theme}.svg</path>
 		</image>
 	</view>
 </theme>

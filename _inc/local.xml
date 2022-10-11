@@ -15,6 +15,15 @@
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucent</lang.translucent>
 
+		<lang.texture>frames textures</lang.texture>
+		<lang.textureDot>dot</lang.textureDot>
+		<lang.texturePlain>plain</lang.texturePlain>
+
+		<lang.carousel>carousel</lang.carousel>
+		<lang.legacy>legacy</lang.legacy>
+		<lang.vertical>vertical</lang.vertical>
+		<lang.wheel>wheel</lang.wheel>
+
 		<lang.helpIcons>help icons</lang.helpIcons>
 		<lang.defaultIcons>default</lang.defaultIcons>
 		<lang.arcadeIcons>arcade</lang.arcadeIcons>
@@ -81,5 +90,7 @@
 		<lang.regularBold>regular bold</lang.regularBold>
 		<lang.condensed>condensed</lang.condensed>
 		<lang.condensedBold>condensed bold</lang.condensedBold>
+
+		<lang.bigGamecarousel>big game carousel</lang.bigGamecarousel>
 	</variables>
 </theme>

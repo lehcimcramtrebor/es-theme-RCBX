@@ -4,7 +4,8 @@
 	<view name="detailed,grid,gamecarousel">
 		<image name="frame" extra="true">
 			<zIndex>1000</zIndex>
-			<path>./parts/plain.png</path>
+			<tile>true</tile>
+			<path>./parts/${n.frame}.png</path>
 			<origin>0.5 0.5</origin>
             <pos>0.22 0.54</pos>
             <size>0.39 0.78</size>
@@ -17,7 +18,8 @@
 		</image>
 		<image name="frame2" extra="true">
 			<zIndex>1000</zIndex>
-			<path>./parts/plain.png</path>
+			<tile>true</tile>
+			<path>./parts/${n.frame}.png</path>
 			<origin>0.5 0.5</origin>
             <pos>0.705 0.54</pos>
             <size>0.54 0.78</size>

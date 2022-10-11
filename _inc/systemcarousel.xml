@@ -4,14 +4,42 @@
 	<view name="system">
 		<carousel name="systemcarousel">
 			<zIndex>1000</zIndex>
-			<color>202020</color>
+			<color>00000000</color>
+			<defaultTransition>instant</defaultTransition>
+			<scrollSound>./sounds/scroll.wav</scrollSound>
+		</carousel>
+		<carousel name="systemcarousel" ifSubset="carousel:vertical">
+			<type>vertical</type>
+			<maxLogoCount>3</maxLogoCount>
+			<pos>0 0</pos>
+			<size>0.42 1</size>
+		</carousel>
+		<carousel name="systemcarousel" ifSubset="carousel:wheel">
+			<type>vertical_wheel</type>
+			<logoSize>0.15 0.09</logoSize>
+			<logoScale>2</logoScale>
+			<logoRotation>18</logoRotation>
+			<logoRotationOrigin>-2 0.5</logoRotationOrigin>
+			<maxLogoCount>9</maxLogoCount>
+			<pos>0 0</pos>
+			<size>0.42 1</size>
+		</carousel>
+		<image name="backCarousel" extra="true" ifSubset="carousel:legacy|vertical">
+			<tile>true</tile>
+			<zIndex>999</zIndex>
+			<path>./parts/${n.frame}.png</path>
+			<origin>0.5 0.5</origin>
+			<origin ifSubset="carousel:vertical">0 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <pos ifSubset="carousel:vertical">0 0.5</pos>
+            <size>1 0.23</size>
+            <size ifSubset="carousel:vertical">0.42 1</size>
+			<color>202020ef</color>
 			<color ifSubset="mode:transparent">10101080</color>
 			<colorEnd ifSubset="mode:transparent">20202080</colorEnd>
 			<color ifSubset="mode:translucent">10101066</color>
 			<colorEnd ifSubset="mode:translucent">20202066</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
-			<defaultTransition>instant</defaultTransition>
-			<scrollSound>./sounds/scroll.wav</scrollSound>
-		</carousel>
+		</image>
 	</view>
 </theme>

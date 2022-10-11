@@ -34,5 +34,17 @@
                 <animation property="opacity" from="0" to="1" duration="800" mode="easeInOut" autoreverse="true" repeat="forever" begin="1500"/>
             </storyboard>
 		</control>
+		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
+            <pos>0.11 0.05</pos>
+            <pos ifSubset="extendedInfos:yes">0.11 0.03</pos>
+            <pos ifSubset="randomVideos:inFrame">0.11 0.26</pos>
+            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.11 0.4</pos>
+		</text>
+		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
+			<pos>0.61 0.51</pos>
+			<pos ifSubset="extendedInfos:yes">0.61 0.5</pos>
+			<pos ifSubset="randomVideos:inFrame">0.61 0.72</pos>
+			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.61 0.87</pos>
+		</image>
 	</view>
 </theme>

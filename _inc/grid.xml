@@ -54,7 +54,6 @@
         </text>
 		<image name="md_marquee">
 			<zIndex>1001</zIndex>
-			<path>./parts/plain.png</path>
 			<origin>1 1</origin>
             <pos>0.96 0.91</pos>
             <maxSize>0.155 0.31</maxSize>

@@ -6,7 +6,7 @@ by Helmic.-->
 	
 	<!--variable to display region first-->
 	<variables region="eu">	<v.region> </v.region> </variables>
-	
+
 	<!--localisation-->
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local-${lang}.xml</include>
@@ -23,10 +23,19 @@ by Helmic.-->
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
 	</subset>
+     <subset name="carousel" displayName="${lang.carousel}">
+        <include name="legacy" displayName="${lang.legacy}"/>
+        <include name="vertical" displayName="${lang.vertical}"/>
+        <include name="wheel" displayName="${lang.wheel}"/>
+    </subset>
      <subset name="mode" displayName="${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
         <include name="plain" displayName="${lang.plain}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
+    </subset>
+     <subset name="texture" displayName="${lang.texture}">
+        <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
+        <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
     </subset>
 	<subset name="randomVideos" displayName="${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
@@ -185,6 +194,10 @@ by Helmic.-->
         <include name="19"/>
         <include name="21"/>
         <include name="23"/>
+    </subset>
+     <subset name="bigGamecarousel" displayName="${lang.bigGamecarousel}" appliesTo="gamecarousel">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
 	
 	<!--parts-->
