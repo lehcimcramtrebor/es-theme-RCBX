@@ -17,8 +17,8 @@
 			<fontSize>0.026</fontSize>
 			<color>ddddee</color>
 			<separatorColor>00000000</separatorColor>
-			<selectorColor>404040</selectorColor>
-			<selectorColorEnd>303030</selectorColorEnd>
+			<selectorColor>404050</selectorColor>
+			<selectorColorEnd>303040</selectorColorEnd>
 			<selectedColor>ffffff</selectedColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 		</menuText>
@@ -38,10 +38,9 @@
 		<menuBackground name="menubg">
 			<color>242424</color>
 			<cornerSize>32 32</cornerSize>
-			<path>./menuframe.png</path>
-			<scrollbarColor>ddddddd</scrollbarColor>
-			<scrollbarCorner>0.49</scrollbarCorner>
-			<scrollbarSize>0.003</scrollbarSize>
+			<scrollbarColor>bbbbff</scrollbarColor>
+			<scrollbarCorner>0</scrollbarCorner>
+			<scrollbarSize>0.0025</scrollbarSize>
 			<scrollbarAlignment>innerright</scrollbarAlignment>
 		</menuBackground>
 		<menuIcons name="menuicons">
