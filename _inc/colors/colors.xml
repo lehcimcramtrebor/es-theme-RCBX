@@ -12,6 +12,11 @@
 
 		<c.scroll>bbbbff33</c.scroll>
 
+		<c.band1>29adff</c.band1>
+		<c.band2>fff1e8</c.band2>
+		<c.band3>ff004d</c.band3>
+		<c.band4>ffffff</c.band4>
+
 		<!--fixed colors-->
 			<!--menu background color-->
 			<c.menubg>242424</c.menubg>

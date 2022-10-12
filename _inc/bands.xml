@@ -20,7 +20,7 @@
 			<path>./logo/jp/${system.theme}.png</path>
 		</image>
 		<image name="band1" extra="true">
-            <color>29adff</color>
+            <color>${c.band1}</color>
             <x>0.80</x>
 			<flipY>true</flipY>
 			<storyboard repeatAt="5000">
@@ -30,7 +30,7 @@
 			</storyboard>
         </image>
         <image name="band2" extra="true">
-            <color>fff1e8</color>
+            <color>${c.band2}</color>
             <x>0.83001</x>
 			<flipY>true</flipY>
 			<storyboard repeatAt="5500">
@@ -40,7 +40,7 @@
 			</storyboard>
         </image>
        <image name="band3" extra="true">
-            <color>ff004d</color>
+            <color>${c.band3}</color>
             <x>0.86002</x>
 			<flipX>true</flipX>
 			<storyboard repeatAt="6000">
@@ -50,7 +50,7 @@
 			</storyboard>
          </image>
         <image name="band4" extra="true">
-            <color>ffffff</color>
+            <color>${c.band4}</color>
             <x>0.89003</x>
 			<flipX>true</flipX>
 			<storyboard repeatAt="6500">
