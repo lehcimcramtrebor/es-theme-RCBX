@@ -8,7 +8,7 @@
 			<size>1 1</size>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase>
-            <color>ddddee</color>
+            <color>${c.textLight}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000005</glowColor>
@@ -26,7 +26,7 @@
 			<maxSize>1 0.02</maxSize>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.81</pos>
-			<color>bbbbff</color>
+			<color>${c.textHeader}</color>
 		</image>
 		<control name="enter,enterIcon" extra="true">
 			<storyboard>

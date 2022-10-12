@@ -7,10 +7,11 @@
 			<origin>0.5 0.5</origin>
             <pos>0.22 0.54</pos>
             <size>0.39 0.78</size>
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ddddee</primaryColor>
-			<secondaryColor>ff0000</secondaryColor>
-			<selectorColor>404040aa</selectorColor>	  		
+			<selectedColor>${c.selected}</selectedColor>
+			<primaryColor>${c.textLight}</primaryColor>
+			<secondaryColor>00000000</secondaryColor>
+			<selectorColor>${c.menuSelector}</selectorColor>	  		
+			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
 			<alignment>left</alignment>
@@ -70,15 +71,17 @@
 			</storyboard>
 		</image>
         <text name="md_description">
-			<color>00000000</color>
 			<storyboard event="open">
-				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="650"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="650"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="color" to="ddddee" mode="easeIn" duration="300" begin="650"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="650"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="650"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>

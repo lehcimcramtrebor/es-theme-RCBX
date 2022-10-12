@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<!--themable colors-->
+		<c.text>ccccee</c.text>
+		<c.textLight>ddddee</c.textLight>
+		<c.textHeader>bbbbff</c.textHeader>
+
+		<c.menuSelector>404050</c.menuSelector>
+		<ce.menuSelector>303040</ce.menuSelector>
+
+		<c.scroll>bbbbff33</c.scroll>
+
+		<!--fixed colors-->
+			<!--menu background color-->
+			<c.menubg>242424</c.menubg>
+			
+			<!--menu and gamelist selected color-->
+			<c.selected>ffffff</c.selected>
+
+			<!--frames colors-->
+			<c.framePlain>202020ef</c.framePlain>
+
+			<c.frameTransparent>10101080</c.frameTransparent>
+			<ce.frameTransparent>20202080</ce.frameTransparent>
+
+			<c.frameTranslucent>10101066</c.frameTranslucent>
+			<ce.frameTranslucent>20202066</ce.frameTranslucent>
+
+			<!--paint levels-->
+			<c.paint>80808080</c.paint>
+			<ce.paint>00000000</ce.paint>
+
+			<c.paintDark>cccccc80</c.paintDark>
+			<ce.paintDark>00000000</ce.paintDark>
+
+			<c.paintSoft>cccccc80</c.paintSoft>
+			<ce.paintSoft>80808003</ce.paintSoft>
+
+			<c.paintMedium>eeeeee90</c.paintMedium>
+			<ce.paintMedium>90909010</ce.paintMedium>
+
+			<c.paintVivid>ffffff99</c.paintVivid>
+			<ce.paintVivid>ffffff10</ce.paintVivid>
+	</variables>
+</theme>

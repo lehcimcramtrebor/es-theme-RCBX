@@ -12,7 +12,7 @@
 			<autoLayout>2 2</autoLayout>
 			<animateSelection>false</animateSelection>
 			<centerSelection>false</centerSelection>
-			<scrollbarColor>bbbbff33</scrollbarColor>
+			<scrollbarColor>${c.scroll}</scrollbarColor>
 			<scrollbarCorner>0</scrollbarCorner>
 			<scrollbarSize>0.0025</scrollbarSize>
 		</imagegrid>
@@ -38,7 +38,7 @@
 			<size>1 0.24</size>
 		</text>
 		<text name="gridtile:selected">
-			<color>FFFFFF</color>
+			<color>ffffff</color>
 			<glowColor>00000005</glowColor>
 			<glowSize>1</glowSize>
 		</text>
@@ -46,11 +46,11 @@
 			<linearSmooth>true</linearSmooth>
 		</image>  
 		<ninepatch name="gridtile.background:selected">
-			<animateColor>ddddee66</animateColor>
+			<animateColor>${c.textLight}66</animateColor>
 			<animateColorTime>500</animateColorTime>
 		</ninepatch>
         <text name="md_description">
-			<color>ddddee</color>
+			<color>${c.text}</color>
         </text>
 		<image name="md_marquee">
 			<zIndex>1001</zIndex>

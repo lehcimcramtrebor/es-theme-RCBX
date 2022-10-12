@@ -21,7 +21,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}</text>
 			<pos>0.03 0.56</pos>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
-			<color>ddddee</color>
+			<color>${c.textLight}</color>
 			<glowColor>00000005</glowColor>
 			<glowSize>1</glowSize>
 			<storyboard>

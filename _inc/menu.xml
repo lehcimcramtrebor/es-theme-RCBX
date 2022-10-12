@@ -5,40 +5,40 @@
 		<menuText name="menutitle">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.036</fontSize>
-			<color>ccccee</color>
+			<color>${c.text}</color>
 		</menuText>
 		<menuText name="menufooter">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.018</fontSize>
-			<color>ddddee</color>
+			<color>${c.textLight}</color>
 		</menuText>
 		<menuText name="menutext">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.026</fontSize>
-			<color>ddddee</color>
+			<color>${c.textLight}</color>
 			<separatorColor>00000000</separatorColor>
-			<selectorColor>404050</selectorColor>
-			<selectorColorEnd>303040</selectorColorEnd>
-			<selectedColor>ffffff</selectedColor>
+			<selectorColor>${c.menuSelector}</selectorColor>
+			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>
+			<selectedColor>${c.selected}</selectedColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 		</menuText>
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.018</fontSize>
-			<color>bbbbff</color>
+			<color>${c.textHeader}</color>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.026</fontSize>
-			<color>bbbbff</color>
+			<color>${c.textHeader}</color>
 			<separatorColor>00000000</separatorColor>
 			<backgroundColor>00000000</backgroundColor>
 			<lineSpacing>2.5</lineSpacing>
 		</menuGroup>
 		<menuBackground name="menubg">
-			<color>242424</color>
+			<color>${c.menubg}</color>
 			<cornerSize>32 32</cornerSize>
-			<scrollbarColor>bbbbff</scrollbarColor>
+			<scrollbarColor>${c.scroll}</scrollbarColor>
 			<scrollbarCorner>0</scrollbarCorner>
 			<scrollbarSize>0.0025</scrollbarSize>
 			<scrollbarAlignment>innerright</scrollbarAlignment>

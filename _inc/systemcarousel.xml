@@ -34,11 +34,11 @@
             <pos ifSubset="carousel:vertical">0 0.5</pos>
             <size>1 0.23</size>
             <size ifSubset="carousel:vertical">0.42 1</size>
-			<color>202020ef</color>
-			<color ifSubset="mode:transparent">10101080</color>
-			<colorEnd ifSubset="mode:transparent">20202080</colorEnd>
-			<color ifSubset="mode:translucent">10101066</color>
-			<colorEnd ifSubset="mode:translucent">20202066</colorEnd>
+			<color>${c.framePlain}</color>
+			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
+			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
+			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
+			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 		</image>
 	</view>

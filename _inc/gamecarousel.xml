@@ -26,7 +26,7 @@
 			<pos ifSubset="bigGamecarousel:yes">0 0</pos>
 			</gamecarousel>    
 		<text name="gamecarouselLogoText">
-			<color>bbbbff</color>
+			<color>${c.textHeader}</color>
 			<glowColor>00000005</glowColor>
 			<glowSize>3</glowSize>
 			<glowOffset>2</glowOffset>
@@ -58,7 +58,7 @@
 			</storyboard>
 		</image>
         <text name="md_description">
-			<color>ddddee</color>
+			<color>${c.text}</color>
         </text>
 		<image name="frame" extra="true" ifSubset="bigGamecarousel:yes">
 			<visible>false</visible>

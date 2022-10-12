@@ -35,17 +35,17 @@
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
-			<color>80808080</color>
-			<colorEnd>00000000</colorEnd>
-			<color ifSubset="paintSystemForce:darkPaint">cccccc80</color>
-			<colorEnd ifSubset="paintSystemForce:darkPaint">00000000</colorEnd>
-			<color ifSubset="paintSystemForce:softPaint">cccccc80</color>
-			<colorEnd ifSubset="paintSystemForce:softPaint">80808003</colorEnd>
-			<color ifSubset="paintSystemForce:mediumPaint">eeeeee90</color>
-			<colorEnd ifSubset="paintSystemForce:mediumPaint">90909010</colorEnd>
+			<color>${c.paint}</color>
+			<colorEnd>${ce.paint}</colorEnd>
+			<color ifSubset="paintSystemForce:darkPaint">${c.paintDark}</color>
+			<colorEnd ifSubset="paintSystemForce:darkPaint">${ce.paintDark}</colorEnd>
+			<color ifSubset="paintSystemForce:softPaint">${c.paintSoft}</color>
+			<colorEnd ifSubset="paintSystemForce:softPaint">${ce.paintSoft}</colorEnd>
+			<color ifSubset="paintSystemForce:mediumPaint">${c.paintMedium}</color>
+			<colorEnd ifSubset="paintSystemForce:mediumPaint">${ce.paintMedium}</colorEnd>
 			<saturation ifSubset="paintSystemForce:mediumPaint">1.05</saturation>
-			<color ifSubset="paintSystemForce:vividPaint">ffffff99</color>
-			<colorEnd ifSubset="paintSystemForce:vividPaint">ffffff10</colorEnd>
+			<color ifSubset="paintSystemForce:vividPaint">${c.paintVivid}</color>
+			<colorEnd ifSubset="paintSystemForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard>
@@ -72,17 +72,17 @@
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
-			<color>80808080</color>
-			<colorEnd>00000000</colorEnd>
-			<color ifSubset="paintGamelistForce:darkPaint">cccccc80</color>
-			<colorEnd ifSubset="paintGamelistForce:darkPaint">00000000</colorEnd>
-			<color ifSubset="paintGamelistForce:softPaint">cccccc80</color>
-			<colorEnd ifSubset="paintGamelistForce:softPaint">80808003</colorEnd>
-			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee90</color>
-			<colorEnd ifSubset="paintGamelistForce:mediumPaint">90909010</colorEnd>
+			<color>${c.paint}</color>
+			<colorEnd>${ce.paint}</colorEnd>
+			<color ifSubset="paintGamelistForce:darkPaint">${c.paintDark}</color>
+			<colorEnd ifSubset="paintGamelistForce:darkPaint">${ce.paintDark}</colorEnd>
+			<color ifSubset="paintGamelistForce:softPaint">${c.paintSoft}</color>
+			<colorEnd ifSubset="paintGamelistForce:softPaint">${ce.paintSoft}</colorEnd>
+			<color ifSubset="paintGamelistForce:mediumPaint">${c.paintMedium}</color>
+			<colorEnd ifSubset="paintGamelistForce:mediumPaint">${ce.paintMedium}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
-			<color ifSubset="paintGamelistForce:vividPaint">ffffff99</color>
-			<colorEnd ifSubset="paintGamelistForce:vividPaint">ffffff10</colorEnd>
+			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
+			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard event="open">
@@ -117,17 +117,17 @@
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
 			<gradientType>horizontal</gradientType>
-			<color>80808080</color>
-			<colorEnd>00000000</colorEnd>
-			<color ifSubset="paintGamelistForce:darkPaint">cccccc80</color>
-			<colorEnd ifSubset="paintGamelistForce:darkPaint">00000000</colorEnd>
-			<color ifSubset="paintGamelistForce:softPaint">cccccc80</color>
-			<colorEnd ifSubset="paintGamelistForce:softPaint">80808003</colorEnd>
-			<color ifSubset="paintGamelistForce:mediumPaint">eeeeee90</color>
-			<colorEnd ifSubset="paintGamelistForce:mediumPaint">90909010</colorEnd>
+			<color>${c.paint}</color>
+			<colorEnd>${ce.paint}</colorEnd>
+			<color ifSubset="paintGamelistForce:darkPaint">${c.paintDark}</color>
+			<colorEnd ifSubset="paintGamelistForce:darkPaint">${ce.paintDark}</colorEnd>
+			<color ifSubset="paintGamelistForce:softPaint">${c.paintSoft}</color>
+			<colorEnd ifSubset="paintGamelistForce:softPaint">${ce.paintSoft}</colorEnd>
+			<color ifSubset="paintGamelistForce:mediumPaint">${c.paintMedium}</color>
+			<colorEnd ifSubset="paintGamelistForce:mediumPaint">${ce.paintMedium}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
-			<color ifSubset="paintGamelistForce:vividPaint">ffffff99</color>
-			<colorEnd ifSubset="paintGamelistForce:vividPaint">ffffff10</colorEnd>
+			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
+			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<opacity>0</opacity>
 			<storyboard>

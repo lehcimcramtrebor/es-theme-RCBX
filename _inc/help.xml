@@ -3,12 +3,12 @@
 	<formatVersion>7</formatVersion>
 	<view name="menu,system,basic,detailed,grid,gamecarousel">
 		<helpsystem name="help">
-			<textColor>ddddee</textColor>
+			<textColor>${c.textLight}</textColor>
 			<fontSize>0.02</fontSize>
 			<origin>0 0.5</origin>
 			<pos>0.004 0.982</pos>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
-			<iconColor>bbbbff</iconColor>
+			<iconColor>${c.textHeader}</iconColor>
 		</helpsystem>
 		<helpsystem name="help" ifSubset="helpIcons:arcadeIcons">
 			<iconColor>ffffff</iconColor>

@@ -5,10 +5,10 @@
 		<text name="logoText">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.06</fontSize>
-			<color>FFFFFFFF</color>
-			<glowColor>00000010</glowColor>
-			<glowSize>3</glowSize>
-			<forceUppercase>false</forceUppercase>    
+			<color>${c.textLight}</color>
+			<glowColor>00000005</glowColor>
+			<glowSize>2</glowSize>
+			<forceUppercase>true</forceUppercase>    
 		</text>
 	</view>
 </theme>

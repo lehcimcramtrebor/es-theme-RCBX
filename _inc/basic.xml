@@ -9,11 +9,11 @@
 			<origin>0.5 0.5</origin>
 			<size>0.9 0.78</size>
 			<pos>0.5 0.54</pos>
-			<color>202020ef</color>
-			<color ifSubset="mode:transparent">10101080</color>
-			<colorEnd ifSubset="mode:transparent">20202080</colorEnd>
-			<color ifSubset="mode:translucent">10101066</color>
-			<colorEnd ifSubset="mode:translucent">20202066</colorEnd>
+			<color>${c.framePlain}</color>
+			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
+			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
+			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
+			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 		</image>
 		<image name="logo">
@@ -25,7 +25,7 @@
 			<zIndex>1000</zIndex>
 			<text>${system.fullName}</text>
 			<forceUppercase>true</forceUppercase>
-			<color>ddddee</color>
+			<color>${c.textLight}</color>
 			<fontSize>0.03</fontSize>
 			<origin>0 1</origin>
 			<pos>0.05 0.15</pos>
@@ -36,10 +36,11 @@
 			<origin>0.5 0.5</origin>
 			<size>0.9 0.78</size>
 			<pos>0.5 0.54</pos>
-			<selectedColor>ffffff</selectedColor>
-			<primaryColor>ddddee</primaryColor>
-			<secondaryColor>ff0000</secondaryColor>
-			<selectorColor>404040aa</selectorColor>	  		
+			<selectedColor>${c.selected}</selectedColor>
+			<primaryColor>${c.textLight}</primaryColor>
+			<secondaryColor>00000000</secondaryColor>
+			<selectorColor>${c.menuSelector}</selectorColor>	  		
+			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
 			<alignment>center</alignment>
