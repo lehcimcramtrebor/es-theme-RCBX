@@ -83,6 +83,10 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
+    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="basic,detailed,grid,gamecarousel">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
     <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>

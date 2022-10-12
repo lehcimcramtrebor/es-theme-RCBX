@@ -53,11 +53,12 @@
 		<lang.mdShader>shader des vidéos de jeux</lang.mdShader>
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
+		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
 		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
 		<lang.fanart>avec fan arts</lang.fanart>
-		<lang.custom>avec fonds persos</lang.custom>
+		<lang.custom>avec fond perso</lang.custom>
 		<lang.fadedPaint>1-délavée</lang.fadedPaint>
 		<lang.darkPaint>2-sombre</lang.darkPaint>
 		<lang.softPaint>3-léger</lang.softPaint>

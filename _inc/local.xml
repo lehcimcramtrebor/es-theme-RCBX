@@ -53,6 +53,7 @@
 		<lang.mdShader>md videos shader</lang.mdShader>
 
 		<lang.paintSystem>paint system wall</lang.paintSystem>
+		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
 		<lang.paintSystemForce>system view paint intensity</lang.paintSystemForce>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
 		<lang.paintGamelistForce>gamelist view paint intensity</lang.paintGamelistForce>
