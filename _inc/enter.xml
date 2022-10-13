@@ -8,7 +8,7 @@
 			<size>1 1</size>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase>
-            <color>${c.textLight}</color>
+            <color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000005</glowColor>

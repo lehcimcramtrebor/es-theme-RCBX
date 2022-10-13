@@ -5,7 +5,7 @@
 		<text name="logoText">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.06</fontSize>
-			<color>${c.textLight}</color>
+			<color>${c.text}</color>
 			<glowColor>00000005</glowColor>
 			<glowSize>2</glowSize>
 			<forceUppercase>true</forceUppercase>    

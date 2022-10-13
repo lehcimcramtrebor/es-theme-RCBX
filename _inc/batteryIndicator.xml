@@ -13,7 +13,7 @@
 			<at50>./batteryIndicator/50.svg</at50>
 			<at25>./batteryIndicator/25.svg</at25>
 			<empty>./batteryIndicator/empty.svg</empty>
-			<color>dddddd</color>
+			<color>${c.text}</color>
 		</batteryIndicator>
 	</view>
 </theme>

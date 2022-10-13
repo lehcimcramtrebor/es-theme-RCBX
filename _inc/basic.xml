@@ -25,7 +25,7 @@
 			<zIndex>1000</zIndex>
 			<text>${system.fullName}</text>
 			<forceUppercase>true</forceUppercase>
-			<color>${c.textLight}</color>
+			<color>${c.text}</color>
 			<fontSize>0.03</fontSize>
 			<origin>0 1</origin>
 			<pos>0.05 0.15</pos>
@@ -37,7 +37,7 @@
 			<size>0.9 0.78</size>
 			<pos>0.5 0.54</pos>
 			<selectedColor>${c.selected}</selectedColor>
-			<primaryColor>${c.textLight}</primaryColor>
+			<primaryColor>${c.text}</primaryColor>
 			<secondaryColor>00000000</secondaryColor>
 			<selectorColor>${c.menuSelector}</selectorColor>	  		
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		

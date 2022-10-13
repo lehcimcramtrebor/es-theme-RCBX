@@ -8,7 +8,7 @@
             <pos>0.22 0.54</pos>
             <size>0.39 0.78</size>
 			<selectedColor>${c.selected}</selectedColor>
-			<primaryColor>${c.textLight}</primaryColor>
+			<primaryColor>${c.text}</primaryColor>
 			<secondaryColor>00000000</secondaryColor>
 			<selectorColor>${c.menuSelector}</selectorColor>	  		
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		

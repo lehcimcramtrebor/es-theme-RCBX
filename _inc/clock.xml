@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="screen">
 		<text name="clock">
-			<color>dddddd</color>
+			<color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<pos>0.90 0.95</pos>

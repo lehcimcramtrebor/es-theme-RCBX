@@ -6,7 +6,7 @@
 			<zIndex>1000</zIndex>
             <pos>0 0.62</pos>
             <backgroundColor>00000000</backgroundColor>
-            <color>${c.textLight}</color>
+            <color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000005</glowColor>

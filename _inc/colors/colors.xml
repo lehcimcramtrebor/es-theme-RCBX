@@ -4,7 +4,6 @@
 	<variables>
 		<!--themable colors-->
 		<c.text>ccccee</c.text>
-		<c.textLight>ddddee</c.textLight>
 		<c.textHeader>bbbbff</c.textHeader>
 
 		<c.menuSelector>404050</c.menuSelector>

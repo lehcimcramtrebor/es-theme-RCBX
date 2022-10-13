@@ -10,12 +10,12 @@
 		<menuText name="menufooter">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.018</fontSize>
-			<color>${c.textLight}</color>
+			<color>${c.text}</color>
 		</menuText>
 		<menuText name="menutext">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.026</fontSize>
-			<color>${c.textLight}</color>
+			<color>${c.text}</color>
 			<separatorColor>00000000</separatorColor>
 			<selectorColor>${c.menuSelector}</selectorColor>
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>
