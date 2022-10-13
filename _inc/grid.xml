@@ -44,9 +44,10 @@
 		</text>
 		<image name="gridtile.image">
 			<linearSmooth>true</linearSmooth>
+			<roundCorners>0.025</roundCorners>
 		</image>  
 		<ninepatch name="gridtile.background:selected">
-			<animateColor>${c.text}66</animateColor>
+			<animateColor>${c.textHeader}a1</animateColor>
 			<animateColorTime>500</animateColorTime>
 		</ninepatch>
         <text name="md_description">

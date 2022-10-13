@@ -3,13 +3,14 @@
 	<formatVersion>7</formatVersion>
 	<variables>
 		<!--themable colors-->
-		<c.text>ccccee</c.text>
-		<c.textHeader>bbbbff</c.textHeader>
+		<c.text>cecccc</c.text>
 
-		<c.menuSelector>404050</c.menuSelector>
-		<ce.menuSelector>303040</ce.menuSelector>
+		<c.textHeader>ff3030</c.textHeader>
 
-		<c.scroll>bbbbff33</c.scroll>
+		<c.menuSelector>801515</c.menuSelector>
+		<ce.menuSelector>700505</ce.menuSelector>
+
+		<c.scroll>70050580</c.scroll>
 
 		<c.band1>29adff</c.band1>
 		<c.band2>fff1e8</c.band2>

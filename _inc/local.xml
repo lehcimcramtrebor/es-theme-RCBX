@@ -2,6 +2,14 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<lang.colorset>colors set</lang.colorset>
+		<lang.wine>wine</lang.wine>
+		<lang.cobalt>cobalt</lang.cobalt>
+		<lang.sinople>sinople</lang.sinople>
+		<lang.mars>mars</lang.mars>
+		<lang.candy>candy</lang.candy>
+		<lang.mandarine>mandarine</lang.mandarine>
+
 		<lang.music>music</lang.music>
 		<lang.allowGeneral>allow general music</lang.allowGeneral>
 		<lang.useRecalboxMusic>use recalbox music</lang.useRecalboxMusic>

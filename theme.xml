@@ -11,9 +11,6 @@ by Helmic.-->
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local-${lang}.xml</include>
 
-	<!--colors-->
-	<include>./_inc/colors/colors.xml</include>
-
 	<!--support-->
 	<include>./_support/support.xml</include>
 	
@@ -30,6 +27,14 @@ by Helmic.-->
         <include name="legacy" displayName="${lang.legacy}"/>
         <include name="vertical" displayName="${lang.vertical}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
+    </subset>
+     <subset name="colorset" displayName="${lang.colorset}">
+        <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
+        <include name="mars" displayName="${lang.mars}">./_inc/colors/mars.xml</include>
+        <include name="wine" displayName="${lang.wine}">./_inc/colors/wine.xml</include>
+        <include name="sinople" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
+        <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
+        <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
     </subset>
      <subset name="mode" displayName="${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
