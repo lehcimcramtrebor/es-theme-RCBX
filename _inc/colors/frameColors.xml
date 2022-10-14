@@ -2,15 +2,17 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
-		<!--fixed colors-->			
-			<!--menu and gamelist selected color-->
-			<c.selected>ffffff</c.selected>
-			
-			<!--bands colors-->
-			<c.band1>29adff</c.band1>
-			<c.band2>fff1e8</c.band2>
-			<c.band3>ff004d</c.band3>
-			<c.band4>ffffff</c.band4>
+			<!--frames colors-->
+			<c.framePlain>202020ef</c.framePlain>
+
+			<c.frameTransparent>10101080</c.frameTransparent>
+			<ce.frameTransparent>20202080</ce.frameTransparent>
+
+			<c.frameTranslucent>10101066</c.frameTranslucent>
+			<ce.frameTranslucent>20202066</ce.frameTranslucent>
+
+			<!--menu background color-->
+			<c.menubg>242424</c.menubg>
 
 			<!--paint levels-->
 			<c.paint>80808080</c.paint>

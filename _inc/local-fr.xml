@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<variables>
 		<lang.colorset>jeu de couleurs</lang.colorset>
+		<lang.frameColorset>colorier toute l'interface</lang.frameColorset>
 		<lang.wine>grand cru</lang.wine>
 		<lang.cobalt>cobalt</lang.cobalt>
 		<lang.sinople>sinople</lang.sinople>

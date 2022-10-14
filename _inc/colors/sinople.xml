@@ -11,6 +11,22 @@
 		<ce.menuSelector>057005</ce.menuSelector>
 
 		<c.scroll>05700580</c.scroll>
+
+			<!--frames colors-->
+			<c.framePlain>202820ef</c.framePlain>
+
+			<c.frameTransparent>10181080</c.frameTransparent>
+			<ce.frameTransparent>20282080</ce.frameTransparent>
+
+			<c.frameTranslucent>10181066</c.frameTranslucent>
+			<ce.frameTranslucent>20282066</ce.frameTranslucent>
+
+			<!--menu background color-->
+			<c.menubg>243024</c.menubg>
 	</variables>
 	<include>./fixedColors.xml</include>
+	<subset name="frameColorset" displayName="${lang.frameColorset}">
+        <include name="no" displayName="${lang.no}">./frameColors.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
 </theme>

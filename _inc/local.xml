@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<variables>
 		<lang.colorset>colors set</lang.colorset>
+		<lang.frameColorset>color the whole interface</lang.frameColorset>
 		<lang.wine>wine</lang.wine>
 		<lang.cobalt>cobalt</lang.cobalt>
 		<lang.sinople>sinople</lang.sinople>
