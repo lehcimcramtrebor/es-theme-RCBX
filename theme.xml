@@ -52,8 +52,8 @@ by Helmic.-->
         <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
      <subset name="texture" displayName="${lang.texture}">
-        <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
+        <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
     </subset>
 	<subset name="randomVideos" displayName="${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
