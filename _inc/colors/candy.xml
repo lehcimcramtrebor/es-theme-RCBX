@@ -11,42 +11,6 @@
 		<ce.menuSelector>bb0077</ce.menuSelector>
 
 		<c.scroll>bb007780</c.scroll>
-
-		<c.band1>29adff</c.band1>
-		<c.band2>fff1e8</c.band2>
-		<c.band3>ff004d</c.band3>
-		<c.band4>ffffff</c.band4>
-
-		<!--fixed colors-->
-			<!--menu background color-->
-			<c.menubg>242424</c.menubg>
-			
-			<!--menu and gamelist selected color-->
-			<c.selected>ffffff</c.selected>
-
-			<!--frames colors-->
-			<c.framePlain>202020ef</c.framePlain>
-
-			<c.frameTransparent>10101080</c.frameTransparent>
-			<ce.frameTransparent>20202080</ce.frameTransparent>
-
-			<c.frameTranslucent>10101066</c.frameTranslucent>
-			<ce.frameTranslucent>20202066</ce.frameTranslucent>
-
-			<!--paint levels-->
-			<c.paint>80808080</c.paint>
-			<ce.paint>00000000</ce.paint>
-
-			<c.paintDark>cccccc80</c.paintDark>
-			<ce.paintDark>00000000</ce.paintDark>
-
-			<c.paintSoft>cccccc80</c.paintSoft>
-			<ce.paintSoft>80808003</ce.paintSoft>
-
-			<c.paintMedium>eeeeee90</c.paintMedium>
-			<ce.paintMedium>90909010</ce.paintMedium>
-
-			<c.paintVivid>ffffff99</c.paintVivid>
-			<ce.paintVivid>ffffff10</ce.paintVivid>
 	</variables>
+	<include>./fixedColors.xml</include>
 </theme>
