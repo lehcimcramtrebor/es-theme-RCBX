@@ -18,8 +18,8 @@
 		<image name="background" extra="true">
             <color>505050</color>
             <colorEnd>202020</colorEnd>
-            <color ifSubset="backgroundFx:flat,paintSystem:no">202020</color>
-            <colorEnd ifSubset="backgroundFx:flat,paintSystem:no">202020</colorEnd>
+            <color ifSubset="backgroundFx:flat,paintSystem:no">303030</color>
+            <colorEnd ifSubset="backgroundFx:flat,paintSystem:no">303030</colorEnd>
 		</image>
 		<image name="paintSystem" ifSubset="paintSystem:yes" extra="true">
 			<path>{random:fanart}</path>
@@ -56,12 +56,12 @@
 	</view>
 	<view name="basic,detailed,grid,gamecarousel">
 		<image name="background" extra="true">
-            <color>202020</color>
-            <colorEnd>505050</colorEnd>
-            <color ifSubset="paintGamelist:yes">505050</color>
-            <colorEnd ifSubset="paintGamelist:yes">202020</colorEnd>
-            <color ifSubset="backgroundFx:flat">202020</color>
-            <colorEnd ifSubset="backgroundFx:flat">202020</colorEnd>
+            <color>505050</color>
+            <colorEnd>202020</colorEnd>
+			<color ifSubset="backgroundFx:flat">202020</color>
+			<colorEnd ifSubset="backgroundFx:flat">202020</colorEnd>
+			<color ifSubset="backgroundFx:flat,paintGamelist:no">303030</color>
+			<colorEnd ifSubset="backgroundFx:flat,paintGamelist:no">303030</colorEnd>
 		</image>
 	</view>
 	<view name="detailed,grid,gamecarousel">

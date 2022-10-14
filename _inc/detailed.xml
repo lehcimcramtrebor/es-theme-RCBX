@@ -35,6 +35,7 @@
 			<origin>1 1</origin>
             <pos>0.96 0.905</pos>
             <maxSize>0.155 0.27</maxSize>
+			<reflexion>0.01 0</reflexion>
 			<storyboard event="open">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 			</storyboard>
@@ -60,6 +61,7 @@
             <maxSize>0.18 0.255</maxSize>
 			<saturation>1.2</saturation>
 			<color>00000000</color>
+			<reflexion>0.01 0</reflexion>
 			<storyboard event="open">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>

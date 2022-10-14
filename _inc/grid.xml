@@ -32,6 +32,7 @@
 			<selectionMode>image</selectionMode>
 			<padding>5 5</padding>
 			<imageColor>cccccc</imageColor>
+			<reflexion>0.01 0</reflexion>
 		</gridtile>
 		<gridtile name="selected">
 			<backgroundCenterColor>00000000</backgroundCenterColor>
@@ -64,6 +65,7 @@
 			<color>${c.text}</color>
         </text>
 		<image name="md_marquee">
+			<reflexion>0.01 0</reflexion>
 			<zIndex>1001</zIndex>
 			<origin>1 1</origin>
             <pos>0.96 0.91</pos>
