@@ -59,16 +59,20 @@
             <pos>0.63 0.77525</pos>
             <maxSize>0.18 0.255</maxSize>
 			<saturation>1.2</saturation>
+			<color>00000000</color>
 			<storyboard event="open">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
 			</storyboard>
 			<storyboard event="activateNext">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
 				<animation property="offsetX" from="0.05" mode="easeOutCubic" duration="250"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
 			</storyboard>
 			<storyboard event="activatePrev">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="1" mode="easeOut" duration="250"/>
 				<animation property="offsetX" from="-0.05" mode="easeOutCubic" duration="250"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="550"/>
