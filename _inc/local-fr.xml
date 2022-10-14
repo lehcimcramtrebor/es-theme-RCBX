@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<variables>
 		<lang.colorset>jeu de couleurs</lang.colorset>
-		<lang.frameColorset>colorier toute l'interface</lang.frameColorset>
+		<lang.frameColorset>coloriser toute l'interface</lang.frameColorset>
 		<lang.wine>grand cru</lang.wine>
 		<lang.cobalt>cobalt</lang.cobalt>
 		<lang.sinople>sinople</lang.sinople>
@@ -20,7 +20,7 @@
 		<lang.useOldBatoceraMusic>utiliser les anciennes musiques batocera</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>couper la musique</lang.notAllowMusic>
 
-		<lang.mode>niveau de transparence</lang.mode>
+		<lang.mode>transparence des cadres</lang.mode>
 		<lang.plain>opaque</lang.plain>
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucide</lang.translucent>

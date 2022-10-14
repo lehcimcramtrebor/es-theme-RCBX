@@ -23,10 +23,14 @@ by Helmic.-->
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
 	</subset>
-     <subset name="carousel" displayName="${lang.carousel}">
-        <include name="legacy" displayName="${lang.legacy}"/>
-        <include name="vertical" displayName="${lang.vertical}"/>
-        <include name="wheel" displayName="${lang.wheel}"/>
+    <subset name="helpIcons" displayName="${lang.helpIcons}">
+        <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
+        <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
+        <include name="psxIcons" displayName="${lang.psxIcons}"/>
+        <include name="snesIcons" displayName="${lang.snesIcons}"/>
+        <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
+        <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+        <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>
      <subset name="colorset" displayName="${lang.colorset}">
         <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
@@ -36,6 +40,11 @@ by Helmic.-->
         <include name="sinople" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
         <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
         <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
+    </subset>
+     <subset name="carousel" displayName="${lang.carousel}">
+        <include name="legacy" displayName="${lang.legacy}"/>
+        <include name="vertical" displayName="${lang.vertical}"/>
+        <include name="wheel" displayName="${lang.wheel}"/>
     </subset>
      <subset name="mode" displayName="${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
@@ -79,15 +88,6 @@ by Helmic.-->
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
   </subset>
-    <subset name="helpIcons" displayName="${lang.helpIcons}">
-        <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
-        <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
-        <include name="psxIcons" displayName="${lang.psxIcons}"/>
-        <include name="snesIcons" displayName="${lang.snesIcons}"/>
-        <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
-        <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
-        <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
-    </subset>
     <subset name="extendedInfos" displayName="${lang.extendedInfos}">
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>

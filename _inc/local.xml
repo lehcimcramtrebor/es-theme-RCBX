@@ -20,7 +20,7 @@
 		<lang.useOldBatoceraMusic>use old batocera musics</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>cut all music</lang.notAllowMusic>
 
-		<lang.mode>transparency level</lang.mode>
+		<lang.mode>frames transparency</lang.mode>
 		<lang.plain>plain</lang.plain>
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucent</lang.translucent>
