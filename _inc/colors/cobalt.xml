@@ -22,7 +22,7 @@
 			<ce.frameTranslucent>20202866</ce.frameTranslucent>
 
 			<!--menu background color-->
-			<c.menubg>242430</c.menubg>
+			<c.menubg>202028</c.menubg>
 	</variables>
 	<include>./fixedColors.xml</include>
 	<subset name="frameColorset" displayName="${lang.frameColorset}">
