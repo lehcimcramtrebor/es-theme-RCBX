@@ -30,11 +30,6 @@
 			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 		</image>
-		<image name="logo">
-			<pos>0.027 0.13</pos>
-			<maxSize>0.16 0.09</maxSize>
-			<origin>0 1</origin>
-		</image>
 		<video name="md_video">
 			<zIndex>1001</zIndex>
 			<origin>0 0</origin>

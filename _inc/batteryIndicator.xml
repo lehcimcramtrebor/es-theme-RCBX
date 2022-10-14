@@ -4,7 +4,6 @@
 	<view name="screen">
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.955 0.012</pos>
-			<pos verticalScreen="true">0.9 0.013</pos>
 			<size>0.033 0.0275</size>
 			<horizontalAlignment>right</horizontalAlignment>
 			<incharge>./batteryIndicator/incharge.svg</incharge>

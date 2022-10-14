@@ -2,6 +2,15 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="gamecarousel">
+		<image name="logo">
+			<pos>0.027 0.14</pos>
+			<maxSize>0.16 0.09</maxSize>
+			<origin>0 1</origin>
+		</image>
+		<image name="logo" ifSubset="bigGamecarousel:yes">
+			<origin>1 1</origin>
+			<x>0.79</x>
+		</image>
 		<gamecarousel name="gamecarousel">
 			<zIndex>1001</zIndex>
 			<type>vertical_wheel</type>
@@ -62,10 +71,6 @@
         </text>
 		<image name="frame" extra="true" ifSubset="bigGamecarousel:yes">
 			<visible>false</visible>
-		</image>
-		<image name="logo" ifSubset="bigGamecarousel:yes">
-			<origin>1 1</origin>
-			<x>0.78</x>
 		</image>
 	</view>
 </theme>

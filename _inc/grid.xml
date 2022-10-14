@@ -2,6 +2,11 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="grid">
+		<image name="logo">
+			<pos>0.22 0.14</pos>
+			<maxSize>0.16 0.09</maxSize>
+			<origin>0.5 1</origin>
+		</image>
 		<imagegrid name="gamegrid">
 			<zIndex>1001</zIndex>
             <pos>0.025 0.15</pos>
