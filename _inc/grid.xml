@@ -7,6 +7,11 @@
 			<maxSize>0.16 0.09</maxSize>
 			<origin>0.5 1</origin>
 		</image>
+		<image name="logo" ifSubset="centerGamelistLogos:yes">
+			<pos>0.5 0.075</pos>
+			<maxSize>0.3 0.13</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
 		<imagegrid name="gamegrid">
 			<zIndex>1001</zIndex>
             <pos>0.025 0.15</pos>

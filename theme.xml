@@ -108,6 +108,10 @@ by Helmic.-->
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
    </subset>
+     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="basic,detailed,grid,gamecarousel">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
   <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>

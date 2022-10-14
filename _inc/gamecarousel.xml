@@ -9,7 +9,12 @@
 		</image>
 		<image name="logo" ifSubset="bigGamecarousel:yes">
 			<origin>1 1</origin>
-			<x>0.79</x>
+			<pos>0.79 0.14</pos>
+		</image>
+		<image name="logo" ifSubset="centerGamelistLogos:yes">
+			<pos>0.5 0.075</pos>
+			<maxSize>0.3 0.13</maxSize>
+			<origin>0.5 0.5</origin>
 		</image>
 		<gamecarousel name="gamecarousel">
 			<zIndex>1001</zIndex>
