@@ -18,7 +18,7 @@ Customization:
 You can use "_rcbxCustom" folder to customize parts of theme like system view wall paints, read "README" files.
 You can move or copy this folder at root of Retrobat folder or at same level then "themes" folder for other distributions (root of SHARE for Batocera).
 
-![Base Profile Screenshot 2022 10 09 - 22 02 34 75](https://user-images.githubusercontent.com/59354081/194777203-b729e45f-6201-403e-bd67-edc86c8baa45.png)
+![Base Profile Screenshot 2022 10 14 - 20 43 59 42](https://user-images.githubusercontent.com/59354081/195944810-e344e681-7734-4007-baa3-1768e5f846fc.png)
 ![Base Profile Screenshot 2022 10 09 - 22 02 57 95](https://user-images.githubusercontent.com/59354081/194777206-fd639e23-f0e5-41d3-b26d-24355c7daffa.png)
 ![Base Profile Screenshot 2022 10 09 - 22 03 02 11](https://user-images.githubusercontent.com/59354081/194777211-5a988bc1-48a8-4ff1-a2cd-fff0d36a97f0.png)
 ![Base Profile Screenshot 2022 10 09 - 22 03 08 08](https://user-images.githubusercontent.com/59354081/194777213-513f3350-3bff-4a3b-b122-d2305cfc98f6.png)
