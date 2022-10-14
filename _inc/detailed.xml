@@ -19,7 +19,7 @@
             <size>0.39 0.78</size>
 			<selectedColor>${c.selected}</selectedColor>
 			<primaryColor>${c.text}</primaryColor>
-			<secondaryColor>00000000</secondaryColor>
+			<secondaryColor>${c.text}</secondaryColor>
 			<selectorColor>${c.menuSelector}</selectorColor>	  		
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
