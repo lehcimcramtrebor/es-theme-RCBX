@@ -43,7 +43,6 @@
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 			<shader ifSubset="mdShader:yes">:/shaders/scanlines.glsl</shader>
-			<shader ifNotArch="windows" ifSubset="mdShader:yes">:/shaders/dotmask.glsl</shader>
 			<roundCorners>0.015</roundCorners>
 		</video>
 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
