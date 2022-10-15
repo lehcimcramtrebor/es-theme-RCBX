@@ -62,7 +62,7 @@ by Helmic.-->
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="randomShader" displayName="${lang.randomShader}" ifArch="windows">
+	<subset name="randomShader" displayName="${lang.randomShader}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
@@ -112,11 +112,15 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
-  <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel">
+     <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+  <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel" ifSubset="mdVideos:yes">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
-     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid,gamecarousel" ifArch="windows">
+     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid,gamecarousel">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>

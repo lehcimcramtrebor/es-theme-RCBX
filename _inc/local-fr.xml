@@ -58,9 +58,10 @@
 
 		<lang.randomVideosAudio>audio de la vidéo aléatoire</lang.randomVideosAudio>
 		<lang.mdVideosAudio>audio des vidéos de jeux</lang.mdVideosAudio>
+		<lang.mdVideos>afficher les vidéos de jeux</lang.mdVideos>
 
 		<lang.randomShader>shader des vidéos aléatoires</lang.randomShader>
-		<lang.mdShader>shader des vidéos de jeux</lang.mdShader>
+		<lang.mdShader>shader des vidéos et images de jeux</lang.mdShader>
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
 		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>

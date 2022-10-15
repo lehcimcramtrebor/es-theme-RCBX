@@ -27,16 +27,16 @@
 			<scrollbarSize>0.0025</scrollbarSize>
 		</imagegrid>
 		<gridtile name="default">
-			<backgroundColor>00000000</backgroundColor>
+			<backgroundColor>20202033</backgroundColor>
 			<backgroundCornerSize>9 9</backgroundCornerSize>
 			<selectionMode>image</selectionMode>
 			<padding>5 5</padding>
 			<imageColor>cccccc</imageColor>
 			<reflexion>0.02 0</reflexion>
-		</gridtile>
+  		</gridtile>
 		<gridtile name="selected">
 			<backgroundCenterColor>00000000</backgroundCenterColor>
-			<backgroundEdgeColor>00000000</backgroundEdgeColor>
+			<backgroundEdgeColor>${c.textHeader}66</backgroundEdgeColor>
 			<imageColor>ffffff</imageColor>
 		</gridtile>
 		<text name="gridtile">
@@ -58,8 +58,8 @@
 			<roundCorners>0.018</roundCorners>
 		</image>  
 		<ninepatch name="gridtile.background:selected">
-			<animateColor>${c.textHeader}a1</animateColor>
-			<animateColorTime>500</animateColorTime>
+			<animateColor>${c.textHeader}</animateColor>
+			<animateColorTime>650</animateColorTime>
 		</ninepatch>
         <text name="md_description">
 			<color>${c.text}</color>

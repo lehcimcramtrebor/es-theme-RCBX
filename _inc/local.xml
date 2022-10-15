@@ -60,7 +60,8 @@
 		<lang.mdVideosAudio>games videos audio</lang.mdVideosAudio>
 
 		<lang.randomShader>random videos shader</lang.randomShader>
-		<lang.mdShader>md videos shader</lang.mdShader>
+		<lang.mdShader>md videos and images shader</lang.mdShader>
+		<lang.mdVideos>display md videos</lang.mdVideos>
 
 		<lang.paintSystem>paint system wall</lang.paintSystem>
 		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
