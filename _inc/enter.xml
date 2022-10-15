@@ -27,7 +27,8 @@
 			<maxSize>1 0.02</maxSize>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.81</pos>
-			<color>${c.textHeader}</color>
+			<color>ffffff</color>
+			<color ifSubset="helpIcons:defaultIcons">${c.textHeader}</color>
 		</image>
 		<control name="enter,enterIcon" extra="true">
 			<storyboard>
