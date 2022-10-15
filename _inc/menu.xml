@@ -42,6 +42,7 @@
 			<scrollbarCorner>0</scrollbarCorner>
 			<scrollbarSize>0.0025</scrollbarSize>
 			<scrollbarAlignment>innerright</scrollbarAlignment>
+			<roundCorners>0.018</roundCorners>
 		</menuBackground>
 		<menuIcons name="menuicons">
 			<iconKodi>./menu/Kodi.png</iconKodi>

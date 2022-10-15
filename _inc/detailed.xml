@@ -22,6 +22,7 @@
 			<secondaryColor>${c.text}</secondaryColor>
 			<selectorColor>${c.menuSelector}</selectorColor>	  		
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		
+			<selectorImagePath>./parts/selector.png</selectorImagePath>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
 			<alignment>left</alignment>
@@ -36,6 +37,7 @@
             <pos>0.96 0.905</pos>
             <maxSize>0.155 0.27</maxSize>
 			<reflexion>0.01 0</reflexion>
+			<roundCorners>0.018</roundCorners>
 			<storyboard event="open">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 			</storyboard>

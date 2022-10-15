@@ -15,6 +15,7 @@
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
 			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
+			<roundCorners>0.01</roundCorners>
 		</image>
 		<image name="frame2" extra="true">
 			<zIndex>1000</zIndex>
@@ -29,6 +30,7 @@
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
 			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
+			<roundCorners>0.01</roundCorners>
 		</image>
 		<video name="md_video">
 			<zIndex>1001</zIndex>
@@ -41,6 +43,7 @@
 			<showSnapshotDelay>true</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 			<shader ifSubset="mdShader:yes">:/shaders/scanlines.glsl</shader>
+			<roundCorners>0.015</roundCorners>
 		</video>
 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
 			<zIndex>1001</zIndex>

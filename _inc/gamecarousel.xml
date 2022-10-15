@@ -53,6 +53,7 @@
 			<origin>1 1</origin>
             <pos>0.96 0.905</pos>
             <maxSize>0.155 0.27</maxSize>
+			<roundCorners>0.018</roundCorners>
 			<storyboard event="open">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 			</storyboard>
