@@ -48,6 +48,7 @@
 			<roundCorners>0.015</roundCorners>
 		</video>
 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
+			<reflexion>0.04 0</reflexion>
 			<zIndex>1001</zIndex>
             <x>0.805</x>
  			<w>0.16</w>
@@ -83,6 +84,7 @@
 			<fontSize ifSubset="metadatasFontSize:0.025">0.025</fontSize>
 		</text>
 		<datetime name="md_releasedate,md_lastplayed">
+			<reflexion>0.04 0</reflexion>
 			<zIndex>1001</zIndex>
             <x>0.805</x>
  			<w>0.16</w>
@@ -174,6 +176,7 @@
 			<y>0.545</y>
         </text>
         <text name="lbl_rating" extra="true">
+			<reflexion>0.04 0</reflexion>
 			<text>${lang.rating}: </text>
 			<zIndex>1001</zIndex>
 			<alignment>right</alignment>
@@ -208,6 +211,7 @@
 			<origin>0.5 0.5</origin>
         </rating>
         <text name="md_description">
+			<reflexion>0.02 0</reflexion>
 			<zIndex>1001</zIndex>
 			<forceUppercase>true</forceUppercase>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
@@ -240,6 +244,7 @@
 			<fontSize ifSubset="descriptionFontSize:0.032">0.032</fontSize>
         </text>
 		<image name="md_flag">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.45 0.63</pos>
 			<maxSize>0.022 0.02</maxSize>
@@ -273,6 +278,7 @@
             </storyboard>
 		</image>
 		<image name="md_manual,md_nomanual">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.48 0.63</pos>
 			<path>./parts/book.png</path>
@@ -282,6 +288,7 @@
 		</image>
 		
 		<image name="ghost_manual" extra="true">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.48 0.63</pos>
 			<path>./parts/book.png</path>
@@ -310,6 +317,7 @@
 		</image>
 	
 		<image name="md_savestate,md_nosavestate">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<path>./parts/SaveState.png</path>
 			<pos>0.5 0.63</pos>
@@ -319,6 +327,7 @@
 		</image>
 
 		<image name="ghost_savestate" extra="true">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<path>./parts/SaveState.png</path>
 			<pos>0.5 0.63</pos>
@@ -347,6 +356,7 @@
 		</image>
 	
 		<image name="md_cheevos,md_notcheevos">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<path>./parts/Contest.png</path>
 			<pos>0.52 0.63</pos>
@@ -356,6 +366,7 @@
 		</image>
  		
 		<image name="ghost_cheevos" extra="true">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<path>./parts/Contest.png</path>
 			<pos>0.52 0.63</pos>
@@ -384,6 +395,7 @@
 		</image> 
 	
 		<image name="md_kidgame, md_notkidgame"> 
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.54 0.63</pos>
 			<path>./parts/kid.svg</path>
@@ -394,6 +406,7 @@
 		</image>
 
 		<image name="ghost_kidgame" extra="true"> 
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.54 0.63</pos>
 			<path>./parts/kid.svg</path>
@@ -423,6 +436,7 @@
 		</image>
 
 		<image name="md_hidden">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.56 0.63</pos>
 			<path>./parts/hidden.svg</path>
@@ -432,6 +446,7 @@
 		</image>
 
 		<image name="ghost_hidden" extra="true">
+			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.56 0.63</pos>
 			<path>./parts/hidden.svg</path>
