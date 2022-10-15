@@ -40,7 +40,7 @@
 			<maxSize>0.34 0.424</maxSize>
 			<delay>0.3</delay>
 			<effect>none</effect>
-			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 			<shader ifSubset="mdShader:yes">:/shaders/dotmask.glsl</shader>
