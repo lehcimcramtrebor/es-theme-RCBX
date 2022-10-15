@@ -11,8 +11,9 @@
             <color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
             <fontSize>0.02</fontSize>
-            <glowColor>00000005</glowColor>
-			<text>${lang.enter} ${system.fullName}</text>
+            <glowColor>000000</glowColor>
+			<glowSize>1</glowSize>
+ 			<text>${lang.enter} ${system.fullName}</text>
 		</text>
 		<image name="enterIcon" extra="true">
 			<zIndex>1000</zIndex>

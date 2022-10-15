@@ -99,6 +99,8 @@
 			</storyboard>
 		</image>
 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
+            <glowColor>000000</glowColor>
+			<glowSize>1</glowSize>
 			<reflexion>0.04 0</reflexion>
 			<zIndex>1001</zIndex>
             <x>0.805</x>
@@ -135,6 +137,8 @@
 			<fontSize ifSubset="metadatasFontSize:0.025">0.025</fontSize>
 		</text>
 		<datetime name="md_releasedate,md_lastplayed">
+            <glowColor>000000</glowColor>
+			<glowSize>1</glowSize>
 			<reflexion>0.04 0</reflexion>
 			<zIndex>1001</zIndex>
             <x>0.805</x>
@@ -227,6 +231,8 @@
 			<y>0.545</y>
         </text>
         <text name="lbl_rating" extra="true">
+            <glowColor>000000</glowColor>
+			<glowSize>1</glowSize>
 			<reflexion>0.04 0</reflexion>
 			<text>${lang.rating}: </text>
 			<zIndex>1001</zIndex>
@@ -271,6 +277,8 @@
             <size>0.32 0.255</size>
             <fontSize>0.02</fontSize>
 			<color>${c.text}</color>
+            <glowColor>000000</glowColor>
+			<glowSize>1</glowSize>
 			<!--manual parameters-->
 			<fontPath ifSubset="descriptionFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
 			<fontPath ifSubset="descriptionFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
