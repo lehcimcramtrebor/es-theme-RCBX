@@ -50,7 +50,8 @@
 		</text>
 		<text name="gridtile:selected">
 			<color>ffffff</color>
-            <glowColor>000000</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
 		</text>
 		<image name="gridtile.image">

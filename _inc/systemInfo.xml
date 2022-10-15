@@ -9,7 +9,8 @@
             <color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
             <fontSize>0.02</fontSize>
-            <glowColor>000000</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
             <opacity>0</opacity>
 			<storyboard>

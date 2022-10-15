@@ -6,8 +6,9 @@
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.06</fontSize>
 			<color>${c.text}</color>
-			<glowColor>00000005</glowColor>
-			<glowSize>2</glowSize>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
 			<forceUppercase>true</forceUppercase>    
 		</text>
 	</view>

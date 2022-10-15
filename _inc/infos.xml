@@ -22,7 +22,8 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}</text>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>
-            <glowColor>000000</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
 			<storyboard>
                 <animation property="opacity" from="0" to="0" duration="650" mode="easeIn"/>

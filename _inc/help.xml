@@ -9,7 +9,8 @@
 			<pos>0.004 0.982</pos>
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<iconColor>${c.textHeader}</iconColor>
-            <glowColor>000000</glowColor>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
 		</helpsystem>
 		<helpsystem name="help" ifSubset="helpIcons:arcadeIcons">

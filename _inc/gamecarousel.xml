@@ -42,9 +42,8 @@
 			</gamecarousel>    
 		<text name="gamecarouselLogoText">
 			<color>${c.textHeader}</color>
-			<glowColor>00000005</glowColor>
-			<glowSize>3</glowSize>
-			<glowOffset>2</glowOffset>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
 			<lineSpacing>1.0</lineSpacing>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<fontSize>0.045</fontSize>
