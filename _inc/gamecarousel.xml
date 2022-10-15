@@ -19,6 +19,7 @@
 		<gamecarousel name="gamecarousel">
 			<zIndex>1001</zIndex>
 			<type>vertical_wheel</type>
+			<transitionSpeed>650</transitionSpeed>
 			<origin>0.5 0.5</origin>
             <pos>0.22 0.54</pos>
             <size>0.39 0.78</size>
