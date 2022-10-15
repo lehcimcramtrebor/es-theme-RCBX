@@ -9,8 +9,8 @@
 			<color>${c.text}</color>
 			<imagePath>./controllerActivity/gamepad.svg</imagePath>
 			<gunPath>./controllerActivity/gun.svg</gunPath>
-			<activityColor>aoaoffC0</activityColor>
-			<hotkeyColor>ffA0a0c0</hotkeyColor>
+			<activityColor>${textHeader}</activityColor>
+			<hotkeyColor>ff3030</hotkeyColor>
 		</controllerActivity>
 	</view>
 </theme>
