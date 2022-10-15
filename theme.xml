@@ -62,7 +62,7 @@ by Helmic.-->
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="randomShader" displayName="${lang.randomShader}">
+	<subset name="randomShader" displayName="${lang.randomShader}" ifArch="windows">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
