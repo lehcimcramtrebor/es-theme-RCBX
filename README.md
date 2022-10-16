@@ -14,8 +14,11 @@ Compatibles all screen ratios
 
 Musics:
 Recalbox musics by : machette djpostka - https://www.recalbox.com/fr/
+
 Retrobat musics from retrobat Team - https://github.com/kaylh/RetroBat
+
 Old Batocera Music themes by Waterflame - https://www.youtube.com/user/waterflame89 - License from https://www.waterflame.com/contact-info
+
 Comix Zone album from https://downloads.khinsider.com/
 
 Customization:
