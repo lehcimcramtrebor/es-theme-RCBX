@@ -2,6 +2,8 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<lang.neogeo>neo geo version</lang.neogeo>
+
 		<lang.colorset>colors set</lang.colorset>
 		<lang.frameColorset>color the whole interface</lang.frameColorset>
 		<lang.wine>wine</lang.wine>

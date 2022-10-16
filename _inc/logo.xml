@@ -5,6 +5,7 @@
 		<image name="logo">
 			<path>./logo/${system.theme}.png</path>
 			<path>./logo/${system.theme}-${lang}.png</path>
+            <path ifSubset="neogeo:aes" if="{system.name} == 'neogeo'">./logo/${system.theme}aes.png</path>
 			<path>./../_rcbxCustom/logos/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../_rcbxCustom/logos/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/logos/${system.theme}.png</path>

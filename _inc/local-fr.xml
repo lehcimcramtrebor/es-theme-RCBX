@@ -2,6 +2,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<lang.neogeo>version de la neo geo</lang.neogeo>
 		<lang.colorset>jeu de couleurs</lang.colorset>
 		<lang.frameColorset>coloriser toute l'interface</lang.frameColorset>
 		<lang.wine>grand cru</lang.wine>
