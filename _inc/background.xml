@@ -51,7 +51,6 @@
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
 			</storyboard>
-			<visible ifSubset="randomVideos:onWall">false</visible>
 		</image>
 	</view>
 	<view name="basic,detailed,grid,gamecarousel">
