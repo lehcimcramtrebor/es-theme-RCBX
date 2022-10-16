@@ -32,6 +32,7 @@
 		<lang.texturePlain>plain</lang.texturePlain>
 
 		<lang.carousel>carousel</lang.carousel>
+		<lang.carouselAnime>anime carousel</lang.carouselAnime>
 		<lang.legacy>legacy</lang.legacy>
 		<lang.vertical>vertical</lang.vertical>
 		<lang.wheel>wheel</lang.wheel>

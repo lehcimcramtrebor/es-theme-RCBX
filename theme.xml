@@ -51,6 +51,10 @@ by Helmic.-->
         <include name="plain" displayName="${lang.plain}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
+	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
      <subset name="texture" displayName="${lang.texture}">
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
@@ -82,10 +86,10 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
    </subset>
     <subset name="paintSystemForce" displayName="${lang.paintSystemForce}" ifSubset="paintSystem:yes">
-        <include name="darkPaint" displayName="${lang.darkPaint}"/>
-        <include name="softPaint" displayName="${lang.softPaint}"/>
-        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
+        <include name="softPaint" displayName="${lang.softPaint}"/>
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
   </subset>
     <subset name="extendedInfos" displayName="${lang.extendedInfos}">
@@ -110,11 +114,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
-        <include name="darkPaint" displayName="${lang.darkPaint}"/>
-        <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
-        <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="softPaint" displayName="${lang.softPaint}"/>
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
+        <include name="vividPaint" displayName="${lang.vividPaint}"/>
    </subset>
      <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>

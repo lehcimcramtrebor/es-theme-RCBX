@@ -31,6 +31,7 @@
 		<lang.texturePlain>pleine</lang.texturePlain>
 
 		<lang.carousel>carrousel</lang.carousel>
+		<lang.carouselAnime>animer le carrousel</lang.carouselAnime>
 		<lang.legacy>horizontal</lang.legacy>
 		<lang.vertical>vertical</lang.vertical>
 		<lang.wheel>roue</lang.wheel>
