@@ -71,16 +71,22 @@
 			<origin>1 1</origin>
             <pos>0.96 0.91</pos>
             <maxSize>0.155 0.31</maxSize>
-			<storyboard event="open">
+			<storyboard event="open" repeatAt="5000">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
+				<animation property="offsetY" to="-0.025" mode="easeOutCubic" autoreverse="true" duration="250" begin="5000"/>
+				<animation property="opacity" from="1" to="1" mode="linear" duration="9500" begin="5500"/>
 			</storyboard>
-			<storyboard event="activateNext">
+			<storyboard event="activateNext" repeatAt="5000">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 				<animation property="offsetY" from="0.005" mode="easeOut" duration="250"/>
+				<animation property="offsetY" to="-0.025" mode="easeOutCubic" autoreverse="true" duration="250" begin="5000"/>
+				<animation property="opacity" from="1" to="1" mode="linear" duration="9500" begin="5500"/>
 			</storyboard>
-			<storyboard event="activatePrev">
+			<storyboard event="activatePrev" repeatAt="5000">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 				<animation property="offsetY" from="-0.005" mode="easeOut" duration="250"/>
+				<animation property="offsetY" to="-0.025" mode="easeOutCubic" autoreverse="true" duration="250" begin="5000"/>
+				<animation property="opacity" from="1" to="1" mode="linear" duration="9500" begin="5500"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" mode="linear" duration="60"/>
