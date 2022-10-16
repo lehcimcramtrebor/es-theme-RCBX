@@ -5,6 +5,8 @@ Retrobat - https://www.retrobat.ovh/index.html
 Batocera - https://batocera.org/
 Emuelec - https://github.com/EmuELEC/EmuELEC/releases
 
+Retrobat V5+ or Batocera V35+ are recommanded for better visuals.
+
 Compatibles all screen ratios
 
 Musics:
