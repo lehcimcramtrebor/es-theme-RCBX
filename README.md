@@ -10,7 +10,7 @@ Emuelec - https://github.com/EmuELEC/EmuELEC/releases
 
 Retrobat V5+ or Batocera V35+ are recommanded for better visuals.
 
-Compatibles all screen ratios
+Compatible all screen ratios
 
 Musics:
 Recalbox musics by : machette djpostka - https://www.recalbox.com/fr/
