@@ -21,7 +21,7 @@
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1000</zIndex>
 			<saturation>1.2</saturation>
-			<reflexion>0.01 0</reflexion>
+			<reflexion ifSubset="carousel:legacy|vertical">0.01 0</reflexion>
 		</image>
 		<image name="logo" region="eu"/>
 		<image name="logo" region="us">
