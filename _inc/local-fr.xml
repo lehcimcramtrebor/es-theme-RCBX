@@ -65,6 +65,7 @@
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
 		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>
+		<lang.allowSystemVideoCustom>autoriser la vidéo custom de la vue système</lang.allowSystemVideoCustom>
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
 		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
