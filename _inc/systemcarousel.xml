@@ -7,6 +7,8 @@
 			<color>00000000</color>
 			<defaultTransition>instant</defaultTransition>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
+			<pos>0 0</pos>
+			<size>1 1</size>
 		</carousel>
 		<carousel name="systemcarousel" ifSubset="carousel:vertical">
 			<type>vertical</type>
