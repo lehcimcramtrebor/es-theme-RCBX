@@ -42,7 +42,13 @@
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmask.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders/dotmaskFade.glsl</shader>
+			<storyboard>
+				<animation property="w" from="0" to="0" mode="linear" duration="500"/>
+				<animation property="w" from="0" to="1" mode="easeInCubic" duration="180" begin="500"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="500"/>
+				<animation property="scale" from="0" to="1" mode="easeOut" duration="80" begin="500"/>
+			</storyboard>			
 		</video>
 		<!--full screen-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:fullScreen">
@@ -52,9 +58,16 @@
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<color>cccccc</color>
+			<color>aaaaaa</color>
 			<delay>2</delay>
 			<shader ifSubset="randomShader:yes">:/shaders/dotmask.glsl</shader>
+			<storyboard>
+				<animation property="offsetY" from="-1" to="-1" mode="linear" duration="300"/>
+				<animation property="offsetY" from="-1" to="0" mode="easeOut" duration="450" begin="300"/>
+				<animation property="scale" from="0" to="1.2" mode="easeInCubic" duration="450" begin="300"/>
+				<animation property="roundCorners" from="0.4" to="0" mode="easeInCubic" duration="450" begin="300"/>
+				<animation property="scale" from="1.2" to="1" mode="bump" duration="150" begin="750"/>
+			</storyboard>			
 		</video>
 		<video name="randomVideo" extra="true" ifSubset="randomVideosAudio:on">
 			<audio>true</audio>
