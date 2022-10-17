@@ -13,6 +13,9 @@ by Helmic.-->
 
 	<!--support-->
 	<include>./_support/support.xml</include>
+
+	<!--shaders bypass-->
+	<include>./SHADERS.xml</include>
 	
 	<!--subsets-->
     <subset name="music" displayName="${lang.music}">
@@ -66,10 +69,7 @@ by Helmic.-->
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="randomShader" displayName="${lang.randomShader}">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
-    </subset>
+	<include>./_inc/random${bypass.shader}.xml</include>
     <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
@@ -132,10 +132,7 @@ by Helmic.-->
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
-     <subset name="mdShader" displayName="${lang.mdShader}" appliesTo="detailed,grid,gamecarousel">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
-    </subset>
+	<include>./_inc/md${bypass.shader}.xml</include>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>

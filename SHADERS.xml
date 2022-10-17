@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--RCBX theme for Retrobat / Batocera / Emuelec inspired by recalbox theme.
+by Helmic.-->
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<bypass.shader>Shader</bypass.shader>
+	</variables>
+</theme>

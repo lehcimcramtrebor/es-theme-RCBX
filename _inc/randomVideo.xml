@@ -24,7 +24,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
 			<roundCorners>0.05</roundCorners>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmask.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 			<color ifSubset="randomShader:no">cccccc</color>
 			<!--carousel vertical-->
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.5</pos>
@@ -42,7 +42,7 @@
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmaskFade.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders/dotmaskFade${bypass.shader}.glsl</shader>
 			<storyboard>
 				<animation property="w" from="0" to="0" mode="linear" duration="500"/>
 				<animation property="w" from="0" to="1" mode="easeInCubic" duration="180" begin="500"/>
@@ -60,7 +60,7 @@
 			<pos>0.5 0.5</pos>
 			<color>aaaaaa</color>
 			<delay>2</delay>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmask.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 			<storyboard>
 				<animation property="offsetY" from="-1" to="-1" mode="linear" duration="300"/>
 				<animation property="offsetY" from="-1" to="0" mode="easeOut" duration="450" begin="300"/>

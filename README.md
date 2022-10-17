@@ -12,6 +12,10 @@ Retrobat V5+ or Batocera V35+ are recommanded for better visuals.
 
 Compatible all screen ratios
 
+WARNING!!: THIS THEME USE GLSL SHADERS ON VIDEOS, AND ARE COMPATIBLE WITH RETROBAT V5+ AND BATOCERA V35+
+IF THEME DON'T LAUNCH OR ES CRASHES IT4S PROBABLY COMPATIBILITY PROBLEM WITH YOUR HARDWARE SO JUST
+DELETE "SHADERS.xml" FILE AT ROOT OF THEME.
+
 Musics:
 Recalbox musics by : machette djpostka - https://www.recalbox.com/fr/
 
