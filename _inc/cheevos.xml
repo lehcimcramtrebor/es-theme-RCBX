@@ -8,7 +8,8 @@
 			<path>./parts/Contest.png</path>
 			<maxSize>1 0.016</maxSize>
 			<origin>1 1</origin>
-			<pos>0.96 0.9875</pos>
+			<pos>0.945 0.9875</pos>
+			<pos if="{global.clock} == 'false'">0.99 0.9875</pos>
 			<color>${c.text}</color>
 		</image>
 	</view>
