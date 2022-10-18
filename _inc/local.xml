@@ -88,6 +88,9 @@
 		<lang.off>off</lang.off>
 
 		<lang.games>games</lang.games>
+		<lang.elements>items</lang.elements>
+		<lang.collections>collections</lang.collections>
+		<lang.applications>apps</lang.applications>
 		<lang.favorites>favorites</lang.favorites>
 		<lang.gamesPlayed>games played</lang.gamesPlayed>
 		<lang.mostPlayed>most played</lang.mostPlayed>
