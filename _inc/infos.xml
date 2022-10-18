@@ -36,7 +36,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}</text>
 		<text name="systemInfoEx" extra="true" if="{system.name} == 'flatpak'">
 			<text>${lang.applications} : {binding:total}</text>
 		</text>
-		<text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots' || {system.name} == 'retrobat' || {system.name} == 'tools' || {system.name} == 'setup'">
+		<text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'ports' || {system.name} == 'odcommander' || {system.name} == 'screenshots' || {system.name} == 'retrobat' || {system.name} == 'tools' || {system.name} == 'setup'">
 			<text>${lang.elements} : {binding:total}</text>
 		</text>
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
