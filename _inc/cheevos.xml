@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system" ifCheevos="true">
-		<image name="cheevosIcon" extra="true">
+<!--	<view name="system">
+		<image name="cheevosIcon" extra="true" ifCheevos="true">
 			<zIndex>1001</zIndex>
 			<linearSmooth>true</linearSmooth>
 			<path>./parts/Contest.png</path>
-			<maxSize>1 0.016</maxSize>
+			<maxSize>1 0.024</maxSize>
 			<origin>1 1</origin>
-			<pos>0.945 0.9875</pos>
+			<pos>0.99 0.96</pos>
 			<pos if="{global.clock} == 'false'">0.99 0.9875</pos>
 			<color>${c.text}</color>
+			<storyboard>
+                <animation property="opacity" from="0" to="0" duration="350" mode="easeIn"/>
+                <animation property="opacity" from="0.2" to="1" duration="400" mode="easeInOut" autoreverse="true" repeat="forever" begin="350"/>
+            </storyboard>
 		</image>
-	</view>
+	</view>-->
 </theme>
