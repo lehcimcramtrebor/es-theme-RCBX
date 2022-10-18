@@ -270,6 +270,7 @@ by Helmic.-->
 	<include>./_inc/batteryIndicator.xml</include>
 	<include>./_inc/menu.xml</include>
 	<include>./_inc/help.xml</include>
+	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
 	<include>./_inc/systemInfo.xml</include>
 	<include>./_inc/logoText.xml</include>

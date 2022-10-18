@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="screen">
+		<image name="cheevosIcon" extra="true" ifCheevos="true">
+			<linearSmooth>true</linearSmooth>
+			<path>./parts/Contest.png</path>
+			<maxSize>1 0.02</maxSize>
+			<origin>1 1</origin>
+			<pos>0.998 0.9765</pos>
+			<color>${c.text}</color>
+		</image>
+		<text name="username" extra="true">
+			<text>${cheevos.username}</text>
+			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.013</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>${c.text}</color>
+			<alignment>right</alignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<origin>1 1</origin>
+			<pos>0.997 0.9985</pos>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>			
+		</text>
+	</view>
+</theme>
