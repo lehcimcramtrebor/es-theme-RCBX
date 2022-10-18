@@ -265,13 +265,13 @@ by Helmic.-->
     </subset>
 	
 	<!--parts-->
-	<include>./_inc/clock.xml</include>
 	<include>./_inc/controllerActivity.xml</include>
 	<include>./_inc/batteryIndicator.xml</include>
 	<include>./_inc/menu.xml</include>
 	<include>./_inc/help.xml</include>
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
+	<include>./_inc/year.xml</include>
 	<include>./_inc/systemInfo.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
