@@ -276,7 +276,6 @@ by Helmic.-->
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
 	<include>./_inc/bands.xml</include>
-	<include>./_inc/cheevos.xml</include>
 	<include>./_inc/enter.xml</include>
 	<include>./_inc/basic.xml</include>
 	<include>./_inc/commons.xml</include>
