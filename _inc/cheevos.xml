@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system" ifCheevos="true">
+		<image name="cheevosIcon" extra="true">
+			<zIndex>1001</zIndex>
+			<linearSmooth>true</linearSmooth>
+			<path>./parts/Contest.png</path>
+			<maxSize>1 0.016</maxSize>
+			<origin>1 1</origin>
+			<pos>0.96 0.9875</pos>
+			<color>${c.text}</color>
+		</image>
+	</view>
+</theme>
