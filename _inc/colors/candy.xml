@@ -25,7 +25,7 @@
 			<c.menubg>201718</c.menubg>
 	</variables>
 	<include>./fixedColors.xml</include>
-	<subset name="frameColorset" displayName="${lang.frameColorset}">
+	<subset name="frameColorset" displayName="${category.interface} • ${lang.frameColorset}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}">./frameColors.xml</include>
     </subset>

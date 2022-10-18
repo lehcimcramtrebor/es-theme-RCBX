@@ -2,7 +2,16 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<category.interface>interface</category.interface>
+		<category.music>musique</category.music>
+		<category.carousel>carrousel</category.carousel>
+		<category.frames>cadres</category.frames>
+		<category.randomVideos>vidéos aléatoires</category.randomVideos>
+		<category.wall>arrière-plan</category.wall>
+		<category.various>divers</category.various>
+
 		<lang.neogeo>version de la neo geo</lang.neogeo>
+
 		<lang.colorset>jeu de couleurs</lang.colorset>
 		<lang.frameColorset>coloriser toute l'interface</lang.frameColorset>
 		<lang.wine>grand cru</lang.wine>
@@ -13,15 +22,15 @@
 		<lang.mandarine>mandarine</lang.mandarine>
 		<lang.smoke>brume</lang.smoke>
 
-		<lang.music>musique</lang.music>
-		<lang.allowGeneral>autoriser la musique du système</lang.allowGeneral>
-		<lang.useRecalboxMusic>utiliser la musique de recalbox</lang.useRecalboxMusic>
-		<lang.useComixZoneMusic>utiliser l'album comix zone</lang.useComixZoneMusic>
-		<lang.useRetrobatMusic>utiliser la musique de retrobat</lang.useRetrobatMusic>
-		<lang.useOldBatoceraMusic>utiliser les anciennes musiques batocera</lang.useOldBatoceraMusic>
-		<lang.notAllowMusic>couper la musique</lang.notAllowMusic>
+		<lang.music>jouer</lang.music>
+		<lang.allowGeneral>la musique du système</lang.allowGeneral>
+		<lang.useRecalboxMusic>la musique de recalbox</lang.useRecalboxMusic>
+		<lang.useComixZoneMusic>l'album comix zone</lang.useComixZoneMusic>
+		<lang.useRetrobatMusic>la musique de retrobat</lang.useRetrobatMusic>
+		<lang.useOldBatoceraMusic>les anciennes musiques batocera</lang.useOldBatoceraMusic>
+		<lang.notAllowMusic>du silence</lang.notAllowMusic>
 
-		<lang.mode>transparence des cadres</lang.mode>
+		<lang.mode>aspect</lang.mode>
 		<lang.plain>opaque</lang.plain>
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucide</lang.translucent>
@@ -30,10 +39,10 @@
 		<lang.textureDot>quadrillée</lang.textureDot>
 		<lang.texturePlain>pleine</lang.texturePlain>
 
-		<lang.carousel>carrousel</lang.carousel>
-		<lang.carouselVerticalCount>nombre de logos du carrousel vertical</lang.carouselVerticalCount>
+		<lang.carousel>type</lang.carousel>
+		<lang.carouselVerticalCount>nombre de logos liste verticale</lang.carouselVerticalCount>
 		<lang.carouselWheelSpacing>espacement de la roue</lang.carouselWheelSpacing>
-		<lang.carouselAnime>animer le carrousel</lang.carouselAnime>
+		<lang.carouselAnime>animer les logos</lang.carouselAnime>
 		<lang.legacy>horizontal</lang.legacy>
 		<lang.vertical>vertical</lang.vertical>
 		<lang.wheel>roue</lang.wheel>
@@ -50,24 +59,24 @@
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
 
-		<lang.backgroundFx>effet du fond d'écran</lang.backgroundFx>
+		<lang.backgroundFx>effet</lang.backgroundFx>
 		<lang.flat>lisse</lang.flat>
 		<lang.crt>crt</lang.crt>
 		<lang.phosphore>phosphore</lang.phosphore>
 		<lang.scanlines>balayage</lang.scanlines>
 		<lang.scanlinesvertical>balayage vertical</lang.scanlinesvertical>
 
-		<lang.randomVideos>vidéos aléatoires</lang.randomVideos>
+		<lang.randomVideos>jouer</lang.randomVideos>
 		<lang.onlyAudio>seulement l'audio</lang.onlyAudio>
 		<lang.inFrame>dans un cadre</lang.inFrame>
 		<lang.onWall>sur le mur</lang.onWall>
-		<lang.fullScreen>plein écran</lang.fullScreen>
+		<lang.fullScreen>en plein écran</lang.fullScreen>
 
-		<lang.randomVideosAudio>audio de la vidéo aléatoire</lang.randomVideosAudio>
-		<lang.mdVideosAudio>audio des vidéos de jeux</lang.mdVideosAudio>
+		<lang.randomVideosAudio>piste audio</lang.randomVideosAudio>
+		<lang.mdVideosAudio>piste audio des vidéos de jeux</lang.mdVideosAudio>
 		<lang.mdVideos>afficher les vidéos de jeux</lang.mdVideos>
 
-		<lang.randomShader>shader des vidéos aléatoires</lang.randomShader>
+		<lang.randomShader>utiliser le shader</lang.randomShader>
 		<lang.mdShader>shader des vidéos et images de jeux</lang.mdShader>
 
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
@@ -76,8 +85,8 @@
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
 		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
-		<lang.fanart>avec fan arts</lang.fanart>
-		<lang.custom>avec fond perso</lang.custom>
+		<lang.fanart>avec les fan arts</lang.fanart>
+		<lang.custom>avec le fond perso</lang.custom>
 		<lang.fadedPaint>1-délavée</lang.fadedPaint>
 		<lang.darkPaint>2-sombre</lang.darkPaint>
 		<lang.softPaint>3-léger</lang.softPaint>
@@ -88,8 +97,8 @@
 		
 		<lang.yes>oui</lang.yes>
 		<lang.no>non</lang.no>
-		<lang.on>activé</lang.on>
-		<lang.off>désactivé</lang.off>
+		<lang.on>activée</lang.on>
+		<lang.off>désactivée</lang.off>
 
 		<lang.games>jeux</lang.games>
 		<lang.elements>éléments</lang.elements>
@@ -123,6 +132,6 @@
 
 		<lang.bigGamecarousel>grand carrousel de jeux</lang.bigGamecarousel>
 
-		<lang.centerGamelistLogos>logo centré</lang.centerGamelistLogos>
+		<lang.centerGamelistLogos>centrer le logo de la liste des jeux</lang.centerGamelistLogos>
 	</variables>
 </theme>

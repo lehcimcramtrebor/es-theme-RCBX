@@ -18,7 +18,7 @@ by Helmic.-->
 	<include>./SHADERS.xml</include>
 	
 	<!--subsets-->
-    <subset name="music" displayName="${lang.music}">
+    <subset name="music" displayName="${category.music} • ${lang.music}">
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
@@ -26,7 +26,7 @@ by Helmic.-->
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
 	</subset>
-    <subset name="helpIcons" displayName="${lang.helpIcons}">
+    <subset name="helpIcons" displayName="${category.interface} • ${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
         <include name="psxIcons" displayName="${lang.psxIcons}"/>
@@ -35,7 +35,7 @@ by Helmic.-->
         <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>
-     <subset name="colorset" displayName="${lang.colorset}">
+     <subset name="colorset" displayName="${category.interface} • ${lang.colorset}">
         <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
         <include name="smoke" displayName="${lang.smoke}">./_inc/colors/smoke.xml</include>
         <include name="mars" displayName="${lang.mars}">./_inc/colors/mars.xml</include>
@@ -44,34 +44,34 @@ by Helmic.-->
         <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
         <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
     </subset>
-     <subset name="carousel" displayName="${lang.carousel}">
+     <subset name="carousel" displayName="${category.carousel} • ${lang.carousel}">
         <include name="legacy" displayName="${lang.legacy}"/>
         <include name="vertical" displayName="${lang.vertical}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
     </subset>
-     <subset name="carouselVerticalCount" displayName="${lang.carouselVerticalCount}" ifSubset="carousel:vertical">
+     <subset name="carouselVerticalCount" displayName="${category.carousel} • ${lang.carouselVerticalCount}" ifSubset="carousel:vertical">
         <include name="5"/>
         <include name="3"/>
     </subset>
-     <subset name="carouselWheelSpacing" displayName="${lang.carouselWheelSpacing}" ifSubset="carousel:wheel">
+     <subset name="carouselWheelSpacing" displayName="${category.carousel} • ${lang.carouselWheelSpacing}" ifSubset="carousel:wheel">
         <include name="medium" displayName="${lang.medium}"/>
        <include name="large" displayName="${lang.large}"/>
         <include name="thin" displayName="${lang.thin}"/>
     </subset>
-	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
+	<subset name="carouselAnime" displayName="${category.carousel} • ${lang.carouselAnime}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-     <subset name="mode" displayName="${lang.mode}">
+     <subset name="mode" displayName="${category.frames} • ${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
         <include name="plain" displayName="${lang.plain}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
-     <subset name="texture" displayName="${lang.texture}">
+     <subset name="texture" displayName="${category.frames} • ${lang.texture}">
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
     </subset>
-	<subset name="randomVideos" displayName="${lang.randomVideos}">
+	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
         <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
         <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
@@ -79,33 +79,33 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<include>./_inc/random${bypass.shader}.xml</include>
-    <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
+    <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
    </subset>
-    <subset name="backgroundFx" displayName="${lang.backgroundFx}">
+    <subset name="backgroundFx" displayName="${category.wall} • ${lang.backgroundFx}">
         <include name="scanlines" displayName="${lang.scanlines}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
         <include name="flat" displayName="${lang.flat}"/>
    </subset>
-    <subset name="paintSystem" displayName="${lang.paintSystem}">
+    <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
    </subset>
-    <subset name="paintSystemForce" displayName="${lang.paintSystemForce}" ifSubset="paintSystem:yes">
+    <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
   </subset>
-    <subset name="extendedInfos" displayName="${lang.extendedInfos}">
+    <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="neogeo" displayName="${lang.neogeo}">
+    <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
         <include name="aes"/>
         <include name="mvs"/>
     </subset>

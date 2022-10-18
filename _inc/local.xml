@@ -2,6 +2,14 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+		<category.interface>interface</category.interface>
+		<category.music>music</category.music>
+		<category.carousel>carousel</category.carousel>
+		<category.frames>frames</category.frames>
+		<category.randomVideos>random videos</category.randomVideos>
+		<category.wall>background</category.wall>
+		<category.various>various</category.various>
+
 		<lang.neogeo>neo geo version</lang.neogeo>
 
 		<lang.colorset>colors set</lang.colorset>
@@ -14,15 +22,15 @@
 		<lang.mandarine>mandarine</lang.mandarine>
 		<lang.smoke>smoke</lang.smoke>
 
-		<lang.music>music</lang.music>
-		<lang.allowGeneral>allow general music</lang.allowGeneral>
-		<lang.useRecalboxMusic>use recalbox music</lang.useRecalboxMusic>
-		<lang.useComixZoneMusic>use comix zone album</lang.useComixZoneMusic>
-		<lang.useRetrobatMusic>use retrobat album</lang.useRetrobatMusic>
-		<lang.useOldBatoceraMusic>use old batocera musics</lang.useOldBatoceraMusic>
-		<lang.notAllowMusic>cut all music</lang.notAllowMusic>
+		<lang.music>play</lang.music>
+		<lang.allowGeneral>frontend music</lang.allowGeneral>
+		<lang.useRecalboxMusic>recalbox music</lang.useRecalboxMusic>
+		<lang.useComixZoneMusic>comix zone album</lang.useComixZoneMusic>
+		<lang.useRetrobatMusic>retrobat album</lang.useRetrobatMusic>
+		<lang.useOldBatoceraMusic>old batocera musics</lang.useOldBatoceraMusic>
+		<lang.notAllowMusic>silence</lang.notAllowMusic>
 
-		<lang.mode>frames transparency</lang.mode>
+		<lang.mode>aspect</lang.mode>
 		<lang.plain>plain</lang.plain>
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucent</lang.translucent>
@@ -31,10 +39,10 @@
 		<lang.textureDot>dot</lang.textureDot>
 		<lang.texturePlain>plain</lang.texturePlain>
 
-		<lang.carousel>carousel</lang.carousel>
-		<lang.carouselVerticalCount>vertical carousel logo count</lang.carouselVerticalCount>
+		<lang.carousel>type</lang.carousel>
+		<lang.carouselVerticalCount>vertical logo count</lang.carouselVerticalCount>
 		<lang.carouselWheelSpacing>wheel spacing</lang.carouselWheelSpacing>
-		<lang.carouselAnime>anime carousel</lang.carouselAnime>
+		<lang.carouselAnime>anime logos</lang.carouselAnime>
 		<lang.legacy>legacy</lang.legacy>
 		<lang.vertical>vertical</lang.vertical>
 		<lang.wheel>wheel</lang.wheel>
@@ -51,23 +59,23 @@
 		<lang.xboxIcons>xbox</lang.xboxIcons>
 		<lang.xboxOneIcons>xbox one</lang.xboxOneIcons>
 
-		<lang.backgroundFx>background fx</lang.backgroundFx>
+		<lang.backgroundFx>fx</lang.backgroundFx>
 		<lang.flat>flat</lang.flat>
 		<lang.crt>crt</lang.crt>
 		<lang.phosphore>phosphore</lang.phosphore>
 		<lang.scanlines>scanlines</lang.scanlines>
 		<lang.scanlinesvertical>vertical scanlines</lang.scanlinesvertical>
 
-		<lang.randomVideos>random videos</lang.randomVideos>
+		<lang.randomVideos>play</lang.randomVideos>
 		<lang.onlyAudio>only audio</lang.onlyAudio>
 		<lang.inFrame>in frame</lang.inFrame>
 		<lang.onWall>on wall</lang.onWall>
-		<lang.fullScreen>full screen</lang.fullScreen>
+		<lang.fullScreen>in full screen</lang.fullScreen>
 
-		<lang.randomVideosAudio>random video audio</lang.randomVideosAudio>
+		<lang.randomVideosAudio>audio</lang.randomVideosAudio>
 		<lang.mdVideosAudio>games videos audio</lang.mdVideosAudio>
 
-		<lang.randomShader>random videos shader</lang.randomShader>
+		<lang.randomShader>use shader</lang.randomShader>
 		<lang.mdShader>md videos and images shader</lang.mdShader>
 		<lang.mdVideos>display md videos</lang.mdVideos>
 
