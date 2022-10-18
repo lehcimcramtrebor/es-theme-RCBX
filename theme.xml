@@ -58,14 +58,14 @@ by Helmic.-->
        <include name="large" displayName="${lang.large}"/>
         <include name="thin" displayName="${lang.thin}"/>
     </subset>
+	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
      <subset name="mode" displayName="${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
         <include name="plain" displayName="${lang.plain}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
-    </subset>
-	<subset name="carouselAnime" displayName="${lang.carouselAnime}">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
     </subset>
      <subset name="texture" displayName="${lang.texture}">
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
