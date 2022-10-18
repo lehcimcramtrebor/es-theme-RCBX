@@ -49,6 +49,15 @@ by Helmic.-->
         <include name="vertical" displayName="${lang.vertical}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
     </subset>
+     <subset name="carouselVerticalCount" displayName="${lang.carouselVerticalCount}" ifSubset="carousel:vertical">
+        <include name="5"/>
+        <include name="3"/>
+    </subset>
+     <subset name="carouselWheelSpacing" displayName="${lang.carouselWheelSpacing}" ifSubset="carousel:wheel">
+        <include name="medium" displayName="${lang.medium}"/>
+       <include name="large" displayName="${lang.large}"/>
+        <include name="thin" displayName="${lang.thin}"/>
+    </subset>
      <subset name="mode" displayName="${lang.mode}">
         <include name="transparent" displayName="${lang.transparent}"/>
         <include name="plain" displayName="${lang.plain}"/>

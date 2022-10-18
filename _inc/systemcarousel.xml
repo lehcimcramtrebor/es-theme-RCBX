@@ -13,6 +13,7 @@
 		<carousel name="systemcarousel" ifSubset="carousel:vertical">
 			<type>vertical</type>
 			<maxLogoCount>3</maxLogoCount>
+			<maxLogoCount ifSubset="carouselVerticalCount:5">5</maxLogoCount>
 			<pos>0 0</pos>
 			<size>0.42 1</size>
 		</carousel>
@@ -21,6 +22,8 @@
 			<logoSize>0.15 0.09</logoSize>
 			<logoScale>2</logoScale>
 			<logoRotation>18</logoRotation>
+			<logoRotation ifSubset="carouselWheelSpacing:thin">12</logoRotation>
+			<logoRotation ifSubset="carouselWheelSpacing:medium">15</logoRotation>
 			<logoRotationOrigin>-2 0.5</logoRotationOrigin>
 			<maxLogoCount>9</maxLogoCount>
 			<pos>0 0</pos>

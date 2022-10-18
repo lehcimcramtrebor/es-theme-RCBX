@@ -63,5 +63,20 @@
 				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
 			</storyboard>
 		</image>
+		<image name="logo" ifSubset="carouselAnime:no">
+			<scale>0.5</scale>
+			<storyboard event="activate">
+				<animation property="scale" from="0.8" to="1" duration="250" mode="easeOut"/>
+				<animation property="opacity" from="1" to="1" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="scale" from="0.8" to="0.8" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="scale" from="1" to="0.8" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+		</image>
 	</view>
 </theme>

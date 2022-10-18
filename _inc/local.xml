@@ -32,10 +32,15 @@
 		<lang.texturePlain>plain</lang.texturePlain>
 
 		<lang.carousel>carousel</lang.carousel>
+		<lang.carouselVerticalCount>vertical carousel logo count</lang.carouselVerticalCount>
+		<lang.carouselWheelSpacing>wheel spacing</lang.carouselWheelSpacing>
 		<lang.carouselAnime>anime carousel</lang.carouselAnime>
 		<lang.legacy>legacy</lang.legacy>
 		<lang.vertical>vertical</lang.vertical>
 		<lang.wheel>wheel</lang.wheel>
+		<lang.thin>thin</lang.thin>
+		<lang.medium>medium</lang.medium>
+		<lang.large>large</lang.large>
 
 		<lang.helpIcons>help icons</lang.helpIcons>
 		<lang.defaultIcons>default</lang.defaultIcons>
