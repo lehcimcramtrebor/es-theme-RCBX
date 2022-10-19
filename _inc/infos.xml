@@ -14,12 +14,20 @@ ${lang.gamesPlayed} : {binding:gamesPlayed}
 ${lang.mostPlayed} : {binding:mostPlayed}
 ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 </text>
+		<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.games} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.gamesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayed} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+</text>
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
-			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
 			<fontSize>0.02</fontSize>
-			<pos>0.03 0.56</pos>
+			<pos>0.03 0.605</pos>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>
@@ -41,7 +49,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<text>${lang.elements} : {binding:total}</text>
 		</text>
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
-			<pos>0.14 0.61</pos>
+			<pos>0.14 0.37</pos>
 		</text>
 	</view>
 </theme>

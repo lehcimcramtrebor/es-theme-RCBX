@@ -27,7 +27,7 @@
 			<shader ifSubset="randomShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 			<color ifSubset="randomShader:no">cccccc</color>
 			<!--carousel vertical-->
-			<pos ifSubset="carousel:vertical|wheel">0.61 0.5</pos>
+			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
 			<storyboard>
 				<animation property="scale" from="0" to="0" mode="linear" duration="350"/>
 				<animation property="scale" from="0" to="1" mode="linear" duration="150" begin="350"/>

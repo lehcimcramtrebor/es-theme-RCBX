@@ -7,7 +7,7 @@
             <pos>0 0.62</pos>
             <backgroundColor>00000000</backgroundColor>
             <color>${c.text}</color>
-			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
@@ -19,8 +19,8 @@
             </storyboard>
 		</text>
 		<text name="systemInfo" ifSubset="carousel:vertical|wheel">
-			<pos>0.11 0.44</pos>
-			<pos ifSubset="randomVideos:inFrame">0.11 0.65</pos>
+			<pos>0.11 0.47</pos>
+			<pos ifSubset="randomVideos:inFrame">0.11 0.35</pos>
 		</text>
 	</view>
 </theme>

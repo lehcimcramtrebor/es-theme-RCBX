@@ -271,7 +271,6 @@ by Helmic.-->
 	<include>./_inc/help.xml</include>
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
-	<include>./_inc/year.xml</include>
 	<include>./_inc/systemInfo.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>

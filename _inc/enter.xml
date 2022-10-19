@@ -4,12 +4,13 @@
 	<view name="system">
 		<text name="enter" extra="true">
 			<zIndex>1000</zIndex>
-            <pos>0 0.34</pos>
+            <pos>0 0.405</pos>
+            <pos ifSubset="extendedInfos:no">0 0.285</pos>
 			<size>1 1</size>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase>
             <color>${c.text}</color>
-			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
@@ -32,7 +33,8 @@
 			<path ifSubset="helpIcons:xboxOneIcons">./help/icon_xboxOne_b.png</path>
 			<maxSize>1 0.02</maxSize>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.81</pos>
+			<pos>0.5 0.875</pos>
+            <pos ifSubset="extendedInfos:no">0.5 0.755</pos>
 			<color>ffffff</color>
 			<color ifSubset="helpIcons:defaultIcons">${c.textHeader}</color>
 		</image>
@@ -43,16 +45,16 @@
             </storyboard>
 		</control>
 		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
-            <pos>0.11 0.05</pos>
-            <pos ifSubset="extendedInfos:yes">0.11 0.03</pos>
-            <pos ifSubset="randomVideos:inFrame">0.11 0.26</pos>
-            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.11 0.4</pos>
+            <pos>0.11 0.2</pos>
+            <pos ifSubset="extendedInfos:yes">0.11 0.28</pos>
+            <pos ifSubset="randomVideos:inFrame">0.11 0.225</pos>
+            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.11 0.28</pos>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
-			<pos>0.61 0.51</pos>
-			<pos ifSubset="extendedInfos:yes">0.61 0.5</pos>
-			<pos ifSubset="randomVideos:inFrame">0.61 0.72</pos>
-			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.61 0.87</pos>
+			<pos>0.61 0.67</pos>
+			<pos ifSubset="extendedInfos:yes">0.61 0.75</pos>
+			<pos ifSubset="randomVideos:inFrame">0.61 0.68</pos>
+			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.61 0.75</pos>
 		</image>
 	</view>
 </theme>
