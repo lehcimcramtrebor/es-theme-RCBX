@@ -118,6 +118,8 @@
 		<lang.enter>explorer la liste</lang.enter>
 		<lang.rating>notation</lang.rating>
 
+		<lang.infosFont>type d'écriture des infos</lang.infosFont>
+		<lang.helpFont>type d'écriture de l'aide</lang.helpFont>
 		<lang.metadatasFont>métadonnées - type d'écriture</lang.metadatasFont>
 		<lang.metadatasFontSize>métadonnées - taille de la police</lang.metadatasFontSize>
 		<lang.descriptionFont>description - type d'écriture</lang.descriptionFont>

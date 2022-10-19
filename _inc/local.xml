@@ -118,6 +118,8 @@
 		<lang.enter>enter</lang.enter>
 		<lang.rating>rating</lang.rating>
 
+		<lang.infosFont>informations font type</lang.infosFont>
+		<lang.helpFont>help font type</lang.helpFont>
 		<lang.metadatasFont>metadatas - font type</lang.metadatasFont>
 		<lang.metadatasFontSize>metadatas - font size</lang.metadatasFontSize>
 		<lang.descriptionFont>description - font type</lang.descriptionFont>

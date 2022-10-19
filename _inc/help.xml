@@ -8,6 +8,10 @@
 			<origin>0 0.5</origin>
 			<pos>0.004 0.982</pos>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath ifSubset="helpFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath ifSubset="helpFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontPath ifSubset="helpFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<fontPath ifSubset="helpFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
 			<iconColor>${c.textHeader}</iconColor>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>

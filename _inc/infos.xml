@@ -25,6 +25,10 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath ifSubset="infosFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath ifSubset="infosFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontPath ifSubset="infosFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<fontPath ifSubset="infosFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
 			<fontSize>0.02</fontSize>
 			<pos>0.03 0.605</pos>

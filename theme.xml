@@ -44,6 +44,13 @@ by Helmic.-->
         <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>
+    <subset name="helpFont" displayName="${category.interface} • ${lang.helpFont}">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="regular" displayName="${lang.regular}"/>
+        <include name="regularBold" displayName="${lang.regularBold}"/>
+        <include name="condensed" displayName="${lang.condensed}"/>
+        <include name="condensedBold" displayName="${lang.condensedBold}"/>
+    </subset>
      <subset name="colorset" displayName="${category.interface} • ${lang.colorset}">
         <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
         <include name="smoke" displayName="${lang.smoke}">./_inc/colors/smoke.xml</include>
@@ -128,6 +135,13 @@ by Helmic.-->
     <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
         <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="regular" displayName="${lang.regular}"/>
+        <include name="regularBold" displayName="${lang.regularBold}"/>
+        <include name="condensed" displayName="${lang.condensed}"/>
+        <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
     <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
         <include name="aes"/>

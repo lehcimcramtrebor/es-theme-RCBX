@@ -11,6 +11,10 @@
 			<forceUppercase>true</forceUppercase>
             <color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath ifSubset="infosFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath ifSubset="infosFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontPath ifSubset="infosFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<fontPath ifSubset="infosFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
