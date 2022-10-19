@@ -8,8 +8,8 @@
 			<fontPath ifCheevos="true">./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<fontSize ifCheevos="true">0.015</fontSize>
-			<pos>0.90 0.95</pos>
-			<pos ifCheevos="true">0.893 0.941</pos>
+			<pos>0.90 0.956</pos>
+			<pos ifCheevos="true">0.893 0.947</pos>
 			<size>0.09 0.058</size>
 			<alignment>right</alignment>
 			<verticalAlignment>center</verticalAlignment>
@@ -22,7 +22,7 @@
 			<path>./parts/Contest.png</path>
 			<maxSize>1 0.02</maxSize>
 			<origin>1 1</origin>
-			<pos>0.998 0.9765</pos>
+			<pos>0.998 0.9825</pos>
 			<color>${c.text}</color>
 		</image>
 		<text name="username" extra="true">
@@ -34,7 +34,7 @@
 			<alignment>right</alignment>
 			<verticalAlignment>bottom</verticalAlignment>
 			<origin>1 1</origin>
-			<pos>0.997 0.9985</pos>
+			<pos>0.997 1.00</pos>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>			
