@@ -2,6 +2,16 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="grid">
+		<image name="illustration" extra="true">
+			<origin>1 1</origin>
+			<pos>0.78 0.14</pos>
+			<maxSize>0.16 0.13</maxSize>
+		</image>
+		<image name="illustration" extra="true" ifSubset="centerGamelistLogos:yes">
+			<origin>0 1</origin>
+			<pos>0.027 0.14</pos>
+			<maxSize>0.16 0.09</maxSize>
+		</image>
 		<image name="logo">
 			<pos>0.22 0.14</pos>
 			<maxSize>0.16 0.09</maxSize>

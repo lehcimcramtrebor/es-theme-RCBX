@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system,basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:yes">
+		<image name="illustration" extra="true">
+			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}.png</path>
+			<path>./../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
+			<path>./../_rcbxCustom/illustrations/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}.svg</path>
+			<path>./../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>1000</zIndex>
+			<color>ffffff</color>
+			<colorEnd>aaaaaa</colorEnd>
+			<gradientType>vertical</gradientType>
+			<saturation>1.2</saturation>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.2</pos>
+			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
+			<maxSize>0.3 0.33</maxSize>
+			<storyboard>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+			</storyboard>			
+		</image>
+		<image name="illustration" region="eu" extra="true"/>
+		<image name="illustration" region="us" extra="true">
+			<path>./../_rcbxCustom/illustrations/us/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
+			<path>./../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
+		</image>
+		<image name="illustration" region="jp" extra="true">
+			<path>./../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
+			<path>./../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
+		</image>
+	</view>
+	<view name="system" ifSubset="allowIllustrationsCustom:yes">
+		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
+			<offsetX ifSubset="allowIllustrationsCustom:yes">2</offsetX>
+		</video>
+	</view>
+</theme>

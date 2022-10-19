@@ -151,6 +151,10 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
+   <subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
     <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
@@ -167,7 +171,7 @@ by Helmic.-->
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
    </subset>
-     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="basic,detailed,grid,gamecarousel">
+     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
@@ -291,6 +295,7 @@ by Helmic.-->
 	<include>./_inc/background.xml</include>
 	<include>./_inc/bands.xml</include>
 	<include>./_inc/enter.xml</include>
+	<include>./_inc/illustrations.xml</include>
 	<include>./_inc/basic.xml</include>
 	<include>./_inc/commons.xml</include>
 	<include>./_inc/detailed.xml</include>

@@ -2,6 +2,26 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="gamecarousel">
+		<image name="illustration" extra="true" ifSubset="bigGamecarousel:no,centerGamelistLogos:no">
+			<origin>1 1</origin>
+			<pos>0.78 0.14</pos>
+			<maxSize>0.16 0.13</maxSize>
+		</image>
+		<image name="illustration" extra="true" ifSubset="bigGamecarousel:no,centerGamelistLogos:yes">
+			<origin>0 1</origin>
+			<pos>0.027 0.14</pos>
+			<maxSize>0.16 0.09</maxSize>
+		</image>
+		<image name="illustration" extra="true" ifSubset="bigGamecarousel:yes,centerGamelistLogos:no">
+			<pos>0.79 0.14</pos>
+			<maxSize>0.16 0.13</maxSize>
+			<origin>1 1</origin>
+		</image>
+		<image name="illustration" extra="true" ifSubset="bigGamecarousel:yes,centerGamelistLogos:yes">
+			<pos>0.79 0.14</pos>
+			<maxSize>0.12 0.13</maxSize>
+			<origin>1 1</origin>
+		</image>
 		<image name="logo">
 			<pos>0.027 0.14</pos>
 			<maxSize>0.16 0.09</maxSize>
@@ -10,6 +30,11 @@
 		<image name="logo" ifSubset="bigGamecarousel:yes">
 			<origin>1 1</origin>
 			<pos>0.79 0.14</pos>
+		</image>
+		<image name="logo" ifSubset="bigGamecarousel:yes,allowIllustrationsCustom:yes">
+			<pos>0.435 0.08</pos>
+			<maxSize>0.16 0.09</maxSize>
+			<origin>0 0.5</origin>
 		</image>
 		<image name="logo" ifSubset="centerGamelistLogos:yes">
 			<pos>0.5 0.075</pos>
