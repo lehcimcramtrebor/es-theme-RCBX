@@ -7,7 +7,7 @@
 			<fontSize>0.02</fontSize>
 			<origin>0 0.5</origin>
 			<pos>0.004 0.982</pos>
-			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<iconColor>${c.textHeader}</iconColor>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
