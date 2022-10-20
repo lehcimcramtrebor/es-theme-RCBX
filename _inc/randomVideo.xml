@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="system">
 		<video name="randomVideo" extra="true">
+			<linearSmooth>true</linearSmooth>
 			<path>{random}</path>
 			<path ifSubset="allowSystemVideoCustom:yes">./../_rcbxCustom/videos/${system.theme}.mp4</path>
 			<path ifSubset="allowSystemVideoCustom:yes" ifArch="windows">./../../../../../_rcbxCustom/videos/${system.theme}.mp4</path>
@@ -73,7 +74,7 @@
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<color>aaaaaa</color>
+			<color>efefef</color>
 			<delay>2</delay>
 			<shader ifSubset="randomShader:yes">:/shaders${cut.shader}/dotmask${bypass.shader}.glsl</shader>
 			<storyboard>
