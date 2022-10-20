@@ -37,8 +37,9 @@
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">
 			<zIndex>200</zIndex>
 			<size>1 1</size>
-			<opacity>0.3</opacity>
+			<opacity>1</opacity>
 			<saturation>1.2</saturation>
+			<color>666666</color>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
