@@ -106,6 +106,7 @@ by Helmic.-->
 	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
         <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
+        <include name="asPaint" displayName="${lang.asPaint}">./_inc/randomVideo.xml</include>
         <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
@@ -311,6 +312,7 @@ by Helmic.-->
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
 	<include>./_inc/systemInfo.xml</include>
+	<include>./_inc/infos.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>

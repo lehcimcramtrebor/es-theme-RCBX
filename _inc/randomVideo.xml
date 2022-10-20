@@ -33,7 +33,21 @@
 				<animation property="scale" from="0" to="1" mode="linear" duration="150" begin="350"/>
 			</storyboard>			
 		</video>
-		<!--on wall-->
+		<!--as paint-->
+		<video name="randomVideo" extra="true" ifSubset="randomVideos:asPaint">
+			<zIndex>99</zIndex>
+			<size>1 1</size>
+			<opacity>0.9</opacity>
+			<saturation>1.1</saturation>
+			<color>ffffff</color>
+			<delay>0.01</delay>
+			<effect>none</effect>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<storyboard>
+				<animation property="opacity" from="0" mode="easeInCubic" duration="180"/>
+			</storyboard>			
+		</video>
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">
 			<zIndex>200</zIndex>
 			<size>1 1</size>
@@ -81,6 +95,7 @@
 			<saturation ifSubset="randomVideosSaturation:50%">0.50</saturation>
 			<saturation ifSubset="randomVideosSaturation:25%">0.25</saturation>
 			<saturation ifSubset="randomVideosSaturation:0%">0</saturation>
+			<color ifSubset="randomVideosSaturation:75%|50%|25%|0%">ffffff</color>
 		</video>
 	</view>
 </theme>

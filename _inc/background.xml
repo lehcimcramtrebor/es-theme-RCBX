@@ -55,6 +55,7 @@
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
 			</storyboard>
+			<visible ifSubset="randomVideos:asPaint">false</visible>
 		</image>
 	</view>
 	<view name="basic,detailed,grid,gamecarousel">
@@ -145,6 +146,13 @@
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
 			</storyboard>
+		</image>
+	</view>
+	<view name="system" ifSubset="randomVideos:asPaint">
+		<image name="background" extra="true">
+            <color>20202066</color>
+            <colorEnd>202020cf</colorEnd>
+			<gradientType>horizontal</gradientType>
 		</image>
 	</view>
 </theme>

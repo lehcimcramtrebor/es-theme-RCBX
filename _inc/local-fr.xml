@@ -70,7 +70,8 @@
 		<lang.randomVideosSaturation>saturation (désactive le shader)</lang.randomVideosSaturation>
 		<lang.onlyAudio>seulement l'audio</lang.onlyAudio>
 		<lang.inFrame>dans un cadre</lang.inFrame>
-		<lang.onWall>sur le mur</lang.onWall>
+		<lang.onWall>derrière le carrousel</lang.onWall>
+		<lang.asPaint>en peinture (désactive le shader)</lang.asPaint>
 		<lang.fullScreen>en plein écran</lang.fullScreen>
 
 		<lang.randomVideosAudio>piste audio</lang.randomVideosAudio>
