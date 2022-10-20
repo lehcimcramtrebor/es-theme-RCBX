@@ -24,7 +24,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
-			<maxSize>0.3 0.33</maxSize>
+			<maxSize>0.3 0.25</maxSize>
 			<storyboard>
 				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
 			</storyboard>			
