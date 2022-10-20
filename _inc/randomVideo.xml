@@ -5,7 +5,7 @@
 		<video name="randomVideo" extra="true">
 			<path>{random}</path>
 			<path ifSubset="allowSystemVideoCustom:yes">./../_rcbxCustom/videos/${system.theme}.mp4</path>
-			<path ifSubset="allowSystemVideoCustom:yes" ifArch="windows">./../../../../_rcbxCustom/videos/${system.theme}.mp4</path>
+			<path ifSubset="allowSystemVideoCustom:yes" ifArch="windows">./../../../../../_rcbxCustom/videos/${system.theme}.mp4</path>
 			<path ifSubset="allowSystemVideoCustom:yes" ifNotArch="windows">./../../_rcbxCustom/videos/${system.theme}.mp4</path>
 			<delay>0.3</delay>
 		</video>

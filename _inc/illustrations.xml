@@ -4,16 +4,16 @@
 	<view name="system,basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:yes">
 		<image name="illustration" extra="true">
 			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path>./../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}-${lang}.png</path>
 			<path>./../_rcbxCustom/illustrations/${system.theme}.svg</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}.svg</path>
 			<path>./../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}-${lang}.svg</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1000</zIndex>
@@ -32,18 +32,18 @@
 		<image name="illustration" region="eu" extra="true"/>
 		<image name="illustration" region="us" extra="true">
 			<path>./../_rcbxCustom/illustrations/us/${system.theme}.png</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
 			<path>./../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
 		</image>
 		<image name="illustration" region="jp" extra="true">
 			<path>./../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
 			<path>./../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
-			<path ifArch="windows">./../../../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
+			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
 		</image>
 	</view>
