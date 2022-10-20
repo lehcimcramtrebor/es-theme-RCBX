@@ -121,7 +121,7 @@ by Helmic.-->
     <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
-   </subset>
+	</subset>
     <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
@@ -130,12 +130,12 @@ by Helmic.-->
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
 	</subset>
     <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}">
-        <include name="auto" displayName="${lang.auto}"/>
-        <include name="75%"/>
-        <include name="50%"/>
-        <include name="25%"/>
         <include name="0%"/>
-   </subset>
+        <include name="25%"/>
+        <include name="50%"/>
+        <include name="75%"/>
+        <include name="auto" displayName="${lang.auto}"/>
+	</subset>
     <subset name="spacer 07" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
@@ -158,7 +158,7 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-   <subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel">
+	<subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
@@ -193,7 +193,7 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-  <subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel" ifSubset="mdVideos:yes">
+	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel" ifSubset="mdVideos:yes">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
