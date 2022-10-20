@@ -84,8 +84,10 @@
 		<lang.allowSystemVideoCustom>autoriser la vidéo custom de la vue système</lang.allowSystemVideoCustom>
 		<lang.allowIllustrationsCustom>autoriser les illustrations custom (désactive le cadre vidéo)</lang.allowIllustrationsCustom>
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
+		<lang.paintSystemSaturation>saturation des décorations système</lang.paintSystemSaturation>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
 		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
+		<lang.paintGamelistSaturation>saturation des décorations de la liste des jeux</lang.paintGamelistSaturation>
 		<lang.fanart>avec les fan arts</lang.fanart>
 		<lang.custom>avec le fond perso</lang.custom>
 		<lang.fadedPaint>1-délavée</lang.fadedPaint>

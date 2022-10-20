@@ -47,6 +47,10 @@
 			<color ifSubset="paintSystemForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintSystemForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintSystemSaturation:75%">0.75</saturation>
+			<saturation ifSubset="paintSystemSaturation:50%">0.50</saturation>
+			<saturation ifSubset="paintSystemSaturation:25%">0.25</saturation>
+			<saturation ifSubset="paintSystemSaturation:0%">0</saturation>
 			<opacity>0</opacity>
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
@@ -83,6 +87,10 @@
 			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>
+			<saturation ifSubset="paintGamelistSaturation:50%">0.50</saturation>
+			<saturation ifSubset="paintGamelistSaturation:25%">0.25</saturation>
+			<saturation ifSubset="paintGamelistSaturation:0%">0</saturation>
 			<opacity>0</opacity>
 			<storyboard event="open">
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
@@ -128,7 +136,12 @@
 			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
-			<opacity>0</opacity>
+			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>
+			<saturation ifSubset="paintGamelistSaturation:50%">0.50</saturation>
+			<saturation ifSubset="paintGamelistSaturation:25%">0.25</saturation>
+			<saturation ifSubset="paintGamelistSaturation:0%">0</saturation>
+						<opacity>0</opacity>
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
 			</storyboard>

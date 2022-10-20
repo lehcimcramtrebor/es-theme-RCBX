@@ -107,7 +107,7 @@ by Helmic.-->
     <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
-   </subset>
+	</subset>
     <subset name="spacer 06" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
@@ -117,7 +117,7 @@ by Helmic.-->
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
         <include name="flat" displayName="${lang.flat}"/>
-   </subset>
+	</subset>
     <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
@@ -128,12 +128,19 @@ by Helmic.-->
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
-  </subset>
+	</subset>
+    <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="75%"/>
+        <include name="50%"/>
+        <include name="25%"/>
+        <include name="0%"/>
+   </subset>
     <subset name="spacer 07" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
     <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
-        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
@@ -163,14 +170,21 @@ by Helmic.-->
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
         <include name="no" displayName="${lang.no}"/>
-    </subset>
+	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
-        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
-        <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
-   </subset>
+        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
+        <include name="softPaint" displayName="${lang.softPaint}"/>
+	</subset>
+    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" appliesTo="basic,detailed,grid,gamecarousel">
+        <include name="0%"/>
+        <include name="25%"/>
+        <include name="50%"/>
+        <include name="75%"/>
+        <include name="auto" displayName="${lang.auto}"/>
+	</subset>
      <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
