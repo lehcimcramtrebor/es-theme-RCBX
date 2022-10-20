@@ -25,14 +25,6 @@
 			<pos>0.5 0.2</pos>
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
 			<maxSize>0.3 0.25</maxSize>
-			<storyboard>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
-			</storyboard>			
-			<storyboard ifSubset="carousel:vertical|wheel">
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
-				<animation property="offsetY" from="0.3" to="0.3" mode="linear" duration="600"/>
-				<animation property="offsetY" from="0.3" to="0" mode="easeInOut" duration="150" begin="600"/>
-			</storyboard>			
 		</image>
 		<image name="illustration" region="eu" extra="true"/>
 		<image name="illustration" region="us" extra="true">
@@ -56,5 +48,15 @@
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
 			<offsetX ifSubset="allowIllustrationsCustom:yes">2</offsetX>
 		</video>
+		<image name="illustration" extra="true">
+			<storyboard>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+			</storyboard>			
+			<storyboard ifSubset="carousel:vertical|wheel">
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="offsetY" from="0.3" to="0.3" mode="linear" duration="600"/>
+				<animation property="offsetY" from="0.3" to="0" mode="easeInOut" duration="150" begin="600"/>
+			</storyboard>			
+		</image>
 	</view>
 </theme>
