@@ -172,11 +172,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
 	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
-        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
 	</subset>
     <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="0%"/>
