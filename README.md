@@ -33,6 +33,8 @@ You can move or copy this folder at root of Retrobat folder or at same level the
 ![Base Profile Screenshot 2022 10 14 - 20 43 59 42](https://user-images.githubusercontent.com/59354081/195944810-e344e681-7734-4007-baa3-1768e5f846fc.png)
 ![Base Profile Screenshot 2022 10 14 - 23 21 52 86](https://user-images.githubusercontent.com/59354081/195946595-58519b6a-41f0-4cbb-b283-10a38c22d71e.png)
 ![Base Profile Screenshot 2022 10 14 - 23 23 33 81](https://user-images.githubusercontent.com/59354081/195946600-689c1607-937e-4136-9547-a218d0288c48.png)
+![Base Profile Screenshot 2022 10 20 - 20 45 46 82](https://user-images.githubusercontent.com/59354081/197032453-5b4cf23d-bcbf-44ea-a02d-e663ba4570b5.png)
+![Base Profile Screenshot 2022 10 20 - 20 46 03 21](https://user-images.githubusercontent.com/59354081/197032464-e17333f7-7a50-455f-bd0f-f09f7456bac4.png)
 ![Base Profile Screenshot 2022 10 14 - 20 44 42 20](https://user-images.githubusercontent.com/59354081/195944890-6fc78cbb-4aa3-41ef-b70e-754d71374573.png)
 ![Base Profile Screenshot 2022 10 14 - 23 15 08 06](https://user-images.githubusercontent.com/59354081/195945286-fae6fc6a-bd7f-49d6-b342-4564796f595b.png)
 ![Base Profile Screenshot 2022 10 14 - 23 15 04 83](https://user-images.githubusercontent.com/59354081/195945244-1ae0ad2f-5d0e-4d1a-aefd-f08f87acecbf.png)
