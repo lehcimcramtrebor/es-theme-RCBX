@@ -67,6 +67,7 @@
 		<lang.scanlinesvertical>balayage vertical</lang.scanlinesvertical>
 
 		<lang.randomVideos>jouer</lang.randomVideos>
+		<lang.randomVideosSaturation>saturation (désactive le shader)</lang.randomVideosSaturation>
 		<lang.onlyAudio>seulement l'audio</lang.onlyAudio>
 		<lang.inFrame>dans un cadre</lang.inFrame>
 		<lang.onWall>sur le mur</lang.onWall>

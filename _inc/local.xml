@@ -67,6 +67,7 @@
 		<lang.scanlinesvertical>vertical scanlines</lang.scanlinesvertical>
 
 		<lang.randomVideos>play</lang.randomVideos>
+		<lang.randomVideosSaturation>saturation (disable shader)</lang.randomVideosSaturation>
 		<lang.onlyAudio>only audio</lang.onlyAudio>
 		<lang.inFrame>in frame</lang.inFrame>
 		<lang.onWall>on wall</lang.onWall>

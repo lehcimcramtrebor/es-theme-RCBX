@@ -96,6 +96,13 @@ by Helmic.-->
     <subset name="spacer 05" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
+    <subset name="randomVideosSaturation" displayName="${category.randomVideos} • ${lang.randomVideosSaturation}">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0%">./_inc/cutShader.xml</include>
+        <include name="25%">./_inc/cutShader.xml</include>
+        <include name="50%">./_inc/cutShader.xml</include>
+        <include name="75%">./_inc/cutShader.xml</include>
+	</subset>
 	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}">
         <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
         <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>

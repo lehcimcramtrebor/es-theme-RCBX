@@ -24,7 +24,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
 			<roundCorners>0.05</roundCorners>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders${cut.shader}/dotmask${bypass.shader}.glsl</shader>
 			<color ifSubset="randomShader:no">cccccc</color>
 			<!--carousel vertical-->
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
@@ -39,11 +39,11 @@
 			<size>1 1</size>
 			<opacity>1</opacity>
 			<saturation>1.2</saturation>
-			<color>666666</color>
+			<color>808080</color>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmaskFade${bypass.shader}.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders${cut.shader}/dotmaskFade${bypass.shader}.glsl</shader>
 			<storyboard>
 				<animation property="w" from="0" to="0" mode="linear" duration="500"/>
 				<animation property="w" from="0" to="1" mode="easeInCubic" duration="180" begin="500"/>
@@ -61,7 +61,7 @@
 			<pos>0.5 0.5</pos>
 			<color>aaaaaa</color>
 			<delay>2</delay>
-			<shader ifSubset="randomShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
+			<shader ifSubset="randomShader:yes">:/shaders${cut.shader}/dotmask${bypass.shader}.glsl</shader>
 			<storyboard>
 				<animation property="offsetY" from="-1" to="-1" mode="linear" duration="300"/>
 				<animation property="offsetY" from="-1" to="0" mode="easeOut" duration="450" begin="300"/>
@@ -75,6 +75,12 @@
 		</video>
 		<video name="randomVideo" extra="true" ifSubset="randomVideosAudio:off">
 			<audio>false</audio>
+		</video>
+		<video name="randomVideo" extra="true">
+			<saturation ifSubset="randomVideosSaturation:75%">0.75</saturation>
+			<saturation ifSubset="randomVideosSaturation:50%">0.50</saturation>
+			<saturation ifSubset="randomVideosSaturation:25%">0.25</saturation>
+			<saturation ifSubset="randomVideosSaturation:0%">0</saturation>
 		</video>
 	</view>
 </theme>
