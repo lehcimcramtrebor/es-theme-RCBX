@@ -43,11 +43,23 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		</text>
 		<!--collections-->
 		<text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
-			<text>${lang.collections} : {binding:subSystems}</text>
+			<text>${lang.collections} : {binding:subSystems}
+			
+			
+						
+			
+			
+</text>
 		</text>
 		<!--applications-->
 		<text name="systemInfoEx" extra="true" if="{system.name} == 'flatpak'">
-			<text>${lang.applications} : {binding:total}</text>
+			<text>${lang.applications} : {binding:total}
+			
+						
+			
+			
+			
+</text>
 		</text>
 		<!--elements-->
 		<text name="systemInfoEx" extra="true" if="
@@ -57,9 +69,18 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'screenshots' || 
 		{system.name} == 'retrobat' || 
 		{system.name} == 'tools' || 
+		{system.name} == 'desktop' || 
+		{system.name} == 'karaoke' || 
+		{system.name} == 'superbroswar' || 
 		{system.name} == 'setup'
 		">
-			<text>${lang.elements} : {binding:total}</text>
+			<text>${lang.elements} : {binding:total}
+			
+			
+			
+			
+			
+</text>
 		</text>
 		<!--individual ports-->
 		<text name="systemInfoEx" extra="true" if="
@@ -68,17 +89,25 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'gong' ||
 		{system.name} == 'vitaquake2' ||
 		{system.name} == 'xrick' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
+		{system.name} == 'mrboom' ||
+		{system.name} == 'prboom' ||
+		{system.name} == 'sonicretro' ||
+		{system.name} == 'cannonball' ||
+		{system.name} == 'cavestory' ||
+		{system.name} == 'devilutionx' ||
 		{system.name} == 'zc210' ||
 		{system.name} == 'zc210' ||
 		{system.name} == 'zc210'
 		">
-			<text>${lang.releaseYear} : ${system.releaseYear}
+			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
+			
+			
+			
+			
+			
+			
+			</text>
+			<text if="{system.releaseYear} <= '1957'">
 			
 			
 			
