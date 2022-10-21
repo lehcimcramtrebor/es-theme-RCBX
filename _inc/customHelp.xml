@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<variables>
+		<rcbx ifArch="windows">ROOT OF RETROBAT FOLDER</rcbx>
+		<rcbx ifArch="windows" lang="fr">A LA RACINE DE RETROBAT</rcbx>
+		<rcbx ifNotArch="windows">SAME LEVEL THEN "themes" FOLDER</rcbx>
+		<rcbx ifNotArch="windows" lang="fr">AU MÊME NIVEAU QUE LE DOSSIER "themes"</rcbx>
+	</variables>
+	<view name="system">
+		<image name="helpFrame" extra="true">
+			<zIndex>5000</zIndex>
+			<tile>true</tile>
+			<path>./parts/plain.png</path>
+			<color>20202080</color>
+			<size>0.36 1</size>
+			<pos>0.82 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		<text name="helpInformations" extra="true">
+			<zIndex>5001</zIndex>
+			<size>0.35 0.79</size>
+			<pos>0.82 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>false</forceUppercase>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+			<color>ffffff</color>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
+
+<!--english-->
+<text>CUSTOMIZATION HELP
+
+COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
+
+SYSTEM FULL NAME :
+${system.fullName}
+
+THEME :
+${system.theme}
+
+
+NAME OF FILES YOU CAN ADD:
+
+   - PAINTS :
+${system.theme}.jpg  or  ${system.theme}.png
+
+   - LOGOS :
+${system.theme}.png  or  ${system.theme}.svg
+
+   - VIDEOS :
+${system.theme}.mp4
+
+   - ILLUSTRATIONS :
+${system.theme}.png  or  ${system.theme}.svg</text>
+
+<!--français-->
+<text lang="fr">AIDE À LA CUSTOMISATION
+
+COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
+
+NOM COMPLET DU SYSTÈME :
+${system.fullName}
+
+THÈME :
+${system.theme}
+
+
+NOM DE FICHIERS À AJOUTER :
+
+   - PEINTURES :
+${system.theme}.jpg  ou  ${system.theme}.png
+
+   - LOGOS :
+${system.theme}.png  ou  ${system.theme}.svg
+
+   - VIDÉOS :
+${system.theme}.mp4
+
+   - ILLUSTRATIONS :
+${system.theme}.png  ou  ${system.theme}.svg</text>
+		</text>
+	</view>
+</theme>

@@ -12,6 +12,8 @@
 
 		<lang.neogeo>neo geo version</lang.neogeo>
 
+		<lang.customHelp>customisation help hud</lang.customHelp>
+
 		<lang.colorset>colors set</lang.colorset>
 		<lang.frameColorset>color the whole interface</lang.frameColorset>
 		<lang.wine>wine</lang.wine>
