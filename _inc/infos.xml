@@ -4,16 +4,14 @@
 	<view name="system">
 		<text name="systemInfo" visible="false"/>
 		<text name="systemInfoEx" extra="true">
-		<!-- possible bindings are :
-		{binding:total}, {binding:played}, {binding:favorites}, {binding:hidden}, {binding:gamesPlayed}
-		{binding:mostPlayed}, {binding:lastPlayedDate}
-		-->
+		<!--year null-->
 		<text>${lang.games} : {binding:total}
 ${lang.favorites} : {binding:favorites}
 ${lang.gamesPlayed} : {binding:gamesPlayed}
 ${lang.mostPlayed} : {binding:mostPlayed}
 ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 </text>
+		<!--year available-->
 		<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
 
 ${lang.games} : {binding:total}
@@ -43,14 +41,52 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
                 <animation property="opacity" from="0" to="1" duration="250" mode="easeInOut" begin="650"/>
             </storyboard>
 		</text>
+		<!--collections-->
 		<text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
 			<text>${lang.collections} : {binding:subSystems}</text>
 		</text>
+		<!--applications-->
 		<text name="systemInfoEx" extra="true" if="{system.name} == 'flatpak'">
 			<text>${lang.applications} : {binding:total}</text>
 		</text>
-		<text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'ports' || {system.name} == 'odcommander' || {system.name} == 'screenshots' || {system.name} == 'retrobat' || {system.name} == 'tools' || {system.name} == 'setup'">
+		<!--elements-->
+		<text name="systemInfoEx" extra="true" if="
+		{system.name} == 'library' || 
+		{system.name} == 'ports' || 
+		{system.name} == 'odcommander' || 
+		{system.name} == 'screenshots' || 
+		{system.name} == 'retrobat' || 
+		{system.name} == 'tools' || 
+		{system.name} == 'setup'
+		">
 			<text>${lang.elements} : {binding:total}</text>
+		</text>
+		<!--individual ports-->
+		<text name="systemInfoEx" extra="true" if="
+		{system.name} == 'zc210' ||
+		{system.name} == 'abuse' ||
+		{system.name} == 'gong' ||
+		{system.name} == 'vitaquake2' ||
+		{system.name} == 'xrick' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210' ||
+		{system.name} == 'zc210'
+		">
+			<text>${lang.releaseYear} : ${system.releaseYear}
+			
+			
+			
+			
+			
+			
+			</text>
+		<!--vertical carousels pos-->
 		</text>
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.14 0.37</pos>
