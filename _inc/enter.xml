@@ -19,7 +19,7 @@
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
- 			<text>${system.fullName} (${system.manufacturer})</text>
+ 			<text>${system.fullName} (${system.hardwareType})</text>
  			<text if="{system.name} == 'retrobat'">${lang.retrobat}</text>
  			<text if="{system.name} == 'library'">${lang.library}</text>
  			<text if="{system.name} == 'tools'">${lang.tools}</text>
