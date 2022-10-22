@@ -122,6 +122,18 @@
 		<lang.lastPlayedDate>last played</lang.lastPlayedDate>
 		<lang.releaseYear>release year</lang.releaseYear>
 
+		<lang.games if="
+		{system.name} == 'fpinball' || 
+		{system.name} == 'vpinball' || 
+		{system.name} == 'pinballfx3'
+		">tables</lang.games>
+
+		<lang.gamesPlayed if="
+		{system.name} == 'fpinball' || 
+		{system.name} == 'vpinball' || 
+		{system.name} == 'pinballfx3'
+		">tables played</lang.gamesPlayed>
+
 		<lang.enter>enter</lang.enter>
 		<lang.rating>rating</lang.rating>
 

@@ -122,6 +122,24 @@
 		<lang.lastPlayedDate>dernière partie</lang.lastPlayedDate>
 		<lang.releaseYear>date de sortie</lang.releaseYear>
 
+		<lang.games if="
+		{system.name} == 'fpinball' || 
+		{system.name} == 'vpinball' || 
+		{system.name} == 'pinballfx3'
+		">tables</lang.games>
+
+		<lang.gamesPlayed if="
+		{system.name} == 'fpinball' || 
+		{system.name} == 'vpinball' || 
+		{system.name} == 'pinballfx3'
+		">tables jouées</lang.gamesPlayed>
+
+		<lang.mostPlayed if="
+		{system.name} == 'fpinball' || 
+		{system.name} == 'vpinball' || 
+		{system.name} == 'pinballfx3'
+		">la plus jouée</lang.mostPlayed>
+
 		<lang.enter>explorer la liste</lang.enter>
 		<lang.rating>notation</lang.rating>
 
