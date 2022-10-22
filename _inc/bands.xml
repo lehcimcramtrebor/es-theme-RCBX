@@ -2,6 +2,18 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="system,basic,detailed,grid,gamecarousel">
+		<image name="bandBack" extra="true">
+			<linearSmooth>true</linearSmooth>
+			<zIndex>199</zIndex>
+            <size>0.12 1</size>
+            <origin>0 0.5</origin>
+            <x>0.8</x>
+			<y>0.5</y>
+			<opacity>0.25</opacity>
+			<path>./parts/${n.frame}.png</path>
+			<tile>true</tile>
+			<color>${c.framePlain}</color>
+		</image>
 		<image name="band1,band2,band3,band4" extra="true">
 			<linearSmooth>true</linearSmooth>
 			<zIndex>200</zIndex>
