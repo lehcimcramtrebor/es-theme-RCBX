@@ -71,7 +71,6 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'tools' || 
 		{system.name} == 'desktop' || 
 		{system.name} == 'karaoke' || 
-		{system.name} == 'superbroswar' || 
 		{system.name} == 'setup'
 		">
 			<text>${lang.elements} : {binding:total}
@@ -95,6 +94,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'cannonball' ||
 		{system.name} == 'cavestory' ||
 		{system.name} == 'devilutionx' ||
+		{system.name} == 'superbroswar' || 
 		{system.name} == 'sdlpop'
 		">
 			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
