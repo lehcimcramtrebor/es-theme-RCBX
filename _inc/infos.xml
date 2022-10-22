@@ -67,6 +67,8 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'ports' || 
 		{system.name} == 'odcommander' || 
 		{system.name} == 'screenshots' || 
+		{system.name} == 'imageviewer' || 
+		{system.name} == 'kodi' || 
 		{system.name} == 'retrobat' || 
 		{system.name} == 'tools' || 
 		{system.name} == 'desktop' || 
