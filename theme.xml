@@ -137,7 +137,7 @@ by Helmic.-->
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
 	</subset>
-    <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}">
+    <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}" ifSubset="paintSystem:yes">
         <include name="0%"/>
         <include name="25%"/>
         <include name="50%"/>
@@ -190,7 +190,7 @@ by Helmic.-->
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
 	</subset>
-    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" appliesTo="basic,detailed,grid,gamecarousel">
+    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="0%"/>
         <include name="25%"/>
         <include name="50%"/>
