@@ -97,6 +97,13 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'cavestory' ||
 		{system.name} == 'devilutionx' ||
 		{system.name} == 'superbroswar' || 
+		{system.name} == 'eduke32' || 
+		{system.name} == 'gzdoom' || 
+		{system.name} == 'raze' || 
+		{system.name} == 'tyrquake' || 
+		{system.name} == 'xash3d_fwgs' || 
+		{system.name} == 'ecwolf' || 
+		{system.name} == 'fury' || 
 		{system.name} == 'sdlpop'
 		">
 			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
