@@ -98,14 +98,14 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'sdlpop'
 		">
 			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 			
 			
 			
 			
-			
-			</text>
-			<text if="{system.releaseYear} <= '1957'">
+						</text>
+			<text if="{system.releaseYear} <= '1957'">${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 			
 			
