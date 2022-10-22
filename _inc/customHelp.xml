@@ -43,6 +43,35 @@ ${system.fullName}
 THEME :
 ${system.theme}
 
+CATEGORY :
+${system.hardwareType}
+
+NAME OF FILES YOU CAN ADD:
+
+   - PAINTS :
+${system.theme}.jpg  or  ${system.theme}.png
+
+   - LOGOS :
+${system.theme}.png  or  ${system.theme}.svg
+
+   - VIDEOS :
+${system.theme}.mp4
+
+   - ILLUSTRATIONS :
+${system.theme}.png  or  ${system.theme}.svg</text>
+
+<text if="{system.group} != ''">CUSTOMIZATION HELP
+
+COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
+
+SYSTEM FULL NAME :
+${system.fullName}
+
+THEME :
+${system.theme}  ( GROUP : ${system.group} )
+
+CATEGORY :
+${system.hardwareType}
 
 NAME OF FILES YOU CAN ADD:
 
@@ -69,6 +98,33 @@ ${system.fullName}
 THÈME :
 ${system.theme}
 
+CATÉGORIE : ${system.hardwareType}
+
+NOM DE FICHIERS À AJOUTER :
+
+   - PEINTURES :
+${system.theme}.jpg  ou  ${system.theme}.png
+
+   - LOGOS :
+${system.theme}.png  ou  ${system.theme}.svg
+
+   - VIDÉOS :
+${system.theme}.mp4
+
+   - ILLUSTRATIONS :
+${system.theme}.png  ou  ${system.theme}.svg</text>
+
+<text lang="fr" if="{system.group} != ''">AIDE À LA CUSTOMISATION
+
+COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
+
+NOM COMPLET DU SYSTÈME :
+${system.fullName}
+
+THÈME :
+${system.theme}  ( GROUPÉ AVEC : ${system.group} )
+
+CATÉGORIE : ${system.hardwareType}
 
 NOM DE FICHIERS À AJOUTER :
 
