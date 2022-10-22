@@ -120,15 +120,15 @@ by Helmic.-->
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
     <subset name="backgroundFx" displayName="${category.wall} • ${lang.backgroundFx}">
+        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
-        <include name="flat" displayName="${lang.flat}"/>
 	</subset>
     <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
-        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
 	</subset>
     <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
@@ -179,9 +179,9 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel">
+        <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
-        <include name="no" displayName="${lang.no}"/>
 	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel">
         <include name="softPaint" displayName="${lang.softPaint}"/>
