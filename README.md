@@ -25,11 +25,15 @@ Old Batocera Music themes by Waterflame - https://www.youtube.com/user/waterflam
 
 Comix Zone album from https://downloads.khinsider.com/
 
+At first start of theme, it wears his simplest look but you can activate both system paints, gamelist paints and background fx for more visuals.
+
 Customization:
 
 You can use "_rcbxCustom" folder to customize parts of theme like system view wall paints, read "README" files.
 You can move or copy this folder at root of Retrobat folder or at same level then "themes" folder for other distributions (root of SHARE for Batocera).
 
+![Base Profile Screenshot 2022 10 22 - 08 13 26 55](https://user-images.githubusercontent.com/59354081/197323526-68b65930-f007-41ed-8eac-8210e217a22a.png)
+![Base Profile Screenshot 2022 10 22 - 08 13 37 45](https://user-images.githubusercontent.com/59354081/197323530-43d26802-142c-4583-aa9e-2b9bee3dff51.png)
 ![Base Profile Screenshot 2022 10 14 - 20 43 59 42](https://user-images.githubusercontent.com/59354081/195944810-e344e681-7734-4007-baa3-1768e5f846fc.png)
 ![Base Profile Screenshot 2022 10 14 - 23 21 52 86](https://user-images.githubusercontent.com/59354081/195946595-58519b6a-41f0-4cbb-b283-10a38c22d71e.png)
 ![Base Profile Screenshot 2022 10 14 - 23 23 33 81](https://user-images.githubusercontent.com/59354081/195946600-689c1607-937e-4136-9547-a218d0288c48.png)
