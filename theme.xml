@@ -52,8 +52,8 @@ by Helmic.-->
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
      <subset name="colorset" displayName="${category.interface} • ${lang.colorset}">
-        <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
         <include name="smoke" displayName="${lang.smoke}">./_inc/colors/smoke.xml</include>
+        <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
         <include name="mars" displayName="${lang.mars}">./_inc/colors/mars.xml</include>
         <include name="wine" displayName="${lang.wine}">./_inc/colors/wine.xml</include>
         <include name="sinople" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
@@ -85,13 +85,13 @@ by Helmic.-->
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
     </subset>
      <subset name="mode" displayName="${category.frames} • ${lang.mode}">
-        <include name="transparent" displayName="${lang.transparent}"/>
         <include name="plain" displayName="${lang.plain}"/>
+        <include name="transparent" displayName="${lang.transparent}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
      <subset name="texture" displayName="${category.frames} • ${lang.texture}">
-        <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
+        <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
     </subset>
     <subset name="spacer 05" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
