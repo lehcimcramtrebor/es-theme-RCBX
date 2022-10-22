@@ -42,8 +42,10 @@
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
 			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
+			<colorEnd ifSubset="mode:transparent,backgroundFx:flat">${c.frameTransparent}</colorEnd>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
 			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
+			<colorEnd ifSubset="mode:translucent,backgroundFx:flat">${c.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 		</image>
 	</view>
