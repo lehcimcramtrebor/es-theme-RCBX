@@ -95,9 +95,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		{system.name} == 'cannonball' ||
 		{system.name} == 'cavestory' ||
 		{system.name} == 'devilutionx' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210' ||
-		{system.name} == 'zc210'
+		{system.name} == 'sdlpop'
 		">
 			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
 			
