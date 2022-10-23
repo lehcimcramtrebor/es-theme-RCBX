@@ -29,7 +29,7 @@ At first start of theme, it wears his simplest look but you can activate both sy
 
 Customization:
 
-You can use "_rcbxCustom" folder to customize parts of theme like system view wall paints, read "README" files.
+You can use "_rcbxCustom" folder to customize parts of theme like wall paints, logos, illustrations, videos, messages and also all localisation of theme, see read "README" files.
 You can move or copy this folder at root of Retrobat folder or at same level then "themes" folder for other distributions (root of SHARE for Batocera).
 
 ![Base Profile Screenshot 2022 10 22 - 08 13 26 55](https://user-images.githubusercontent.com/59354081/197323526-68b65930-f007-41ed-8eac-8210e217a22a.png)
