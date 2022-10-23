@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><view name="system"><text name="enter" extra="true">
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!--------------------------------EDIT TEXT BETWEEN <text> AND </text>------------------------------------------>
+
+
+
+
+
+
+
+
+
+<text>access to linux apps</text>
+<text lang="fr">accédez à vos applications linux</text>
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+</text></view></theme>

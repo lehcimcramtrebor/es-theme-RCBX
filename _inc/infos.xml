@@ -1,9 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
+	<include>./../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
+	<include ifArch="windows">./../../../../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
+	<include ifNotArch="windows">./../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
+
 	<view name="system">
 		<text name="systemInfo" visible="false"/>
+
 		<text name="systemInfoEx" extra="true">
+
+
+
 		<!--year null-->
 		<text>${lang.games} : {binding:total}
 ${lang.favorites} : {binding:favorites}
@@ -11,6 +19,9 @@ ${lang.gamesPlayed} : {binding:gamesPlayed}
 ${lang.mostPlayed} : {binding:mostPlayed}
 ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 </text>
+
+
+
 		<!--year available-->
 		<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
 
@@ -20,6 +31,19 @@ ${lang.gamesPlayed} : {binding:gamesPlayed}
 ${lang.mostPlayed} : {binding:mostPlayed}
 ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 </text>
+
+
+
+		<!--year added in customs-->
+		<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.games} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.gamesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayed} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+</text>
+
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
@@ -41,8 +65,11 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
                 <animation property="opacity" from="0" to="1" duration="250" mode="easeInOut" begin="650"/>
             </storyboard>
 		</text>
+
+
+
 		<!--collections-->
-		<text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'collections'">
 			<text>${lang.collections} : {binding:subSystems}
 			
 			
@@ -51,8 +78,11 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 </text>
 		</text>
+
+
+
 		<!--applications-->
-		<text name="systemInfoEx" extra="true" if="{system.name} == 'flatpak'">
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'apps'">
 			<text>${lang.applications} : {binding:total}
 			
 						
@@ -61,20 +91,10 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 </text>
 		</text>
-		<!--elements-->
-		<text name="systemInfoEx" extra="true" if="
-		{system.name} == 'library' || 
-		{system.name} == 'ports' || 
-		{system.name} == 'odcommander' || 
-		{system.name} == 'screenshots' || 
-		{system.name} == 'imageviewer' || 
-		{system.name} == 'kodi' || 
-		{system.name} == 'retrobat' || 
-		{system.name} == 'tools' || 
-		{system.name} == 'desktop' || 
-		{system.name} == 'karaoke' || 
-		{system.name} == 'setup'
-		">
+
+
+		<!--custom datable elements-->
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'elements'">
 			<text>${lang.elements} : {binding:total}
 			
 			
@@ -82,30 +102,27 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 			
 </text>
+			<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.elements} : {binding:total}
+			
+			
+			
+</text>
+			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.elements} : {binding:total}
+			
+			
+			
+</text>
 		</text>
+
+
+
+
 		<!--individual ports-->
-		<text name="systemInfoEx" extra="true" if="
-		{system.name} == 'zc210' ||
-		{system.name} == 'abuse' ||
-		{system.name} == 'gong' ||
-		{system.name} == 'vitaquake2' ||
-		{system.name} == 'xrick' ||
-		{system.name} == 'mrboom' ||
-		{system.name} == 'prboom' ||
-		{system.name} == 'sonicretro' ||
-		{system.name} == 'cannonball' ||
-		{system.name} == 'cavestory' ||
-		{system.name} == 'devilutionx' ||
-		{system.name} == 'superbroswar' || 
-		{system.name} == 'eduke32' || 
-		{system.name} == 'gzdoom' || 
-		{system.name} == 'raze' || 
-		{system.name} == 'tyrquake' || 
-		{system.name} == 'xash3d_fwgs' || 
-		{system.name} == 'ecwolf' || 
-		{system.name} == 'fury' || 
-		{system.name} == 'sdlpop'
-		">
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'port'">
 			<text if="{system.releaseYear} >= '1958'">${lang.releaseYear} : ${system.releaseYear}
 			
 ${lang.lastPlayedDate} : {binding:lastPlayedDate}
@@ -122,8 +139,55 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			
 			
 			</text>
-		<!--vertical carousels pos-->
+			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+			
+			
+			
+</text>
 		</text>
+
+		<!--pinballs-->
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'pinball'">
+
+		<!--year null-->
+		<text>${lang.tables} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.tablesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayedTable} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+</text>
+
+
+
+		<!--year available-->
+		<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.tables} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.tablesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayedTable} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+</text>
+
+
+
+		<!--year added in customs-->
+		<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.tables} : {binding:total}
+${lang.favorites} : {binding:favorites}
+${lang.tablesPlayed} : {binding:gamesPlayed}
+${lang.mostPlayedTable} : {binding:mostPlayed}
+${lang.lastPlayedDate} : {binding:lastPlayedDate}
+</text>
+		</text>
+
+
+
+
+		<!--vertical carousels pos-->
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.14 0.37</pos>
 		</text>

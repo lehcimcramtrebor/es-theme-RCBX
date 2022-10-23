@@ -119,28 +119,15 @@
 		<lang.elements>items</lang.elements>
 		<lang.collections>collections</lang.collections>
 		<lang.applications>apps</lang.applications>
-		<lang.retrobat>setup the best retrogaming experience</lang.retrobat>
-		<lang.library>access to library</lang.library>
-		<lang.tools>access tools</lang.tools>
-		<lang.setup>access to setup</lang.setup>
-		<lang.flatpak>access to apps</lang.flatpak>
 		<lang.favorites>favorites</lang.favorites>
 		<lang.gamesPlayed>games played</lang.gamesPlayed>
 		<lang.mostPlayed>most played</lang.mostPlayed>
 		<lang.lastPlayedDate>last played</lang.lastPlayedDate>
 		<lang.releaseYear>release year</lang.releaseYear>
 
-		<lang.games if="
-		{system.name} == 'fpinball' || 
-		{system.name} == 'vpinball' || 
-		{system.name} == 'pinballfx3'
-		">tables</lang.games>
-
-		<lang.gamesPlayed if="
-		{system.name} == 'fpinball' || 
-		{system.name} == 'vpinball' || 
-		{system.name} == 'pinballfx3'
-		">tables played</lang.gamesPlayed>
+		<lang.tables>tables</lang.tables>
+		<lang.tablesPlayed>tables played</lang.tablesPlayed>
+		<lang.mostPlayedTable>most played</lang.mostPlayedTable>
 
 		<lang.rating>rating</lang.rating>
 

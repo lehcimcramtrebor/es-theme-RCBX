@@ -119,34 +119,15 @@
 		<lang.elements>éléments</lang.elements>
 		<lang.collections>collections</lang.collections>
 		<lang.applications>applications</lang.applications>
-		<lang.retrobat>paramétrez la meilleure expérience retrogaming</lang.retrobat>
-		<lang.library>accédez à votre librairie</lang.library>
-		<lang.tools>accédez aux outils</lang.tools>
-		<lang.setup>accédez aux réglages</lang.setup>
-		<lang.flatpak>accédez à vos applications linux</lang.flatpak>
 		<lang.favorites>favoris</lang.favorites>
 		<lang.gamesPlayed>jeux joués</lang.gamesPlayed>
 		<lang.mostPlayed>le plus joué</lang.mostPlayed>
 		<lang.lastPlayedDate>dernière partie</lang.lastPlayedDate>
 		<lang.releaseYear>date de sortie</lang.releaseYear>
 
-		<lang.games if="
-		{system.name} == 'fpinball' || 
-		{system.name} == 'vpinball' || 
-		{system.name} == 'pinballfx3'
-		">tables</lang.games>
-
-		<lang.gamesPlayed if="
-		{system.name} == 'fpinball' || 
-		{system.name} == 'vpinball' || 
-		{system.name} == 'pinballfx3'
-		">tables jouées</lang.gamesPlayed>
-
-		<lang.mostPlayed if="
-		{system.name} == 'fpinball' || 
-		{system.name} == 'vpinball' || 
-		{system.name} == 'pinballfx3'
-		">la plus jouée</lang.mostPlayed>
+		<lang.tables>tables</lang.tables>
+		<lang.tablesPlayed>tables jouées</lang.tablesPlayed>
+		<lang.mostPlayedTable>la plus jouée</lang.mostPlayedTable>
 
 		<lang.rating>notation</lang.rating>
 

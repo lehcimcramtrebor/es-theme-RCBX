@@ -21,11 +21,6 @@
 			<glowSize>1</glowSize>
  			<text>${system.fullName}</text>
  			<text if="{system.hardwareType} != 'None'">${system.fullName} (${system.hardwareType})</text>
- 			<text if="{system.name} == 'retrobat'">${lang.retrobat}</text>
- 			<text if="{system.name} == 'library'">${lang.library}</text>
- 			<text if="{system.name} == 'tools'">${lang.tools}</text>
- 			<text if="{system.name} == 'setup'">${lang.setup}</text>
- 			<text if="{system.name} == 'flatpak'">${lang.flatpak}</text>
 		</text>
 		<image name="enterIcon" extra="true">
 			<zIndex>1000</zIndex>
