@@ -62,4 +62,7 @@
 			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.61 0.75</pos>
 		</image>
 	</view>
+	<include>./../_rcbxCustom/enterMessage/${system.theme}.xml</include>
+	<include ifArch="windows">./../../../../../_rcbxCustom/enterMessage/${system.theme}.xml</include>
+	<include ifNotArch="windows">./../../_rcbxCustom/enterMessage/${system.theme}.xml</include>
 </theme>
