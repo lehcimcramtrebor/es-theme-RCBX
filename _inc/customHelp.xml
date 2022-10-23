@@ -58,7 +58,10 @@ ${system.theme}.png  or  ${system.theme}.svg
 ${system.theme}.mp4
 
    - ILLUSTRATIONS :
-${system.theme}.png  or  ${system.theme}.svg</text>
+${system.theme}.png  or  ${system.theme}.svg
+
+   - ENTER MESSAGES :
+${system.theme}.xml</text>
 
 <text if="{system.group} != ''">CUSTOMIZATION HELP
 
@@ -85,7 +88,10 @@ ${system.theme}.png  or  ${system.theme}.svg
 ${system.theme}.mp4
 
    - ILLUSTRATIONS :
-${system.theme}.png  or  ${system.theme}.svg</text>
+${system.theme}.png  or  ${system.theme}.svg
+
+   - ENTER MESSAGES :
+${system.theme}.xml</text>
 
 <!--français-->
 <text lang="fr">AIDE À LA CUSTOMISATION
@@ -112,7 +118,10 @@ ${system.theme}.png  ou  ${system.theme}.svg
 ${system.theme}.mp4
 
    - ILLUSTRATIONS :
-${system.theme}.png  ou  ${system.theme}.svg</text>
+${system.theme}.png  ou  ${system.theme}.svg
+
+   - MESSAGES D'ACCUEIL:
+${system.theme}.xml</text>
 
 <text lang="fr" if="{system.group} != ''">AIDE À LA CUSTOMISATION
 
@@ -138,7 +147,10 @@ ${system.theme}.png  ou  ${system.theme}.svg
 ${system.theme}.mp4
 
    - ILLUSTRATIONS :
-${system.theme}.png  ou  ${system.theme}.svg</text>
+${system.theme}.png  ou  ${system.theme}.svg
+
+   - MESSAGES D'ACCUEIL:
+${system.theme}.xml</text>
 		</text>
 	</view>
 </theme>
