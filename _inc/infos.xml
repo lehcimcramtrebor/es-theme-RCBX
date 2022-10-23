@@ -93,7 +93,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		</text>
 
 
-		<!--custom datable elements-->
+		<!--elements-->
 		<text name="systemInfoEx" extra="true" if="{custom.type} == 'elements'">
 			<text>${lang.elements} : {binding:total}
 			
@@ -112,6 +112,87 @@ ${lang.elements} : {binding:total}
 			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
 
 ${lang.elements} : {binding:total}
+			
+			
+			
+</text>
+		</text>
+
+
+
+		<!--images-->
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'images'">
+			<text>${lang.images} : {binding:total}
+			
+			
+			
+			
+			
+</text>
+			<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.images} : {binding:total}
+			
+			
+			
+</text>
+			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.images} : {binding:total}
+			
+			
+			
+</text>
+		</text>
+
+
+
+		<!--videos-->
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'videos'">
+			<text>${lang.videos} : {binding:total}
+			
+			
+			
+			
+			
+</text>
+			<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.videos} : {binding:total}
+			
+			
+			
+</text>
+			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.videos} : {binding:total}
+			
+			
+			
+</text>
+		</text>
+
+
+
+		<!--music-->
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'music'">
+			<text>${lang.music} : {binding:total}
+			
+			
+			
+			
+			
+</text>
+			<text if="{system.releaseYearOrNull} >= '1958'">${lang.releaseYear} : ${system.releaseYearOrNull}
+
+${lang.music} : {binding:total}
+			
+			
+			
+</text>
+			<text if="${custom.year} >= '1958'">${lang.releaseYear} : ${custom.year}
+
+${lang.music} : {binding:total}
 			
 			
 			

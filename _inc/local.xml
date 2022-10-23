@@ -125,6 +125,10 @@
 		<lang.lastPlayedDate>last played</lang.lastPlayedDate>
 		<lang.releaseYear>release year</lang.releaseYear>
 
+		<lang.images>pictures</lang.images>
+		<lang.videos>videos</lang.videos>
+		<lang.music>songs</lang.music>
+
 		<lang.tables>tables</lang.tables>
 		<lang.tablesPlayed>tables played</lang.tablesPlayed>
 		<lang.mostPlayedTable>most played</lang.mostPlayedTable>

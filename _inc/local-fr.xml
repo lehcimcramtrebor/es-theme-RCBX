@@ -125,6 +125,10 @@
 		<lang.lastPlayedDate>dernière partie</lang.lastPlayedDate>
 		<lang.releaseYear>date de sortie</lang.releaseYear>
 
+		<lang.images>images</lang.images>
+		<lang.videos>vidéos</lang.videos>
+		<lang.music>titres</lang.music>
+
 		<lang.tables>tables</lang.tables>
 		<lang.tablesPlayed>tables jouées</lang.tablesPlayed>
 		<lang.mostPlayedTable>la plus jouée</lang.mostPlayedTable>
