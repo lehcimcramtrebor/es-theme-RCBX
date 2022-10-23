@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="system">
+		<!--in frame-->
+		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
+			<shader>:/shaders${cut.shader}/dotmask${bypass.shader}.glsl</shader>
+		</video>
+		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">
+			<shader>:/shaders${cut.shader}/dotmaskFade${bypass.shader}.glsl</shader>
+		</video>
+		<!--full screen-->
+		<video name="randomVideo" extra="true" ifSubset="randomVideos:fullScreen">
+			<shader>:/shaders${cut.shader}/dotmask${bypass.shader}.glsl</shader>
+		</video>
+	</view>
+</theme>

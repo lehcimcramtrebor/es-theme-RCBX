@@ -112,7 +112,7 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<include>./_inc/random${bypass.shader}.xml</include>
-    <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:onlyAudio|inFrame|onWall|fullScreen">
+    <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:asPaint|inFrame|onWall|fullScreen">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
 	</subset>

@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<subset name="randomShader" displayName="${category.randomVideos} • ${lang.randomShader}" ifSubset="randomVideosSaturation:auto">
-        <include name="yes" displayName="${lang.yes}"/>
+	<subset name="randomShader" displayName="${category.randomVideos} • ${lang.randomShader}" ifNotArch="windows,x86_64" ifSubset="randomVideosSaturation:auto">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}">./systemShaders.xml</include>
+    </subset>
+	<subset name="randomShader" displayName="${category.randomVideos} • ${lang.randomShader}" ifArch="windows,x86_64" ifSubset="randomVideosSaturation:auto">
+        <include name="yes" displayName="${lang.yes}">./systemShaders.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
 </theme>

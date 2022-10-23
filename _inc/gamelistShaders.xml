@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="detailed,grid,gamecarousel">
+		<video name="md_video">
+			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
+		</video>
+		<image name="md_image">
+			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
+		</image>
+	</view>
+</theme>

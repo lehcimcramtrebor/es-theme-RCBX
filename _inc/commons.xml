@@ -43,7 +43,6 @@
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
-			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 			<color ifSubset="mdShader:no">cccccc</color>
 			<roundCorners>0.015</roundCorners>
 			<storyboard event="open">
@@ -70,7 +69,6 @@
 			<origin>0 0</origin>
 			<pos>0.45 0.173</pos>
 			<maxSize>0.34 0.424</maxSize>
-			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 			<color ifSubset="mdShader:no">cccccc</color>
 			<roundCorners>0.015</roundCorners>
 			<storyboard event="open">
