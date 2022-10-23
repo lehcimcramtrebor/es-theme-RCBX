@@ -2,6 +2,14 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<variables>
+        <lang.pp.donation>soutenir les développeurs</lang.pp.donation>
+		<lang.pp.themecreator>le créateur de ce thème</lang.pp.themecreator>
+		<lang.pp.retrobat>retrobat</lang.pp.retrobat>
+		<lang.pp.batocera>batocera</lang.pp.batocera>
+		<lang.pp.emuelec>emuelec</lang.pp.emuelec>
+		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
+		<lang.pp.no>non</lang.pp.no>
+
 		<category.interface>interface</category.interface>
 		<category.music>musique</category.music>
 		<category.carousel>carrousel</category.carousel>

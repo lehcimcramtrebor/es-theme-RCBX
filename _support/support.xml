@@ -7,7 +7,7 @@ By Helmic
 <theme>
 <formatVersion>7</formatVersion>
 
-       <variables>
+<!--       <variables>
 
         <lang.pp.donation>support developers</lang.pp.donation>
         <lang.pp.donation lang="fr">soutenir les développeurs</lang.pp.donation>
@@ -26,7 +26,7 @@ By Helmic
 		<lang.pp.no>no</lang.pp.no>
 		<lang.pp.no lang="fr">non</lang.pp.no>
 
-	</variables>
+	</variables>-->
 
     <subset name="donation" displayName="${lang.pp.donation}">
 		<include name="no" displayName="${lang.pp.no}"/>
