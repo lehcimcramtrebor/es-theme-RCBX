@@ -25,6 +25,7 @@
  			<text if="{system.hardwareType} == 'system'">${system.fullName} (${lang.system})</text>
  			<text if="{system.hardwareType} == 'auto collection'">${system.fullName} (${lang.auto-collection})</text>
  			<text if="{system.hardwareType} == 'custom collection'">${system.fullName} (${lang.custom-collection})</text>
+ 			<text if="{system.hardwareType} == 'library'">${system.fullName} (${lang.library})</text>
 
  			<text if="{system.theme} == 'custom-collections'">${system.fullName} (${lang.auto-collections})</text>
 		</text>
