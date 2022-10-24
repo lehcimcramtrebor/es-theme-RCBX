@@ -23,7 +23,7 @@
 			<pos>0.82 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.018</fontSize>
 			<forceUppercase>false</forceUppercase>
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
@@ -33,21 +33,15 @@
 			<glowSize>1</glowSize>
 
 <!--english-->
-<text>CUSTOMIZATION HELP
-
-COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
+<text>CUSTOMIZATION HELP: COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
 
 SYSTEM FULL NAME :
-${system.fullName}
+${system.fullName} (${system.hardwareType})
 
-THEME :
-${system.theme}
-
-CATEGORY :
-${system.hardwareType}
-
-NAME OF FILES YOU CAN ADD:
-
+THEME : ${system.theme}
+--------------------------------------------------
+WHAT YOU CAN CUSTOMIZE:
+--------------------------------------------------
    - PAINTS :
 ${system.theme}.jpg  or  ${system.theme}.png
 
@@ -64,23 +58,23 @@ ${system.theme}.mp3 or ${system.theme}.ogg
 ${system.theme}.png  or  ${system.theme}.svg
 
    - ENTER MESSAGES OR EXTENDED INFOS :
-${system.theme}.xml</text>
+${system.theme}.xml
 
-<text if="{system.group} != ''">CUSTOMIZATION HELP
+   - SYSTEM SCROLL SOUND :
+system.wav
 
-COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
+   - GAMELIST SCROLL SOUNDS :
+${system.theme}.wav - gamelist.wav - grid.wav - gamecarousel.wav</text>
+
+<text if="{system.group} != ''">CUSTOMIZATION HELP: COPY  "_rcbxCustom"  FOLDER AT  ${rcbx}  TO CUSTOMIZE WITHOUT LOOSE ANY WORK WHEN YOU UPDATE THEME.
 
 SYSTEM FULL NAME :
-${system.fullName}
+${system.fullName} (${system.hardwareType})
 
-THEME :
-${system.theme}  ( GROUP : ${system.group} )
-
-CATEGORY :
-${system.hardwareType}
-
-NAME OF FILES YOU CAN ADD:
-
+THEME : ${system.theme}  ( GROUP : ${system.group} )
+--------------------------------------------------
+WHAT YOU CAN CUSTOMIZE:
+--------------------------------------------------
    - PAINTS :
 ${system.theme}.jpg  or  ${system.theme}.png
 
@@ -97,23 +91,24 @@ ${system.theme}.mp3 or ${system.theme}.ogg
 ${system.theme}.png  or  ${system.theme}.svg
 
    - ENTER MESSAGES OR EXTENDED INFOS :
-${system.theme}.xml</text>
+${system.theme}.xml
+
+   - SYSTEM SCROLL SOUND :
+system.wav
+
+   - GAMELIST SCROLL SOUNDS :
+${system.theme}.wav - gamelist.wav - grid.wav - gamecarousel.wav</text>
 
 <!--français-->
-<text lang="fr">AIDE À LA CUSTOMISATION
-
-COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
+<text lang="fr">AIDE À LA CUSTOMISATION: COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
 
 NOM COMPLET DU SYSTÈME :
-${system.fullName}
+${system.fullName} (${system.hardwareType})
 
-THÈME :
-${system.theme}
-
-CATÉGORIE : ${system.hardwareType}
-
-NOM DE FICHIERS À AJOUTER :
-
+THÈME : ${system.theme}
+--------------------------------------------------
+CE QUE VOUS POUVEZ PERSONNALISER :
+--------------------------------------------------
    - PEINTURES :
 ${system.theme}.jpg  ou  ${system.theme}.png
 
@@ -130,22 +125,23 @@ ${system.theme}.mp3 ou ${system.theme}.ogg
 ${system.theme}.png  ou  ${system.theme}.svg
 
    - MESSAGES D'ACCUEIL OU INFOS :
-${system.theme}.xml</text>
+${system.theme}.xml
 
-<text lang="fr" if="{system.group} != ''">AIDE À LA CUSTOMISATION
+   - SON DE SÉLECTION DES SYSTÈMES :
+system.wav
 
-COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
+   - SONS DE SÉLECTION DES JEUX :
+${system.theme}.wav - gamelist.wav - grid.wav - gamecarousel.wav</text>
+
+<text lang="fr" if="{system.group} != ''">AIDE À LA CUSTOMISATION: COPIEZ LE DOSSIER  "_rcbxCustom"  ${rcbx}  POUR PERSONNALISER RCBX SANS PERDRE VOTRE TRAVAIL LORS D'UNE MISE À JOUR DU THÈME.
 
 NOM COMPLET DU SYSTÈME :
-${system.fullName}
+${system.fullName} (${system.hardwareType})
 
-THÈME :
-${system.theme}  ( GROUPÉ AVEC : ${system.group} )
-
-CATÉGORIE : ${system.hardwareType}
-
-NOM DE FICHIERS À AJOUTER :
-
+THÈME : ${system.theme}  ( GROUPÉ AVEC : ${system.group} )
+--------------------------------------------------
+CE QUE VOUS POUVEZ PERSONNALISER :
+--------------------------------------------------
    - PEINTURES :
 ${system.theme}.jpg  ou  ${system.theme}.png
 
@@ -162,7 +158,13 @@ ${system.theme}.mp3 ou ${system.theme}.ogg
 ${system.theme}.png  ou  ${system.theme}.svg
 
    - MESSAGES D'ACCUEIL OU INFOS ::
-${system.theme}.xml</text>
+${system.theme}.xml
+
+   - SON DE SÉLECTION DES SYSTÈMES :
+system.wav
+
+   - SONS DE SÉLECTION DES JEUX :
+${system.theme}.wav - gamelist.wav - grid.wav - gamecarousel.wav</text>
 		</text>
 	</view>
 </theme>
