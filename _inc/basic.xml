@@ -58,8 +58,11 @@
 			<forceUppercase>true</forceUppercase>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 			<scrollSound>./../_rcbxCustom/scrollSounds/gamelist.wav</scrollSound>
+			<scrollSound>./../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/gamelist.wav</scrollSound>
+			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/gamelist.wav</scrollSound>
+			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<lines>15</lines>
 			</textlist>
 	</view>

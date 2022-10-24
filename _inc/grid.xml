@@ -28,8 +28,11 @@
             <size>0.39 0.78</size>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 			<scrollSound>./../_rcbxCustom/scrollSounds/grid.wav</scrollSound>
+			<scrollSound>./../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/grid.wav</scrollSound>
+			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/grid.wav</scrollSound>
+			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<margin>0 0.0125</margin>
 			<padding>0.0125 0.025 0.0125 0</padding>
 			<autoLayout>2 2</autoLayout>
