@@ -53,6 +53,9 @@
 			<maxLogoCount>9</maxLogoCount>
 			<imageSource>marquee</imageSource>
 			<scrollSound>./sounds/scroll.wav</scrollSound>
+			<scrollSound>./../_rcbxCustom/scrollSounds/gamecarousel.wav</scrollSound>
+			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/gamecarousel.wav</scrollSound>
+			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/gamecarousel.wav</scrollSound>
             <logoRotation>28</logoRotation>
             <logoRotationOrigin>-1.8 0.54</logoRotationOrigin>
 			<origin ifSubset="bigGamecarousel:yes">0 0</origin>

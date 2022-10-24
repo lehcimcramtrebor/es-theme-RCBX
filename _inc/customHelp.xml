@@ -60,7 +60,7 @@ ${system.theme}.mp4
    - ILLUSTRATIONS :
 ${system.theme}.png  or  ${system.theme}.svg
 
-   - ENTER MESSAGES :
+   - ENTER MESSAGES OR EXTENDED INFOS :
 ${system.theme}.xml</text>
 
 <text if="{system.group} != ''">CUSTOMIZATION HELP
@@ -90,7 +90,7 @@ ${system.theme}.mp4
    - ILLUSTRATIONS :
 ${system.theme}.png  or  ${system.theme}.svg
 
-   - ENTER MESSAGES :
+   - ENTER MESSAGES OR EXTENDED INFOS :
 ${system.theme}.xml</text>
 
 <!--français-->
@@ -120,7 +120,7 @@ ${system.theme}.mp4
    - ILLUSTRATIONS :
 ${system.theme}.png  ou  ${system.theme}.svg
 
-   - MESSAGES D'ACCUEIL:
+   - MESSAGES D'ACCUEIL OU INFOS :
 ${system.theme}.xml</text>
 
 <text lang="fr" if="{system.group} != ''">AIDE À LA CUSTOMISATION
@@ -149,7 +149,7 @@ ${system.theme}.mp4
    - ILLUSTRATIONS :
 ${system.theme}.png  ou  ${system.theme}.svg
 
-   - MESSAGES D'ACCUEIL:
+   - MESSAGES D'ACCUEIL OU INFOS ::
 ${system.theme}.xml</text>
 		</text>
 	</view>
