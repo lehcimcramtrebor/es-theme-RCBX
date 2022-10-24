@@ -39,6 +39,7 @@
 		<lang.useRetrobatMusic>retrobat album</lang.useRetrobatMusic>
 		<lang.useOldBatoceraMusic>old batocera musics</lang.useOldBatoceraMusic>
 		<lang.notAllowMusic>silence</lang.notAllowMusic>
+		<lang.useCustomMusic>by system rcbx custom music</lang.useCustomMusic>
 
 		<lang.mode>aspect</lang.mode>
 		<lang.plain>plain</lang.plain>

@@ -37,6 +37,7 @@ by Helmic.-->
         <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
+        <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
 	</subset>
     <subset name="spacer 02" displayName="                                                                                                                                                                                                                                                            ">
 		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
