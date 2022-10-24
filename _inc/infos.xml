@@ -273,4 +273,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<pos>0.14 0.37</pos>
 		</text>
 	</view>
+	<include>./../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
+	<include ifArch="windows">./../../../../../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
+	<include ifNotArch="windows">./../../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
 </theme>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><view name="system"><text name="systemInfoEx" extra="true">
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive-replace.xml"----------------------->
+<!---------------------------------------------------AND---------------------------------------------------------------->
+<!-----------------------------CUSTOMIZE TEXT OF SYSTEM BETWEEN <text> AND </text>-------------------------------------->
+<!--------------------FIRST LINE IS SAME THEN <text> AND LAST LINE IS LINE ABOVE </text>-------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------->
+<!----------------DON'T ERASE LINES, IF YOU DON'T WANT TO USE ALL, REPLACE THEM BY LINE BREAK--------------------------->
+
+<!-- BINDINGS ARE : 
+					{binding:games} : display numbers of games in system
+					{binding:favorites} : display numbers of favorites in system
+					{binding:gamesPlayed} : display numbers of played games in system
+					{binding:mostPlayed} : display most played game of system
+					{binding:lastPlayedDate} : display system last played date
+					{binding:hidden} : display numbers of system hidden games
+
+					{binding:subSystems} : display sub collections in collections
+					
+					${system.releaseYearOrNull} : display system released year if exists or not if not exists
+					${system.releaseYear} : display system released year if exists or display "None" if not exists
+
+					${custom.year} : display custom year added by you in custom xml files (for example : megadrive.xml)
+					
+------------------------------------------------------------------------------------------------------------------------>
+
+<text>ligne1
+ligne2
+ligne3
+ligne4
+ligne5
+ligne6
+ligne7
+ligne8
+</text>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------->
+
+</text></view></theme>
