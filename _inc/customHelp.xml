@@ -58,7 +58,7 @@ ${system.theme}.mp3 or ${system.theme}.ogg
 ${system.theme}.png  or  ${system.theme}.svg
 
    - ENTER MESSAGES OR EXTENDED INFOS :
-${system.theme}.xml
+${system.theme}.xml or ${system.theme}_replace.xml for rewrite extended infos
 
    - SYSTEM SCROLL SOUND :
 system.wav
@@ -91,7 +91,7 @@ ${system.theme}.mp3 or ${system.theme}.ogg
 ${system.theme}.png  or  ${system.theme}.svg
 
    - ENTER MESSAGES OR EXTENDED INFOS :
-${system.theme}.xml
+${system.theme}.xml or ${system.theme}_replace.xml for rewrite extended infos
 
    - SYSTEM SCROLL SOUND :
 system.wav
@@ -125,7 +125,7 @@ ${system.theme}.mp3 ou ${system.theme}.ogg
 ${system.theme}.png  ou  ${system.theme}.svg
 
    - MESSAGES D'ACCUEIL OU INFOS :
-${system.theme}.xml
+${system.theme}.xml ou ${system.theme}_replace.xml pour remplacer les infos
 
    - SON DE SÉLECTION DES SYSTÈMES :
 system.wav
@@ -158,7 +158,7 @@ ${system.theme}.mp3 ou ${system.theme}.ogg
 ${system.theme}.png  ou  ${system.theme}.svg
 
    - MESSAGES D'ACCUEIL OU INFOS ::
-${system.theme}.xml
+${system.theme}.xml ou ${system.theme}_replace.xml pour remplacer les infos
 
    - SON DE SÉLECTION DES SYSTÈMES :
 system.wav
