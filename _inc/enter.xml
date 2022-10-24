@@ -21,6 +21,12 @@
 			<glowSize>1</glowSize>
  			<text>${system.fullName}</text>
  			<text if="{system.hardwareType} != 'None'">${system.fullName} (${system.hardwareType})</text>
+ 			<text if="{system.hardwareType} == 'computer'">${system.fullName} (${lang.computer})</text>
+ 			<text if="{system.hardwareType} == 'system'">${system.fullName} (${lang.system})</text>
+ 			<text if="{system.hardwareType} == 'auto collection'">${system.fullName} (${lang.auto-collection})</text>
+ 			<text if="{system.hardwareType} == 'custom collection'">${system.fullName} (${lang.custom-collection})</text>
+
+ 			<text if="{system.theme} == 'custom-collections'">${system.fullName} (${lang.auto-collections})</text>
 		</text>
 		<image name="enterIcon" extra="true">
 			<zIndex>1000</zIndex>

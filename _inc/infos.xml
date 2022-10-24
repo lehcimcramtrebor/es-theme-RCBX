@@ -230,7 +230,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		</text>
 
 		<!--pinballs-->
-		<text name="systemInfoEx" extra="true" if="{custom.type} == 'pinball'">
+		<text name="systemInfoEx" extra="true" if="{custom.type} == 'pinball' || {system.hardwareType} == 'pinball'">
 
 		<!--year null-->
 		<text>${lang.tables} : {binding:total}

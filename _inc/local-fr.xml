@@ -133,6 +133,12 @@
 		<lang.tablesPlayed>tables jouées</lang.tablesPlayed>
 		<lang.mostPlayedTable>la plus jouée</lang.mostPlayedTable>
 
+		<lang.computer>ordinateur</lang.computer>
+		<lang.system>système</lang.system>
+		<lang.auto-collection>collection auto</lang.auto-collection>
+		<lang.auto-collections>collections regroupées</lang.auto-collections>
+		<lang.custom-collection>collection personnalisée</lang.custom-collection>
+
 		<lang.rating>notation</lang.rating>
 
 		<lang.infosFont>type d'écriture des infos</lang.infosFont>
