@@ -23,7 +23,7 @@
 			<pos>0.82 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.022</fontSize>
+			<fontSize>0.02</fontSize>
 			<forceUppercase>false</forceUppercase>
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>
@@ -57,6 +57,9 @@ ${system.theme}.png  or  ${system.theme}.svg
    - VIDEOS :
 ${system.theme}.mp4
 
+   - MUSICS :
+${system.theme}.mp3 or ${system.theme}.ogg
+
    - ILLUSTRATIONS :
 ${system.theme}.png  or  ${system.theme}.svg
 
@@ -86,6 +89,9 @@ ${system.theme}.png  or  ${system.theme}.svg
 
    - VIDEOS :
 ${system.theme}.mp4
+
+   - MUSICS :
+${system.theme}.mp3 or ${system.theme}.ogg
 
    - ILLUSTRATIONS :
 ${system.theme}.png  or  ${system.theme}.svg
@@ -117,6 +123,9 @@ ${system.theme}.png  ou  ${system.theme}.svg
    - VIDÉOS :
 ${system.theme}.mp4
 
+   - MUSIQUES :
+${system.theme}.mp3 ou ${system.theme}.ogg
+
    - ILLUSTRATIONS :
 ${system.theme}.png  ou  ${system.theme}.svg
 
@@ -145,6 +154,9 @@ ${system.theme}.png  ou  ${system.theme}.svg
 
    - VIDÉOS :
 ${system.theme}.mp4
+
+   - MUSIQUES :
+${system.theme}.mp3 ou ${system.theme}.ogg
 
    - ILLUSTRATIONS :
 ${system.theme}.png  ou  ${system.theme}.svg
