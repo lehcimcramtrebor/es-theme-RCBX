@@ -168,6 +168,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</image>
 		<image name="md_marquee">
+			<zIndex>1010</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.52</pos>
             <maxSize>0.155 0.13</maxSize>
