@@ -58,10 +58,10 @@
 				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="800"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
+				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
+				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</video>
 		<image name="md_image">
@@ -91,10 +91,10 @@
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
+				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
+				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
