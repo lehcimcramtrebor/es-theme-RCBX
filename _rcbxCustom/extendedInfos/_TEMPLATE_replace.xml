@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><view name="system"><text name="systemInfoEx" extra="true">
-
+<!---------------------------------------------------------------------------------------------------------------------->
 <!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive-replace.xml"----------------------->
 <!---------------------------------------------------AND---------------------------------------------------------------->
 <!-----------------------------CUSTOMIZE TEXT OF SYSTEM BETWEEN <text> AND </text>-------------------------------------->
 <!--------------------FIRST LINE IS SAME THEN <text> AND LAST LINE IS LINE ABOVE </text>-------------------------------->
-<!---------------------------------------------------------------------------------------------------------------------->
 <!----------------DON'T ERASE LINES, IF YOU DON'T WANT TO USE ALL, REPLACE THEM BY LINE BREAK--------------------------->
+<!----------------------AND BECAREFUL LONGER OF TEXT FOR VERTICAL LIST AND WHEEL VIEWS---------------------------------->
+<!---------------------------------------------------------------------------------------------------------------------->
 
-<!-- BINDINGS ARE : 
-					{binding:games} : display numbers of games in system
+<!-- BINDINGS :		{binding:games} : display numbers of games in system
 					{binding:favorites} : display numbers of favorites in system
 					{binding:gamesPlayed} : display numbers of played games in system
 					{binding:mostPlayed} : display most played game of system
@@ -17,10 +17,21 @@
 
 					{binding:subSystems} : display sub collections in collections
 					
-					${system.releaseYearOrNull} : display system released year if exists or not if not exists
-					${system.releaseYear} : display system released year if exists or display "None" if not exists
+	VARIABLES:		${system.name} : display system name (es_system.cfg)
+					${system.fullName} : display system full name (es_system.cfg)
+					${system.theme} : display system theme name (es_system.cfg)
+					${system.releaseYearOrNull} : display system released year if exists or not if not exists (es_system.cfg)
+					${system.releaseYear} : display system released year if exists or display "None" if not exists (es_system.cfg)
+					${system.manufacturer} : display system manufacturer if exists  (es_system.cfg
+					${system.group} : display system group if exists (es_system.cfg)
+					${system.hardwareType} : display hardware type (es_system.cfg)
 
 					${custom.year} : display custom year added by you in custom xml files (for example : megadrive.xml)
+
+					${global.cheevos.username} : display retro achievments user name					
+					${cheevos.username} : display retro achievments user name too				
+					${global.netplay.username} : display netplay user name				
+					${netplay.username} : display netplay user name	too
 					
 ------------------------------------------------------------------------------------------------------------------------>
 
@@ -36,5 +47,4 @@ ligne8
 
 <!--------------------------------------------------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------------------------------------------------->
-
 </text></view></theme>
