@@ -48,6 +48,7 @@
 				<animation property="opacity" from="0" mode="easeInCubic" duration="180"/>
 			</storyboard>			
 		</video>
+		<!--on wall-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:onWall">
 			<zIndex>200</zIndex>
 			<size>1 1</size>
