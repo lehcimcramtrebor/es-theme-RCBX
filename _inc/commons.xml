@@ -71,19 +71,19 @@
 			<maxSize>0.34 0.424</maxSize>
 			<color ifSubset="mdShader:no">cccccc</color>
 			<roundCorners>0.015</roundCorners>
-			<storyboard event="open">
+			<storyboard event="open" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
 				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 			</storyboard>
-			<storyboard event="activateNext">
+			<storyboard event="activateNext" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
 				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 			</storyboard>
-			<storyboard event="activatePrev">
+			<storyboard event="activatePrev" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
 				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
