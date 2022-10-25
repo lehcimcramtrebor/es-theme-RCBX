@@ -83,9 +83,9 @@
 		<image name="md_marquee">
 			<reflexion>0.01 0</reflexion>
 			<zIndex>1001</zIndex>
-			<origin>1 1</origin>
-            <pos>0.96 0.91</pos>
-            <maxSize>0.155 0.31</maxSize>
+			<origin>0.5 0.5</origin>
+            <pos>0.88 0.755</pos>
+            <maxSize>0.155 0.3</maxSize>
 			<storyboard event="open" repeatAt="5000">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
 				<animation property="offsetY" to="-0.025" mode="easeOutCubic" autoreverse="true" duration="250" begin="5000"/>
@@ -172,15 +172,19 @@
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.52</pos>
             <maxSize>0.155 0.13</maxSize>
+			<color>00000000</color>
 			<storyboard event="open">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
 			<storyboard event="activateNext">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
+				<animation property="color" to="ffffff" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
@@ -195,15 +199,19 @@
 			<reflexion>0.02 0</reflexion>
             <pos>0.8 0.63</pos>
             <size>0.16 0.275</size>
+			<scale>0</scale>
 			<storyboard event="open">
+				<animation property="scale" to="1" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
 			</storyboard>
 			<storyboard event="activateNext">
+				<animation property="scale" to="1" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
 			</storyboard>
 			<storyboard event="activatePrev">
+				<animation property="scale" to="1" mode="linear" duration="1"/>
 				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
 				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
 			</storyboard>

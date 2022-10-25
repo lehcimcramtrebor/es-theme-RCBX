@@ -52,9 +52,9 @@
 		</textlist>
 		<image name="md_thumbnail">
 			<zIndex>1001</zIndex>
-			<origin>1 1</origin>
-            <pos>0.96 0.905</pos>
-            <maxSize>0.155 0.27</maxSize>
+			<origin>0.5 0.5</origin>
+            <pos>0.88 0.755</pos>
+            <maxSize>0.155 0.3</maxSize>
 			<reflexion>0.01 0</reflexion>
 			<roundCorners>0.018</roundCorners>
 			<storyboard event="open" repeatAt="5000">

@@ -71,6 +71,7 @@
 			<maxSize>0.34 0.424</maxSize>
 			<color ifSubset="mdShader:no">cccccc</color>
 			<roundCorners>0.015</roundCorners>
+			<scale ifSubset="mdVideos:yes">0.8</scale>
 			<storyboard event="open" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
 				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
