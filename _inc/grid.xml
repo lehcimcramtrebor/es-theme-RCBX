@@ -267,15 +267,18 @@
             <pos>0.8875 0.475</pos>
  			<storyboard event="open">
 				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
+				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
+				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
+				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
 			</storyboard>
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
