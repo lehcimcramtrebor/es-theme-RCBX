@@ -58,11 +58,10 @@
 		<text name="gridtile">
 			<color>ffffff80</color>
 			<backgroundColor>00000000</backgroundColor>
-			<fontSize>0.018</fontSize>
+			<fontSize>0.017</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<alignment>center</alignment>
-			<size>1 0.24</size>
 		</text>
 		<text name="gridtile:selected">
 			<color>ffffff</color>
