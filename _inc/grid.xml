@@ -170,90 +170,207 @@
 		</image>
 		<image name="md_marquee">
 			<origin>0.5 0.5</origin>
-            <pos>0.88 0.495</pos>
-            <maxSize>0.155 0.14</maxSize>
+            <pos>0.88 0.52</pos>
+            <maxSize>0.155 0.13</maxSize>
 			<storyboard event="open">
-				<animation property="opacity" from="0" mode="linear" duration="120"/>
-				<animation property="opacity" from="1" to="1" mode="linear" duration="9500" begin="5500"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="opacity" from="0" mode="linear" duration="120"/>
-				<animation property="offsetY" from="0.005" mode="easeOut" duration="250"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="opacity" from="0" mode="linear" duration="120"/>
-				<animation property="offsetY" from="-0.005" mode="easeOut" duration="250"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="60"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="60"/>
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
         <text name="md_description">
 			<reflexion>0.02 0</reflexion>
             <pos>0.8 0.63</pos>
             <size>0.16 0.275</size>
+			<storyboard event="open">
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
         </text>
 		<image name="md_flag">
-			<pos>0.8 0.605</pos>
+			<pos>0.8 0.445</pos>
 		</image>
 
 		<image name="ghost_flag" extra="true">
-			<pos>0.80 0.605</pos>
+			<pos>0.80 0.445</pos>
 		</image>
 		<image name="md_manual,md_nomanual">
-			<pos>0.83 0.605</pos>
+			<pos>0.83 0.445</pos>
 		</image>
 		
 		<image name="ghost_manual" extra="true">
-			<pos>0.83 0.605</pos>
+			<pos>0.83 0.445</pos>
 		</image>
 	
 		<image name="md_savestate,md_nosavestate">
-			<pos>0.83 0.605</pos>
+			<pos>0.83 0.445</pos>
 		</image>
 
 		<image name="ghost_savestate" extra="true">
-			<pos>0.85 0.605</pos>
+			<pos>0.85 0.445</pos>
 		</image>
 
 		<image name="md_cheevos,md_notcheevos">
-			<pos>0.87 0.605</pos>
+			<pos>0.87 0.445</pos>
 		</image>
  		
 		<image name="ghost_cheevos" extra="true">
-			<pos>0.87 0.605</pos>
+			<pos>0.87 0.445</pos>
 		</image>
 	
 		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.89 0.605</pos>
+			<pos>0.89 0.445</pos>
 		</image>
 
 		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.89 0.605</pos>
+			<pos>0.89 0.445</pos>
 		</image>
 
 		<image name="md_hidden">
-			<pos>0.91 0.605</pos>
+			<pos>0.91 0.445</pos>
 		</image>
 
 		<image name="ghost_hidden" extra="true">
-			<pos>0.91 0.605</pos>
+			<pos>0.91 0.445</pos>
 		</image>
         <text name="lbl_rating" extra="true">
-            <visible>false</visible>
+			<visible>false</visible>
         </text>
         <rating name="md_rating">
-            <visible>false</visible>
-        </rating>
- 		<text name="md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
-			<visible>false</visible>
-		</text>
-		<datetime name="md_releasedate,md_lastplayed">
-			<visible>false</visible>
-		</datetime>
+            <pos>0.8875 0.475</pos>
+ 			<storyboard event="open">
+				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="y" to="0.6" mode="linear" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+       </rating>
+		<text name="md_lbl_releasedate">
+			<color>${c.textHeader}</color>
+			<y>0.50</y>
+			<x>0.80</x>
+        </text>
+        <datetime name="md_releasedate">
+			<color>${c.text}</color>
+			<y>0.525</y>
+			<x>0.80</x>
+       </datetime>
+        <text name="md_lbl_developer">
+			<color>${c.textHeader}</color>
+			<y>0.56</y>
+ 			<x>0.80</x>
+       </text>
+        <text name="md_developer">
+			<color>${c.text}</color>
+			<y>0.585</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_lbl_publisher">
+			<color>${c.textHeader}</color>
+			<y>0.62</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_publisher">
+			<color>${c.text}</color>
+			<y>0.645</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_lbl_genre">
+			<color>${c.textHeader}</color>
+			<y>0.68</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_genre">
+			<color>${c.text}</color>
+ 			<y>0.705</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_lbl_players">
+			<color>${c.textHeader}</color>
+			<y>0.74</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_players">
+			<color>${c.text}</color>
+			<y>0.765</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_lbl_lastplayed">
+			<color>${c.textHeader}</color>
+			<y>0.79</y>
+			<x>0.80</x>
+        </text>
+        <datetime name="md_lastplayed">
+			<color>${c.text}</color>
+			<y>0.815</y>
+			<x>0.80</x>
+        </datetime>
+        <text name="md_lbl_playcount">
+			<color>${c.textHeader}</color>
+			<y>0.85</y>
+			<x>0.80</x>
+        </text>
+        <text name="md_playcount">
+			<color>${c.text}</color>
+			<y>0.875</y>
+			<x>0.80</x>
+        </text>
+		<control name="md_releasedate,md_lastplayed,md_lbl_releasedate,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,md_lbl_lastplayed,md_lbl_playcount,md_playcount">
+			<storyboard event="open">
+				<animation property="opacity" from="1" to="1" mode="linear" duration="850"/>
+				<animation property="opacity" from="1" to="0" mode="easeOut" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" from="1" to="1" mode="linear" duration="850"/>
+				<animation property="opacity" from="1" to="0" mode="easeOut" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" from="1" to="1" mode="linear" duration="850"/>
+				<animation property="opacity" from="1" to="0" mode="easeOut" duration="300" begin="850"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+ 		</control>
 	</customView>
 	<include>./gamelistParameters.xml</include>
 </theme>
