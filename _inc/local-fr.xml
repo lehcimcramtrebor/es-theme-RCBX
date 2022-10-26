@@ -93,6 +93,7 @@
 		<lang.randomVideosAudio>piste audio</lang.randomVideosAudio>
 		<lang.mdVideosAudio>piste audio des vidéos de jeux</lang.mdVideosAudio>
 		<lang.mdVideos>afficher les vidéos de jeux</lang.mdVideos>
+		<lang.mdCenter>center l'image / video de la liste des jeux</lang.mdCenter>
 
 		<lang.randomShader>utiliser le shader</lang.randomShader>
 		<lang.mdShader>shader des vidéos et images de jeux</lang.mdShader>

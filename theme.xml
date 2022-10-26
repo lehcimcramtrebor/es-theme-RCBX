@@ -224,6 +224,10 @@ by Helmic.-->
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
+     <subset name="mdCenter" displayName="${lang.mdCenter}" appliesTo="detailed,grid,gamecarousel">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
 	<include>./_inc/md${bypass.shader}.xml</include>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>

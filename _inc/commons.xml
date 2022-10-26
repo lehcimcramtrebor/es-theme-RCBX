@@ -36,7 +36,9 @@
 			<visible ifSubset="mdVideos:no">false</visible>
 			<zIndex>1002</zIndex>
 			<origin>0 0</origin>
+			<origin ifSubset="mdCenter:yes">0.5 0.5</origin>
 			<pos>0.45 0.173</pos>
+			<pos ifSubset="mdCenter:yes">0.62 0.385</pos>
 			<maxSize>0.34 0.424</maxSize>
 			<delay>0.3</delay>
 			<effect>none</effect>
@@ -67,7 +69,9 @@
 		<image name="md_image">
 			<zIndex>1001</zIndex>
 			<origin>0 0</origin>
+			<origin ifSubset="mdCenter:yes">0.5 0.5</origin>
 			<pos>0.45 0.173</pos>
+			<pos ifSubset="mdCenter:yes">0.62 0.385</pos>
 			<maxSize>0.34 0.424</maxSize>
 			<color ifSubset="mdShader:no">cccccc</color>
 			<roundCorners>0.015</roundCorners>
@@ -276,7 +280,9 @@
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
             <lineSpacing>1.2</lineSpacing>
             <pos>0.45 0.65</pos>
+            <pos ifSubset="mdCenter:yes">0.47 0.65</pos>
             <size>0.32 0.255</size>
+            <size ifSubset="mdCenter:yes">0.3 0.255</size>
             <fontSize>0.02</fontSize>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
@@ -309,6 +315,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.45 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.475 0.63</pos>
 			<maxSize>0.022 0.02</maxSize>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1002</zIndex>
@@ -317,6 +324,7 @@
 		<image name="ghost_flag" extra="true">
 			<origin>0 1</origin>
 			<pos>0.45 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.475 0.63</pos>
 			<path>./parts/ghostFlag.png</path>
 			<maxSize>0.022 0.02</maxSize>
 			<color>${c.text}</color>
@@ -343,6 +351,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.48 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.505 0.63</pos>
 			<path>./parts/book.png</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>${c.text}</color>
@@ -353,6 +362,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.48 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.505 0.63</pos>
 			<path>./parts/book.png</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>80808080</color>
@@ -383,6 +393,7 @@
 			<origin>0 1</origin>
 			<path>./parts/SaveState.png</path>
 			<pos>0.5 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.525 0.63</pos>
 			<maxSize>0.02 0.02</maxSize>
 			<color>${c.text}</color>
 			<zIndex>1002</zIndex>
@@ -393,6 +404,7 @@
 			<origin>0 1</origin>
 			<path>./parts/SaveState.png</path>
 			<pos>0.5 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.525 0.63</pos>
 			<maxSize>0.02 0.02</maxSize>
 			<color>80808080</color>
 			<zIndex>1001</zIndex>
@@ -422,6 +434,7 @@
 			<origin>0 1</origin>
 			<path>./parts/Contest.png</path>
 			<pos>0.52 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.545 0.63</pos>
 			<maxSize>0.02 0.02</maxSize>     
 			<color>${c.text}</color>
 			<zIndex>1002</zIndex>
@@ -432,6 +445,7 @@
 			<origin>0 1</origin>
 			<path>./parts/Contest.png</path>
 			<pos>0.52 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.545 0.63</pos>
 			<maxSize>0.02 0.02</maxSize>     
 			<color>80808080</color>
 			<zIndex>1001</zIndex>
@@ -460,6 +474,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.54 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.565 0.63</pos>
 			<path>./parts/kid.svg</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>${c.text}</color>
@@ -471,6 +486,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.54 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.565 0.63</pos>
 			<path>./parts/kid.svg</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>80808080</color>
@@ -501,6 +517,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.56 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.585 0.63</pos>
 			<path>./parts/hidden.svg</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>${c.text}</color>
@@ -511,6 +528,7 @@
 			<reflexion>0.1 0</reflexion>
 			<origin>0 1</origin>
 			<pos>0.56 0.63</pos>
+			<pos ifSubset="mdCenter:yes">0.585 0.63</pos>
 			<path>./parts/hidden.svg</path>
 			<maxSize>0.02 0.02</maxSize>
 			<color>80808080</color>
