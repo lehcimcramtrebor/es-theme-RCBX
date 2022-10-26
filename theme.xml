@@ -185,6 +185,10 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
     </subset>
+	<subset name="allowIllustrationsGamelist" ifSubset="allowIllustrationsCustom:yes" displayName="${lang.allowIllustrationsGamelist}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
     <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>

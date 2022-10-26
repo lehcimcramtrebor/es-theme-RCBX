@@ -72,4 +72,9 @@
 			</storyboard>			
 		</image>
 	</view>
+	<view name="basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsGamelist:no">
+		<image name="illustration" extra="true">
+			<visible>false</visible>
+		</image>
+	</view>
 </theme>

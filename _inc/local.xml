@@ -101,6 +101,7 @@
 		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
 		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
 		<lang.allowIllustrationsCustom>allow custom illustrations (deactivate in frame random)</lang.allowIllustrationsCustom>
+		<lang.allowIllustrationsGamelist>allow illustrations on gamelists</lang.allowIllustrationsGamelist>
 		<lang.paintSystemForce>system view paint intensity</lang.paintSystemForce>
 		<lang.paintSystemSaturation>system view paint saturation</lang.paintSystemSaturation>
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
