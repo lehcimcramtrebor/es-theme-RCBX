@@ -59,7 +59,7 @@
 			<color>ffffff80</color>
 			<backgroundColor>00000000</backgroundColor>
 			<fontSize>0.017</fontSize>
-			<forceUppercase>true</forceUppercase>
+			<forceUppercase>false</forceUppercase>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 		</text>

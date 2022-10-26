@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<subset name="mdShader" displayName="${lang.mdShader}" ifNotArch="windows,x86_64" appliesTo="detailed,grid,gamecarousel,bigGrid,,library">
+	<subset name="mdShader" displayName="${lang.mdShader}" ifNotArch="windows,x86_64" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./gamelistShaders.xml</include>
     </subset>
-	<subset name="mdShader" displayName="${lang.mdShader}" ifArch="windows,x86_64" appliesTo="detailed,grid,gamecarousel,bigGrid,,library">
+	<subset name="mdShader" displayName="${lang.mdShader}" ifArch="windows,x86_64" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}">./gamelistShaders.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>

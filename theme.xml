@@ -173,58 +173,58 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
     </subset>
-    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,library">
+    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,library">
+	<subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
-    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,library">
+    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,library">
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
 	</subset>
-     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,library">
+     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
 	</subset>
-    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,library">
+    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="0%"/>
         <include name="25%"/>
         <include name="50%"/>
         <include name="75%"/>
         <include name="auto" displayName="${lang.auto}"/>
 	</subset>
-     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,library">
+     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
-     <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel,bigGrid,library">
+     <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,library" ifSubset="mdVideos:yes">
+	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library" ifSubset="mdVideos:yes">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
 	<include>./_inc/md${bypass.shader}.xml</include>
-    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid">
+    <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed,grid,gamecarousel,bigGrid">
+    <subset name="metadatasFontSize" displayName="${lang.metadatasFontSize}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.010"/>
         <include name="0.011"/>
@@ -243,14 +243,14 @@ by Helmic.-->
         <include name="0.024"/>
         <include name="0.025"/>
     </subset>
-    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid,gamecarousel,bigGrid">
+    <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed,grid,gamecarousel,bigGrid">
+    <subset name="descriptionFontSize" displayName="${lang.descriptionFontSize}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0.016"/>
         <include name="0.017"/>
