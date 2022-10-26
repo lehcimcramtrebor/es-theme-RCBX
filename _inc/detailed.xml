@@ -134,5 +134,23 @@
 			</storyboard>
         </text>
 	</view>
+	<customView name="library" displayName="${lang.library}" inherits="detailed">
+		<control name="md_marquee,md_thumbnail,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
+md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
+md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_flag,ghost_flag,md_manual,ghost_manual,md_savestate,ghost_savestate,
+md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating">
+			<visible>false</visible>
+		</control>
+			<video name="md_video">
+			<origin>0.5 0.5</origin>
+            <pos>0.705 0.54</pos>
+			<maxSize>0.48 0.70</maxSize>
+		</video>
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+            <pos>0.705 0.54</pos>
+			<maxSize>0.5 0.72</maxSize>
+		</image>
+	</customView>
 	<include>./gamelistParameters.xml</include>
 </theme>
