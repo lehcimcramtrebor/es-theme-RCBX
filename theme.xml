@@ -7,6 +7,9 @@ by Helmic.-->
 	<!--variable to display region first-->
 	<variables region="eu">	<v.region> </v.region> </variables>
 
+	<!--check if es-theme-HEXA installed-->
+	<include>./../es-theme-HEXA/_inc/cross/rcbx.xml</include>
+
 	<!--localisation-->
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local-${lang}.xml</include>
@@ -180,6 +183,7 @@ by Helmic.-->
 	<subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+        <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
     </subset>
     <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>

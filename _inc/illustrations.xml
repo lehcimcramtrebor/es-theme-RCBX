@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system,basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:yes">
+	<view name="system,basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<image name="illustration" extra="true">
 			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
@@ -10,15 +10,17 @@
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/${system.theme}.svg</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>1000</zIndex>
+			<zIndex>999</zIndex>
 			<color>ffffff</color>
 			<colorEnd>aaaaaa</colorEnd>
 			<gradientType>vertical</gradientType>
 			<saturation>1.2</saturation>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
+			<pos ifSubset="allowIllustrationsCustom:hexa">0.5 0.19</pos>
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
 			<maxSize>0.3 0.25</maxSize>
+			<maxSize ifSubset="allowIllustrationsCustom:hexa">0.3 0.38</maxSize>
 		</image>
 		<image name="illustration" region="eu" extra="true"/>
 		<image name="illustration" region="us" extra="true">
@@ -37,19 +39,36 @@
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.svg</path>
 		</image>
+
+		<!--hexa cross-->
+		<image name="illustration" extra="true" ifSubset="allowIllustrationsCustom:hexa">
+			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/color-pi.png</path>
+			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/color-${lang}-pi.png</path>
+			<path ifSubset="neogeo:aes" if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/color-aes-pi.png</path>
+		</image>
+		<image name="illustration" region="us" extra="true">
+			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/us/color-pi.png</path>
+		</image>
+		<image name="illustration" region="jp" extra="true">
+			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/jp/color-pi.png</path>
+		</image>
+
 	</view>
-	<view name="system" ifSubset="allowIllustrationsCustom:yes">
+	<view name="system" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
-			<offsetX ifSubset="allowIllustrationsCustom:yes">2</offsetX>
+			<offsetX ifSubset="allowIllustrationsCustom:yes|hexa">2</offsetX>
 		</video>
 		<image name="illustration" extra="true">
 			<storyboard>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="scale" from="0.8" to="1" mode="easeOut" duration="300"/>
+				<animation property="opacity" from="0" to="1" mode="easeOut" duration="150"/>
 			</storyboard>			
 			<storyboard ifSubset="carousel:vertical|wheel">
+				<animation property="scale" from="1.2" to="1.2" mode="easeOut" duration="600"/>
 				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
 				<animation property="offsetY" from="0.3" to="0.3" mode="linear" duration="600"/>
-				<animation property="offsetY" from="0.3" to="0" mode="easeInOut" duration="150" begin="600"/>
+				<animation property="offsetY" from="0.3" to="0" mode="easeIn" duration="150" begin="600"/>
+				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
 			</storyboard>			
 		</image>
 	</view>
