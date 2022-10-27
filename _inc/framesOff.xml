@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+	<view name="basic,detailed,grid,gamecarousel" ifSubset="gamelistFrames:no">
+		<image name="frame" extra="true">
+			<size>1 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		<image name="frame2" extra="true">
+			<visible>false</visible>
+		</image>
+</view>
+</theme>

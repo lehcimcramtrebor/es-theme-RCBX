@@ -51,6 +51,8 @@
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucent</lang.translucent>
 
+		<lang.gamelistFrames>display gamelist frames</lang.gamelistFrames>
+
 		<lang.texture>frames textures</lang.texture>
 		<lang.textureDot>dot</lang.textureDot>
 		<lang.texturePlain>plain</lang.texturePlain>

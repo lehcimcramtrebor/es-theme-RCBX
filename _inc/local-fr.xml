@@ -51,6 +51,8 @@
 		<lang.transparent>transparent</lang.transparent>
 		<lang.translucent>translucide</lang.translucent>
 
+		<lang.gamelistFrames>afficher les cadres de la liste des jeux</lang.gamelistFrames>
+
 		<lang.texture>texture des cadres</lang.texture>
 		<lang.textureDot>quadrillée</lang.textureDot>
 		<lang.texturePlain>pleine</lang.texturePlain>

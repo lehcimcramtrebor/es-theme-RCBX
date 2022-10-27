@@ -228,6 +228,10 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
+     <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
 	<include>./_inc/md${bypass.shader}.xml</include>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
@@ -347,6 +351,7 @@ by Helmic.-->
 	<include>./_inc/detailed.xml</include>
 	<include>./_inc/grid.xml</include>
 	<include>./_inc/gamecarousel.xml</include>
+	<include>./_inc/framesOff.xml</include>
 
 	<!--themes specifics properties-->
 	<include>./_inc/specifics/${system.theme}.xml</include>
