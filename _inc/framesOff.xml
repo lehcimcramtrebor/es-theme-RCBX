@@ -6,6 +6,7 @@
 			<size>1 1</size>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
+			<roundCorners>0</roundCorners>
 		</image>
 		<image name="frame2" extra="true">
 			<visible>false</visible>

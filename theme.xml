@@ -228,11 +228,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
+	<include>./_inc/md${bypass.shader}.xml</include>
      <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<include>./_inc/md${bypass.shader}.xml</include>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
