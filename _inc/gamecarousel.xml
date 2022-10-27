@@ -31,7 +31,16 @@
 			<origin>1 1</origin>
 			<pos>0.79 0.14</pos>
 		</image>
-		<image name="logo" ifSubset="bigGamecarousel:yes,allowIllustrationsCustom:yes">
+		<image name="logo" ifSubset="gamelistFrames:fullScreen">
+			<origin>1 1</origin>
+			<pos>0.79 0.14</pos>
+		</image>
+		<image name="logo" ifSubset="bigGamecarousel:yes,allowIllustrationsCustom:yes,allowIllustrationsGamelist:yes">
+			<pos>0.435 0.08</pos>
+			<maxSize>0.16 0.09</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+		<image name="logo" ifSubset="gamelistFrames:fullScreen,allowIllustrationsCustom:yes,allowIllustrationsGamelist:yes">
 			<pos>0.435 0.08</pos>
 			<maxSize>0.16 0.09</maxSize>
 			<origin>0 0.5</origin>
@@ -46,7 +55,9 @@
 			<type>vertical_wheel</type>
 			<origin>0.5 0.5</origin>
             <pos>0.22 0.54</pos>
+            <pos ifSubset="gamelistFrames:fullScreen">0.195 0.5</pos>
             <size>0.39 0.78</size>
+            <size ifSubset="gamelistFrames:fullScreen">0.39 1</size>
 			<logoScale>3</logoScale>
 			<logoSize>0.2 1</logoSize>
 			<logoAlignment>center</logoAlignment>
@@ -61,6 +72,7 @@
 			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
             <logoRotation>28</logoRotation>
             <logoRotationOrigin>-1.8 0.54</logoRotationOrigin>
+            <logoRotationOrigin ifSubset="gamelistFrames:fullScreen">-2.5 0.54</logoRotationOrigin>
 			<origin ifSubset="bigGamecarousel:yes">0 0</origin>
             <size ifSubset="bigGamecarousel:yes">0.42 1</size>
 			<logoSize ifSubset="bigGamecarousel:yes">0.36 0.18</logoSize>
@@ -82,6 +94,7 @@
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.755</pos>
+            <pos ifSubset="gamelistFrames:fullScreen">0.886 0.785</pos>
             <maxSize>0.155 0.3</maxSize>
 			<roundCorners>0.018</roundCorners>
 			<storyboard event="open" repeatAt="5000">
@@ -248,51 +261,54 @@
 			</storyboard>
         </text>
 		<image name="md_flag">
-			<pos>0.8 0.445</pos>
+			<pos>0.815 0.445</pos>
 		</image>
 
 		<image name="ghost_flag" extra="true">
-			<pos>0.80 0.445</pos>
+			<pos>0.815 0.445</pos>
 		</image>
 		<image name="md_manual,md_nomanual">
-			<pos>0.83 0.445</pos>
+			<pos>0.845 0.445</pos>
 		</image>
 		
 		<image name="ghost_manual" extra="true">
-			<pos>0.83 0.445</pos>
+			<pos>0.845 0.445</pos>
 		</image>
 	
 		<image name="md_savestate,md_nosavestate">
-			<pos>0.83 0.445</pos>
+			<pos>0.865 0.445</pos>
 		</image>
 
 		<image name="ghost_savestate" extra="true">
-			<pos>0.85 0.445</pos>
+			<pos>0.865 0.445</pos>
 		</image>
 
 		<image name="md_cheevos,md_notcheevos">
-			<pos>0.87 0.445</pos>
+			<pos>0.885 0.445</pos>
 		</image>
  		
 		<image name="ghost_cheevos" extra="true">
-			<pos>0.87 0.445</pos>
+			<pos>0.885 0.445</pos>
 		</image>
 	
 		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.89 0.445</pos>
+			<pos>0.905 0.445</pos>
 		</image>
 
 		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.89 0.445</pos>
+			<pos>0.905 0.445</pos>
 		</image>
 
 		<image name="md_hidden">
-			<pos>0.91 0.445</pos>
+			<pos>0.925 0.445</pos>
 		</image>
 
 		<image name="ghost_hidden" extra="true">
-			<pos>0.91 0.445</pos>
+			<pos>0.925 0.445</pos>
 		</image>
+        <text name="lbl_rating" extra="true">
+			<visible>false</visible>
+        </text>
         <text name="lbl_rating" extra="true">
 			<visible>false</visible>
         </text>

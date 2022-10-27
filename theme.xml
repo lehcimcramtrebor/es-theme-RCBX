@@ -232,6 +232,7 @@ by Helmic.-->
      <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen}"/>
     </subset>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>

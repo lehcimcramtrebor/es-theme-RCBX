@@ -54,6 +54,7 @@
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.755</pos>
+            <pos ifSubset="gamelistFrames:fullScreen">0.886 0.785</pos>
             <maxSize>0.155 0.3</maxSize>
 			<reflexion>0.01 0</reflexion>
 			<roundCorners>0.018</roundCorners>

@@ -85,6 +85,7 @@
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.755</pos>
+            <pos ifSubset="gamelistFrames:fullScreen">0.886 0.725</pos>
             <maxSize>0.155 0.3</maxSize>
 			<storyboard event="open" repeatAt="5000">
 				<animation property="opacity" from="0" mode="linear" duration="120"/>
@@ -223,50 +224,50 @@
 			</storyboard>
         </text>
 		<image name="md_flag">
-			<pos>0.8 0.445</pos>
+			<pos>0.815 0.445</pos>
 		</image>
 
 		<image name="ghost_flag" extra="true">
-			<pos>0.80 0.445</pos>
+			<pos>0.815 0.445</pos>
 		</image>
 		<image name="md_manual,md_nomanual">
-			<pos>0.83 0.445</pos>
+			<pos>0.845 0.445</pos>
 		</image>
 		
 		<image name="ghost_manual" extra="true">
-			<pos>0.83 0.445</pos>
+			<pos>0.845 0.445</pos>
 		</image>
 	
 		<image name="md_savestate,md_nosavestate">
-			<pos>0.83 0.445</pos>
+			<pos>0.865 0.445</pos>
 		</image>
 
 		<image name="ghost_savestate" extra="true">
-			<pos>0.85 0.445</pos>
+			<pos>0.865 0.445</pos>
 		</image>
 
 		<image name="md_cheevos,md_notcheevos">
-			<pos>0.87 0.445</pos>
+			<pos>0.885 0.445</pos>
 		</image>
  		
 		<image name="ghost_cheevos" extra="true">
-			<pos>0.87 0.445</pos>
+			<pos>0.885 0.445</pos>
 		</image>
 	
 		<image name="md_kidgame, md_notkidgame"> 
-			<pos>0.89 0.445</pos>
+			<pos>0.905 0.445</pos>
 		</image>
 
 		<image name="ghost_kidgame" extra="true"> 
-			<pos>0.89 0.445</pos>
+			<pos>0.905 0.445</pos>
 		</image>
 
 		<image name="md_hidden">
-			<pos>0.91 0.445</pos>
+			<pos>0.925 0.445</pos>
 		</image>
 
 		<image name="ghost_hidden" extra="true">
-			<pos>0.91 0.445</pos>
+			<pos>0.925 0.445</pos>
 		</image>
         <text name="lbl_rating" extra="true">
 			<visible>false</visible>
