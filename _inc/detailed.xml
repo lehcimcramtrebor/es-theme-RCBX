@@ -136,12 +136,6 @@
         </text>
 	</view>
 	<view name="detailed" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
-		<textlist name="gamelist">
-			<primaryColor>${c.text}cc</primaryColor>
-			<secondaryColor>${c.text}cc</secondaryColor>
-			<selectorImagePath>./parts/selectorFree.png</selectorImagePath>	  		
-            <horizontalMargin>0.01</horizontalMargin>
-		</textlist>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
@@ -399,6 +393,14 @@
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
  		</control>
+	</view>
+	<view name="detailed" ifSubset="gamelistFrames:fullScreen|yes">
+		<textlist name="gamelist">
+			<primaryColor>${c.text}cc</primaryColor>
+			<secondaryColor>${c.text}cc</secondaryColor>
+			<selectorImagePath>./parts/selectorFree.png</selectorImagePath>	  		
+            <horizontalMargin>0.01</horizontalMargin>
+		</textlist>
 	</view>
 	<customView name="library" displayName="${lang.library}" inherits="detailed">
 		<control name="md_marquee,md_thumbnail,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
