@@ -76,6 +76,7 @@
 		<image name="illustration" extra="true">
 			<visible>false</visible>
 		</image>
+	</view>
 	<view name="basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:hexa">
 		<image name="illustration" extra="true">
 			<visible>false</visible>
