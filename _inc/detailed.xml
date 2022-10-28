@@ -2,16 +2,6 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="detailed">
-		<image name="illustration" extra="true">
-			<origin>1 1</origin>
-			<pos>0.78 0.14</pos>
-			<maxSize>0.16 0.13</maxSize>
-		</image>
-		<image name="illustration" extra="true" ifSubset="centerGamelistLogos:yes">
-			<origin>0 1</origin>
-			<pos>0.027 0.14</pos>
-			<maxSize>0.16 0.09</maxSize>
-		</image>
 		<image name="logo">
 			<pos>0.027 0.14</pos>
 			<maxSize>0.16 0.09</maxSize>
@@ -135,6 +125,8 @@
 			</storyboard>
         </text>
 	</view>
+
+	<!--free up space-->
 	<view name="detailed" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
@@ -394,6 +386,8 @@
 			</storyboard>
  		</control>
 	</view>
+
+	<!--gamelist only if free up space in all modes (opaque, trans etc..)-->
 	<view name="detailed" ifSubset="gamelistFrames:fullScreen|yes">
 		<textlist name="gamelist">
 			<primaryColor>${c.text}cc</primaryColor>
@@ -402,6 +396,8 @@
             <horizontalMargin>0.01</horizontalMargin>
 		</textlist>
 	</view>
+
+	<!--library-->
 	<customView name="library" displayName="${lang.library}" inherits="detailed">
 		<control name="md_marquee,md_thumbnail,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
 md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,

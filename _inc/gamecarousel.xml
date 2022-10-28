@@ -2,26 +2,6 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="gamecarousel">
-		<image name="illustration" extra="true" ifSubset="bigGamecarousel:no,centerGamelistLogos:no">
-			<origin>1 1</origin>
-			<pos>0.78 0.14</pos>
-			<maxSize>0.16 0.13</maxSize>
-		</image>
-		<image name="illustration" extra="true" ifSubset="bigGamecarousel:no,centerGamelistLogos:yes">
-			<origin>0 1</origin>
-			<pos>0.027 0.14</pos>
-			<maxSize>0.16 0.09</maxSize>
-		</image>
-		<image name="illustration" extra="true" ifSubset="bigGamecarousel:yes,centerGamelistLogos:no">
-			<pos>0.79 0.14</pos>
-			<maxSize>0.16 0.13</maxSize>
-			<origin>1 1</origin>
-		</image>
-		<image name="illustration" extra="true" ifSubset="bigGamecarousel:yes,centerGamelistLogos:yes">
-			<pos>0.79 0.14</pos>
-			<maxSize>0.12 0.13</maxSize>
-			<origin>1 1</origin>
-		</image>
 		<image name="logo">
 			<pos>0.027 0.14</pos>
 			<maxSize>0.16 0.09</maxSize>
@@ -34,16 +14,6 @@
 		<image name="logo" ifSubset="gamelistFrames:fullScreen">
 			<origin>1 1</origin>
 			<pos>0.79 0.14</pos>
-		</image>
-		<image name="logo" ifSubset="bigGamecarousel:yes,allowIllustrationsCustom:yes,allowIllustrationsGamelist:yes">
-			<pos>0.435 0.08</pos>
-			<maxSize>0.16 0.09</maxSize>
-			<origin>0 0.5</origin>
-		</image>
-		<image name="logo" ifSubset="gamelistFrames:fullScreen,allowIllustrationsCustom:yes,allowIllustrationsGamelist:yes">
-			<pos>0.435 0.08</pos>
-			<maxSize>0.16 0.09</maxSize>
-			<origin>0 0.5</origin>
 		</image>
 		<image name="logo" ifSubset="centerGamelistLogos:yes">
 			<pos>0.5 0.075</pos>
@@ -133,11 +103,11 @@
 	</view>
 
 
-
 	<view name="gamecarousel" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 		<image name="logo">
 			<origin>0.5 1</origin>
 			<pos>0.86 0.14</pos>
+			<maxSize>0.16 0.09</maxSize>
 		</image>
 		<image name="logo" ifSubset="centerGamelistLogos:yes">
 			<pos>0.5 0.075</pos>
@@ -433,8 +403,6 @@
 			</storyboard>
  		</control>
 	</view>
-
-
 
 
 	<customView name="boxCarousel" inherits="gamecarousel" displayName="${lang.boxCarousel}">
@@ -736,6 +704,8 @@
 			</storyboard>
  		</control>
 	</customView>
+
+
 	<customView name="boxCarousel" inherits="gamecarousel" displayName="${lang.boxCarousel}" ifSubset="gamelistFrames:fullScreen">
 		<gamecarousel name="gamecarousel">
 			<type>horizontal</type>

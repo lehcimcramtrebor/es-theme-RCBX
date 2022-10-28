@@ -22,7 +22,7 @@
 
 		<lang.hexa>hexa</lang.hexa>
 
-		<lang.freeFanart>libérer l'espace pour voir les fanarts</lang.freeFanart>
+		<lang.freeFanart>libérer l'espace fanarts (détaillé & gamecarousel)</lang.freeFanart>
 
 		<lang.bigGrid>grande grille</lang.bigGrid>
 		<lang.boxCarousel>flux de boîtes</lang.boxCarousel>
@@ -106,7 +106,6 @@
 		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>
 		<lang.allowSystemVideoCustom>autoriser la vidéo custom de la vue système</lang.allowSystemVideoCustom>
 		<lang.allowIllustrationsCustom>autoriser les illustrations custom (désactive le cadre vidéo)</lang.allowIllustrationsCustom>
-		<lang.allowIllustrationsGamelist>autoriser les illustrations sur les listes de jeux</lang.allowIllustrationsGamelist>
 		<lang.paintSystemForce>intensité des décorations système</lang.paintSystemForce>
 		<lang.paintSystemSaturation>saturation des décorations système</lang.paintSystemSaturation>
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>

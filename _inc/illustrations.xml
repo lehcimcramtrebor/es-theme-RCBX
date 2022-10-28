@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 	<formatVersion>7</formatVersion>
-	<view name="system,basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:yes|hexa">
+	<view name="system" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<image name="illustration" extra="true">
 			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
@@ -70,16 +70,6 @@
 				<animation property="offsetY" from="0.3" to="0" mode="easeIn" duration="150" begin="600"/>
 				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
 			</storyboard>			
-		</image>
-	</view>
-	<view name="basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsGamelist:no">
-		<image name="illustration" extra="true">
-			<visible>false</visible>
-		</image>
-	</view>
-	<view name="basic,detailed,grid,gamecarousel" ifSubset="allowIllustrationsCustom:hexa">
-		<image name="illustration" extra="true">
-			<visible>false</visible>
 		</image>
 	</view>
 </theme>
