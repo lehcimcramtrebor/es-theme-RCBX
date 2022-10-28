@@ -136,6 +136,12 @@
         </text>
 	</view>
 	<view name="detailed" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+		<textlist name="gamelist">
+			<primaryColor>${c.text}cc</primaryColor>
+			<secondaryColor>${c.text}cc</secondaryColor>
+			<selectorImagePath>./parts/selectorFree.png</selectorImagePath>	  		
+            <horizontalMargin>0.01</horizontalMargin>
+		</textlist>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
