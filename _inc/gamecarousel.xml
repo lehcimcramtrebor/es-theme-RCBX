@@ -52,6 +52,9 @@
 			<maxLogoCount ifSubset="bigGamecarousel:yes">9</maxLogoCount>
 			<pos ifSubset="bigGamecarousel:yes">0 0</pos>
 			</gamecarousel>    
+		<image name="gamecarouselLogo">
+			<roundCorners>0.014</roundCorners>
+		</image>
 		<text name="gamecarouselLogoText">
 			<color>${c.textHeader}</color>
             <glowColor>00000080</glowColor>
