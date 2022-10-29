@@ -61,9 +61,10 @@
 			<glowOffset>1</glowOffset>
 			<lineSpacing>1.0</lineSpacing>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.045</fontSize>
+			<fontSize>0.08</fontSize>
 		</text>		
 		<image name="md_thumbnail">
+			<default>./parts/noThumb.png</default>
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.755</pos>
