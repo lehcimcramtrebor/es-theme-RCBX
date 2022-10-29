@@ -43,7 +43,7 @@
 			<maxSize>0.34 0.424</maxSize>
 			<delay>0.3</delay>
 			<effect>none</effect>
-			<showSnapshotNoVideo if="{system.theme} != 'custom-collections' ">true</showSnapshotNoVideo>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 			<color ifSubset="mdShader:no">cccccc</color>
