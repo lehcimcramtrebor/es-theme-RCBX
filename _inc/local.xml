@@ -22,7 +22,7 @@
 
 		<lang.hexa>hexa</lang.hexa>
 
-		<lang.freeFanart>free up space fanarts (detailed & gamecarousel)</lang.freeFanart>
+		<lang.freeFanart>free up space fanarts (except grid views)</lang.freeFanart>
 
 		<lang.bigGrid>big grid</lang.bigGrid>
 		<lang.boxCarousel>cover flow</lang.boxCarousel>
