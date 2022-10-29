@@ -707,10 +707,40 @@
 
 	<!--full screen frame cover flow custom view-->
 	<customView name="boxCarousel" inherits="gamecarousel" displayName="${lang.boxCarousel}" ifSubset="gamelistFrames:fullScreen">
+		<gamecarousel name="gamecarousel" ifSubset="freeFanart:yes">
+			<type>horizontal</type>
+			<origin>0 1</origin>
+            <pos>0.025 0.96</pos>
+            <size>0.73 0.345</size>
+			<logoScale>1.5</logoScale>
+			<logoSize>0.18 0.58</logoSize>
+			<logoAlignment>center</logoAlignment>
+			<maxLogoCount>5</maxLogoCount>
+			<imageSource>thumbnail</imageSource>
+			</gamecarousel>    
+		<text name="md_name">
+			<pos>0.385 0.6</pos>
+			<storyboard event="open">
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</text>		
 		<image name="gridLineLeft,gridLineRight" extra="true">
 			<zIndex>1002</zIndex>
 			<path>./parts/plain.png</path>
             <size>0.002 0.4</size>
+            <size ifSubset="freeFanart:yes">0.002 0.2</size>
 			<opacity>0.1</opacity>
 			<gradientType>horizontal</gradientType>
 		</image>
@@ -719,12 +749,14 @@
 			<colorEnd>${c.text}</colorEnd>
 			<origin>1 0.5</origin>
 			<pos>0.025 0.495</pos>
+			<pos ifSubset="freeFanart:yes">0.025 0.785</pos>
 		</image>
 		<image name="gridLineRight" extra="true">
 			<color>${c.text}</color>
 			<colorEnd>00000000</colorEnd>
 			<origin>0 0.5</origin>
            <pos>0.755 0.495</pos>
+           <pos ifSubset="freeFanart:yes">0.755 0.785</pos>
 		</image>
 		<image name="logo">
 			<origin>0.5 1</origin>
