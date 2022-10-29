@@ -103,13 +103,30 @@
 		</image>
 	</view>
 
+	<!--grid separators if fullscreen frame-->
+	<view name="grid" ifSubset="gamelistFrames:fullScreen">
+		<image name="gridLineUp,gridLineDown" extra="true">
+			<zIndex>1002</zIndex>
+			<path>./parts/plain.png</path>
+            <size>0.39 0.003</size>
+			<opacity>0.1</opacity>
+			<gradientType>vertical</gradientType>
+		</image>
+		<image name="gridLineUp" extra="true">
+			<color>00000000</color>
+			<colorEnd>${c.text}</colorEnd>
+			<origin>0 1</origin>
+           <pos>0.025 0.15</pos>
+		</image>
+		<image name="gridLineDown" extra="true">
+			<color>${c.text}</color>
+			<colorEnd>00000000</colorEnd>
+			<origin>0 0</origin>
+           <pos>0.025 0.93</pos>
+		</image>
+	</view>
 
-
-
-
-
-
-
+	<!--custom big grid view-->
 	<customView name="bigGrid" inherits="grid" displayName="${lang.bigGrid}">
 		<image name="logo">
 			<pos>0.027 0.14</pos>
@@ -382,7 +399,12 @@
 			</storyboard>
  		</control>
 	</customView>
+
+	<!--big grid full screen frame-->
 	<customView name="bigGrid" inherits="grid" displayName="${lang.bigGrid}" ifSubset="gamelistFrames:fullScreen">
+		<image name="gridLineUp,gridLineDown" extra="true">
+            <size>0.73 0.003</size>
+		</image>
 		<image name="logo">
 			<origin>0.5 1</origin>
 			<pos>0.86 0.14</pos>
@@ -392,41 +414,6 @@
 			<maxSize>0.3 0.13</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
-		<image name="frame" extra="true">
-			<zIndex>1000</zIndex>
-			<tile>true</tile>
-			<path>./parts/${n.frame}.png</path>
-			<origin>0 0</origin>
-            <pos>0.025 0.15</pos>
-            <size>0.73 0.78</size>
-			<color>${c.framePlain}</color>
-			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
-			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
-			<roundCorners>0.01</roundCorners>
-		</image>
-		<image name="frame2" extra="true">
-			<zIndex>1000</zIndex>
-			<tile>true</tile>
-			<path>./parts/${n.frame}.png</path>
-			<origin>0.5 0.5</origin>
-            <pos>0.88 0.54</pos>
-            <size>0.19 0.78</size>
-			<color>${c.framePlain}</color>
-			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
-			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
-			<roundCorners>0.01</roundCorners>
-		</image>
-		<imagegrid name="gamegrid">
-            <pos>0.025 0.15</pos>
-            <size>0.73 0.78</size>
-			<autoLayout>4 2</autoLayout>
-		</imagegrid>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>

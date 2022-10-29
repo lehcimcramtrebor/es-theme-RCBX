@@ -102,7 +102,7 @@
 		</image>
 	</view>
 
-
+	<!--free fanart gamecarousel-->
 	<view name="gamecarousel" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 		<image name="logo">
 			<origin>0.5 1</origin>
@@ -404,7 +404,7 @@
  		</control>
 	</view>
 
-
+	<!--cover flow custom view-->
 	<customView name="boxCarousel" inherits="gamecarousel" displayName="${lang.boxCarousel}">
 		<gamecarousel name="gamecarousel">
 			<type>horizontal</type>
@@ -705,33 +705,27 @@
  		</control>
 	</customView>
 
-
+	<!--full screen frame cover flow custom view-->
 	<customView name="boxCarousel" inherits="gamecarousel" displayName="${lang.boxCarousel}" ifSubset="gamelistFrames:fullScreen">
-		<gamecarousel name="gamecarousel">
-			<type>horizontal</type>
-			<origin>0 0</origin>
-            <pos>0.025 0.15</pos>
-            <size>0.73 0.69</size>
-			<logoScale>1.5</logoScale>
-			<logoSize>0.28 0.58</logoSize>
-			<logoAlignment>center</logoAlignment>
-			<maxLogoCount>3</maxLogoCount>
-			<imageSource>thumbnail</imageSource>
-			</gamecarousel>    
-		<text name="md_name">
-			<zIndex>1001</zIndex>
+		<image name="gridLineLeft,gridLineRight" extra="true">
+			<zIndex>1002</zIndex>
+			<path>./parts/plain.png</path>
+            <size>0.002 0.4</size>
+			<opacity>0.1</opacity>
+			<gradientType>horizontal</gradientType>
+		</image>
+		<image name="gridLineLeft" extra="true">
+			<color>00000000</color>
+			<colorEnd>${c.text}</colorEnd>
+			<origin>1 0.5</origin>
+			<pos>0.025 0.495</pos>
+		</image>
+		<image name="gridLineRight" extra="true">
 			<color>${c.text}</color>
-            <glowColor>00000080</glowColor>
-			<glowSize>1</glowSize>
-			<glowOffset>1</glowOffset>
-			<lineSpacing>1.0</lineSpacing>
-			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<alignment>center</alignment>
-			<origin>0.5 0.5</origin>
-			<size>0.7 0.03</size>
-			<pos>0.385 0.87</pos>
-		</text>		
+			<colorEnd>00000000</colorEnd>
+			<origin>0 0.5</origin>
+           <pos>0.755 0.495</pos>
+		</image>
 		<image name="logo">
 			<origin>0.5 1</origin>
 			<pos>0.86 0.14</pos>
@@ -781,30 +775,7 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
 			<maxSize>0.16 0.24</maxSize>
-			<storyboard event="open" ifSubset="mdVideos:yes">
-				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-			</storyboard>
-			<storyboard event="activateNext" ifSubset="mdVideos:yes">
-				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-			</storyboard>
-			<storyboard event="activatePrev" ifSubset="mdVideos:yes">
-				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="scale" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="scale" to="0" mode="linear" duration="1"/>
-			</storyboard>
+			<visible>true</visible>
 		</image>
 		<image name="md_marquee">
 			<zIndex>1010</zIndex>
