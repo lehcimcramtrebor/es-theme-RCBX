@@ -33,6 +33,7 @@
 			<roundCorners>0.01</roundCorners>
 		</image>
 			<video name="md_video">
+			<defaultSnapshot>./parts/defgame.png</defaultSnapshot>
 			<visible ifSubset="mdVideos:no">false</visible>
 			<zIndex>1002</zIndex>
 			<origin>0 0</origin>
@@ -42,7 +43,7 @@
 			<maxSize>0.34 0.424</maxSize>
 			<delay>0.3</delay>
 			<effect>none</effect>
-			<showSnapshotNoVideo>false</showSnapshotNoVideo>
+			<showSnapshotNoVideo if="{system.theme} != 'custom-collections' ">true</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
 			<audio ifSubset="mdVideosAudio:off">false</audio>
 			<color ifSubset="mdShader:no">cccccc</color>
@@ -67,6 +68,7 @@
 			</storyboard>
 		</video>
 		<image name="md_image">
+			<default>./parts/defgame.png</default>
 			<zIndex>1001</zIndex>
 			<origin>0 0</origin>
 			<origin ifSubset="mdCenter:yes">0.5 0.5</origin>

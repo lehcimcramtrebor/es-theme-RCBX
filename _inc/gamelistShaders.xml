@@ -6,7 +6,7 @@
 			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 		</video>
 		<image name="md_image">
-			<shader ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
+			<shader if="{system.theme} != 'custom-collections' " ifSubset="mdShader:yes">:/shaders/dotmask${bypass.shader}.glsl</shader>
 		</image>
 	</view>
 </theme>
