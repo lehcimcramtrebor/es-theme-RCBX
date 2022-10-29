@@ -416,7 +416,7 @@
 			<logoAlignment>center</logoAlignment>
 			<maxLogoCount>3</maxLogoCount>
 			<imageSource>thumbnail</imageSource>
-			</gamecarousel>    
+		</gamecarousel>    
 		<text name="md_name">
 			<zIndex>1001</zIndex>
 			<color>${c.text}</color>
