@@ -379,7 +379,7 @@
 			<glowOffset>1</glowOffset>
 			<lineSpacing>1.0</lineSpacing>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
+			<fontSize>0.02</fontSize>
 			<alignment>center</alignment>
 			<origin>0.5 0.5</origin>
 			<size>0.7 0.03</size>
@@ -674,15 +674,14 @@
 			</gamecarousel>    
 		<text name="md_name" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 			<pos>0.385 0.6</pos>
-			<fontSize>0.02</fontSize>
 			<storyboard event="open">
-				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
+				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
@@ -770,30 +769,25 @@
             <pos>0.86 0.5</pos>
             <maxSize>0.155 0.13</maxSize>
 			<color>00000000</color>
-            <pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.39 0.5</pos>
-			<storyboard event="open" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
-				<animation property="pos" to="0.86 0.5" mode="easeInOut" duration="1"/>
+			<storyboard event="open">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="950"/>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="250" begin="950"/>
-				<animation property="pos" to="0.86 0.5" mode="easeInOut" duration="1"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
-			<storyboard event="activateNext" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<storyboard event="activateNext">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
-				<animation property="pos" to="0.86 0.5" mode="easeInOutCubic" duration="200" begin="950"/>
-				<animation property="opacity" to="0" mode="easeOutCubic" autoreverse="true" duration="200" begin="950"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
-			<storyboard event="activatePrev" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<storyboard event="activatePrev">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
-				<animation property="pos" to="0.86 0.5" mode="easeInOutCubic" duration="200" begin="950"/>
-				<animation property="opacity" to="0" mode="easeOutCubic" autoreverse="true" duration="200" begin="950"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
+				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
 			</storyboard>
-			<storyboard event="deactivatePrev" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
-			<storyboard event="deactivateNext" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<storyboard event="deactivateNext">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
