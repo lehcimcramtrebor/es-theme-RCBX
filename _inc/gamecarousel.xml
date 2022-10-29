@@ -179,40 +179,12 @@
 				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
-		<image name="md_marquee">
-			<zIndex>1010</zIndex>
-			<origin>0.5 0.5</origin>
-            <pos>0.86 0.5</pos>
-            <maxSize>0.155 0.13</maxSize>
-			<color>00000000</color>
-			<storyboard event="open">
-				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-		</image>
         <text name="md_description">
 			<alignment>center</alignment>
 			<reflexion>0.02 0</reflexion>
-            <pos>0.78 0.61</pos>
+            <pos>0.78 0.48</pos>
             <size>0.165 0.275</size>
-			<h>0.31</h>
+			<h>0.44</h>
 			<scale>0</scale>
 			<storyboard event="open">
 				<animation property="scale" to="1" mode="linear" duration="1"/>
@@ -290,24 +262,6 @@
         </text>
         <rating name="md_rating">
             <pos>0.8675 0.455</pos>
- 			<storyboard event="open">
-				<animation property="y" to="0.58" mode="linear" duration="300" begin="850"/>
-				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="y" to="0.58" mode="linear" duration="300" begin="850"/>
-				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="y" to="0.58" mode="linear" duration="300" begin="850"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-				<animation property="opacity" to="0.1" mode="easeOutQuint" autoreverse="true" duration="150" begin="850"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
        </rating>
 		<text name="md_lbl_releasedate">
 			<color>${c.textHeader}</color>
@@ -720,14 +674,15 @@
 			</gamecarousel>    
 		<text name="md_name" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 			<pos>0.385 0.6</pos>
+			<fontSize>0.02</fontSize>
 			<storyboard event="open">
-				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
 			</storyboard>
 			<storyboard event="activateNext">
-				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="150" begin="400"/>
+				<animation property="opacity" to="0" mode="easeOut" duration="150" begin="950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
@@ -815,25 +770,30 @@
             <pos>0.86 0.5</pos>
             <maxSize>0.155 0.13</maxSize>
 			<color>00000000</color>
-			<storyboard event="open">
+            <pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.39 0.5</pos>
+			<storyboard event="open" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+				<animation property="pos" to="0.86 0.5" mode="easeInOut" duration="1"/>
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
+				<animation property="opacity" from="0" to="0" mode="linear" duration="950"/>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="250" begin="950"/>
+				<animation property="pos" to="0.86 0.5" mode="easeInOut" duration="1"/>
 			</storyboard>
-			<storyboard event="activateNext">
+			<storyboard event="activateNext" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="pos" to="0.86 0.5" mode="easeInOutCubic" duration="200" begin="950"/>
+				<animation property="opacity" to="0" mode="easeOutCubic" autoreverse="true" duration="200" begin="950"/>
 			</storyboard>
-			<storyboard event="activatePrev">
+			<storyboard event="activatePrev" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 				<animation property="color" to="ffffff" mode="linear" duration="1"/>
-				<animation property="opacity" from="0" to="0" mode="linear" duration="850"/>
-				<animation property="opacity" from="0" to="1" mode="easeIn" duration="200" begin="950"/>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="pos" to="0.86 0.5" mode="easeInOutCubic" duration="200" begin="950"/>
+				<animation property="opacity" to="0" mode="easeOutCubic" autoreverse="true" duration="200" begin="950"/>
 			</storyboard>
-			<storyboard event="deactivatePrev">
+			<storyboard event="deactivatePrev" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
-			<storyboard event="deactivateNext">
+			<storyboard event="deactivateNext" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
