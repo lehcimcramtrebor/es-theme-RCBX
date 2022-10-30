@@ -342,26 +342,31 @@
 			<color>${c.text}</color>
 			<y>0.765</y>
 			<x>0.78</x>
+			<y ifSubset="iconPlayers:yes">0.865</y>
         </text>
         <text name="md_lbl_lastplayed">
 			<color>${c.textHeader}</color>
 			<y>0.79</y>
 			<x>0.78</x>
-        </text>
+ 			<y ifSubset="iconPlayers:yes">0.74</y>
+       </text>
         <datetime name="md_lastplayed">
 			<color>${c.text}</color>
 			<y>0.815</y>
 			<x>0.78</x>
+ 			<y ifSubset="iconPlayers:yes">0.765</y>
         </datetime>
         <text name="md_lbl_playcount">
 			<color>${c.textHeader}</color>
 			<y>0.85</y>
 			<x>0.78</x>
+ 			<y ifSubset="iconPlayers:yes">0.8</y>
         </text>
         <text name="md_playcount">
 			<color>${c.text}</color>
 			<y>0.875</y>
 			<x>0.78</x>
+ 			<y ifSubset="iconPlayers:yes">0.825</y>
         </text>
 		<image name="md_image">
 			<visible>false</visible>

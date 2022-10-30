@@ -172,6 +172,10 @@ by Helmic.-->
         <include name="aes"/>
         <include name="mvs"/>
     </subset>
+    <subset name="iconPlayers" displayName="${category.various} • ${lang.iconPlayers}">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
     <subset name="customHelp" displayName="${category.various} • ${lang.customHelp}">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
@@ -231,8 +235,8 @@ by Helmic.-->
         <include name="fullScreen" displayName="${lang.fullScreen}"/>
     </subset>
      <subset name="freeFanart" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes" displayName="${lang.freeFanart}" appliesTo="detailed,gamecarousel">
-        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
     </subset>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>

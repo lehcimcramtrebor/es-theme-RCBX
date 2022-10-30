@@ -26,7 +26,7 @@
 	</variables>
 	<include>./fixedColors.xml</include>
 	<subset name="frameColorset" displayName="${category.interface} • ${lang.frameColorset}">
-        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}">./frameColors.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
     </subset>
 </theme>

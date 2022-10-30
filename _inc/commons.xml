@@ -218,29 +218,52 @@
  			<y>0.375</y>
         </text>
         <text name="md_lbl_players">
+			<visible ifSubset="iconPlayers:yes">false</visible>
 			<color>${c.textHeader}</color>
 			<y>0.41</y>
         </text>
         <text name="md_players">
+			<fontPath ifSubset="iconPlayers:yes">./fonts/players.ttf</fontPath>
+			<fontSize ifSubset="iconPlayers:yes">0.06</fontSize>
 			<color>${c.text}</color>
 			<y>0.435</y>
-        </text>
+			<y ifSubset="iconPlayers:yes">0.535</y>
+ 			<storyboard event="open">
+				<animation property="color" from="00000000" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="color" from="00000000" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="color" from="00000000" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="0" mode="linear" duration="1"/>
+			</storyboard>
+       </text>
         <text name="md_lbl_lastplayed">
 			<color>${c.textHeader}</color>
 			<y>0.46</y>
-        </text>
+ 			<y ifSubset="iconPlayers:yes">0.41</y>
+       </text>
         <datetime name="md_lastplayed">
 			<color>${c.text}</color>
 			<y>0.485</y>
+ 			<y ifSubset="iconPlayers:yes">0.435</y>
         </datetime>
         <text name="md_lbl_playcount">
 			<color>${c.textHeader}</color>
 			<y>0.52</y>
-        </text>
+			<y ifSubset="iconPlayers:yes">0.47</y>
+       </text>
         <text name="md_playcount">
 			<color>${c.text}</color>
 			<y>0.545</y>
-        </text>
+			<y ifSubset="iconPlayers:yes">0.495</y>
+       </text>
         <text name="lbl_rating" extra="true">
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
