@@ -3,7 +3,7 @@
 <formatVersion>7</formatVersion>
 	<view name="splash">
 		<splash name="splash">
-			<backgroundColor>030303</backgroundColor>
+			<backgroundColor>121212</backgroundColor>
 		</splash>
 		<image name="background">
 			<visible>false</visible>
