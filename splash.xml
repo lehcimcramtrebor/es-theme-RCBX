@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+	<view name="splash">
+		<splash name="splash">
+			<backgroundColor>121212</backgroundColor>
+		</splash>
+		<image name="background">
+			<visible>false</visible>
+		</image>		
+		<text name="rcbx" extra="true">
+			<forceUppercase>true</forceUppercase>    
+			<size>1 1</size>
+			<color>cccccc</color>
+			<fontPath>./_inc/fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.013</fontSize>
+			<glowColor>000000ef</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>1</glowOffset>
+			<alignment>right</alignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<origin>1 1</origin>
+			<pos>0.997 1.00</pos>
+<text>rcbx by helmic </text>
+		</text>
+		<text name="label">
+			<forceUppercase>true</forceUppercase>    
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<alignment>center</alignment>
+			<color>cccccc</color>
+			<fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.036</fontSize>
+			<glowColor>000000ef</glowColor>
+			<glowSize>1</glowSize>
+			<glowOffset>1</glowOffset>
+		</text>
+	</view>
+</theme>
