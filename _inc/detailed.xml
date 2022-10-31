@@ -40,6 +40,24 @@
 			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<lines>15</lines>
 		</textlist>
+		<image name="gridLineLeft,gridLineRight" extra="true" ifSubset="gamelistFrames:fullScreen|yes">
+			<zIndex>1002</zIndex>
+			<path>./parts/plain.png</path>
+            <size>0.002 0.78</size>
+			<opacity>0.05</opacity>
+			<gradientType>horizontal</gradientType>
+			<color>00000000</color>
+			<colorEnd>${c.text}</colorEnd>
+		</image>
+		<image name="gridLineLeft" extra="true" ifSubset="gamelistFrames:fullScreen|yes">
+			<origin>0.5 0.5</origin>
+			<pos>0.025 0.54</pos>
+			<visible ifSubset="gamelistFrames:yes">false</visible>
+		</image>
+		<image name="gridLineRight" extra="true" ifSubset="gamelistFrames:fullScreen|yes">
+			<origin>0.5 0.5</origin>
+			<pos>0.415 0.54</pos>
+		</image>
 		<image name="md_thumbnail">
 			<default>./parts/noThumb.png</default>
 			<zIndex>1001</zIndex>
@@ -129,6 +147,18 @@
 
 	<!--free up space-->
 	<view name="detailed" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+		<textlist name="gamelist">
+			<origin>0 0.5</origin>
+            <pos>0.025 0.54</pos>
+            <size>0.73 0.78</size>
+			<selectorImagePath>./parts/selectorFreeWide.png</selectorImagePath>	  		
+		</textlist>
+		<image name="gridLineLeft" extra="true" ifSubset="gamelistFrames:fullScreen|yes">
+			<visible>false</visible>
+		</image>
+		<image name="gridLineRight" extra="true" ifSubset="gamelistFrames:fullScreen|yes">
+			<x>0.755</x>
+		</image>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
@@ -398,7 +428,7 @@
 		<textlist name="gamelist">
 			<primaryColor>${c.text}cc</primaryColor>
 			<secondaryColor>${c.text}cc</secondaryColor>
-			<selectorImagePath>./parts/selectorFree.png</selectorImagePath>	  		
+			<selectorImagePath ifSubset="freeFanart:no">./parts/selectorFree.png</selectorImagePath>	  		
             <horizontalMargin>0.01</horizontalMargin>
 		</textlist>
 	</view>
