@@ -27,18 +27,12 @@ by Helmic.-->
     </subset>
 
 	<!--support-->
-    <subset name="spacer 01" displayName=" ">
-		<include name=" "/>
-    </subset>
 	<include>./_support/support.xml</include>
 
 	<!--shaders bypass-->
 	<include>./SHADERS.xml</include>
 	
 	<!--subsets-->
-    <subset name="spacer 00" displayName=" ">
-		<include name=" "/>
-    </subset>
     <subset name="music" displayName="${category.music} • ${lang.music}">
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
