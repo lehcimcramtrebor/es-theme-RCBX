@@ -10,6 +10,8 @@
 		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 		<lang.pp.no>non</lang.pp.no>
 
+        <lang.regionChoice>autoriser région (individuel, nécessite de rafraîchir)</lang.regionChoice>
+
 		<category.interface>interface</category.interface>
 		<category.music>musique</category.music>
 		<category.carousel>carrousel</category.carousel>
@@ -113,8 +115,8 @@
 		<lang.paintGamelist>décorer le mur de la liste de jeux</lang.paintGamelist>
 		<lang.paintGamelistForce>intensité des décorations de la liste des jeux</lang.paintGamelistForce>
 		<lang.paintGamelistSaturation>saturation des décorations de la liste des jeux</lang.paintGamelistSaturation>
-		<lang.fanart>avec les fan arts</lang.fanart>
-		<lang.custom>avec le fond perso</lang.custom>
+		<lang.fanart>fan arts</lang.fanart>
+		<lang.custom>fond perso</lang.custom>
 		<lang.fadedPaint>1-délavée</lang.fadedPaint>
 		<lang.darkPaint>2-sombre</lang.darkPaint>
 		<lang.softPaint>3-léger</lang.softPaint>

@@ -10,6 +10,8 @@
 		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 		<lang.pp.no>no</lang.pp.no>
 
+        <lang.regionChoice>allow region (individual, need refresh)</lang.regionChoice>
+
 		<category.interface>interface</category.interface>
 		<category.music>music</category.music>
 		<category.carousel>carousel</category.carousel>
@@ -113,8 +115,8 @@
 		<lang.paintGamelist>paint gamelist wall</lang.paintGamelist>
 		<lang.paintGamelistForce>gamelist view paint intensity</lang.paintGamelistForce>
 		<lang.paintGamelistSaturation>gamelist view paint saturation</lang.paintGamelistSaturation>
-		<lang.fanart>with fanarts</lang.fanart>
-		<lang.custom>with custom</lang.custom>
+		<lang.fanart>fanarts</lang.fanart>
+		<lang.custom>custom</lang.custom>
 		<lang.fadedPaint>1-faded</lang.fadedPaint>
 		<lang.darkPaint>2-dark</lang.darkPaint>
 		<lang.softPaint>3-soft</lang.softPaint>

@@ -20,9 +20,15 @@ by Helmic.-->
 	<include ifNotArch="windows">./../_rcbxCustom/local/local.xml</include>
 	<include ifNotArch="windows">./../_rcbxCustom/local/local-${lang}.xml</include>
 
+	<!--region choice-->
+    <subset name="regionChoice" displayName="${lang.regionChoice}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+		<include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+
 	<!--support-->
-    <subset name="spacer 01" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 01" displayName=" ">
+		<include name=" "/>
     </subset>
 	<include>./_support/support.xml</include>
 
@@ -30,8 +36,8 @@ by Helmic.-->
 	<include>./SHADERS.xml</include>
 	
 	<!--subsets-->
-    <subset name="spacer 00" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 00" displayName=" ">
+		<include name=" "/>
     </subset>
     <subset name="music" displayName="${category.music} • ${lang.music}">
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
@@ -42,8 +48,8 @@ by Helmic.-->
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
         <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
 	</subset>
-    <subset name="spacer 02" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 02" displayName=" ">
+		<include name=" "/>
     </subset>
     <subset name="helpIcons" displayName="${category.interface} • ${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
@@ -70,8 +76,8 @@ by Helmic.-->
         <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
         <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
     </subset>
-    <subset name="spacer 03" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 03" displayName=" ">
+		<include name=" "/>
     </subset>
      <subset name="carousel" displayName="${category.carousel} • ${lang.carousel}">
         <include name="legacy" displayName="${lang.legacy}"/>
@@ -91,8 +97,8 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-    <subset name="spacer 04" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 04" displayName=" ">
+		<include name=" "/>
     </subset>
      <subset name="mode" displayName="${category.frames} • ${lang.mode}">
         <include name="plain" displayName="${lang.plain}"/>
@@ -103,8 +109,8 @@ by Helmic.-->
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
     </subset>
-    <subset name="spacer 05" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 05" displayName=" ">
+		<include name=" "/>
     </subset>
     <subset name="randomVideosSaturation" displayName="${category.randomVideos} • ${lang.randomVideosSaturation}">
         <include name="auto" displayName="${lang.auto}"/>
@@ -126,8 +132,8 @@ by Helmic.-->
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
 	</subset>
-    <subset name="spacer 06" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 06" displayName=" ">
+		<include name=" "/>
     </subset>
     <subset name="backgroundFx" displayName="${category.wall} • ${lang.backgroundFx}">
         <include name="flat" displayName="${lang.flat}"/>
@@ -154,8 +160,8 @@ by Helmic.-->
         <include name="75%"/>
         <include name="auto" displayName="${lang.auto}"/>
 	</subset>
-    <subset name="spacer 07" displayName="                                                                                                                                                                                                                                                            ">
-		<include name="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    "/>
+    <subset name="spacer 07" displayName=" ">
+		<include name=" "/>
     </subset>
     <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
         <include name="yes" displayName="${lang.yes}"/>
@@ -180,7 +186,10 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
     </subset>
-    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="spacerG 00" displayName=" " appliesTo=" ">
+		<include name=" "/>
+    </subset>
+    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
@@ -189,9 +198,12 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
     </subset>
-    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="spacerG 01" displayName=" " appliesTo=" ">
+		<include name=" "/>
     </subset>
     <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
@@ -212,9 +224,24 @@ by Helmic.-->
         <include name="75%"/>
         <include name="auto" displayName="${lang.auto}"/>
 	</subset>
+    <subset name="spacerG 02" displayName=" " appliesTo=" ">
+		<include name=" "/>
+    </subset>
+     <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen}"/>
+    </subset>
      <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+    </subset>
+     <subset name="freeFanart" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes" displayName="${lang.freeFanart}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+    </subset>
+    <subset name="spacerG 03" displayName=" " appliesTo=" ">
+		<include name=" "/>
     </subset>
      <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
@@ -224,19 +251,13 @@ by Helmic.-->
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
+	<include>./_inc/md${bypass.shader}.xml</include>
      <subset name="mdCenter" displayName="${lang.mdCenter}" appliesTo="detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
     </subset>
-	<include>./_inc/md${bypass.shader}.xml</include>
-     <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
-        <include name="no" displayName="${lang.no}"/>
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="fullScreen" displayName="${lang.fullScreen}"/>
-    </subset>
-     <subset name="freeFanart" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes" displayName="${lang.freeFanart}" appliesTo="detailed,gamecarousel">
-        <include name="no" displayName="${lang.no}"/>
-        <include name="yes" displayName="${lang.yes}"/>
+    <subset name="spacerG 04" displayName=" " appliesTo=" ">
+		<include name=" "/>
     </subset>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
@@ -264,6 +285,9 @@ by Helmic.-->
         <include name="0.024"/>
         <include name="0.025"/>
     </subset>
+    <subset name="spacerG 05" displayName=" " appliesTo=" ">
+		<include name=" "/>
+    </subset>
     <subset name="descriptionFont" displayName="${lang.descriptionFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
@@ -290,6 +314,9 @@ by Helmic.-->
         <include name="0.030"/>
         <include name="0.031"/>
         <include name="0.032"/>
+    </subset>
+    <subset name="spacerG 06" displayName=" " appliesTo=" ">
+		<include name=" "/>
     </subset>
     <subset name="gamelistFont" displayName="${lang.gamelistFont}" appliesTo="basic,detailed,library">
         <include name="auto" displayName="${lang.auto}"/>
@@ -330,6 +357,9 @@ by Helmic.-->
         <include name="19"/>
         <include name="21"/>
         <include name="23"/>
+    </subset>
+    <subset name="spacerG 08" displayName=" " appliesTo=" ">
+		<include name=" "/>
     </subset>
      <subset name="bigGamecarousel" displayName="${lang.bigGamecarousel}" appliesTo="gamecarousel">
         <include name="yes" displayName="${lang.yes}"/>
