@@ -23,7 +23,7 @@
 			<maxSize ifSubset="allowIllustrationsCustom:hexa">0.3 0.38</maxSize>
 		</image>
 		<image name="illustration" region="eu" extra="true"/>
-		<image name="illustration" region="us" extra="true">
+		<image name="illustration" region="us" extra="true" ifSubset="regionChoice:yes">
 			<path>./../_rcbxCustom/illustrations/us/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.png</path>
@@ -31,7 +31,7 @@
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/us/${system.theme}.svg</path>
 		</image>
-		<image name="illustration" region="jp" extra="true">
+		<image name="illustration" region="jp" extra="true" ifSubset="regionChoice:yes">
 			<path>./../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../_rcbxCustom/illustrations/jp/${system.theme}.png</path>
@@ -46,10 +46,10 @@
 			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/color-${lang}-pi.png</path>
 			<path ifSubset="neogeo:aes" if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/color-aes-pi.png</path>
 		</image>
-		<image name="illustration" region="us" extra="true">
+		<image name="illustration" region="us" extra="true" ifSubset="regionChoice:yes">
 			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/us/color-pi.png</path>
 		</image>
-		<image name="illustration" region="jp" extra="true">
+		<image name="illustration" region="jp" extra="true" ifSubset="regionChoice:yes">
 			<path if="${cross.hexa} == 'installed'">./../../es-theme-HEXA/${system.theme}/jp/color-pi.png</path>
 		</image>
 
