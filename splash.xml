@@ -6,6 +6,7 @@
 			<backgroundColor>121212</backgroundColor>
 		</splash>
 		<image name="background">
+			<linearSmooth>true</linearSmooth>
 			<path>./_inc/splash.png</path>
 			<maxSize>1 1</maxSize>
 			<pos>0.5 0.5</pos>
