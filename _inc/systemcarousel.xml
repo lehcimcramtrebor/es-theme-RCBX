@@ -9,7 +9,7 @@
 			<scrollSound>./sounds/scroll.wav</scrollSound>
 			<scrollSound>./../_rcbxCustom/scrollSounds/system.wav</scrollSound>
 			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/system.wav</scrollSound>
-			<scrollSound ifNotArch="windows">./../../_rcbxCustom/scrollSounds/system.wav</scrollSound>
+			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/system.wav</scrollSound>
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</carousel>
