@@ -7,8 +7,8 @@
 			<path>./../_rcbxCustom/musics/${system.theme}.ogg</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/musics/${system.theme}.mp3</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/musics/${system.theme}.ogg</path>
-			<path ifNotArch="windows">./../../_rcbxCustom/musics/${system.theme}.mp3</path>
-			<path ifNotArch="windows">./../../_rcbxCustom/musics/${system.theme}.ogg</path>
+			<path ifNotArch="windows">./../../../_rcbxCustom/musics/${system.theme}.mp3</path>
+			<path ifNotArch="windows">./../../../_rcbxCustom/musics/${system.theme}.ogg</path>
 		</sound>
 	</view>
 </theme>

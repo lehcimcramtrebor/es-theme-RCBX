@@ -3,7 +3,7 @@
 <formatVersion>7</formatVersion>
 	<include>./../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
 	<include ifArch="windows">./../../../../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
-	<include ifNotArch="windows">./../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
+	<include ifNotArch="windows">./../../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
 
 	<view name="system">
 		<text name="systemInfo" visible="false"/>
@@ -276,5 +276,5 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 	</view>
 	<include>./../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
 	<include ifArch="windows">./../../../../../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
-	<include ifNotArch="windows">./../../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
+	<include ifNotArch="windows">./../../../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>
 </theme>

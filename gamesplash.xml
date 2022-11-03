@@ -6,7 +6,13 @@
 			<backgroundColor>121212</backgroundColor>
 		</splash>
 		<image name="background">
-			<visible>false</visible>
+			<linearSmooth>true</linearSmooth>
+			<path>./_rcbxCustom/gamesplash.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/gamesplash.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/gamesplash.png</path>
+			<maxSize>1 1</maxSize>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
 		</image>		
 		<text name="label">
 			<forceUppercase>true</forceUppercase>    

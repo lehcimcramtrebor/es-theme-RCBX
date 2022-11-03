@@ -7,7 +7,9 @@
 		</splash>
 		<image name="background">
 			<linearSmooth>true</linearSmooth>
-			<path>./_inc/splash.png</path>
+			<path>./_rcbxCustom/splash.png</path>
+			<path ifArch="windows">./../../../../_rcbxCustom/splash.png</path>
+			<path ifNotArch="windows">./../../_rcbxCustom/splash.png</path>
 			<maxSize>1 1</maxSize>
 			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>

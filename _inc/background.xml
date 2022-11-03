@@ -25,10 +25,10 @@
 			<path>{random:fanart}</path>
 			<path ifSubset="allowSystemCustom:yes">./../_rcbxCustom/paints/${system.theme}.jpg</path>
 			<path ifSubset="allowSystemCustom:yes" ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.jpg</path>
-			<path ifSubset="allowSystemCustom:yes" ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.jpg</path>
+			<path ifSubset="allowSystemCustom:yes" ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.jpg</path>
 			<path ifSubset="allowSystemCustom:yes">./../_rcbxCustom/paints/${system.theme}.png</path>
 			<path ifSubset="allowSystemCustom:yes" ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.png</path>
-			<path ifSubset="allowSystemCustom:yes" ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.png</path>
+			<path ifSubset="allowSystemCustom:yes" ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
 			<pos>0 0</pos>
@@ -113,10 +113,10 @@
 		<image name="paintGamelist" ifSubset="paintGamelist:custom" extra="true">
 			<path>./../_rcbxCustom/paints/${system.theme}.jpg</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.jpg</path>
-			<path ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.jpg</path>
+			<path ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.jpg</path>
 			<path>./../_rcbxCustom/paints/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.png</path>
-			<path ifNotArch="windows">./../../_rcbxCustom/paints/${system.theme}.png</path>
+			<path ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
 			<pos>0 0</pos>

@@ -17,8 +17,8 @@ by Helmic.-->
 	<include>./_rcbxCustom/local/local-${lang}.xml</include>
 	<include ifArch="windows">./../../../../_rcbxCustom/local/local.xml</include>
 	<include ifArch="windows">./../../../../_rcbxCustom/local/local-${lang}.xml</include>
-	<include ifNotArch="windows">./../_rcbxCustom/local/local.xml</include>
-	<include ifNotArch="windows">./../_rcbxCustom/local/local-${lang}.xml</include>
+	<include ifNotArch="windows">./../../_rcbxCustom/local/local.xml</include>
+	<include ifNotArch="windows">./../../_rcbxCustom/local/local-${lang}.xml</include>
 
 	<!--region choice-->
     <subset name="regionChoice" displayName="${lang.regionChoice}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">

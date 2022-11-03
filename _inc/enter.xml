@@ -68,6 +68,6 @@
 	<include>./../_rcbxCustom/enterMessage/default.xml</include>
 	<include ifArch="windows">./../../../../../_rcbxCustom/enterMessage/default.xml</include>
 	<include ifArch="windows">./../../../../../_rcbxCustom/enterMessage/${system.theme}.xml</include>
-	<include ifNotArch="windows">./../../_rcbxCustom/enterMessage/default.xml</include>
-	<include ifNotArch="windows">./../../_rcbxCustom/enterMessage/${system.theme}.xml</include>
+	<include ifNotArch="windows">./../../../_rcbxCustom/enterMessage/default.xml</include>
+	<include ifNotArch="windows">./../../../_rcbxCustom/enterMessage/${system.theme}.xml</include>
 </theme>
