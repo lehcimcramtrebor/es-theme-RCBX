@@ -43,6 +43,7 @@
 		<text name="etro" extra="true">
 			<text>etro</text>
 			<x>0.25</x>
+			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
 			<alignment>left</alignment>
@@ -57,6 +58,7 @@
 		<text name="ustomizable" extra="true">
 			<text>ustomizable</text>
 			<x>0.35</x>
+			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
 			<alignment>left</alignment>
@@ -71,6 +73,7 @@
 		<text name="eautiful" extra="true">
 			<text>eautiful</text>
 			<x>0.53</x>
+			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
 			<alignment>left</alignment>
@@ -78,6 +81,7 @@
 		<text name="e" extra="true">
 			<text>e</text>
 			<x>0.68</x>
+			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>1.036 0.5</origin>
 			<alignment>right</alignment>
@@ -92,6 +96,7 @@
 		<text name="perience" extra="true">
 			<text>perience</text>
 			<x>0.68</x>
+			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
 			<alignment>left</alignment>
