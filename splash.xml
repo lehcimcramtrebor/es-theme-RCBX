@@ -6,7 +6,10 @@
 			<backgroundColor>121212</backgroundColor>
 		</splash>
 		<image name="background">
-			<visible>false</visible>
+			<path>./_inc/splash.png</path>
+			<maxSize>1 1</maxSize>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
 		</image>		
 		<text name="rcbx" extra="true">
 			<forceUppercase>true</forceUppercase>    
@@ -22,84 +25,6 @@
 			<origin>1 1</origin>
 			<pos>0.997 1.00</pos>
 <text>rcbx by helmic </text>
-		</text>
-		<text name="R,etrogaming,C,ustomizable,B,eautiful,e,X,perience" extra="true">
-			<forceUppercase>true</forceUppercase>    
-			<y>0.5</y>
-			<size>1 1</size>
-			<color>cccccc</color>
-			<fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
-			<glowColor>000000ef</glowColor>
-			<glowSize>1</glowSize>
-			<glowOffset>1</glowOffset>
-		</text>
-		<text name="R" extra="true">
-			<text>R</text>
-			<x>0.175</x>
-			<fontSize>0.1</fontSize>
-			<origin>1 0.5</origin>
-			<alignment>right</alignment>
-		</text>
-		<text name="etrogaming" extra="true">
-			<text>etrogaming</text>
-			<x>0.175</x>
-			<y>0.505</y>
-			<fontSize>0.036</fontSize>
-			<origin>0 0.5</origin>
-			<alignment>left</alignment>
-		</text>
-		<text name="C" extra="true">
-			<text>C</text>
-			<x>0.375</x>
-			<fontSize>0.1</fontSize>
-			<origin>1 0.5</origin>
-			<alignment>right</alignment>
-		</text>
-		<text name="ustomizable" extra="true">
-			<text>ustomizable</text>
-			<x>0.375</x>
-			<y>0.505</y>
-			<fontSize>0.036</fontSize>
-			<origin>0 0.5</origin>
-			<alignment>left</alignment>
-		</text>
-		<text name="B" extra="true">
-			<text>B</text>
-			<x>0.575</x>
-			<fontSize>0.1</fontSize>
-			<origin>1 0.5</origin>
-			<alignment>right</alignment>
-		</text>
-		<text name="eautiful" extra="true">
-			<text>eautiful</text>
-			<x>0.575</x>
-			<y>0.505</y>
-			<fontSize>0.036</fontSize>
-			<origin>0 0.5</origin>
-			<alignment>left</alignment>
-		</text>
-		<text name="e" extra="true">
-			<text>e</text>
-			<x>0.775</x>
-			<y>0.505</y>
-			<fontSize>0.036</fontSize>
-			<origin>1.036 0.5</origin>
-			<alignment>right</alignment>
-		</text>
-		<text name="X" extra="true">
-			<text>X</text>
-			<x>0.775</x>
-			<fontSize>0.1</fontSize>
-			<origin>1 0.5</origin>
-			<alignment>right</alignment>
-		</text>
-		<text name="perience" extra="true">
-			<text>perience</text>
-			<x>0.775</x>
-			<y>0.505</y>
-			<fontSize>0.036</fontSize>
-			<origin>0 0.5</origin>
-			<alignment>left</alignment>
 		</text>
 		<text name="label">
 			<forceUppercase>true</forceUppercase>    
