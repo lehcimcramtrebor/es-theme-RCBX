@@ -15,6 +15,7 @@
 		<menuText name="menutext">
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.025</fontSize>
+			<fontSize tinyScreen="true">0.028</fontSize>
 			<color>${c.text}</color>
 			<separatorColor>00000000</separatorColor>
 			<selectorColor>${c.menuSelector}</selectorColor>
@@ -25,10 +26,12 @@
 		<menuTextSmall name="menutextsmall">
 			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.018</fontSize>
+			<fontSize tinyScreen="true">0.022</fontSize>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.026</fontSize>
+			<fontSize tinyScreen="true">0.03</fontSize>
 			<color>${c.textHeader}</color>
 			<separatorColor>00000000</separatorColor>
 			<backgroundColor>00000000</backgroundColor>

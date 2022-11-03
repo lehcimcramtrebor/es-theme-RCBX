@@ -54,6 +54,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<forceUppercase>true</forceUppercase>
 			<fontSize>0.02</fontSize>
 			<pos>0.03 0.605</pos>
+			<offsetY tinyScreen="true" ifsubset="carousel:legacy">0.01</offsetY>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>

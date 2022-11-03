@@ -10,6 +10,7 @@
 			<fontSize ifCheevos="true">0.015</fontSize>
 			<pos>0.90 0.956</pos>
 			<pos ifCheevos="true">0.893 0.947</pos>
+			<pos ifCheevos="true" tinyScreen="true">0.89 0.94</pos>
 			<size>0.09 0.058</size>
 			<alignment>right</alignment>
 			<verticalAlignment>center</verticalAlignment>
@@ -23,6 +24,7 @@
 			<maxSize>1 0.02</maxSize>
 			<origin>1 1</origin>
 			<pos>0.998 0.9825</pos>
+			<pos tinyScreen="true">0.998 0.9755</pos>
 			<color>${c.text}</color>
 		</image>
 		<text name="username" extra="true">
