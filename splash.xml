@@ -23,7 +23,7 @@
 			<pos>0.997 1.00</pos>
 <text>rcbx by helmic </text>
 		</text>
-		<text name="R,etro,C,ustomizable,B,eautiful,e,X,perience" extra="true">
+		<text name="R,etrogaming,C,ustomizable,B,eautiful,e,X,perience" extra="true">
 			<forceUppercase>true</forceUppercase>    
 			<y>0.5</y>
 			<size>1 1</size>
@@ -35,14 +35,14 @@
 		</text>
 		<text name="R" extra="true">
 			<text>R</text>
-			<x>0.25</x>
+			<x>0.175</x>
 			<fontSize>0.1</fontSize>
 			<origin>1 0.5</origin>
 			<alignment>right</alignment>
 		</text>
-		<text name="etro" extra="true">
-			<text>etro</text>
-			<x>0.25</x>
+		<text name="etrogaming" extra="true">
+			<text>etrogaming</text>
+			<x>0.175</x>
 			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
@@ -50,14 +50,14 @@
 		</text>
 		<text name="C" extra="true">
 			<text>C</text>
-			<x>0.35</x>
+			<x>0.375</x>
 			<fontSize>0.1</fontSize>
 			<origin>1 0.5</origin>
 			<alignment>right</alignment>
 		</text>
 		<text name="ustomizable" extra="true">
 			<text>ustomizable</text>
-			<x>0.35</x>
+			<x>0.375</x>
 			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
@@ -65,14 +65,14 @@
 		</text>
 		<text name="B" extra="true">
 			<text>B</text>
-			<x>0.53</x>
+			<x>0.575</x>
 			<fontSize>0.1</fontSize>
 			<origin>1 0.5</origin>
 			<alignment>right</alignment>
 		</text>
 		<text name="eautiful" extra="true">
 			<text>eautiful</text>
-			<x>0.53</x>
+			<x>0.575</x>
 			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
@@ -80,7 +80,7 @@
 		</text>
 		<text name="e" extra="true">
 			<text>e</text>
-			<x>0.68</x>
+			<x>0.775</x>
 			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>1.036 0.5</origin>
@@ -88,14 +88,14 @@
 		</text>
 		<text name="X" extra="true">
 			<text>X</text>
-			<x>0.68</x>
+			<x>0.775</x>
 			<fontSize>0.1</fontSize>
 			<origin>1 0.5</origin>
 			<alignment>right</alignment>
 		</text>
 		<text name="perience" extra="true">
 			<text>perience</text>
-			<x>0.68</x>
+			<x>0.775</x>
 			<y>0.505</y>
 			<fontSize>0.036</fontSize>
 			<origin>0 0.5</origin>
