@@ -1,4 +1,4 @@
-# es-theme-RCBX
+# RCBX - Retro Customizable Beautiful eXperience
 
 Simple Emulationstation theme inspired by Recalbox theme for: 
 
