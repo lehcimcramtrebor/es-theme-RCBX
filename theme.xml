@@ -121,7 +121,7 @@ by Helmic.-->
         <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<include>./_inc/random${bypass.shader}.xml</include>
+	<include tinyScreen="false">./_inc/random${bypass.shader}.xml</include>
     <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:asPaint|inFrame|onWall|fullScreen">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
@@ -245,7 +245,7 @@ by Helmic.-->
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>
-	<include>./_inc/md${bypass.shader}.xml</include>
+	<include tinyScreen="false">./_inc/md${bypass.shader}.xml</include>
      <subset name="mdCenter" displayName="${lang.mdCenter}" appliesTo="detailed,grid,gamecarousel">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
