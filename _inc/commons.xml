@@ -68,16 +68,16 @@
 				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="open" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
 			</storyboard>
 			<storyboard event="activateNext" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
 			</storyboard>
 			<storyboard event="activatePrev" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="scale" to="0" mode="linear" duration="1"/>
