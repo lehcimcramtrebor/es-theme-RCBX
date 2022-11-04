@@ -158,8 +158,9 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
     <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
-        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+        <include tinyScreen="false" name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
+        <include tinyScreen="true" name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
     </subset>
     <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
         <include name="auto" displayName="${lang.auto}"/>
