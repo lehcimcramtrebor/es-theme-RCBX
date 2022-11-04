@@ -314,6 +314,7 @@
             <size ifSubset="mdCenter:yes">0.3 0.255</size>
 			<h ifSubset="gamelistFrames:fullScreen">0.28</h>
             <fontSize>0.02</fontSize>
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.03</fontSize>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>

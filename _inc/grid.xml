@@ -49,6 +49,7 @@
 			<color>ffffff80</color>
 			<backgroundColor>00000000</backgroundColor>
 			<fontSize>0.017</fontSize>
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.025</fontSize>
 			<forceUppercase>false</forceUppercase>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<alignment>center</alignment>

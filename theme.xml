@@ -26,6 +26,15 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 
+	<!--mode handheld -->
+    <subset tinyScreen="false" name="tiny" displayName="${lang.tinyNope}">
+        <include name="nope" displayName="${lang.nope}"/>
+    </subset>
+    <subset tinyScreen="true" name="tiny" displayName="${lang.tiny}">
+		<include name="handheld" displayName="${lang.handheldMode}"/>
+        <include name="crt" displayName="${lang.crtMode}"/>
+    </subset>
+
 	<!--support-->
 	<include>./_support/support.xml</include>
 
@@ -45,7 +54,16 @@ by Helmic.-->
     <subset name="spacer 02" displayName=" ">
 		<include name=" "/>
     </subset>
-    <subset name="helpIcons" displayName="${category.interface} • ${lang.helpIcons}">
+    <subset name="helpIcons" tinyScreen="false" displayName="${category.interface} • ${lang.helpIcons}">
+        <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
+        <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
+        <include name="psxIcons" displayName="${lang.psxIcons}"/>
+        <include name="snesIcons" displayName="${lang.snesIcons}"/>
+        <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
+        <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+        <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
+    </subset>
+    <subset name="helpIcons" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.interface} • ${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
         <include name="psxIcons" displayName="${lang.psxIcons}"/>
@@ -157,11 +175,15 @@ by Helmic.-->
     <subset name="spacer 07" displayName=" ">
 		<include name=" "/>
     </subset>
-    <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
-        <include tinyScreen="false" name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+    <subset name="extendedInfos" tinyScreen="false" displayName="${category.various} • ${lang.extendedInfos}">
+        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
         <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
-        <include tinyScreen="true" name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
     </subset>
+    <subset name="extendedInfos" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.extendedInfos}">
+        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+        <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
+    </subset>
+	<include tinyScreen="true" ifSubset="tiny:handheld">./_inc/systemInfo.xml</include>
     <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
@@ -169,18 +191,22 @@ by Helmic.-->
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="enterDisplay" displayName="${category.various} • ${lang.enterDisplay}">
-        <include tinyScreen="false" name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+    <subset name="enterDisplay" tinyScreen="false" displayName="${category.various} • ${lang.enterDisplay}">
+        <include name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
         <include name="no" displayName="${lang.no}"/>
-        <include tinyScreen="true" name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+    </subset>
+   <subset name="enterDisplay" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.enterDisplay}">
+        <include name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
         <include name="aes"/>
         <include name="mvs"/>
     </subset>
     <subset name="iconPlayers" displayName="${category.various} • ${lang.iconPlayers}">
+        <include name="yes" tinyScreen="true" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
-        <include name="yes" displayName="${lang.yes}"/>
+        <include name="yes" tinyScreen="false" displayName="${lang.yes}"/>
     </subset>
     <subset name="customHelp" displayName="${category.various} • ${lang.customHelp}">
         <include name="no" displayName="${lang.no}"/>
@@ -232,9 +258,14 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="fullScreen" displayName="${lang.fullScreen}"/>
     </subset>
-     <subset name="centerGamelistLogos" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+     <subset name="centerGamelistLogos" tinyScreen="false" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+    </subset>
+     <subset name="centerGamelistLogos" tinyScreen="true" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+        <include name="yes" ifSubset="tiny:handheld" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" ifSubset="tiny:crt" displayName="${lang.yes}"/>
     </subset>
      <subset name="freeFanart" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes" displayName="${lang.freeFanart}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="no" displayName="${lang.no}"/>

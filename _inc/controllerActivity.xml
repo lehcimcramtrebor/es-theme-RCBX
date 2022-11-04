@@ -7,10 +7,13 @@
 			<size>0.185 0.023</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>${c.text}</color>
+			<color tinyScreen="true" ifSubset="tiny:handheld">00000000</color>
 			<imagePath>./controllerActivity/gamepad.svg</imagePath>
 			<gunPath>./controllerActivity/gun.svg</gunPath>
 			<activityColor>${textHeader}</activityColor>
+			<activityColor tinyScreen="true" ifSubset="tiny:handheld">00000000</activityColor>
 			<hotkeyColor>ff3030</hotkeyColor>
+			<hotkeyColor tinyScreen="true" ifSubset="tiny:handheld">00000000</hotkeyColor>
 		</controllerActivity>
 	</view>
 </theme>

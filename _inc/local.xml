@@ -22,6 +22,12 @@
 
 		<lang.neogeo>neo geo version</lang.neogeo>
 
+		<lang.tinyNope>big screen detected</lang.tinyNope>
+		<lang.nope>options not available</lang.nope>
+		<lang.tiny>tiny screen detected • choose mode</lang.tiny>
+		<lang.handheldMode>handheld</lang.handheldMode>
+		<lang.crtMode>crt</lang.crtMode>
+
 		<lang.iconPlayers>use numbers of player icons</lang.iconPlayers>
 
 		<lang.hexa>hexa</lang.hexa>

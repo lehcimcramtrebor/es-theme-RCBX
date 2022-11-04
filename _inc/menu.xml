@@ -16,6 +16,7 @@
 			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
 			<fontSize>0.025</fontSize>
 			<fontSize tinyScreen="true">0.028</fontSize>
+			<fontSize tinyScreen="true" ifSubset="tiny:handheld">0.036</fontSize>
 			<color>${c.text}</color>
 			<separatorColor>00000000</separatorColor>
 			<selectorColor>${c.menuSelector}</selectorColor>
@@ -27,11 +28,13 @@
 			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.018</fontSize>
 			<fontSize tinyScreen="true">0.022</fontSize>
+			<fontSize tinyScreen="true" ifSubset="tiny:handheld">0.032</fontSize>
 		</menuTextSmall>
 		<menuGroup name="menugroup">
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.026</fontSize>
 			<fontSize tinyScreen="true">0.03</fontSize>
+			<fontSize tinyScreen="true" ifSubset="tiny:handheld">0.038</fontSize>
 			<color>${c.textHeader}</color>
 			<separatorColor>00000000</separatorColor>
 			<backgroundColor>00000000</backgroundColor>

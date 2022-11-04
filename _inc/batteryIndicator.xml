@@ -5,6 +5,7 @@
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.955 0.012</pos>
 			<size>0.033 0.0275</size>
+			<size tinyScreen="true" ifSubset="tiny:handheld">0.033 0.04</size>
 			<horizontalAlignment>right</horizontalAlignment>
 			<incharge>./batteryIndicator/incharge.svg</incharge>
 			<full>./batteryIndicator/full.svg</full>

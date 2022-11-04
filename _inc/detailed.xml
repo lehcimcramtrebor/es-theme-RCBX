@@ -28,6 +28,7 @@
 			<selectorImagePath>./parts/selector.png</selectorImagePath>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.03</fontSize>
 			<alignment>left</alignment>
             <horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>true</forceUppercase>

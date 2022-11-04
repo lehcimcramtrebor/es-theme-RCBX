@@ -22,6 +22,12 @@
 
 		<lang.neogeo>version de la neo geo</lang.neogeo>
 
+		<lang.tinyNope>écran standard détecté</lang.tinyNope>
+		<lang.nope>options non disponibles</lang.nope>
+		<lang.tiny>petit écran détecté • choisir le mode</lang.tiny>
+		<lang.handheldMode>console portable</lang.handheldMode>
+		<lang.crtMode>affichage crt</lang.crtMode>
+
 		<lang.iconPlayers>utiliser l'icône du nombre de joueurs</lang.iconPlayers>
 
 		<lang.hexa>hexa</lang.hexa>

@@ -2,15 +2,14 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="screen">
-		<text name="clock">
+		<text name="clock" tinyScreen="false">
 			<color>${c.text}</color>
-			<fontPath>./fonts/Cabin-Regular.ttf</fontPath>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontPath ifCheevos="true">./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.02</fontSize>
 			<fontSize ifCheevos="true">0.015</fontSize>
 			<pos>0.90 0.956</pos>
 			<pos ifCheevos="true">0.893 0.947</pos>
-			<pos ifCheevos="true" tinyScreen="true">0.89 0.94</pos>
 			<size>0.09 0.058</size>
 			<alignment>right</alignment>
 			<verticalAlignment>center</verticalAlignment>
@@ -18,7 +17,34 @@
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
 		</text>
-		<image name="cheevosIcon" extra="true" ifCheevos="true">
+		<text name="clock" tinyScreen="true" ifSubset="tiny:crt">
+			<color>${c.text}</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath ifCheevos="true">./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.02</fontSize>
+			<fontSize ifCheevos="true">0.015</fontSize>
+			<pos>0.90 0.956</pos>
+			<pos ifCheevos="true">0.89 0.94</pos>
+			<size>0.09 0.058</size>
+			<alignment>right</alignment>
+			<verticalAlignment>center</verticalAlignment>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
+		</text>
+		<text name="clock" tinyScreen="true" ifSubset="tiny:handheld">
+			<color>${c.text}</color>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.026</fontSize>
+			<pos>0.90 0.952</pos>
+			<size>0.09 0.058</size>
+			<alignment>right</alignment>
+			<verticalAlignment>center</verticalAlignment>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
+		</text>
+		<image name="cheevosIcon" extra="true" tinyScreen="false" ifCheevos="true">
 			<linearSmooth>true</linearSmooth>
 			<path>./parts/Contest.png</path>
 			<maxSize>1 0.02</maxSize>
@@ -27,7 +53,30 @@
 			<pos tinyScreen="true">0.998 0.9755</pos>
 			<color>${c.text}</color>
 		</image>
-		<text name="username" extra="true">
+		<image name="cheevosIcon" extra="true" tinyScreen="true" ifSubset="tiny:crt" ifCheevos="true">
+			<linearSmooth>true</linearSmooth>
+			<path>./parts/Contest.png</path>
+			<maxSize>1 0.02</maxSize>
+			<origin>1 1</origin>
+			<pos>0.998 0.9825</pos>
+			<pos tinyScreen="true">0.998 0.9755</pos>
+			<color>${c.text}</color>
+		</image>
+		<text name="username" extra="true" tinyScreen="false" ifCheevos="true">
+			<text>${cheevos.username}</text>
+			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
+			<fontSize>0.013</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<color>${c.text}</color>
+			<alignment>right</alignment>
+			<verticalAlignment>bottom</verticalAlignment>
+			<origin>1 1</origin>
+			<pos>0.997 1.00</pos>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>			
+		</text>
+		<text name="username" extra="true" tinyScreen="true" ifSubset="tiny:crt" ifCheevos="true">
 			<text>${cheevos.username}</text>
 			<fontPath>./fonts/CabinCondensed-Regular.ttf</fontPath>
 			<fontSize>0.013</fontSize>
