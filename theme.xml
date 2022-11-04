@@ -169,6 +169,11 @@ by Helmic.-->
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
+    <subset name="enterDisplay" displayName="${category.various} • ${lang.enterDisplay}">
+        <include tinyScreen="false" name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+        <include name="no" displayName="${lang.no}"/>
+        <include tinyScreen="true" name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+    </subset>
     <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
         <include name="aes"/>
         <include name="mvs"/>
@@ -372,7 +377,6 @@ by Helmic.-->
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
 	<include>./_inc/bands.xml</include>
-	<include>./_inc/enter.xml</include>
 	<include>./_inc/illustrations.xml</include>
 	<include>./_inc/basic.xml</include>
 	<include>./_inc/commons.xml</include>
