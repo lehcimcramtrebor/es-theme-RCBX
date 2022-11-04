@@ -158,8 +158,8 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
     <subset name="extendedInfos" displayName="${category.various} • ${lang.extendedInfos}">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
+        <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
     </subset>
     <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
         <include name="auto" displayName="${lang.auto}"/>
@@ -367,8 +367,6 @@ by Helmic.-->
 	<include>./_inc/help.xml</include>
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
-	<include>./_inc/systemInfo.xml</include>
-	<include>./_inc/infos.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
