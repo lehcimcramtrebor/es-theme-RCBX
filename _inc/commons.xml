@@ -42,6 +42,7 @@
 			<pos ifSubset="mdCenter:yes">0.62 0.385</pos>
 			<maxSize>0.34 0.424</maxSize>
 			<delay>0.3</delay>
+			<delay tinyScreen="true" ifSubset="tiny:handheld">2</delay>
 			<effect>none</effect>
 			<showSnapshotNoVideo>false</showSnapshotNoVideo>
 			<showSnapshotDelay>false</showSnapshotDelay>
@@ -59,6 +60,24 @@
 			<storyboard event="activatePrev">
 				<animation property="scale" from="0" to="0" mode="linear" duration="800"/>
 				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="800"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="open" ifSubset="tiny:handheld" tinyScreen="true">
+				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
+			</storyboard>
+			<storyboard event="activateNext" ifSubset="tiny:handheld" tinyScreen="true">
+				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
+			</storyboard>
+			<storyboard event="activatePrev" ifSubset="tiny:handheld" tinyScreen="true">
+				<animation property="scale" from="0" to="0" mode="linear" duration="2000"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2000"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="scale" to="0" mode="linear" duration="1"/>
@@ -95,6 +114,30 @@
 				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="open" ifSubset="mdVideos:yes,tiny:handheld" tinyScreen="true">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+			</storyboard>
+			<storyboard event="activateNext" ifSubset="mdVideos:yes,tiny:handheld">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+			</storyboard>
+			<storyboard event="activatePrev" ifSubset="mdVideos:yes,tiny:handheld">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="scale" to="0" mode="linear" duration="1"/>
