@@ -68,16 +68,16 @@
 				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="open" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2500"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="activateNext" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2500"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="activatePrev" ifSubset="tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="0" to="0" mode="linear" duration="2200"/>
-				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2200"/>
+				<animation property="scale" from="0" to="0" mode="linear" duration="2500"/>
+				<animation property="scale" from="0" to="1" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="scale" to="0" mode="linear" duration="1"/>
@@ -122,22 +122,22 @@
 				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 			<storyboard event="open" ifSubset="mdVideos:yes,tiny:handheld" tinyScreen="true">
-				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="activateNext" ifSubset="mdVideos:yes,tiny:handheld">
-				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="activatePrev" ifSubset="mdVideos:yes,tiny:handheld">
-				<animation property="scale" from="1" to="1" mode="linear" duration="2000"/>
-				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
-				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2000"/>
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.8" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="scale" to="0" mode="linear" duration="1"/>
