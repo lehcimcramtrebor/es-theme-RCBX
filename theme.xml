@@ -31,7 +31,8 @@ by Helmic.-->
         <include name="nope" displayName="${lang.nope}"/>
     </subset>
     <subset tinyScreen="true" name="tiny" displayName="${lang.tiny}">
-		<include name="handheld" displayName="${lang.handheldMode}"/>
+		<include name="handheld" displayName="${lang.handheldMode}">./_inc/tinyDefaultView.xml</include>
+
         <include name="crt" displayName="${lang.crtMode}"/>
     </subset>
 
