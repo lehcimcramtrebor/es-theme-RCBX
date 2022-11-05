@@ -22,8 +22,8 @@
 
 		<lang.neogeo>neo geo version</lang.neogeo>
 
-		<lang.tinyNope>big screen detected</lang.tinyNope>
-		<lang.nope>options not available</lang.nope>
+		<lang.tinyNope> </lang.tinyNope><!--non secable space alt+0255-->
+		<lang.nope> </lang.nope><!--non secable space alt+0255-->
 		<lang.tiny>tiny screen detected • choose mode</lang.tiny>
 		<lang.handheldMode>handheld</lang.handheldMode>
 		<lang.crtMode>crt</lang.crtMode>
