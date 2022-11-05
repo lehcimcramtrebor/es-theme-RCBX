@@ -24,7 +24,7 @@
 
 		<lang.tinyNope> </lang.tinyNope><!--non secable space alt+0255-->
 		<lang.nope> </lang.nope><!--non secable space alt+0255-->
-		<lang.tiny>tiny screen detected • choose mode</lang.tiny>
+		<lang.tiny>tiny mode</lang.tiny>
 		<lang.handheldMode>handheld</lang.handheldMode>
 		<lang.crtMode>crt</lang.crtMode>
 
