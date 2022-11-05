@@ -12,6 +12,10 @@
 
         <lang.regionChoice>allow region (individual, need refresh)</lang.regionChoice>
 
+        <lang.controller>controller activity icon</lang.controller>
+        <lang.player>player</lang.player>
+        <lang.gamepad>gamepad</lang.gamepad>
+
 		<category.interface>interface</category.interface>
 		<category.music>music</category.music>
 		<category.carousel>carousel</category.carousel>

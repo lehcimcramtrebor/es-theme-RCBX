@@ -12,6 +12,10 @@
 
         <lang.regionChoice>autoriser région (individuel, nécessite de rafraîchir)</lang.regionChoice>
 
+        <lang.controller>icône du contrôleur d'activité</lang.controller>
+        <lang.player>joueur</lang.player>
+        <lang.gamepad>manette</lang.gamepad>
+
 		<category.interface>interface</category.interface>
 		<category.music>musique</category.music>
 		<category.carousel>carrousel</category.carousel>

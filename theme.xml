@@ -86,6 +86,14 @@ by Helmic.-->
         <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>
+    <subset name="controller" tinyScreen="false" displayName="${category.interface} • ${lang.controller}">
+        <include name="player" displayName="${lang.player}"/>
+        <include name="gamepad" displayName="${lang.gamepad}"/>
+    </subset>
+    <subset name="controller" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.interface} • ${lang.controller}">
+        <include name="player" displayName="${lang.player}"/>
+        <include name="gamepad" displayName="${lang.gamepad}"/>
+    </subset>
     <subset name="helpFont" displayName="${category.interface} • ${lang.helpFont}">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
