@@ -30,9 +30,12 @@ by Helmic.-->
     <subset tinyScreen="false" name="tiny" displayName="${lang.tinyNope}">
         <include name="nope" displayName="${lang.nope}"/>
     </subset>
-    <subset tinyScreen="true" name="tiny" displayName="${lang.tiny}">
+    <subset tinyScreen="true" name="tiny" ifArch="x86,x86_64,windows,rpi4,rpi3,rpi2,rpi1,odroidxu4,odroidc2,odroidc4,tinkerboard,tinkerboard,orangepi_zero2,orangepi_pc,cha,s812,s922x,s905,s905gen3,s912" displayName="${lang.tiny}">
+        <include name="crt" displayName="${lang.crtMode}"/>
 		<include name="handheld" displayName="${lang.handheldMode}">./_inc/tinyDefaultView.xml</include>
-
+    </subset>
+    <subset tinyScreen="true" name="tiny" ifNotArch="x86,x86_64,windows,rpi4,rpi3,rpi2,rpi1,odroidxu4,odroidc2,odroidc4,tinkerboard,tinkerboard,orangepi_zero2,orangepi_pc,cha,s812,s922x,s905,s905gen3,s912" displayName="${lang.tiny}">
+		<include name="handheld" displayName="${lang.handheldMode}">./_inc/tinyDefaultView.xml</include>
         <include name="crt" displayName="${lang.crtMode}"/>
     </subset>
 
