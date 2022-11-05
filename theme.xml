@@ -83,12 +83,22 @@ by Helmic.-->
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-     <subset name="colorset" displayName="${category.interface} • ${lang.colorset}">
+     <subset name="colorset" tinyScreen="false" displayName="${category.interface} • ${lang.colorset}">
         <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
         <include name="smoke" displayName="${lang.smoke}">./_inc/colors/smoke.xml</include>
         <include name="mars" displayName="${lang.mars}">./_inc/colors/mars.xml</include>
         <include name="wine" displayName="${lang.wine}">./_inc/colors/wine.xml</include>
         <include name="sinople" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
+        <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
+        <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
+    </subset>
+      <subset name="colorset" tinyScreen="true" displayName="${category.interface} • ${lang.colorset}">
+        <include name="sinople" ifSubset="tiny:handheld" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
+        <include name="cobalt" displayName="${lang.cobalt}">./_inc/colors/cobalt.xml</include>
+        <include name="smoke" displayName="${lang.smoke}">./_inc/colors/smoke.xml</include>
+        <include name="mars" displayName="${lang.mars}">./_inc/colors/mars.xml</include>
+        <include name="wine" displayName="${lang.wine}">./_inc/colors/wine.xml</include>
+        <include name="sinople" ifSubset="tiny:crt" displayName="${lang.sinople}">./_inc/colors/sinople.xml</include>
         <include name="mandarine" displayName="${lang.mandarine}">./_inc/colors/mandarine.xml</include>
         <include name="candy" displayName="${lang.candy}">./_inc/colors/candy.xml</include>
     </subset>
@@ -116,9 +126,15 @@ by Helmic.-->
     <subset name="spacer 04" displayName=" ">
 		<include name=" "/>
     </subset>
-     <subset name="mode" displayName="${category.frames} • ${lang.mode}">
+     <subset name="mode" tinyScreen="false" displayName="${category.frames} • ${lang.mode}">
         <include name="plain" displayName="${lang.plain}"/>
         <include name="transparent" displayName="${lang.transparent}"/>
+        <include name="translucent" displayName="${lang.translucent}"/>
+    </subset>
+     <subset name="mode" tinyScreen="true" displayName="${category.frames} • ${lang.mode}">
+        <include name="transparent" ifSubset="tiny:handheld" displayName="${lang.transparent}"/>
+        <include name="plain" displayName="${lang.plain}"/>
+        <include name="transparent" ifSubset="tiny:crt" displayName="${lang.transparent}"/>
         <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
      <subset name="texture" displayName="${category.frames} • ${lang.texture}">
@@ -266,9 +282,15 @@ by Helmic.-->
     <subset name="spacerG 02" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
-     <subset name="gamelistFrames" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+     <subset name="gamelistFrames" tinyScreen="false" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen}"/>
+    </subset>
+     <subset name="gamelistFrames" tinyScreen="true" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+        <include name="yes" ifSubset="tiny:handheld" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" ifSubset="tiny:crt" displayName="${lang.yes}"/>
         <include name="fullScreen" displayName="${lang.fullScreen}"/>
     </subset>
      <subset name="centerGamelistLogos" tinyScreen="false" displayName="${lang.centerGamelistLogos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">

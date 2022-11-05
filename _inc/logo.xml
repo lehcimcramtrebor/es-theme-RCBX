@@ -79,4 +79,40 @@
 			</storyboard>
 		</image>
 	</view>
+	<view name="system" tinyScreen="true" ifSubset="tiny:handheld">
+		<image name="logo" ifSubset="carouselAnime:yes">
+			<scale>0.5</scale>
+			<storyboard event="activate" repeatAt="300">
+				<animation property="scale" from="0.6" to="1" duration="250" mode="easeOut"/>
+				<animation property="opacity" from="1" to="1" duration="300" mode="linear"/>
+				<animation property="origin" from="0.5 0.5" to="0.55 0.5" begin="50" duration="250" mode="easeInOut"/>
+				<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="300" duration="1000" autoreverse="true" repeat="10" mode="easeInOut"/>
+				<animation property="rotation" to="360" begin="4300" duration="250" mode="easeInOut"/>
+				<animation property="scale" to="1.1" begin="12000" duration="250" autoreverse="true" mode="bump"/>
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="scale" from="0.6" to="0.6" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="scale" from="1" to="0.6" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+		</image>
+		<image name="logo" ifSubset="carouselAnime:no">
+			<scale>0.5</scale>
+			<storyboard event="activate">
+				<animation property="scale" from="0.6" to="1" duration="250" mode="easeOut"/>
+				<animation property="opacity" from="1" to="1" duration="300" mode="linear"/>
+			</storyboard>
+			<storyboard event="scroll">
+				<animation property="scale" from="0.6" to="0.6" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+				<animation property="scale" from="1" to="0.6" duration="1" mode="easeOut"/>
+				<animation property="opacity" from="0.5" to="0.5" duration="1" mode="linear"/>
+			</storyboard>
+		</image>
+	</view>
 </theme>
