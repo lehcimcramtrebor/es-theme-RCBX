@@ -10,7 +10,7 @@ Emuelec - https://github.com/EmuELEC/EmuELEC/releases
 
 Retrobat V5+ or Batocera V35+ are recommanded for better visuals.
 
-Compatible all screen ratios
+Compatible all screen ratios, CRT screens and HHANDHELD Devices.
 
 WARNING!!: THIS THEME USE GLSL SHADERS ON VIDEOS, AND ARE COMPATIBLE WITH RETROBAT V5+ AND BATOCERA V35+
 IF THEME DON'T LAUNCH OR ES CRASHES IT'S PROBABLY COMPATIBILITY PROBLEM WITH YOUR HARDWARE SO JUST
@@ -53,3 +53,6 @@ You can move or copy this folder at root of Retrobat folder or at same level the
 ![Base Profile Screenshot 2022 10 13 - 22 39 06 51](https://user-images.githubusercontent.com/59354081/195708557-ba87d7cc-fe76-4e87-b229-5f11bba8cc9a.png)
 ![Base Profile Screenshot 2022 10 13 - 22 39 15 81](https://user-images.githubusercontent.com/59354081/195708570-91122d89-8926-45c1-80fe-932a7e736e11.png)
 ![Base Profile Screenshot 2022 10 13 - 22 53 27 09](https://user-images.githubusercontent.com/59354081/195708584-78495453-a446-4006-90a7-898a56522304.png)
+![EmulationStation 05_11_2022 08_37_53](https://user-images.githubusercontent.com/59354081/200109199-68a879d8-c9e0-4411-8c0a-0640a8c14cf2.png)
+![EmulationStation 05_11_2022 08_38_24](https://user-images.githubusercontent.com/59354081/200109206-07c3734e-8969-46a8-b69d-505403776cb8.png)
+
