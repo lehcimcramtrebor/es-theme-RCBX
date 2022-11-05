@@ -95,6 +95,8 @@
 		<lang.phosphore>phosphore</lang.phosphore>
 		<lang.scanlines>scanlines</lang.scanlines>
 		<lang.scanlinesvertical>vertical scanlines</lang.scanlinesvertical>
+		<lang.scanlinesFine>scanlines fine</lang.scanlinesFine>
+		<lang.scanlinesverticalFine>vertical scanlines fine</lang.scanlinesverticalFine>
 
 		<lang.randomVideos>play</lang.randomVideos>
 		<lang.randomVideosSaturation>saturation (disable shader)</lang.randomVideosSaturation>

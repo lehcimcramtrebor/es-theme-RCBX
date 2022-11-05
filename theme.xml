@@ -46,13 +46,23 @@ by Helmic.-->
 	<include>./SHADERS.xml</include>
 	
 	<!--subsets-->
-    <subset name="music" displayName="${category.music} • ${lang.music}">
+    <subset name="music" tinyScreen="false" displayName="${category.music} • ${lang.music}">
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
         <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
+        <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
+	</subset>
+    <subset name="music" tinyScreen="true" displayName="${category.music} • ${lang.music}">
+        <include name="notAllowMusic" ifSubset="tiny:handheld" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
+        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
+        <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
+        <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
+        <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
+        <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
+        <include name="notAllowMusic" ifSubset="tiny:crt" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
         <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
 	</subset>
     <subset name="spacer 02" displayName=" ">
@@ -173,7 +183,9 @@ by Helmic.-->
     <subset name="backgroundFx" displayName="${category.wall} • ${lang.backgroundFx}">
         <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
+        <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
+        <include name="scanlinesverticalFine" displayName="${lang.scanlinesverticalFine}"/>
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
 	</subset>

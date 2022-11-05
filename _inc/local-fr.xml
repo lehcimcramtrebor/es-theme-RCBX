@@ -95,6 +95,8 @@
 		<lang.phosphore>phosphore</lang.phosphore>
 		<lang.scanlines>balayage</lang.scanlines>
 		<lang.scanlinesvertical>balayage vertical</lang.scanlinesvertical>
+		<lang.scanlinesFine>balayage fin</lang.scanlinesFine>
+		<lang.scanlinesverticalFine>balayage vertical fin</lang.scanlinesverticalFine>
 
 		<lang.randomVideos>jouer</lang.randomVideos>
 		<lang.randomVideosSaturation>saturation (désactive le shader)</lang.randomVideosSaturation>

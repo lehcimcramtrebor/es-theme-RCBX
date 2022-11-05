@@ -6,7 +6,9 @@
 			<zIndex>100</zIndex>
 			<path ifSubset="backgroundFx:flat">./background/flat.jpg</path>
 			<path ifSubset="backgroundFx:scanlines">./background/scanlines.jpg</path>
+			<path ifSubset="backgroundFx:scanlinesFine">./background/scanlinesFine.jpg</path>
 			<path ifSubset="backgroundFx:scanlinesvertical">./background/scanlinesVertical.jpg</path>
+			<path ifSubset="backgroundFx:scanlinesverticalFine">./background/scanlinesverticalFine.jpg</path>
 			<path ifSubset="backgroundFx:crt">./background/crt.jpg</path>
 			<path ifSubset="backgroundFx:phosphore">./background/phosphore.jpg</path>
 			<size>1 1</size>
@@ -18,8 +20,8 @@
 		<image name="background" extra="true">
             <color>505050</color>
             <colorEnd>202020</colorEnd>
-            <color ifSubset="backgroundFx:flat">303030</color>
-            <colorEnd ifSubset="backgroundFx:flat">303030</colorEnd>
+            <color ifSubset="backgroundFx:flat|scanlinesFine">303030</color>
+            <colorEnd ifSubset="backgroundFx:flat|scanlinesFine">303030</colorEnd>
 		</image>
 		<image name="paintSystem" ifSubset="paintSystem:yes" extra="true">
 			<path>{random:fanart}</path>
@@ -62,8 +64,8 @@
 		<image name="background" extra="true">
             <color>505050</color>
             <colorEnd>202020</colorEnd>
-			<color ifSubset="backgroundFx:flat">303030</color>
-			<colorEnd ifSubset="backgroundFx:flat">303030</colorEnd>
+			<color ifSubset="backgroundFx:flat|scanlinesFine">303030</color>
+			<colorEnd ifSubset="backgroundFx:flat|scanlinesFine">303030</colorEnd>
 		</image>
 	</view>
 	<view name="detailed,grid,gamecarousel">
