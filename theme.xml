@@ -243,7 +243,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" tinyScreen="false" displayName="${lang.yes}"/>
     </subset>
-    <subset name="customHelp" displayName="${category.various} • ${lang.customHelp}">
+    <subset name="customHelp" tinyScreen="false" displayName="${category.various} • ${lang.customHelp}">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
+    </subset>
+    <subset name="customHelp" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.customHelp}">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
     </subset>
