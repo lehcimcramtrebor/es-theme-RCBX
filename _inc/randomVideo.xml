@@ -15,6 +15,7 @@
 			<zIndex>0</zIndex>
 			<size>0 0</size>
 			<opacity>0</opacity>			
+			<delay tinyScreen="true" ifSubset="tiny:handheld">1</delay>
 		</video>
 		<!--in frame-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
@@ -28,6 +29,7 @@
 			<color ifSubset="randomShader:no">cccccc</color>
 			<!--carousel vertical-->
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
+			<delay tinyScreen="true" ifSubset="tiny:handheld">1</delay>
 			<storyboard>
 				<animation property="scale" from="0" to="0" mode="linear" duration="350"/>
 				<animation property="scale" from="0" to="1" mode="linear" duration="150" begin="350"/>
@@ -41,6 +43,7 @@
 			<saturation>1.1</saturation>
 			<color>ffffff</color>
 			<delay>0.01</delay>
+			<delay tinyScreen="true" ifSubset="tiny:handheld">1</delay>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
@@ -58,6 +61,7 @@
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
+			<delay tinyScreen="true" ifSubset="tiny:handheld">1</delay>
 			<storyboard>
 				<animation property="w" from="0" to="0" mode="linear" duration="500"/>
 				<animation property="w" from="0" to="1" mode="easeInCubic" duration="180" begin="500"/>

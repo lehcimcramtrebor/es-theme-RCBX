@@ -152,7 +152,11 @@
 		<image name="background" extra="true">
             <color>20202066</color>
             <colorEnd>202020cf</colorEnd>
+            <colorEnd tinyScreen="true" ifSubset="tiny:handheld">20202066</colorEnd>
 			<gradientType>horizontal</gradientType>
+			<storyboard tinyScreen="true" ifSubset="tiny:handheld">
+				<animation property="colorEnd" to="202020cf" mode="linear" duration="250" begin="1150"/>
+			</storyboard>			
 		</image>
 	</view>
 </theme>
