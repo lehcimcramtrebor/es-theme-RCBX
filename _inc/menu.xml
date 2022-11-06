@@ -68,11 +68,11 @@
 			<iconManual>./menu/Manual.png</iconManual>
 		</menuIcons>
 		<menuTextEdit name="menutextedit">
-			<inactive>./menutextinput_ninepatch.png</inactive>
+			<inactive>./menu/textinput_ninepatch.png</inactive>
 			<active>./menu/textinput_ninepatch_active.png</active>
 		</menuTextEdit>
 		<menuButton name="menubutton">
-			<path>./menubutton.png</path>
+			<path>./menu/button.png</path>
 			<filledPath>./menu/button_filled.png</filledPath>
 			<cornerSize>8 8</cornerSize>
 		</menuButton>
