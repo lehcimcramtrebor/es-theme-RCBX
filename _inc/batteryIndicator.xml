@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="screen">
 		<batteryIndicator name="batteryIndicator">
-			<pos>0.955 0.012</pos>
+			<pos>0.955 0.01</pos>
 			<size>0.033 0.0275</size>
 			<size tinyScreen="true" ifSubset="tiny:handheld">0.033 0.04</size>
 			<horizontalAlignment>right</horizontalAlignment>
@@ -14,6 +14,7 @@
 			<at25>./batteryIndicator/25.svg</at25>
 			<empty>./batteryIndicator/empty.svg</empty>
 			<color>${c.text}</color>
+			<itemSpacing>0.003</itemSpacing>
 		</batteryIndicator>
 	</view>
 </theme>

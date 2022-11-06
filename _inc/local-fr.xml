@@ -14,7 +14,18 @@
 
         <lang.controller>icône du contrôleur d'activité</lang.controller>
         <lang.player>joueur</lang.player>
-        <lang.gamepad>manette</lang.gamepad>
+        <lang.gamepad>générique</lang.gamepad>
+        <lang.stick>stick d'arcade</lang.stick>
+        <lang.nes>nintendo 8-bit</lang.nes>
+        <lang.snes>nintendo 16-bit</lang.snes>
+        <lang.n64>nintendo 64</lang.n64>
+        <lang.cube>nintendo gamecube</lang.cube>
+        <lang.megadrive>sega 16-bit</lang.megadrive>
+        <lang.megadrive6>sega 16-bit (6 boutons)</lang.megadrive6>
+        <lang.xbox>xbox</lang.xbox>
+        <lang.psx>dual shock 1/2/3</lang.psx>
+        <lang.ps4>dual shock 4</lang.ps4>
+        <lang.ps5>dual shock 5</lang.ps5>
 
 		<category.interface>interface</category.interface>
 		<category.music>musique</category.music>
