@@ -23,8 +23,8 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="30.068572"
-     inkscape:cx="21.667141"
-     inkscape:cy="11.27423"
+     inkscape:cx="16.479"
+     inkscape:cy="11.307487"
      inkscape:window-width="1858"
      inkscape:window-height="1057"
      inkscape:window-x="54"
@@ -188,6 +188,15 @@
          id="path65" />
     </symbol>
   </defs>
+  <rect
+     style="fill:#000000;stroke-width:0.75"
+     id="rect213"
+     width="27.262688"
+     height="12.197122"
+     x="0.24942973"
+     y="2.8684435"
+     rx="5.313334"
+     ry="0.079837315" />
   <g
      id="g158"
      transform="matrix(0.05293993,0,0,0.05293993,-4.6684956,-6.0264892)"
