@@ -102,8 +102,19 @@ by Helmic.-->
         <include name="ps5" displayName="${lang.ps5}"/>
     </subset>
     <subset name="controller" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.interface} • ${lang.controller}">
+        <include name="stick" displayName="${lang.stick}"/>
         <include name="player" displayName="${lang.player}"/>
         <include name="gamepad" displayName="${lang.gamepad}"/>
+        <include name="nes" displayName="${lang.nes}"/>
+        <include name="snes" displayName="${lang.snes}"/>
+        <include name="n64" displayName="${lang.n64}"/>
+        <include name="cube" displayName="${lang.cube}"/>
+        <include name="megadrive" displayName="${lang.megadrive}"/>
+        <include name="megadrive6" displayName="${lang.megadrive6}"/>
+        <include name="xbox" displayName="${lang.xbox}"/>
+        <include name="psx" displayName="${lang.psx}"/>
+        <include name="ps4" displayName="${lang.ps4}"/>
+        <include name="ps5" displayName="${lang.ps5}"/>
     </subset>
     <subset name="helpFont" displayName="${category.interface} • ${lang.helpFont}">
         <include name="auto" displayName="${lang.auto}"/>
