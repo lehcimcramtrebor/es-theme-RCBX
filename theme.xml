@@ -187,11 +187,11 @@ by Helmic.-->
         <include name="75%">./_inc/cutShader.xml</include>
 	</subset>
 	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}">
-        <include name="inFrame" displayName="${lang.inFrame}">./_inc/randomVideo.xml</include>
-        <include name="onWall" displayName="${lang.onWall}">./_inc/randomVideo.xml</include>
-        <include name="asPaint" displayName="${lang.asPaint}">./_inc/randomVideo.xml</include>
-        <include name="fullScreen" displayName="${lang.fullScreen}">./_inc/randomVideo.xml</include>
-        <include name="onlyAudio" displayName="${lang.onlyAudio}">./_inc/randomVideo.xml</include>
+        <include name="inFrame" displayName="${lang.inFrame}"/>
+        <include name="onWall" displayName="${lang.onWall}"/>
+        <include name="asPaint" displayName="${lang.asPaint}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen}"/>
+        <include name="onlyAudio" displayName="${lang.onlyAudio}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<include tinyScreen="false">./_inc/random${bypass.shader}.xml</include>
@@ -481,6 +481,7 @@ by Helmic.-->
 	<include>./_inc/help.xml</include>
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
+	<include>./_inc/randomVideo.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
 	<include>./_inc/background.xml</include>
