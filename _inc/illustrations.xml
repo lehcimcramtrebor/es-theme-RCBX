@@ -19,8 +19,11 @@
 			<pos>0.5 0.2</pos>
 			<pos ifSubset="allowIllustrationsCustom:hexa">0.5 0.19</pos>
 			<pos ifSubset="carousel:vertical|wheel">0.61 0.2</pos>
+			<pos ifSubset="allowIllustrationsCustom:hexa,carousel:bottom">0.5 0.22</pos>
+			<pos ifSubset="allowIllustrationsCustom:hexa,carousel:vertical|wheel">0.61 0.22</pos>
 			<maxSize>0.3 0.25</maxSize>
 			<maxSize ifSubset="allowIllustrationsCustom:hexa">0.3 0.38</maxSize>
+			<maxSize ifSubset="allowIllustrationsCustom:hexa,carousel:bottom|vertical|wheel">0.3 0.42</maxSize>
 		</image>
 		<image name="illustration" region="eu" extra="true"/>
 		<image name="illustration" region="us" extra="true" ifSubset="regionChoice:yes">
@@ -69,6 +72,13 @@
 				<animation property="offsetY" from="0.3" to="0.3" mode="linear" duration="600"/>
 				<animation property="offsetY" from="0.3" to="0" mode="easeIn" duration="150" begin="600"/>
 				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
+			</storyboard>			
+			<storyboard ifSubset="carousel:bottom">
+				<animation property="scale" from="1.4" to="1.4" mode="easeOut" duration="600"/>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="offsetY" from="0.15" to="0.15" mode="linear" duration="600"/>
+				<animation property="offsetY" from="0.15" to="0" mode="easeIn" duration="150" begin="600"/>
+				<animation property="scale" from="1.4" to="1" mode="easeIn" duration="150" begin="600"/>
 			</storyboard>			
 		</image>
 	</view>

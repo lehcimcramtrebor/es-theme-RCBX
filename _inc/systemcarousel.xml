@@ -11,8 +11,10 @@
 			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/system.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/system.wav</scrollSound>
 			<pos>0 0</pos>
+			<pos ifSubset="carousel:bottom">0 0.365</pos>
 			<size>1 1</size>
 			<logoScale tinyScreen="true" ifSubset="tiny:handheld">1.4</logoScale>
+			<pos tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">0 0.335</pos>
 		</carousel>
 		<carousel name="systemcarousel" ifSubset="carousel:vertical">
 			<type>vertical</type>
@@ -34,15 +36,19 @@
 			<pos>0 0</pos>
 			<size>0.42 1</size>
 		</carousel>
-		<image name="backCarousel" extra="true" ifSubset="carousel:legacy|vertical">
+		<image name="backCarousel" extra="true" ifSubset="carousel:legacy|vertical|bottom">
 			<tile>true</tile>
 			<zIndex>999</zIndex>
 			<path>./parts/${n.frame}.png</path>
 			<origin>0.5 0.5</origin>
+			<origin ifSubset="carousel:bottom">0.5 1</origin>
 			<origin ifSubset="carousel:vertical">0 0.5</origin>
             <pos>0.5 0.5</pos>
+            <pos ifSubset="carousel:bottom">0.5 1</pos>
             <pos ifSubset="carousel:vertical">0 0.5</pos>
             <size>1 0.23</size>
+            <size ifSubset="carousel:bottom">1 0.25</size>
+            <size tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">1 0.29</size>
             <size ifSubset="carousel:vertical">0.42 1</size>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>

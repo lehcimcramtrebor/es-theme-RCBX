@@ -55,6 +55,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<fontSize>0.02</fontSize>
 			<pos>0.03 0.605</pos>
 			<offsetY tinyScreen="true" ifsubset="carousel:legacy">0.01</offsetY>
+			<offsetY ifSubset="carousel:bottom">-0.2</offsetY>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>
@@ -271,7 +272,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 
 		<!--vertical carousels pos-->
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
-			<pos>0.14 0.37</pos>
+			<pos>0.14 0.405</pos>
 		</text>
 	</view>
 	<include>./../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>

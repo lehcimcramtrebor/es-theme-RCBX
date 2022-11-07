@@ -52,16 +52,16 @@
             </storyboard>
 		</control>
 		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
-            <pos>0.11 0.2</pos>
-            <pos ifSubset="extendedInfos:yes">0.11 0.28</pos>
-            <pos ifSubset="randomVideos:inFrame">0.11 0.225</pos>
-            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.11 0.28</pos>
+            <pos>0.11 0.25</pos>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
-			<pos>0.61 0.67</pos>
-			<pos ifSubset="extendedInfos:yes">0.61 0.75</pos>
-			<pos ifSubset="randomVideos:inFrame">0.61 0.68</pos>
-			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.61 0.75</pos>
+			<pos>0.61 0.72</pos>
+		</image>
+		<text name="enter" extra="true" ifSubset="carousel:bottom">
+            <pos>0 0.22</pos>
+		</text>
+		<image name="enterIcon" extra="true" ifSubset="carousel:bottom">
+			<pos>0.5 0.69</pos>
 		</image>
 	</view>
 	<include>./../_rcbxCustom/enterMessage/${system.theme}.xml</include>

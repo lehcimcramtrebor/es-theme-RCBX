@@ -24,9 +24,11 @@
             </storyboard>
 		</text>
 		<text name="systemInfo" ifSubset="carousel:vertical|wheel">
-			<pos>0.11 0.47</pos>
-			<pos ifSubset="randomVideos:inFrame">0.11 0.35</pos>
-			<pos ifSubset="allowIllustrationsCustom:hexa">0.11 0.385</pos>
+			<pos>0.11 0.405</pos>
+			<pos tinyScreen="true" ifSubset="tiny:handheld">0.11 0.605</pos>
+		</text>
+		<text name="systemInfo" ifSubset="carousel:bottom">
+			<pos>0 0.53</pos>
 		</text>
 	</view>
 </theme>
