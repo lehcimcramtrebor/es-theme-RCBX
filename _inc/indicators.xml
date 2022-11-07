@@ -35,9 +35,9 @@
 		<text name="clock" tinyScreen="true" ifSubset="tiny:handheld">
 			<color>${c.text}</color>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.026</fontSize>
-			<pos>0.90 0.952</pos>
-			<size>0.09 0.058</size>
+			<fontSize>0.0265</fontSize>
+			<pos>0.905 0.9465</pos>
+			<size>0.09 0.067</size>
 			<alignment>right</alignment>
 			<verticalAlignment>center</verticalAlignment>
             <glowColor>00000080</glowColor>

@@ -8,7 +8,7 @@
 			<fontSize tinyScreen="true" ifSubset="tiny:handheld">0.028</fontSize>
 			<origin>0 0.5</origin>
 			<pos>0.004 0.988</pos>
-			<pos tinyScreen="true" ifSubset="tiny:handheld">0.004 0.982</pos>
+			<pos tinyScreen="true" ifSubset="tiny:handheld">0.004 0.98</pos>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontPath ifSubset="helpFont:regular">./fonts/Cabin-Regular.ttf</fontPath>
 			<fontPath ifSubset="helpFont:condensed">./fonts/CabinCondensed-Regular.ttf</fontPath>
