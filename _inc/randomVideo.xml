@@ -29,7 +29,7 @@
 			<pos>0.5 0.2</pos>
 			<pos ifSubset="carousel:bottom">0.5 0.23</pos>
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0.5 0.32</pos>
-			<roundCorners>0.05</roundCorners>
+			<roundCorners>0.035</roundCorners>
 			<roundCorners tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">0.018</roundCorners>
 			<color ifSubset="randomShader:no">cccccc</color>
 			<!--carousel vertical-->
