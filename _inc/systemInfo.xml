@@ -23,12 +23,14 @@
                 <animation property="opacity" from="0" to="1" duration="100" mode="easeIn" begin="550"/>
             </storyboard>
 		</text>
+
 		<text name="systemInfo" ifSubset="carousel:vertical|wheel">
 			<pos>0.11 0.405</pos>
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0.11 0.605</pos>
 		</text>
+
 		<text name="systemInfo" ifSubset="carousel:bottom">
-			<pos>0 0.54</pos>
+			<pos>0 0.68</pos>
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0 0.61</pos>
 		</text>
 	</view>

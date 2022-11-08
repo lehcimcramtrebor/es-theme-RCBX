@@ -243,14 +243,13 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
     <subset name="extendedInfos" tinyScreen="false" displayName="${category.various} • ${lang.extendedInfos}">
-        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
-        <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="extendedInfos" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.extendedInfos}">
-        <include name="yes" displayName="${lang.yes}">./_inc/infos.xml</include>
-        <include name="no" displayName="${lang.no}">./_inc/systemInfo.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
     </subset>
-	<include tinyScreen="true" ifSubset="tiny:handheld">./_inc/systemInfo.xml</include>
     <subset name="infosFont" displayName="${category.various} • ${lang.infosFont}">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
@@ -481,6 +480,8 @@ by Helmic.-->
 	<include>./_inc/help.xml</include>
 	<include>./_inc/indicators.xml</include>
 	<include>./_inc/systemcarousel.xml</include>
+	<include>./_inc/infos.xml</include>
+	<include>./_inc/systemInfo.xml</include>
 	<include>./_inc/randomVideo.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>

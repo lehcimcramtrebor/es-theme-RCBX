@@ -58,10 +58,12 @@
 			<pos>0.61 0.72</pos>
 		</image>
 		<text name="enter" extra="true" ifSubset="carousel:bottom">
-            <pos>0 0.22</pos>
+            <pos>0 0.07</pos>
+            <pos ifSubset="extendeInfos:yes">0 0.21</pos>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:bottom">
-			<pos>0.5 0.69</pos>
+			<pos>0.5 0.54</pos>
+			<pos ifSubset="extendeInfos:yes">0.5 0.68</pos>
 		</image>
 	</view>
 	<include>./../_rcbxCustom/enterMessage/${system.theme}.xml</include>

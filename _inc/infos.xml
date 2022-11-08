@@ -6,7 +6,9 @@
 	<include ifNotArch="windows">./../../../_rcbxCustom/extendedInfos/${system.theme}.xml</include>
 
 	<view name="system">
-		<text name="systemInfo" visible="false"/>
+		<text name="systemInfo" ifSubset="extendedInfos:yes" visible="false"/>
+		<text name="systemInfoEx" ifSubset="extendedInfos:no" visible="false"/>
+		<text name="systemInfo" tinyScreen="true" ifSubset="tiny:handheld" visible="true"/>
 
 		<text name="systemInfoEx" extra="true">
 
@@ -56,6 +58,8 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<pos>0.03 0.605</pos>
 			<offsetY tinyScreen="true" ifsubset="carousel:legacy">0.01</offsetY>
 			<offsetY ifSubset="carousel:bottom">-0.2</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom">-0.19</offsetY>
+			<offsetY ifSubset="carousel:bottom,enterDisplay:no">-0.11</offsetY>
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>
