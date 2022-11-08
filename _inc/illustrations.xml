@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="system" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<image name="illustration" extra="true">
+			<visible tinyScreen="true" ifSubset="tiny:handheld">false</visible>
 			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../../_rcbxCustom/illustrations/${system.theme}.png</path>
@@ -67,7 +68,8 @@
 	</view>
 	<view name="system" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:inFrame">
-			<offsetX ifSubset="allowIllustrationsCustom:yes|hexa">2</offsetX>
+			<offsetX tinyScreen="false" ifSubset="allowIllustrationsCustom:yes|hexa">2</offsetX>
+			<offsetX tinyScreen="true" ifSubset="tiny:crt,allowIllustrationsCustom:yes|hexa">2</offsetX>
 		</video>
 		<image name="illustration" extra="true">
 			<storyboard>

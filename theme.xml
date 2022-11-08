@@ -289,7 +289,12 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="allowIllustrationsCustom" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+	<subset name="allowIllustrationsCustom" tinyScreen="false" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+        <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
+    </subset>
+	<subset name="allowIllustrationsCustom" tinyScreen="true" ifSubset="tiny:crt" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
         <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
