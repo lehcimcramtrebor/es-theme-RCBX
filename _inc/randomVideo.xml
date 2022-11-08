@@ -24,13 +24,15 @@
 			<maxSize ifSubset="carousel:bottom">0.31 0.31</maxSize>
 			<maxSize ifSubset="extendedInfos:no,carousel:bottom">0.37 0.37</maxSize>
 			<maxSize tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">0.53 0.53</maxSize>
+			<maxSize tinyScreen="true" ifSubset="carousel:legacy,tiny:handheld">0.32 0.32</maxSize>
+			<maxSize tinyScreen="true" ifSubset="carousel:vertical|wheel,tiny:handheld">0.25 0.25</maxSize>
 			<opacity>1</opacity>
 			<effect>fade</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.2</pos>
 			<pos ifSubset="carousel:bottom">0.5 0.23</pos>
 			<pos ifSubset="carousel:bottom,extendedInfos:no">0.5 0.26</pos>
-			<pos tinyScreen="true" ifSubset="tiny:handheld">0.5 0.32</pos>
+			<pos tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">0.5 0.32</pos>
 			<roundCorners>0.018</roundCorners>
 			<roundCorners tinyScreen="true" ifSubset="carousel:bottom,tiny:handheld">0.018</roundCorners>
 			<color ifSubset="randomShader:no">cccccc</color>
