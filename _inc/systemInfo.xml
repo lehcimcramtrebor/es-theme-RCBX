@@ -31,7 +31,6 @@
 
 		<text name="systemInfo" ifSubset="carousel:bottom">
 			<pos>0 0.68</pos>
-			<pos ifSubset="extendedInfos:no,enterDisplay:yes">0 0.54</pos>
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0 0.61</pos>
 		</text>
 	</view>
