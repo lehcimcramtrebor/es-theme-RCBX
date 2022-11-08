@@ -57,9 +57,19 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<fontSize>0.02</fontSize>
 			<pos>0.03 0.605</pos>
 			<offsetY tinyScreen="true" ifsubset="carousel:legacy">0.01</offsetY>
-			<offsetY ifSubset="carousel:bottom">-0.2</offsetY>
-			<offsetY tinyScreen="true" ifSubset="carousel:bottom">-0.19</offsetY>
-			<offsetY ifSubset="carousel:bottom,enterDisplay:no">-0.11</offsetY>
+
+			<offsetY ifSubset="carousel:bottom">-0.1</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom">-0.12</offsetY>
+
+			<offsetY ifSubset="carousel:bottom,randomVideos:inFrame">-0.24</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom,randomVideos:inFrame">-0.21</offsetY>
+
+			<offsetY ifSubset="carousel:bottom,allowIllustrationsCustom:yes">-0.28</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom,allowIllustrationsCustom:yes">-0.27</offsetY>
+
+			<offsetY ifSubset="carousel:bottom,allowIllustrationsCustom:hexa">-0.21</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom,allowIllustrationsCustom:hexa">-0.1825</offsetY>
+
 			<size>0.94 0.28</size>
 			<zIndex>1000</zIndex>
 			<color>${c.text}</color>

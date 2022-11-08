@@ -53,19 +53,61 @@
                 <animation property="opacity" from="0" to="1" duration="800" mode="easeInOut" autoreverse="true" repeat="forever" begin="1500"/>
             </storyboard>
 		</control>
+
 		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
             <pos>0.11 0.25</pos>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.61 0.72</pos>
 		</image>
+
 		<text name="enter" extra="true" ifSubset="carousel:bottom">
             <pos>0 0</pos>
-            <pos ifSubset="extendedInfos:yes">0 0.21</pos>
+
+            <pos ifSubset="extendedInfos:no">0 -0.25</pos>
+            <pos ifSubset="extendedInfos:no,randomVideos:inFrame">0 -0.05</pos>
+            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0 -0.09</pos>
+            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0 -0.03</pos>
+
+            <pos ifSubset="extendedInfos:yes">0 -0.13</pos>
+            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0 0.22</pos>
+            <pos ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0 0.22</pos>
+
+            <pos tinyScreen="true">0 -0.17</pos>
+
+            <pos tinyScreen="true" ifSubset="extendedInfos:no">0 -0.17</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,randomVideos:inFrame">0 -0.05</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0 -0.1</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0 -0.03</pos>
+
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes">0 -0.25</pos>
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,randomVideos:inFrame">0 0.225</pos>
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0 0.225</pos>
 		</text>
+
+
 		<image name="enterIcon" extra="true" ifSubset="carousel:bottom">
 			<pos>0.5 0.47</pos>
-			<pos ifSubset="extendedInfos:yes">0.5 0.68</pos>
+
+			<pos ifSubset="extendedInfos:no">0.5 0.22</pos>
+			<pos ifSubset="extendedInfos:no,randomVideos:inFrame">0.5 0.42</pos>
+			<pos ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0.5 0.38</pos>
+			<pos ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0.5 0.44</pos>
+
+			<pos ifSubset="extendedInfos:yes">0.5 0.34</pos>
+			<pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.5 0.69</pos>
+			<pos ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0.5 0.69</pos>
+
+			<pos tinyScreen="true">0.5 0.3</pos>
+
+			<pos tinyScreen="true" ifSubset="extendedInfos:no">0.5 0.3</pos>
+			<pos tinyScreen="true" ifSubset="extendedInfos:no,randomVideos:inFrame">0.5 0.42</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0.5 0.37</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0.5 0.44</pos>
+
+			<pos tinyScreen="true"  ifSubset="extendedInfos:yes">0.5 0.22</pos>
+			<pos tinyScreen="true"  ifSubset="extendedInfos:yes,randomVideos:inFrame">0.5 0.695</pos>
+			<pos tinyScreen="true"  ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0.5 0.695</pos>
 		</image>
 	</view>
 	<include>./../_rcbxCustom/enterMessage/${system.theme}.xml</include>
