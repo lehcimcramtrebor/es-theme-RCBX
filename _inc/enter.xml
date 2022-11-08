@@ -3,6 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="system">
 		<text name="enter" extra="true">
+			<visible ifSubset="enterDisplay:no">false</visible>
 			<zIndex>1000</zIndex>
             <pos>0 0.405</pos>
             <pos ifSubset="extendedInfos:no">0 0.285</pos>
@@ -30,6 +31,7 @@
  			<text if="{system.theme} == 'custom-collections'">${system.fullName} (${lang.auto-collections})</text>
 		</text>
 		<image name="enterIcon" extra="true">
+			<visible ifSubset="enterDisplay:no">false</visible>
 			<zIndex>1000</zIndex>
 			<path>./help/icon_b.svg</path>
 			<path ifSubset="helpIcons:arcadeIcons">./help/icon_arcade_b.png</path>

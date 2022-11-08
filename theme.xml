@@ -258,11 +258,11 @@ by Helmic.-->
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
     <subset name="enterDisplay" tinyScreen="false" displayName="${category.various} • ${lang.enterDisplay}">
-        <include name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
    <subset name="enterDisplay" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.enterDisplay}">
-        <include name="yes" displayName="${lang.yes}">./_inc/enter.xml</include>
+        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
@@ -487,6 +487,7 @@ by Helmic.-->
 	<include>./_inc/systemcarousel.xml</include>
 	<include>./_inc/infos.xml</include>
 	<include>./_inc/systemInfo.xml</include>
+	<include>./_inc/enter.xml</include>
 	<include>./_inc/randomVideo.xml</include>
 	<include>./_inc/logoText.xml</include>
 	<include>./_inc/logo.xml</include>
