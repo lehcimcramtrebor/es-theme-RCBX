@@ -299,6 +299,18 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include if="${cross.hexa} == 'installed'" name="hexa" displayName="${lang.hexa}"/>
     </subset>
+	<subset name="randomIllustrations" tinyScreen="false" ifSubset="allowIllustrationsCustom:yes" displayName="${lang.randomIllustrations}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+        <include name="fanart" displayName="${lang.fanart}"/>
+        <include name="thumbnail" displayName="${lang.thumbnail}"/>
+        <include name="marquee" displayName="${lang.marquee}"/>
+        <include name="noIllustrations" displayName="${lang.noIllustrations}"/>
+    </subset>
+ 	<subset name="randomIllustrations" tinyScreen="true" ifSubset="tiny:crt,allowIllustrationsCustom:yes" displayName="${lang.randomIllustrations}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+        <include name="fanart" displayName="${lang.fanart}"/>
+        <include name="thumbnail" displayName="${lang.thumbnail}"/>
+        <include name="marquee" displayName="${lang.marquee}"/>
+        <include name="noIllustrations" displayName="${lang.noIllustrations}"/>
+    </subset>
     <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>

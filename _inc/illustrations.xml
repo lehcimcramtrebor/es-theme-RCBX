@@ -4,6 +4,10 @@
 	<view name="system" ifSubset="allowIllustrationsCustom:yes|hexa">
 		<image name="illustration" extra="true">
 			<visible tinyScreen="true" ifSubset="tiny:handheld">false</visible>
+			<path ifSubset="allowIllustrationsCustom:yes,randomIllustrations:thumbnail">{random:thumbnail}</path>
+			<path ifSubset="allowIllustrationsCustom:yes,randomIllustrations:marquee">{random:marquee}</path>
+			<path ifSubset="allowIllustrationsCustom:yes,randomIllustrations:fanart">{random:fanart}</path>
+			<roundCorners ifSubset="allowIllustrationsCustom:yes,randomIllustrations:thumbnail|fanart">0.018</roundCorners>
 			<path>./../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifArch="windows">./../../../../../_rcbxCustom/illustrations/${system.theme}.png</path>
 			<path ifNotArch="windows">./../../../_rcbxCustom/illustrations/${system.theme}.png</path>
@@ -28,7 +32,9 @@
 
 			<pos ifSubset="allowIllustrationsCustom:hexa,carousel:vertical|wheel">0.61 0.22</pos>
 
-			<maxSize>0.3 0.25</maxSize>
+			<maxSize>0.25 0.25</maxSize>
+
+			<maxSize ifSubset="carousel:legacy">0.25 0.3</maxSize>
 
 			<maxSize ifSubset="allowIllustrationsCustom:hexa">0.3 0.38</maxSize>
 
