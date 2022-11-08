@@ -6,7 +6,9 @@
 			<visible ifSubset="enterDisplay:no">false</visible>
 			<zIndex>1000</zIndex>
             <pos>0 0.405</pos>
-            <pos ifSubset="extendedInfos:no">0 0.285</pos>
+            <pos tinyScreen="true">0 0.435</pos>
+            <pos ifSubset="extendedInfos:no">0 0.21</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no">0 0.23</pos>
 			<size>1 1</size>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase>
@@ -43,7 +45,9 @@
 			<maxSize>1 0.02</maxSize>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.875</pos>
-            <pos ifSubset="extendedInfos:no">0.5 0.755</pos>
+			<pos tinyScreen="true">0.5 0.905</pos>
+            <pos ifSubset="extendedInfos:no">0.5 0.68</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no">0.5 0.7</pos>
 			<color>ffffff</color>
 			<color ifSubset="helpIcons:defaultIcons">${c.textHeader}</color>
 		</image>
@@ -61,6 +65,7 @@
 			<pos>0.61 0.72</pos>
 		</image>
 
+<!--Bottom carousel precise position-->
 		<text name="enter" extra="true" ifSubset="carousel:bottom">
             <pos>0 0</pos>
 
@@ -110,6 +115,8 @@
 			<pos tinyScreen="true"  ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0.5 0.695</pos>
 		</image>
 	</view>
+
+<!--Include Customs-->
 	<include>./../_rcbxCustom/enterMessage/${system.theme}.xml</include>
 	<include>./../_rcbxCustom/enterMessage/default.xml</include>
 	<include ifArch="windows">./../../../../../_rcbxCustom/enterMessage/default.xml</include>
