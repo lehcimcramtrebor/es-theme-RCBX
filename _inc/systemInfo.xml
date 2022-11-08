@@ -24,12 +24,24 @@
             </storyboard>
 		</text>
 
+<!--Vertical/Wheel precise-->
 		<text name="systemInfo" ifSubset="carousel:vertical|wheel">
-			<pos>0.11 0.405</pos>
+			<pos>0.11 0.435</pos>
+			<pos tinyScreen="true">0.11 0.42</pos>
+
+			<pos ifSubset="randomVideos:inFrame">0.11 0.325</pos>
+			<pos tinyScreen="true" ifSubset="randomVideos:inFrame">0.11 0.31</pos>
+
+			<pos ifSubset="allowIllustrationsCustom:yes">0.11 0.335</pos>
+			<pos tinyScreen="true" ifSubset="allowIllustrationsCustom:yes">0.11 0.32</pos>
+
+			<pos ifSubset="allowIllustrationsCustom:hexa">0.11 0.415</pos>
+			<pos tinyScreen="true" ifSubset="allowIllustrationsCustom:hexa">0.11 0.4</pos>
 
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0.11 0.605</pos>
 		</text>
 
+<!--Bottom carousel precise-->
 		<text name="systemInfo" ifSubset="carousel:bottom">
 			<pos>0 0.68</pos>
 

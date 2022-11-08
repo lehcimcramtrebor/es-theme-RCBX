@@ -58,11 +58,20 @@
             </storyboard>
 		</control>
 
+<!--Vertical/wheel precise position-->
 		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
-            <pos>0.11 0.25</pos>
+            <pos>0.11 0.035</pos>
+
+            <pos ifSubset="allowIllustrationsCustom:hexa">0.11 0.055</pos>
+
+            <pos ifSubset="extendedInfos:yes">0.11 0.355</pos>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
-			<pos>0.61 0.72</pos>
+			<pos>0.61 0.5</pos>
+
+			<pos ifSubset="allowIllustrationsCustom:hexa">0.61 0.52</pos>
+
+			<pos ifSubset="extendedInfos:yes">0.61 0.82</pos>
 		</image>
 
 <!--Bottom carousel precise position-->
