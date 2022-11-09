@@ -4,6 +4,8 @@
 	<view name="system">
 		<video name="randomVideo" extra="true">
 			<linearSmooth>true</linearSmooth>
+			<default>./parts/noise.mp4</default>
+			<default ifSubset="randomVideos:inFrame">./parts/default.mp4</default>
 			<path>{random}</path>
 			<path ifSubset="allowSystemVideoCustom:yes">./../_rcbxCustom/videos/${system.theme}.mp4</path>
 			<path ifSubset="allowSystemVideoCustom:yes" ifArch="windows">./../../../../../_rcbxCustom/videos/${system.theme}.mp4</path>
