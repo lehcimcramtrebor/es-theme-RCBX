@@ -78,30 +78,64 @@
 			<offsetX tinyScreen="true" ifSubset="tiny:crt,allowIllustrationsCustom:yes|hexa">2</offsetX>
 		</video>
 		<image name="illustration" extra="true">
-			<storyboard>
+			<storyboard repeatAt="10000">
 				<animation property="scale" from="0.8" to="1" mode="easeOut" duration="300"/>
 				<animation property="opacity" from="0" to="1" mode="easeOut" duration="150"/>
+
+				<animation property="w" 						to="0" 				mode="easeInOut" autoreverse="true" repeat="9" 	duration="10" begin="9800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="9980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="9900"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="9" 	duration="10" begin="10000"/>
+				<animation property="scale" 					to="1" 				mode="linear" 									duration="60" begin="10000"/>
+				<animation property="offsetX" 	from="0.0125" 	to="0" 				mode="bump" 									duration="100" begin="10000"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="5" 	duration="10" begin="19800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="19980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="19900"/>
+
 			</storyboard>			
-			<storyboard ifSubset="carousel:vertical|wheel">
+
+			<storyboard ifSubset="carousel:vertical|wheel" repeatAt="10000">
 				<animation property="scale" from="1.2" to="1.2" mode="easeOut" duration="600"/>
 				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
 				<animation property="offsetY" from="0.3" to="0.3" mode="linear" duration="600"/>
 				<animation property="offsetY" from="0.3" to="0" mode="easeIn" duration="150" begin="600"/>
 				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
+
+				<animation property="w" 						to="0" 				mode="easeInOut" autoreverse="true" repeat="9" 	duration="10" begin="9800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="9980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="9900"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="9" 	duration="10" begin="10000"/>
+				<animation property="scale" 					to="1" 				mode="linear" 									duration="60" begin="10000"/>
+				<animation property="offsetX" 	from="0.0125" 	to="0" 				mode="bump" 									duration="100" begin="10000"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="5" 	duration="10" begin="19800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="19980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="19900"/>
 			</storyboard>			
+
+			<storyboard ifSubset="carousel:bottom,allowIllustrationsCustom:yes" repeatAt="10000">
+				<animation property="scale" from="1.2" to="1.2" mode="easeOut" duration="600"/>
+				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
+				<animation property="offsetY" from="0.23" to="0.23" mode="linear" duration="600"/>
+				<animation property="offsetY" from="0.23" to="0" mode="easeIn" duration="150" begin="600"/>
+				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
+
+				<animation property="w" 						to="0" 				mode="easeInOut" autoreverse="true" repeat="9" 	duration="10" begin="9800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="9980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="9900"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="9" 	duration="10" begin="10000"/>
+				<animation property="scale" 					to="1" 				mode="linear" 									duration="60" begin="10000"/>
+				<animation property="offsetX" 	from="0.0125" 	to="0" 				mode="bump" 									duration="100" begin="10000"/>
+				<animation property="w" 						to="0" 				mode="easeIn" autoreverse="true" repeat="5" 	duration="10" begin="19800"/>
+				<animation property="scale" 					to="0.5" 			mode="easeIn" 									duration="20" begin="19980"/>
+				<animation property="offsetX" 					to="-0.0125" 		mode="linear" 									duration="100" begin="19900"/>
+			</storyboard>			
+
 			<storyboard ifSubset="carousel:bottom,allowIllustrationsCustom:hexa">
 				<animation property="scale" from="1.4" to="1.4" mode="easeOut" duration="600"/>
 				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
 				<animation property="offsetY" from="0.15" to="0.15" mode="linear" duration="600"/>
 				<animation property="offsetY" from="0.15" to="0" mode="easeIn" duration="150" begin="600"/>
 				<animation property="scale" from="1.4" to="1" mode="easeIn" duration="150" begin="600"/>
-			</storyboard>			
-			<storyboard ifSubset="carousel:bottom,allowIllustrationsCustom:yes">
-				<animation property="scale" from="1.2" to="1.2" mode="easeOut" duration="600"/>
-				<animation property="opacity" from="0" to="1" mode="linear" duration="150"/>
-				<animation property="offsetY" from="0.23" to="0.23" mode="linear" duration="600"/>
-				<animation property="offsetY" from="0.23" to="0" mode="easeIn" duration="150" begin="600"/>
-				<animation property="scale" from="1.2" to="1" mode="easeIn" duration="150" begin="600"/>
 			</storyboard>			
 		</image>
 	</view>
