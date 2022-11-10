@@ -183,8 +183,9 @@
 		<lang.auto-collections>collections regroupées</lang.auto-collections>
 		<lang.custom-collection>collection personnalisée</lang.custom-collection>
 		<lang.library>librairie</lang.library>
-		<lang.library tinyScreen="true" ifSubset="tiny:handheld">liste (portable)</lang.library>
-		<lang.bigList>grande liste (portable)</lang.bigList>
+		<lang.library tinyScreen="true" ifSubset="tiny:handheld">liste (console portable)</lang.library>
+		<lang.bigList>grande liste (console portable)</lang.bigList>
+		<lang.handheldGrid>micro grille (console portable)</lang.handheldGrid>
 
 		<lang.rating>notation</lang.rating>
 

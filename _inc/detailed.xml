@@ -485,14 +485,16 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			</storyboard>
 		</image>
 	</customView>
+
+	<!--handheld big list-->
 	<customView name="bigList" tinysScreen="true" ifSubset="tiny:handheld" displayName="${lang.bigList}" inherits="detailed">
 		<control name="md_marquee,md_image,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
 md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
 md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_flag,ghost_flag,md_manual,ghost_manual,md_savestate,ghost_savestate,
-md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating,frame2">
+md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating,frame2,gridLineLeft,gridLineRight">
 			<visible>false</visible>
 		</control>
-			<video name="md_video">
+		<video name="md_video">
 			<origin>0.5 0.5</origin>
 			<maxSize>1 0.78</maxSize>
 			<pos>0.5 0.54</pos>
@@ -524,21 +526,6 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 				<animation property="scale" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</image>
-		<image name="frame" extra="true">
-			<tile>true</tile>
-			<zIndex>1000</zIndex>
-			<path>./parts/${n.frame}.png</path>
-			<origin>0.5 0.5</origin>
-			<size>0.9 0.78</size>
-			<pos>0.5 0.54</pos>
-			<color>${c.framePlain}</color>
-			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
-			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
-			<roundCorners>0.005</roundCorners>
-		</image>
 		<textlist name="gamelist">
 			<origin>0.5 0.5</origin>
 			<size>0.9 0.78</size>
@@ -548,6 +535,11 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			<alignment>center</alignment>
 			<lines>9</lines>
 			</textlist>
+		<image name="frame" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.9 0.78</size>
+			<pos>0.5 0.54</pos>
+		</image>
 	</customView>
 	<include>./gamelistParameters.xml</include>
 </theme>

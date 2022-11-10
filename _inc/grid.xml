@@ -979,4 +979,82 @@
  		</control>
 	</customView>
 	<include>./gamelistParameters.xml</include>
+
+	<!--handheld big list-->
+	<customView name="handheldGrid" tinysScreen="true" ifSubset="tiny:handheld" displayName="${lang.handheldGrid}" inherits="grid">
+		<control name="md_marquee,md_image,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
+md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
+md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_flag,ghost_flag,md_manual,ghost_manual,md_savestate,ghost_savestate,
+md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating,frame2,gridLineUp,gridLineDown">
+			<visible>false</visible>
+		</control>
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.78</maxSize>
+			<pos>0.5 0.54</pos>
+			<loops>0</loops>
+		</video>
+		<image name="md_thumbnail">
+			<visible>true</visible>
+			<default>./parts/noThumb.png</default>
+			<zIndex>1001</zIndex>
+			<reflexion>0.01 0</reflexion>
+			<roundCorners>0.018</roundCorners>
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.78</maxSize>
+			<pos>0.5 0.54</pos>
+			<storyboard event="open">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</image>
+		<imagegrid name="gamegrid">
+            <pos>0.025 0.22</pos>
+			<size>0.95 0.71</size>
+			<autoLayout>4 2</autoLayout>
+			<margin>0 0.0125</margin>
+			<padding>0.025 0 0.025 0.025</padding>
+			<scrollbarSize>0.006</scrollbarSize>
+		</imagegrid>
+		<text name="gridtile">
+			<visible>false</visible>
+		</text>
+		<image name="frame" extra="true">
+			<origin>0.5 0.5</origin>
+			<size>0.92 0.78</size>
+			<pos>0.5 0.54</pos>
+		</image>
+		<text name="md_name">
+			<alignment>center</alignment>
+			<color>${c.text}</color>
+            <glowColor>00000080</glowColor>
+			<glowOffset>1</glowOffset>
+			<glowSize>1</glowSize>
+			<reflexion>0.04 0</reflexion>
+			<zIndex>1001</zIndex>
+			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.5 0.185</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.88 0.10</size>
+		</text>
+	</customView>
 </theme>
