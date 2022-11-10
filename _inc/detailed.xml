@@ -436,7 +436,7 @@
 
 	<!--library-->
 	<customView name="library" displayName="${lang.library}" inherits="detailed">
-		<control name="md_marquee,md_thumbnail,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
+		<control name="md_marquee,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
 md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
 md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_flag,ghost_flag,md_manual,ghost_manual,md_savestate,ghost_savestate,
 md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating">
@@ -448,10 +448,106 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			<maxSize>0.48 0.70</maxSize>
 		</video>
 		<image name="md_image">
+			<visible tinyScreen="true" ifSubset="tiny:handheld">false</visible>
 			<origin>0.5 0.5</origin>
             <pos>0.705 0.54</pos>
 			<maxSize>0.5 0.72</maxSize>
 		</image>
+		<image name="md_thumbnail">
+			<visible>false</visible>
+			<visible tinyScreen="true" ifSubset="tiny:handheld">true</visible>
+			<origin>0.5 0.5</origin>
+            <pos>0.705 0.54</pos>
+			<maxSize>0.5 0.72</maxSize>
+			<storyboard event="open" ifSubset="mdVideos:yes,tiny:handheld" tinyScreen="true">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+			</storyboard>
+			<storyboard event="activateNext" ifSubset="mdVideos:yes,tiny:handheld">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+			</storyboard>
+			<storyboard event="activatePrev" ifSubset="mdVideos:yes,tiny:handheld">
+				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</image>
+	</customView>
+	<customView name="bigList" tinysScreen="true" ifSubset="tiny:handheld" displayName="${lang.bigList}" inherits="detailed">
+		<control name="md_marquee,md_image,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
+md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
+md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_flag,ghost_flag,md_manual,ghost_manual,md_savestate,ghost_savestate,
+md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rating,lbl_rating,frame2">
+			<visible>false</visible>
+		</control>
+			<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.78</maxSize>
+			<pos>0.5 0.54</pos>
+			<loops>0</loops>
+		</video>
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.78</maxSize>
+			<pos>0.5 0.54</pos>
+			<storyboard event="open">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="offsetX" from="1" to="0" mode="easeOut" duration="250" begin="800"/>
+				<animation property="offsetX" from="0" to="-1" mode="easeIn" duration="250" begin="2350"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</image>
+		<image name="frame" extra="true">
+			<tile>true</tile>
+			<zIndex>1000</zIndex>
+			<path>./parts/${n.frame}.png</path>
+			<origin>0.5 0.5</origin>
+			<size>0.9 0.78</size>
+			<pos>0.5 0.54</pos>
+			<color>${c.framePlain}</color>
+			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
+			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
+			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
+			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
+			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
+			<roundCorners>0.005</roundCorners>
+		</image>
+		<textlist name="gamelist">
+			<origin>0.5 0.5</origin>
+			<size>0.9 0.78</size>
+			<pos>0.5 0.54</pos>
+			<selectorImagePath>./parts/selectorBasic.png</selectorImagePath>	  		
+			<fontSize>0.042</fontSize>
+			<alignment>center</alignment>
+			<lines>9</lines>
+			</textlist>
 	</customView>
 	<include>./gamelistParameters.xml</include>
 </theme>

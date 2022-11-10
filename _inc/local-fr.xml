@@ -183,6 +183,8 @@
 		<lang.auto-collections>collections regroupées</lang.auto-collections>
 		<lang.custom-collection>collection personnalisée</lang.custom-collection>
 		<lang.library>librairie</lang.library>
+		<lang.library tinyScreen="true" ifSubset="tiny:handheld">liste (portable)</lang.library>
+		<lang.bigList>grande liste (portable)</lang.bigList>
 
 		<lang.rating>notation</lang.rating>
 

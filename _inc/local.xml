@@ -183,6 +183,8 @@
 		<lang.auto-collections>custom collections</lang.auto-collections>
 		<lang.custom-collection>custom collection</lang.custom-collection>
 		<lang.library>library</lang.library>
+		<lang.library tinyScreen="true" ifSubset="tiny:handheld">list (handheld)</lang.library>
+		<lang.bigList>big list (handheld)</lang.bigList>
 
 		<lang.rating>rating</lang.rating>
 
