@@ -21,7 +21,7 @@ by Helmic.-->
 	<include ifNotArch="windows">./../../_rcbxCustom/local/local-${lang}.xml</include>
 
 	<!--region choice-->
-    <subset name="regionChoice" displayName="${lang.regionChoice}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="regionChoice" displayName="${lang.regionChoice}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handHeldGrid,handheldCoverFlow">
 		<include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
@@ -285,7 +285,7 @@ by Helmic.-->
     <subset name="spacerG 00" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
-    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="allowSystemCustom" displayName="${lang.allowSystemCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
@@ -311,26 +311,26 @@ by Helmic.-->
         <include name="marquee" displayName="${lang.marquee}"/>
         <include name="noIllustrations" displayName="${lang.noIllustrations}"/>
     </subset>
-    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="allowSystemVideoCustom" displayName="${lang.allowSystemVideoCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="spacerG 01" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
-    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
 	</subset>
-     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+     <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
 	</subset>
-    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+    <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="0%"/>
         <include name="25%"/>
         <include name="50%"/>
@@ -340,12 +340,12 @@ by Helmic.-->
     <subset name="spacerG 02" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
-     <subset name="gamelistFrames" tinyScreen="false" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+     <subset name="gamelistFrames" tinyScreen="false" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
         <include name="fullScreen" displayName="${lang.fullScreen}"/>
     </subset>
-     <subset name="gamelistFrames" tinyScreen="true" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library">
+     <subset name="gamelistFrames" tinyScreen="true" displayName="${lang.gamelistFrames}" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="fullScreen" ifSubset="tiny:handheld" displayName="${lang.fullScreen}"/>
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
@@ -367,11 +367,11 @@ by Helmic.-->
     <subset name="spacerG 03" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
-     <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
+     <subset name="mdVideos" displayName="${lang.mdVideos}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
-	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library" ifSubset="mdVideos:yes">
+	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow" ifSubset="mdVideos:yes">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
     </subset>

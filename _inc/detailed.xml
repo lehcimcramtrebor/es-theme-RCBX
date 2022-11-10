@@ -496,13 +496,13 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 		</control>
 		<video name="md_video">
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.78</maxSize>
+			<maxSize>0.95 0.78</maxSize>
 			<pos>0.5 0.54</pos>
 			<loops>0</loops>
 		</video>
 		<image name="md_thumbnail">
 			<origin>0.5 0.5</origin>
-			<maxSize>1 0.78</maxSize>
+			<maxSize>0.95 0.78</maxSize>
 			<pos>0.5 0.54</pos>
 			<storyboard event="open">
 				<animation property="offsetX" from="1" to="1" mode="linear" duration="800"/>
@@ -537,7 +537,7 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			</textlist>
 		<image name="frame" extra="true">
 			<origin>0.5 0.5</origin>
-			<size>0.9 0.78</size>
+			<size>0.95 0.78</size>
 			<pos>0.5 0.54</pos>
 		</image>
 	</customView>
