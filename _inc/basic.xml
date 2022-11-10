@@ -48,7 +48,7 @@
 			<selectorImagePath>./parts/selectorBasic.png</selectorImagePath>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
-            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.03</fontSize>
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.04</fontSize>
 			<alignment>center</alignment>
             <horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>true</forceUppercase>
@@ -60,6 +60,7 @@
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/gamelist.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<lines>15</lines>
+			<lines tinyScreen="true" ifSubset="tiny:handheld">9</lines>
 			</textlist>
 	</view>
 	<include>./gamelistParameters.xml</include>
