@@ -49,7 +49,11 @@
 			<selectorImagePath>./parts/selectorBasic.png</selectorImagePath>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
+<<<<<<< HEAD
             <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.042</fontSize>
+=======
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.042</fontSize>
+>>>>>>> 03f4504be06d1965d55481c341a4ac0afd80727f
 			<alignment>center</alignment>
             <horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>true</forceUppercase>
