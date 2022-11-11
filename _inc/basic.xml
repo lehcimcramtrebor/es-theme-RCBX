@@ -7,7 +7,7 @@
 			<zIndex>1000</zIndex>
 			<path>./parts/${n.frame}.png</path>
 			<origin>0.5 0.5</origin>
-			<size>0.9 0.78</size>
+			<size>0.95 0.78</size>
 			<pos>0.5 0.54</pos>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
@@ -38,7 +38,8 @@
 			<glowSize>1</glowSize>
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
-			<size>0.9 0.78</size>
+			<size>0.95 0.78</size>
+			<size ifSubset="gamelistFrames:fullScreen">1 0.78</size>
 			<pos>0.5 0.54</pos>
 			<selectedColor>${c.selected}</selectedColor>
 			<primaryColor>${c.text}</primaryColor>
@@ -48,7 +49,7 @@
 			<selectorImagePath>./parts/selectorBasic.png</selectorImagePath>	  		
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
 			<fontSize>0.025</fontSize>
-            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.03</fontSize>
+            <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.042</fontSize>
 			<alignment>center</alignment>
             <horizontalMargin>0.01</horizontalMargin>
 			<forceUppercase>true</forceUppercase>
@@ -60,6 +61,7 @@
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/gamelist.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<lines>15</lines>
+			<lines tinyScreen="true" ifSubset="tiny:handheld">9</lines>
 			</textlist>
 	</view>
 	<include>./gamelistParameters.xml</include>

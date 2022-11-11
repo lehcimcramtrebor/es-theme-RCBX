@@ -158,7 +158,9 @@
  			<w>0.16</w>
 			<h>0.023</h>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath tinyScreen="true">./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<fontSize>0.02</fontSize>
+			<fontSize tinyScreen="true">0.023</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<fontSize lang="es,eu,ja,nl,pl,pt,ru,sv,cs">0.017</fontSize>
 			<fontSize lang="el">0.011</fontSize>
@@ -199,7 +201,9 @@
  			<w>0.16</w>
 			<h>0.023</h>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
+			<fontPath tinyScreen="true">./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<fontSize>0.02</fontSize>
+			<fontSize tinyScreen="true">0.023</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<fontSize lang="es,eu,ja,nl,pl,pt,ru,sv,cs">0.017</fontSize>
 			<fontSize lang="el">0.011</fontSize>
@@ -233,6 +237,7 @@
 			<y>0.17</y>
         </text>
         <datetime name="md_releasedate">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.195</y>
         </datetime>
@@ -241,6 +246,7 @@
 			<y>0.23</y>
         </text>
         <text name="md_developer">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.255</y>
         </text>
@@ -249,6 +255,7 @@
 			<y>0.29</y>
         </text>
         <text name="md_publisher">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.315</y>
         </text>
@@ -257,6 +264,7 @@
 			<y>0.35</y>
         </text>
         <text name="md_genre">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
  			<y>0.375</y>
         </text>
@@ -266,6 +274,7 @@
 			<y>0.41</y>
         </text>
         <text name="md_players">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<fontPath ifSubset="iconPlayers:yes">./fonts/players.ttf</fontPath>
 			<fontSize ifSubset="iconPlayers:yes">0.06</fontSize>
 			<color>${c.text}</color>
@@ -293,6 +302,7 @@
  			<y ifSubset="iconPlayers:yes">0.41</y>
        </text>
         <datetime name="md_lastplayed">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.485</y>
  			<y ifSubset="iconPlayers:yes">0.435</y>
@@ -303,6 +313,7 @@
 			<y ifSubset="iconPlayers:yes">0.47</y>
        </text>
         <text name="md_playcount">
+			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.545</y>
 			<y ifSubset="iconPlayers:yes">0.495</y>
@@ -357,6 +368,7 @@
             <size ifSubset="mdCenter:yes">0.3 0.255</size>
 			<h ifSubset="gamelistFrames:fullScreen">0.28</h>
             <fontSize>0.02</fontSize>
+            <fontSize tinyScreen="true">0.025</fontSize>
             <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.03</fontSize>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
