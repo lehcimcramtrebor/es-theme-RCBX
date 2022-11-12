@@ -2,7 +2,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="grid">
-		<text name="md_name" tinyScreen="true">
+		<text name="md_name">
 			<alignment>center</alignment>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
@@ -11,7 +11,8 @@
 			<reflexion>0.04 0</reflexion>
 			<zIndex>1010</zIndex>
 			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
+			<fontSize>0.02</fontSize>
+			<fontSize ifSubset="tiny:crt">0.025</fontSize>
 			<fontSize ifSubset="tiny:handheld">0.03</fontSize>
 			<forceUppercase>true</forceUppercase>
 			<pos>0.22 0.173</pos>
@@ -54,8 +55,10 @@
 			<scrollSound ifArch="windows">./../../../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/grid.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
-			<margin>0 0.0125</margin>
-			<padding>0.0125 0.0125 0.0125 0.0125</padding>
+<!--			<margin>0 0.0125</margin>-->
+			<margin>0 0.05</margin>
+<!--			<padding>0.0125 0.0125 0.0125 0.0125</padding>-->
+			<padding>0.0125 0.05 0.0125 0.04</padding>
 			<autoLayout>2 2</autoLayout>
 			<animateSelection>false</animateSelection>
 			<centerSelection>false</centerSelection>
@@ -77,7 +80,7 @@
 			<imageColor>ffffff</imageColor>
 		</gridtile>
 		<text name="gridtile">
-			<visible tinyScreen="true">false</visible>
+			<visible>false</visible>
 			<color>ffffff80</color>
 			<backgroundColor>00000000</backgroundColor>
 			<fontSize>0.017</fontSize>
@@ -173,34 +176,8 @@
 	<!--grid free up space screen-->
 	<view name="grid" tinyScreen="false" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 		<text name="md_name">
-			<alignment>center</alignment>
-			<color>${c.text}</color>
-            <glowColor>00000080</glowColor>
-			<glowOffset>1</glowOffset>
-			<glowSize>1</glowSize>
-			<reflexion>0.04 0</reflexion>
-			<zIndex>1010</zIndex>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<forceUppercase>true</forceUppercase>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>0.55 0.03</size>
-			<storyboard event="open">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
+			<pos>0.48 0.5</pos>
+			<size>0.5 0.03</size>
 		</text>
 		<image name="logo">
 			<pos>0.1225 0.14</pos>
@@ -218,7 +195,7 @@
 		<imagegrid name="gamegrid">
             <size>0.195 0.78</size>
 			<autoLayout>1 3</autoLayout>
-			<padding>0.025 0 0.025 0.0125</padding>
+			<padding>0.025 0.0125 0.025 0.0125</padding>
 		</imagegrid>
 		<text name="gridtile">
 			<visible>false</visible>
@@ -489,34 +466,8 @@
 	<!--grid free up space handheld crt-->
 	<view name="grid" tinyScreen="true" ifSubset="tiny:crt,gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
 		<text name="md_name">
-			<alignment>center</alignment>
-			<color>${c.text}</color>
-            <glowColor>00000080</glowColor>
-			<glowOffset>1</glowOffset>
-			<glowSize>1</glowSize>
-			<reflexion>0.04 0</reflexion>
-			<zIndex>1010</zIndex>
-			<fontPath>./fonts/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.025</fontSize>
-			<forceUppercase>true</forceUppercase>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-			<size>0.55 0.03</size>
-			<storyboard event="open">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="activateNext">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="activatePrev">
-				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="450"/>
-			</storyboard>
-			<storyboard event="deactivatePrev">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
-			<storyboard event="deactivateNext">
-				<animation property="opacity" to="0" mode="linear" duration="1"/>
-			</storyboard>
+			<pos>0.48 0.5</pos>
+			<size>0.5 0.03</size>
 		</text>
 		<image name="logo">
 			<pos>0.1225 0.14</pos>
@@ -534,7 +485,7 @@
 		<imagegrid name="gamegrid">
             <size>0.195 0.78</size>
 			<autoLayout>1 4</autoLayout>
-			<padding>0.025 0 0.025 0.0125</padding>
+			<padding>0.025 0.0125 0.025 0.0125</padding>
 		</imagegrid>
 		<text name="gridtile">
 			<visible>false</visible>
@@ -805,12 +756,9 @@
 
 	<!--custom big grid view-->
 	<customView name="bigGrid" inherits="grid" displayName="${lang.bigGrid}">
-		<text name="md_name" tinyScreen="false">
-			<pos>0.4 0.5</pos>
-		</text>
-		<text name="md_name" tinyScreen="true">
+		<text name="md_name">
 			<pos>0.39 0.173</pos>
-			<size>0.7 0.03</size>
+			<size>0.36 0.03</size>
 		</text>
 		<image name="logo">
 			<pos>0.027 0.14</pos>
@@ -1091,9 +1039,9 @@
 
 	<!--big grid full screen frame-->
 	<customView name="bigGrid" tinyScreen="false" inherits="grid" displayName="${lang.bigGrid}" ifSubset="gamelistFrames:fullScreen">
-		<text name="md_name" tinyScreen="true">
-			<pos>0.39 0.54</pos>
-			<size>0.7 0.03</size>
+		<text name="md_name" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<pos>0.39 0.6</pos>
+			<size>0.36 0.03</size>
 		</text>
 		<imagegrid name="gamegrid" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
             <pos>0.025 0.63</pos>
@@ -1381,9 +1329,9 @@
 	</customView>
 	<!--big grid full screen frame handheld crt-->
 	<customView name="bigGrid" tinyScreen="true" inherits="grid" displayName="${lang.bigGrid}" ifSubset="tiny:crt,gamelistFrames:fullScreen">
-		<text name="md_name" tinyScreen="true">
-			<pos>0.39 0.54</pos>
-			<size>0.7 0.03</size>
+		<text name="md_name" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
+			<pos>0.39 0.6</pos>
+			<size>0.36 0.03</size>
 		</text>
 		<imagegrid name="gamegrid" ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">
             <pos>0.025 0.63</pos>
@@ -1671,7 +1619,7 @@
 	</customView>
 	<include>./gamelistParameters.xml</include>
 
-	<!--handheld big list-->
+	<!--handheld big grid-->
 	<customView name="handheldGrid" tinysScreen="true" ifSubset="tiny:handheld" displayName="${lang.handheldGrid}" inherits="grid">
 		<control name="md_marquee,md_image,md_description,md_releasedate,md_lastplayed,md_lbl_releasedate,
 md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_genre,md_genre,md_lbl_players,md_players,
@@ -1720,11 +1668,11 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			</storyboard>
 		</image>
 		<imagegrid name="gamegrid">
-            <pos>0.025 0.22</pos>
-			<size>0.95 0.71</size>
+            <pos>0.025 0.15</pos>
+			<size>0.95 0.78</size>
 			<autoLayout>4 2</autoLayout>
-			<margin>0 0.0125</margin>
-			<padding>0.025 0 0.025 0.025</padding>
+			<margin>0 0.07</margin>
+			<padding>0.0125 0.07 0.0125 0</padding>
 			<scrollbarSize>0.006</scrollbarSize>
 		</imagegrid>
 		<text name="gridtile">
