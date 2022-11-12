@@ -4,9 +4,10 @@
 	<view name="screen">
 		<batteryIndicator name="batteryIndicator">
 			<pos>0.955 0.01</pos>
-			<pos tinyScreen="true" ifSubset="tiny:handheld">0.965 -0.01</pos>
-			<size>0.033 0.0275</size>
-			<size tinyScreen="true" ifSubset="tiny:handheld">0.033 0.06</size>
+			<pos tinyScreen="true" ifSubset="tiny:handheld">0.925 -0.01</pos>
+			<size tinyScreen="false">0.033 0.0275</size>
+			<size tinyScreen="true" ifSubset="tiny:crt">0.033 0.0275</size>
+			<maxSize tinyScreen="true" ifSubset="tiny:handheld">0.04 0.04</maxSize>
 			<horizontalAlignment>right</horizontalAlignment>
 			<incharge>./batteryIndicator/incharge.svg</incharge>
 			<full>./batteryIndicator/full.svg</full>

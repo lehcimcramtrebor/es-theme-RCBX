@@ -183,9 +183,9 @@
 		<lang.auto-collections>collections regroupées</lang.auto-collections>
 		<lang.custom-collection>collection personnalisée</lang.custom-collection>
 		<lang.library>librairie</lang.library>
-		<lang.bigList>micro liste (console portable)</lang.bigList>
-		<lang.handheldGrid>micro grille (console portable)</lang.handheldGrid>
-		<lang.handheldCoverFlow>micro flux de boîtes (console portable)</lang.handheldCoverFlow>
+		<lang.bigList>micro liste (optimisée)</lang.bigList>
+		<lang.handheldGrid>micro grille (optimisée)</lang.handheldGrid>
+		<lang.handheldCoverFlow>micro flux de boîtes (optimisée)</lang.handheldCoverFlow>
 
 		<lang.rating>notation</lang.rating>
 
