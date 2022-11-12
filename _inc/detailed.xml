@@ -1089,6 +1089,7 @@ md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,md_hidden,gh
 			<pos>0.2075 0.14</pos>
 		</image>		
         <text name="lbl_rating" extra="true">
+			<visible>false</visible>
 			<text>${lang.rating}: </text>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
@@ -1096,15 +1097,15 @@ md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,md_hidden,gh
 			<fontSize>0.03</fontSize>
  			<x>0.0235</x>
 			<w>0.315</w>
- 			<y>-0.007</y>
+ 			<y>0</y>
 			<color>${c.text}</color>
 		</text>
 		<rating name="md_rating">
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1001</zIndex>
 			<color>${c.textHeader}</color>
-            <pos>0.0235 0.0475</pos>
-            <size>1 0.036</size>
+            <pos>0.81 0.09</pos>
+            <size>1 0.05</size>
 			<origin>0 0</origin>
         </rating>
 		<control name="lbl_rating,md_rating,md_manual,md_nomanual,ghost_manual,md_savestate,md_nosavestate,ghost_savestate,
@@ -1148,7 +1149,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.034</fontSize>
  			<x>0.01</x>
 			<w>0.325</w>
  			<y>0.06</y>
@@ -1173,7 +1174,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>0.034</fontSize>
  			<x>0.01</x>
 			<w>0.325</w>
  			<y>0.06</y>
@@ -1182,6 +1183,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 		</datetime>
        <text name="md_lbl_genre,md_genre">
 			<storyboard event="open">
+			<offsetX>-1</offsetX>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="800"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="800"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="2500"/>
@@ -1204,6 +1206,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
          </text>
         <control name="md_lbl_releasedate,md_releasedate">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="2500"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="2500"/>
@@ -1227,6 +1230,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </control>
         <text name="md_lbl_publisher,md_publisher">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="4200"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="4200"/>
@@ -1250,6 +1254,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </text>
         <text name="md_lbl_developer,md_developer">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="5900"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="5900"/>
@@ -1273,6 +1278,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </text>
         <text name="md_lbl_players,md_players">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="7600"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="7600"/>
@@ -1296,6 +1302,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </text>
         <text name="md_lbl_playcount,md_playcount">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="9300"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="9300"/>
@@ -1319,6 +1326,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </text>
         <control name="md_lbl_lastplayed,md_lastplayed">
+			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="11000"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="11000"/>
