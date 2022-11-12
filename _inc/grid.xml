@@ -55,7 +55,7 @@
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/grid.wav</scrollSound>
 			<scrollSound ifNotArch="windows">./../../../_rcbxCustom/scrollSounds/${system.theme}.wav</scrollSound>
 			<margin>0 0.0125</margin>
-			<padding>0.0125 0.025 0.0125 0</padding>
+			<padding>0.0125 0.0125 0.0125 0.0125</padding>
 			<autoLayout>2 2</autoLayout>
 			<animateSelection>false</animateSelection>
 			<centerSelection>false</centerSelection>
@@ -87,6 +87,15 @@
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<alignment>center</alignment>
 		</text>
+		<image name="gridtile.favorite">
+			<path>./parts/favorite.png</path>
+			<pos>0.99 0.01</pos>
+			<maxSize>0.14 0.14</maxSize>
+			<maxSize tinyScreen="true">0.28 0.28</maxSize>
+			<origin>1 0</origin>
+			<horizontalAlignment>right</horizontalAlignment>
+			<color>ffffff</color>
+    </image>
 		<text name="gridtile:selected">
 			<color>ffffff</color>
             <glowColor>00000080</glowColor>

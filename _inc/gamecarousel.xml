@@ -2,6 +2,31 @@
 <theme>
 	<formatVersion>7</formatVersion>
 	<view name="gamecarousel">
+		<image name="gridLineLeft,gridLineRight" extra="true">
+			<zIndex>1002</zIndex>
+			<path>./parts/plain.png</path>
+            <size>0.002 0.4</size>
+            <size ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.002 0.2</size>
+            <w tinyScreen="true">0.007</w>
+			<opacity>0.1</opacity>
+			<gradientType>horizontal</gradientType>
+		</image>
+		<image name="gridLineLeft" extra="true">
+			<visible ifSubset="gamelistFrames:no|yes">false</visible>
+			<color>00000000</color>
+			<colorEnd>${c.text}</colorEnd>
+			<origin>1 0.5</origin>
+			<pos>0.025 0.495</pos>
+			<pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.025 0.785</pos>
+		</image>
+		<image name="gridLineRight" extra="true">
+			<visible ifSubset="gamelistFrames:no">false</visible>
+			<color>${c.text}</color>
+			<colorEnd>00000000</colorEnd>
+			<origin>0 0.5</origin>
+           <pos>0.755 0.495</pos>
+           <pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.755 0.785</pos>
+		</image>
 		<image name="logo">
 			<pos>0.027 0.14</pos>
 			<maxSize>0.16 0.09</maxSize>
@@ -967,29 +992,6 @@
 				<animation property="opacity" to="0" mode="linear" duration="1"/>
 			</storyboard>
 		</text>		
-		<image name="gridLineLeft,gridLineRight" extra="true">
-			<zIndex>1002</zIndex>
-			<path>./parts/plain.png</path>
-            <size>0.002 0.4</size>
-            <size ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.002 0.2</size>
-            <w tinyScreen="true">0.007</w>
-			<opacity>0.1</opacity>
-			<gradientType>horizontal</gradientType>
-		</image>
-		<image name="gridLineLeft" extra="true">
-			<color>00000000</color>
-			<colorEnd>${c.text}</colorEnd>
-			<origin>1 0.5</origin>
-			<pos>0.025 0.495</pos>
-			<pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.025 0.785</pos>
-		</image>
-		<image name="gridLineRight" extra="true">
-			<color>${c.text}</color>
-			<colorEnd>00000000</colorEnd>
-			<origin>0 0.5</origin>
-           <pos>0.755 0.495</pos>
-           <pos ifSubset="gamelistFrames:fullScreen,mode:transparent|translucent,paintGamelist:yes,freeFanart:yes">0.755 0.785</pos>
-		</image>
 		<image name="logo">
 			<origin>0.5 1</origin>
 			<pos>0.86 0.14</pos>
