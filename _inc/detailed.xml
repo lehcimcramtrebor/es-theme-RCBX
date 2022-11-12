@@ -168,6 +168,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</video>
 		<image name="md_thumbnail">
+			<default>./parts/defgame.png</default>
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
 			<maxSize>0.14 0.24</maxSize>
@@ -445,6 +446,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</video>
 		<image name="md_thumbnail">
+			<default>./parts/defgame.png</default>
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
 			<maxSize>0.14 0.24</maxSize>
@@ -737,30 +739,56 @@ md_cheevos,ghost_cheevos,md_kidgame,ghost_kidgame,md_hidden,ghost_hidden,md_rati
 			<maxSize>0.48 0.70</maxSize>
 		</video>
 		<image name="md_image">
-			<visible tinyScreen="true" ifSubset="tiny:handheld">false</visible>
+			<visible>false</visible>
 			<origin>0.5 0.5</origin>
             <pos>0.705 0.54</pos>
 			<maxSize>0.5 0.72</maxSize>
 		</image>
 		<image name="md_thumbnail">
-			<visible>false</visible>
-			<visible tinyScreen="true" ifSubset="tiny:handheld">true</visible>
+			<default>./parts/defgame.png</default>
+			<visible>true</visible>
 			<origin>0.5 0.5</origin>
             <pos>0.705 0.54</pos>
-			<maxSize>0.5 0.72</maxSize>
-			<storyboard event="open" ifSubset="mdVideos:yes,tiny:handheld" tinyScreen="true">
+			<maxSize>0.48 0.70</maxSize>
+			<storyboard event="open" ifSubset="mdVideos:yes">
+				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+			</storyboard>
+			<storyboard event="activateNext" ifSubset="mdVideos:yes">
+				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+			</storyboard>
+			<storyboard event="activatePrev" ifSubset="mdVideos:yes">
+				<animation property="scale" from="1" to="1" mode="linear" duration="800"/>
+				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="800"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="scale" to="0" mode="linear" duration="1"/>
+			</storyboard>
+		</image>
+		<image name="md_thumbnail" tinyScreen="true" ifSubset="tiny:handheld">
+			<storyboard event="open" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
 				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
-			<storyboard event="activateNext" ifSubset="mdVideos:yes,tiny:handheld">
+			<storyboard event="activateNext" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
 				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 				<animation property="offsetY" to="0.001" mode="easeInOut" duration="250" begin="2500"/>
 			</storyboard>
-			<storyboard event="activatePrev" ifSubset="mdVideos:yes,tiny:handheld">
+			<storyboard event="activatePrev" ifSubset="mdVideos:yes">
 				<animation property="scale" from="1" to="1" mode="linear" duration="2500"/>
 				<animation property="scale" from="1" to="0.7" mode="easeInOut" duration="250" begin="2500"/>
 				<animation property="offsetX" to="0.001" mode="easeInOut" duration="250" begin="2500"/>

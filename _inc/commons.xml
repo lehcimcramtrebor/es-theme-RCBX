@@ -11,10 +11,7 @@
             <size>0.39 0.78</size>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 			<roundCorners>0.01</roundCorners>
 		</image>
 		<image name="frame2" extra="true">
@@ -26,10 +23,7 @@
             <size>0.54 0.78</size>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 			<roundCorners>0.01</roundCorners>
 		</image>
 			<video name="md_video">
@@ -413,7 +407,7 @@
 			<pos ifSubset="mdCenter:yes">0.475 0.63</pos>
 			<path>./parts/ghostFlag.png</path>
 			<maxSize>0.022 0.02</maxSize>
-			<color>${c.text}</color>
+			<color>00000000</color>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1001</zIndex>
 			<visible if="${system.theme} == 'custom-collections'">false</visible>

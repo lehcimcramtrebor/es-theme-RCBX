@@ -779,10 +779,7 @@
             <size>0.73 0.78</size>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 			<roundCorners>0.01</roundCorners>
 		</image>
 		<image name="frame2" extra="true">
@@ -794,10 +791,7 @@
             <size>0.19 0.78</size>
 			<color>${c.framePlain}</color>
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
-			<colorEnd ifSubset="mode:transparent">${ce.frameTransparent}</colorEnd>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
-			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
-			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
 			<roundCorners>0.01</roundCorners>
 		</image>
 		<imagegrid name="gamegrid">
