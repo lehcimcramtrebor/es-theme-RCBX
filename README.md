@@ -25,6 +25,8 @@ Old Batocera Music themes by Waterflame - https://www.youtube.com/user/waterflam
 
 Comix Zone album from https://downloads.khinsider.com/
 
+Players fonts by Darknior from RVGM https://github.com/Darknior/RVGM-BT-Theme
+
 At first start of theme, it wears his simplest look but you can activate both system paints, gamelist paints and background fx for more visuals.
 
 Customization:
