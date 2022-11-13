@@ -1803,7 +1803,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
  			<y>0.06</y>
 		</text>
          <text name="md_players">
- 			<x>0.685</x>
+ 			<x>0.7</x>
  			<y>0.08</y>
 			<w>0.1</w>
 			<fontSize>0.06</fontSize>
