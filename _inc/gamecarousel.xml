@@ -1826,9 +1826,9 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<offsetX>-1</offsetX>
 			<color>${c.textHeader}</color>
 		</datetime>
-       <text name="md_lbl_genre,md_genre">
-			<offsetX>-1</offsetX>
+        <control name="md_lbl_players,md_players">
 			<storyboard event="open">
+			<offsetX>-1</offsetX>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="800"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="800"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="2500"/>
@@ -1849,7 +1849,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
-         </text>
+         </control>
         <control name="md_lbl_releasedate,md_releasedate">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
@@ -1874,7 +1874,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
         </control>
-        <text name="md_lbl_publisher,md_publisher">
+       <control name="md_lbl_genre,md_genre">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="4200"/>
@@ -1897,8 +1897,8 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
-        </text>
-        <text name="md_lbl_developer,md_developer">
+        </control>
+        <control name="md_lbl_publisher,md_publisher">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="5900"/>
@@ -1921,8 +1921,8 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
-        </text>
-        <text name="md_lbl_players,md_players">
+        </control>
+        <control name="md_lbl_developer,md_developer">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="7600"/>
@@ -1945,8 +1945,8 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
-        </text>
-        <text name="md_lbl_playcount,md_playcount">
+        </control>
+        <control name="md_lbl_playcount,md_playcount">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="9300"/>
@@ -1969,7 +1969,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<storyboard event="deactivateNext">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
 			</storyboard>
-        </text>
+        </control>
         <control name="md_lbl_lastplayed,md_lastplayed">
 			<offsetX>-1</offsetX>
 			<storyboard event="open">
