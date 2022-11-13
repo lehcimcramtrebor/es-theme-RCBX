@@ -15,7 +15,9 @@
         <lang.controller>controller activity icon</lang.controller>
         <lang.player>player</lang.player>
         <lang.gamepad>generic</lang.gamepad>
-        <lang.stick>arcade stick</lang.stick>
+        <lang.playersGamepad>gamepads</lang.playersGamepad>
+        <lang.playersPlayer>players</lang.playersPlayer>
+		<lang.stick>arcade stick</lang.stick>
         <lang.nes>nintendo 8-bit</lang.nes>
         <lang.snes>nintendo 16-bit</lang.snes>
         <lang.n64>nintendo 64</lang.n64>

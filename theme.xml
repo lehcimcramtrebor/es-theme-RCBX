@@ -270,9 +270,10 @@ by Helmic.-->
         <include name="mvs"/>
     </subset>
     <subset name="iconPlayers" displayName="${category.various} • ${lang.iconPlayers}">
-        <include name="yes" tinyScreen="true" displayName="${lang.yes}"/>
+        <include name="gamepad" tinyScreen="true" displayName="${lang.playersGamepad}"/>
         <include name="no" displayName="${lang.no}"/>
-        <include name="yes" tinyScreen="false" displayName="${lang.yes}"/>
+        <include name="player" displayName="${lang.playersPlayer}"/>
+        <include name="gamepad" tinyScreen="false" displayName="${lang.playersGamepad}"/>
     </subset>
     <subset name="customHelp" tinyScreen="false" displayName="${category.various} • ${lang.customHelp}">
         <include name="no" displayName="${lang.no}"/>

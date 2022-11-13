@@ -263,17 +263,19 @@
  			<y>0.375</y>
         </text>
         <text name="md_lbl_players">
-			<visible ifSubset="iconPlayers:yes">false</visible>
+			<visible ifSubset="iconPlayers:gamepad|player">false</visible>
 			<color>${c.textHeader}</color>
 			<y>0.41</y>
         </text>
         <text name="md_players">
 			<origin tinyScreen="true">0 -0.1</origin>
-			<fontPath ifSubset="iconPlayers:yes">./fonts/players.ttf</fontPath>
-			<fontSize ifSubset="iconPlayers:yes">0.06</fontSize>
+			<fontPath ifSubset="iconPlayers:gamepad">./fonts/players.ttf</fontPath>
+			<fontPath ifSubset="iconPlayers:player">./fonts/rvgm.ttf</fontPath>
+			<fontSize ifSubset="iconPlayers:gamepad|player">0.06</fontSize>
+			<fontSize tinyScreen="true" ifSubset="iconPlayers:gamepad|player">0.04</fontSize>
 			<color>${c.text}</color>
 			<y>0.435</y>
-			<y ifSubset="iconPlayers:yes">0.535</y>
+			<y ifSubset="iconPlayers:gamepad|player">0.535</y>
  			<storyboard event="open">
 				<animation property="color" from="00000000" mode="linear" duration="1"/>
 			</storyboard>
@@ -293,24 +295,24 @@
         <text name="md_lbl_lastplayed">
 			<color>${c.textHeader}</color>
 			<y>0.46</y>
- 			<y ifSubset="iconPlayers:yes">0.41</y>
+ 			<y ifSubset="iconPlayers:gamepad|player">0.41</y>
        </text>
         <datetime name="md_lastplayed">
 			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.485</y>
- 			<y ifSubset="iconPlayers:yes">0.435</y>
+ 			<y ifSubset="iconPlayers:gamepad|player">0.435</y>
         </datetime>
         <text name="md_lbl_playcount">
 			<color>${c.textHeader}</color>
 			<y>0.52</y>
-			<y ifSubset="iconPlayers:yes">0.47</y>
+			<y ifSubset="iconPlayers:gamepad|player">0.47</y>
        </text>
         <text name="md_playcount">
 			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.545</y>
-			<y ifSubset="iconPlayers:yes">0.495</y>
+			<y ifSubset="iconPlayers:gamepad|player">0.495</y>
        </text>
         <text name="lbl_rating" extra="true">
             <glowColor>00000080</glowColor>
