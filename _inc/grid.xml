@@ -1694,7 +1694,7 @@
 
 		<!--1st-->
 		<image name="md_manual,md_nomanual,ghost_manual,md_savestate,md_nosavestate,ghost_savestate,md_cheevos,
-md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,md_hidden,ghost_hidden,md_lbl_players">
+md_notcheevos,ghost_cheevos,md_kidgame,md_notkidgame,ghost_kidgame,md_hidden,ghost_hidden,md_lbl_players">
 			<origin>0 1</origin>
 			<maxSize>0.044 0.044</maxSize>
 		</image>
@@ -1784,20 +1784,25 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 		</control>
 
 		<!--2st-->
-        <text name="md_lbl_genre,md_lbl_publisher,md_lbl_developer,md_lbl_releasedate,md_lbl_lastplayed,md_lbl_playcount">
+        <text name="md_lbl_genre,md_lbl_publisher,md_lbl_developer,md_lbl_releasedate,md_lbl_lastplayed,md_lbl_playcount,md_lbl_gametime">
 			<visible>true</visible>
+			<zIndex>1001</zIndex>
+ 			<h>0.023</h>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<fontSize>0.03</fontSize>
  			<x>0.01</x>
 			<w>0.325</w>
- 			<y>0.011</y>
+			<y>0.011</y>
 			<offsetX>-1</offsetX>
 			<color>${c.text}</color>
+			<forceUppercase>true</forceUppercase>
 		</text>
-         <text name="md_genre,md_developer,md_publisher,md_playcount">
+         <text name="md_genre,md_developer,md_publisher,md_playcount,md_gametime">
 			<visible>true</visible>
+			<zIndex>1001</zIndex>
+ 			<h>0.023</h>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
@@ -1808,6 +1813,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<offsetX>-1</offsetX>
 			<color>${c.textHeader}</color>
  			<y>0.06</y>
+			<forceUppercase>true</forceUppercase>
 		</text>
          <text name="md_players">
  			<x>0.7</x>
@@ -1824,6 +1830,8 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 		</text>
          <datetime name="md_releasedate,md_lastplayed">
 			<visible>true</visible>
+			<zIndex>1001</zIndex>
+ 			<h>0.023</h>
 			<alignment>left</alignment>
 			<origin>0 0</origin>
 			<fontPath>./fonts/CabinCondensed-Bold.ttf</fontPath>
@@ -1834,6 +1842,7 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			<offsetX>-1</offsetX>
 			<color>${c.textHeader}</color>
 			<scale>0</scale>
+			<forceUppercase>true</forceUppercase>
 		</datetime>
         <control name="md_lbl_releasedate,md_releasedate">
 			<storyboard event="open">
@@ -1842,18 +1851,21 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="800"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="800"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="2500"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="800"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="800"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="2500"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="800"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="800"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="2500"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
@@ -1868,16 +1880,19 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="2500"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="2500"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="4200"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="2500"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="2500"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="4200"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="2500"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="2500"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="4200"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
@@ -1892,16 +1907,19 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="4200"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="4200"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="5900"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="4200"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="4200"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="5900"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="4200"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="4200"/>
 				<animation property="opacity" to="0" mode="linear" duration="250" begin="5900"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
@@ -1916,16 +1934,19 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="5900"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="5900"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="7600"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="5900"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="5900"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="7600"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="5900"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="5900"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="7600"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
@@ -1940,16 +1961,19 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="7600"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="7600"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="9300"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="7600"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="7600"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="9300"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="7600"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="7600"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="9300"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
@@ -1965,18 +1989,52 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="9300"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="9300"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="11000"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activateNext">
 				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="9300"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="9300"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="11000"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="activatePrev">
 				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
 				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="9300"/>
 				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="9300"/>
 				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="11000"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
+			</storyboard>
+			<storyboard event="deactivatePrev">
+				<animation property="opacity" to="1" mode="linear" duration="1"/>
+			</storyboard>
+			<storyboard event="deactivateNext">
+				<animation property="opacity" to="1" mode="linear" duration="1"/>
+			</storyboard>
+        </control>
+        <control name="md_lbl_gametime,md_gametime">
+			<offsetX>-1</offsetX>
+			<storyboard event="open">
+				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
+				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="11000"/>
+				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="11000"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="12700"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
+			</storyboard>
+			<storyboard event="activateNext">
+				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
+				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="11000"/>
+				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="11000"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="12700"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
+			</storyboard>
+			<storyboard event="activatePrev">
+				<animation property="scale" from="1" to="1" mode="linear" duration="1"/>
+				<animation property="offsetX" from="-1" to="-1" mode="linear" duration="11000"/>
+				<animation property="offsetX" from="-1" to="0" mode="easeOut" duration="250" begin="11000"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="12700"/>
+				<animation property="opacity" to="0" mode="easeIn" duration="250" begin="12700"/>
+				<animation property="offsetX" to="-1" mode="linear" duration="50" begin="12950"/>
 			</storyboard>
 			<storyboard event="deactivatePrev">
 				<animation property="opacity" to="1" mode="linear" duration="1"/>
