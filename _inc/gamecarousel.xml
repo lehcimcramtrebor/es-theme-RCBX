@@ -1749,7 +1749,7 @@ md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,md_hidden,gh
 			<linearSmooth>true</linearSmooth>
 			<zIndex>1001</zIndex>
 			<color>${c.textHeader}</color>
-            <pos>0.81 0.09</pos>
+            <pos>0.81 0.095</pos>
             <size>1 0.05</size>
 			<origin>0 0</origin>
         </rating>
