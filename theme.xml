@@ -146,8 +146,8 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
      <subset name="carousel" displayName="${category.carousel} • ${lang.carousel}">
-        <include name="bottom" displayName="${lang.bottom}"/>
         <include name="legacy" displayName="${lang.legacy}"/>
+        <include name="bottom" displayName="${lang.bottom}"/>
         <include name="vertical" displayName="${lang.vertical}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
     </subset>
