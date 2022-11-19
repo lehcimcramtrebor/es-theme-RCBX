@@ -70,6 +70,13 @@
 	</view>
 	<view name="detailed,grid,gamecarousel">
 		<image name="md_fanart" ifSubset="paintGamelist:yes">
+			<default>./parts/defaultFanart.jpg</default>
+			<default>./../_rcbxCustom/paints/${system.theme}.jpg</default>
+			<default ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.jpg</default>
+			<default ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.jpg</default>
+			<default>./../_rcbxCustom/paints/${system.theme}.png</default>
+			<default ifArch="windows">./../../../../../_rcbxCustom/paints/${system.theme}.png</default>
+			<default ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</default>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
 			<pos>0 0</pos>
