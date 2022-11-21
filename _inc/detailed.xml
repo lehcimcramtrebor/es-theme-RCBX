@@ -23,6 +23,8 @@
 			<selectedColor>${c.selected}</selectedColor>
 			<primaryColor>${c.text}</primaryColor>
 			<secondaryColor>${c.text}</secondaryColor>
+			<extraTextColor ifSubset="textlistExtraColor:yes">${c.textHeader}</extraTextColor>
+			<extraTextSelectedColor ifSubset="textlistExtraColor:yes">${c.selected}</extraTextSelectedColor>
 			<selectorColor>${c.menuSelector}</selectorColor>	  		
 			<selectorColorEnd>${ce.menuSelector}</selectorColorEnd>	  		
 			<selectorImagePath>./parts/selector.png</selectorImagePath>	  		

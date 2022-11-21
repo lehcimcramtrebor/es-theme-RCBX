@@ -483,6 +483,10 @@ by Helmic.-->
         <include name="21"/>
         <include name="23"/>
     </subset>
+    <subset name="textlistExtraColor" displayName="${lang.textlistExtraColor}" appliesTo="basic,detailed,library">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
     <subset name="spacerG 08" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>

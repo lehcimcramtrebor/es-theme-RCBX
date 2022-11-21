@@ -200,6 +200,7 @@
 		<lang.gamelistFont>gamelist - font type</lang.gamelistFont>
 		<lang.gamelistFontSize>gamelist - font size</lang.gamelistFontSize>
 		<lang.gamelistLines>gamelist - lines</lang.gamelistLines>
+		<lang.textlistExtraColor>gamelist - extra color</lang.textlistExtraColor>
 		<lang.auto>automatic</lang.auto>
 		<lang.regular>regular</lang.regular>
 		<lang.regularBold>regular bold</lang.regularBold>

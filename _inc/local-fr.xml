@@ -200,6 +200,7 @@
 		<lang.gamelistFont>liste - type d'écriture</lang.gamelistFont>
 		<lang.gamelistFontSize>liste - taille de la police</lang.gamelistFontSize>
 		<lang.gamelistLines>liste - nombre de lignes</lang.gamelistLines>
+		<lang.textlistExtraColor>liste - coloriser les extras</lang.textlistExtraColor>
 		<lang.auto>automatique</lang.auto>
 		<lang.regular>régulière</lang.regular>
 		<lang.regularBold>régulière grasse</lang.regularBold>
