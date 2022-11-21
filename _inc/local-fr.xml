@@ -45,8 +45,6 @@
 		<lang.handheldMode>console portable</lang.handheldMode>
 		<lang.crtMode>affichage crt</lang.crtMode>
 
-		<lang.iconPlayers>utiliser l'icône du nombre de joueurs</lang.iconPlayers>
-
 		<lang.hexa>hexa</lang.hexa>
 
 		<lang.freeFanart>libérer l'espace fanarts</lang.freeFanart>
@@ -207,6 +205,8 @@
         <lang.ymdp>année.mois.jour</lang.ymdp>
         <lang.ymdt>année-mois-jour</lang.ymdt>
         <lang.onlyYear>juste l'année</lang.onlyYear>
+
+		<lang.iconPlayers>métadonnées - utiliser l'icône du nombre de joueurs</lang.iconPlayers>
 
 		<lang.descriptionFont>description - type d'écriture</lang.descriptionFont>
 		<lang.descriptionFontSize>description - taille de la police</lang.descriptionFontSize>

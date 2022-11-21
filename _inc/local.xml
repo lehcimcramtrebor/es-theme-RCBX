@@ -45,8 +45,6 @@
 		<lang.handheldMode>handheld</lang.handheldMode>
 		<lang.crtMode>crt</lang.crtMode>
 
-		<lang.iconPlayers>use numbers of player icons</lang.iconPlayers>
-
 		<lang.hexa>hexa</lang.hexa>
 
 		<lang.freeFanart>free up space fanarts</lang.freeFanart>
@@ -207,6 +205,8 @@
         <lang.ymdp>year.month.day</lang.ymdp>
         <lang.ymdt>year-month-day</lang.ymdt>
         <lang.onlyYear>just year</lang.onlyYear>
+
+		<lang.iconPlayers>metadatas - use numbers of player icons</lang.iconPlayers>
 
 		<lang.descriptionFont>description - font type</lang.descriptionFont>
 		<lang.descriptionFontSize>description - font size</lang.descriptionFontSize>

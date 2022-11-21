@@ -269,12 +269,6 @@ by Helmic.-->
         <include name="aes"/>
         <include name="mvs"/>
     </subset>
-    <subset name="iconPlayers" displayName="${category.various} • ${lang.iconPlayers}">
-        <include name="gamepad" tinyScreen="true" displayName="${lang.playersGamepad}"/>
-        <include name="no" displayName="${lang.no}"/>
-        <include name="player" displayName="${lang.playersPlayer}"/>
-        <include name="gamepad" tinyScreen="false" displayName="${lang.playersGamepad}"/>
-    </subset>
     <subset name="customHelp" tinyScreen="false" displayName="${category.various} • ${lang.customHelp}">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}">./_inc/customHelp.xml</include>
@@ -421,6 +415,18 @@ by Helmic.-->
         <include name="0.023"/>
         <include name="0.024"/>
         <include name="0.025"/>
+    </subset>
+    <subset name="iconPlayers" displayName="${lang.iconPlayers}" tinyScreen="false" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
+        <include name="gamepad" tinyScreen="true" displayName="${lang.playersGamepad}"/>
+        <include name="no" displayName="${lang.no}"/>
+        <include name="player" displayName="${lang.playersPlayer}"/>
+        <include name="gamepad" tinyScreen="false" displayName="${lang.playersGamepad}"/>
+    </subset>
+    <subset name="iconPlayers" displayName="${lang.iconPlayers}" tinyScreen="true" ifSubset="tiny:crt" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
+        <include name="gamepad" tinyScreen="true" displayName="${lang.playersGamepad}"/>
+        <include name="no" displayName="${lang.no}"/>
+        <include name="player" displayName="${lang.playersPlayer}"/>
+        <include name="gamepad" tinyScreen="false" displayName="${lang.playersGamepad}"/>
     </subset>
     <subset name="spacerG 05" displayName=" " appliesTo=" ">
 		<include name=" "/>
