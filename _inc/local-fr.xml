@@ -195,6 +195,19 @@
 		<lang.helpFont>type d'écriture de l'aide</lang.helpFont>
 		<lang.metadatasFont>métadonnées - type d'écriture</lang.metadatasFont>
 		<lang.metadatasFontSize>métadonnées - taille de la police</lang.metadatasFontSize>
+
+        <lang.dateFormat>métadonnées - format de la date de sortie</lang.dateFormat>
+        <lang.dmys>jour/mois/année</lang.dmys>
+        <lang.dmyp>jour.mois.année</lang.dmyp>
+        <lang.dmyt>jour-mois-année</lang.dmyt>
+        <lang.mdys>mois/jour/année</lang.mdys>
+        <lang.mdyp>mois.jour.année</lang.mdyp>
+        <lang.mdyt>mois-jour-année</lang.mdyt>
+        <lang.ymds>année/mois/jour</lang.ymds>
+        <lang.ymdp>année.mois.jour</lang.ymdp>
+        <lang.ymdt>année-mois-jour</lang.ymdt>
+        <lang.onlyYear>juste l'année</lang.onlyYear>
+
 		<lang.descriptionFont>description - type d'écriture</lang.descriptionFont>
 		<lang.descriptionFontSize>description - taille de la police</lang.descriptionFontSize>
 		<lang.gamelistFont>liste - type d'écriture</lang.gamelistFont>

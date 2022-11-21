@@ -231,6 +231,16 @@
 			<y>0.17</y>
         </text>
         <datetime name="md_releasedate">
+			<format ifSubset="dateFormat:dmys">%d/%m/%Y</format>
+			<format ifSubset="dateFormat:dmyp">%d.%m.%Y</format>
+			<format ifSubset="dateFormat:dmyt">%d-%m-%Y</format>
+			<format ifSubset="dateFormat:mdys">%m/%d/%Y</format>
+			<format ifSubset="dateFormat:mdyp">%m.%d.%Y</format>
+			<format ifSubset="dateFormat:mdyt">%m-%d-%Y</format>
+			<format ifSubset="dateFormat:ymds">%Y/%m/%d</format>
+			<format ifSubset="dateFormat:ymdp">%Y.%m.%d</format>
+			<format ifSubset="dateFormat:ymdt">%Y.%m.%d</format>
+			<format ifSubset="dateFormat:onlyYear">%Y</format>
 			<origin tinyScreen="true">0 -0.1</origin>
 			<color>${c.text}</color>
 			<y>0.195</y>

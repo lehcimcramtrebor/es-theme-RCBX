@@ -195,6 +195,19 @@
 		<lang.helpFont>help font type</lang.helpFont>
 		<lang.metadatasFont>metadatas - font type</lang.metadatasFont>
 		<lang.metadatasFontSize>metadatas - font size</lang.metadatasFontSize>
+
+        <lang.dateFormat>metadatas - release date format</lang.dateFormat>
+        <lang.dmys>day/month/year</lang.dmys>
+        <lang.dmyp>day.month.year</lang.dmyp>
+        <lang.dmyt>day-month-year</lang.dmyt>
+        <lang.mdys>month/day/year</lang.mdys>
+        <lang.mdyp>month.day.year</lang.mdyp>
+        <lang.mdyt>month-day-year</lang.mdyt>
+        <lang.ymds>year/month/day</lang.ymds>
+        <lang.ymdp>year.month.day</lang.ymdp>
+        <lang.ymdt>year-month-day</lang.ymdt>
+        <lang.onlyYear>just year</lang.onlyYear>
+
 		<lang.descriptionFont>description - font type</lang.descriptionFont>
 		<lang.descriptionFontSize>description - font size</lang.descriptionFontSize>
 		<lang.gamelistFont>gamelist - font type</lang.gamelistFont>

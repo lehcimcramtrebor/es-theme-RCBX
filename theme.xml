@@ -384,6 +384,18 @@ by Helmic.-->
     <subset name="spacerG 04" displayName=" " appliesTo=" ">
 		<include name=" "/>
     </subset>
+    <subset name="dateFormat" displayName="${lang.dateFormat}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
+        <include name="dmys" displayName="${lang.dmys}"/>
+        <include name="dmyp" displayName="${lang.dmyp}"/>
+        <include name="dmyt" displayName="${lang.dmyt}"/>
+        <include name="mdys" displayName="${lang.mdys}"/>
+        <include name="mdyp" displayName="${lang.mdyp}"/>
+        <include name="mdyt" displayName="${lang.mdyt}"/>
+        <include name="ymds" displayName="${lang.ymds}"/>
+        <include name="ymdp" displayName="${lang.ymdp}"/>
+        <include name="ymdt" displayName="${lang.ymdt}"/>
+        <include name="onlyYear" displayName="${lang.onlyYear}"/>
+    </subset>
     <subset name="metadatasFont" displayName="${lang.metadatasFont}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="regular" displayName="${lang.regular}"/>
