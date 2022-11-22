@@ -61,8 +61,12 @@
             <fontSize tinyScreen="true">0.07</fontSize>
 			<fontPath>./fonts/SCOREBOARD.ttf</fontPath>
 			<alignment>center</alignment>
-			<storyboard>
-			 <animation property="opacity" from="0" to="1" duration="425" mode="easeInOut" autoreverse="true" repeat="forever" begin="1000"/>
+			<storyboard repeatAt="1000">
+			 <animation property="opacity" from="0" to="1" duration="125" mode="easeOut" begin="1000"/>
+			 <animation property="offsetX" from="0.1" to="0" duration="125" mode="easeOut" begin="1000"/>
+			 <animation property="opacity" from="1" to="0" duration="125" mode="easeIn" begin="2500"/>
+			 <animation property="offsetX" from="0" to="-0.1" duration="125" mode="easeIn" begin="2500"/>
+			 <animation property="opacity" from="0" to="0" duration="5000" mode="linear" begin="2500"/>
 			</storyboard>
 		</text>
 	</view>
