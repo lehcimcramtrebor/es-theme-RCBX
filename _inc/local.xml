@@ -121,6 +121,7 @@
 		<lang.onWall>behind carousel</lang.onWall>
 		<lang.asPaint>as paint (disable shader)</lang.asPaint>
 		<lang.fullScreen>in full screen</lang.fullScreen>
+		<lang.fullScreenComment>disable texts</lang.fullScreenComment>
 
 		<lang.randomVideosAudio>audio</lang.randomVideosAudio>
 		<lang.mdVideosAudio>games videos audio</lang.mdVideosAudio>

@@ -121,6 +121,7 @@
 		<lang.onWall>derrière le carrousel</lang.onWall>
 		<lang.asPaint>en peinture (désactive le shader)</lang.asPaint>
 		<lang.fullScreen>en plein écran</lang.fullScreen>
+		<lang.fullScreenComment>désactive textes</lang.fullScreenComment>
 
 		<lang.randomVideosAudio>piste audio</lang.randomVideosAudio>
 		<lang.mdVideosAudio>piste audio des vidéos de jeux</lang.mdVideosAudio>

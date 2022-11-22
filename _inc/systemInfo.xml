@@ -3,7 +3,7 @@
 	<formatVersion>7</formatVersion>
 	<view name="system">
 		<text name="systemInfo">
-			<zIndex>1000</zIndex>
+			<zIndex>1010</zIndex>
             <pos>0 0.62</pos>
             <backgroundColor>00000000</backgroundColor>
             <color>${c.text}</color>
@@ -46,6 +46,24 @@
 			<pos>0 0.68</pos>
 
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0 0.61</pos>
+		</text>
+
+<!--Overwrite full screen random video-->
+		<text name="systemInfo" ifSubset="randomVideos:fullScreen">
+			<visible>true</visible>
+			<zIndex>1200</zIndex>
+			<color>ffffff</color>
+			<pos>0 0.92</pos>
+			<pos tinyScreen="true">0 0.89</pos>
+			<pos ifHelpPrompts="false">0.005 0.945</pos>
+			<pos tinyScreen="true" ifHelpPrompts="false">0.005 0.915</pos>
+            <fontSize>0.05</fontSize>
+            <fontSize tinyScreen="true">0.07</fontSize>
+			<fontPath>./fonts/SCOREBOARD.ttf</fontPath>
+			<alignment>center</alignment>
+			<storyboard>
+			 <animation property="opacity" from="0" to="1" duration="425" mode="easeInOut" autoreverse="true" repeat="forever" begin="1000"/>
+			</storyboard>
 		</text>
 	</view>
 </theme>

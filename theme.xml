@@ -190,7 +190,7 @@ by Helmic.-->
         <include name="inFrame" displayName="${lang.inFrame}"/>
         <include name="onWall" displayName="${lang.onWall}"/>
         <include name="asPaint" displayName="${lang.asPaint}"/>
-        <include name="fullScreen" displayName="${lang.fullScreen}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen} (${lang.fullScreenComment})"/>
         <include name="onlyAudio" displayName="${lang.onlyAudio}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>

@@ -81,20 +81,20 @@
 		</video>
 		<!--full screen-->
 		<video name="randomVideo" extra="true" ifSubset="randomVideos:fullScreen">
-			<zIndex>2000</zIndex>
+			<zIndex>1100</zIndex>
 			<size>1 1</size>
 			<opacity>1</opacity>
 			<effect>none</effect>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.5</pos>
 			<color>efefef</color>
-			<delay>2</delay>
+			<delay>0.3</delay>
 			<storyboard>
 				<animation property="offsetY" from="-1" to="-1" mode="linear" duration="300"/>
-				<animation property="offsetY" from="-1" to="0" mode="easeOut" duration="450" begin="300"/>
-				<animation property="scale" from="0" to="1.2" mode="easeInCubic" duration="450" begin="300"/>
-				<animation property="roundCorners" from="0.4" to="0" mode="easeInCubic" duration="450" begin="300"/>
-				<animation property="scale" from="1.2" to="1" mode="bump" duration="150" begin="750"/>
+				<animation property="offsetY" from="-1" to="0" mode="easeOut" duration="200" begin="300"/>
+				<animation property="scale" from="0" to="1.2" mode="easeInCubic" duration="200" begin="300"/>
+				<animation property="roundCorners" from="0.4" to="0" mode="easeInCubic" duration="200" begin="300"/>
+				<animation property="scale" from="1.2" to="1" mode="bump" duration="150" begin="550"/>
 			</storyboard>			
 		</video>
 		<video name="randomVideo" extra="true" ifSubset="randomVideosAudio:on">

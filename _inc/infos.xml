@@ -71,7 +71,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<offsetY tinyScreen="true" ifSubset="carousel:bottom,allowIllustrationsCustom:hexa">-0.1825</offsetY>
 
 			<size>0.94 0.28</size>
-			<zIndex>1000</zIndex>
+			<zIndex>1010</zIndex>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
 			<glowOffset>1</glowOffset>
@@ -80,6 +80,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
                 <animation property="opacity" from="0" to="0" duration="650" mode="easeIn"/>
                 <animation property="opacity" from="0" to="1" duration="250" mode="easeInOut" begin="650"/>
             </storyboard>
+			<visible ifSubset="randomVideos:fullScreen">false</visible>
 		</text>
 
 
