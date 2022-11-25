@@ -75,7 +75,7 @@
 			<reflexion>0.02 0</reflexion>
   		</gridtile>
 		<gridtile name="selected">
-			<backgroundCenterColor>00000000</backgroundCenterColor>
+			<backgroundCenterColor>${c.textHeader}66</backgroundCenterColor>
 			<backgroundEdgeColor>${c.textHeader}66</backgroundEdgeColor>
 			<imageColor>ffffff</imageColor>
 		</gridtile>
