@@ -149,7 +149,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</video>
 		<image name="md_thumbnail">
-			<default>./parts/defgame.png</default>
+			<default>./parts/noThumb.png</default>
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
 			<maxSize>0.14 0.24</maxSize>
@@ -404,7 +404,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</video>
 		<image name="md_thumbnail">
-			<default>./parts/defgame.png</default>
+			<default>./parts/noThumb.png</default>
 			<origin>0.5 0.5</origin>
 			<pos>0.86 0.27</pos>
 			<maxSize>0.14 0.24</maxSize>
@@ -718,6 +718,7 @@
 			<maxSize>0.16 0.24</maxSize>
 		</image>
 		<image name="md_marquee">
+			<default>./parts/noMarquee.png</default>
 			<zIndex>1010</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.88 0.52</pos>
@@ -1047,6 +1048,7 @@
 			<visible>true</visible>
 		</image>
 		<image name="md_marquee">
+			<default>./parts/noMarquee.png</default>
 			<zIndex>1010</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.86 0.5</pos>
@@ -1377,6 +1379,7 @@
 			<visible>true</visible>
 		</image>
 		<image name="md_marquee">
+			<default>./parts/noMarquee.png</default>
 			<zIndex>1010</zIndex>
 			<origin>0.5 0.5</origin>
             <pos>0.86 0.5</pos>
@@ -1619,7 +1622,7 @@
 		</video>
 		<image name="md_marquee">
 			<visible>true</visible>
-			<default>./parts/noThumb.png</default>
+			<default>./parts/noMarquee.png</default>
 			<zIndex>1001</zIndex>
 			<reflexion>0.01 0</reflexion>
 			<roundCorners>0.018</roundCorners>

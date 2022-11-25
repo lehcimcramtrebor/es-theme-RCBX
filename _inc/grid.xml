@@ -117,6 +117,7 @@
 			<color>${c.text}</color>
         </text>
 		<image name="md_marquee">
+			<default>./parts/noMarquee.png</default>
 			<reflexion>0.01 0</reflexion>
 			<zIndex>1001</zIndex>
 			<origin>0.5 0.5</origin>
