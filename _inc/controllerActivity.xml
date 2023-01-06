@@ -14,10 +14,10 @@
 			<itemSpacing>0.003</itemSpacing>
 
 			<imagePath ifSubset="controller:player">./controllerActivity/player.svg</imagePath>
-			<itemSpacing ifSubset="controller:player">-0.003</itemSpacing>
+			<itemSpacing ifSubset="controller:player">0.003</itemSpacing>
 
 			<imagePath ifSubset="controller:stick">./controllerActivity/stick.svg</imagePath>
-			<itemSpacing ifSubset="controller:stick">-0.002</itemSpacing>
+			<itemSpacing ifSubset="controller:stick">0.003</itemSpacing>
 
 			<imagePath ifSubset="controller:nes">./controllerActivity/nes.svg</imagePath>
 			<itemSpacing ifSubset="controller:nes">0.012</itemSpacing>
@@ -32,7 +32,7 @@
 			<itemSpacing ifSubset="controller:megadrive6">0.01</itemSpacing>
 
 			<imagePath ifSubset="controller:n64">./controllerActivity/n64.svg</imagePath>
-			<itemSpacing ifSubset="controller:n64">0.002</itemSpacing>
+			<itemSpacing ifSubset="controller:n64">0.003</itemSpacing>
 
 			<imagePath ifSubset="controller:cube">./controllerActivity/cube.svg</imagePath>
 			<itemSpacing ifSubset="controller:cube">0.004</itemSpacing>
