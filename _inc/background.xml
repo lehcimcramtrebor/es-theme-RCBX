@@ -61,7 +61,7 @@
 			<colorEnd ifSubset="paintSystemForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<color ifSubset="paintSystemForce:paintFull">${c.paintFull}</color>
 			<colorEnd ifSubset="paintSystemForce:paintFull">${ce.paintFull}</colorEnd>
-			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintSystemForce:vividPaint|paintFull">1.05</saturation>
 			<saturation ifSubset="paintSystemSaturation:75%">0.75</saturation>
 			<saturation ifSubset="paintSystemSaturation:50%">0.50</saturation>
 			<saturation ifSubset="paintSystemSaturation:25%">0.25</saturation>
@@ -106,7 +106,7 @@
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<color ifSubset="paintGamelistForce:paintFull">${c.paintFull}</color>
 			<colorEnd ifSubset="paintGamelistForce:paintFull">${ce.paintFull}</colorEnd>
-			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistForce:vividPaint|paintFull">1.05</saturation>
 			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>
 			<saturation ifSubset="paintGamelistSaturation:50%">0.50</saturation>
 			<saturation ifSubset="paintGamelistSaturation:25%">0.25</saturation>
@@ -166,7 +166,7 @@
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
 			<color ifSubset="paintGamelistForce:paintFull">${c.paintFull}</color>
 			<colorEnd ifSubset="paintGamelistForce:paintFull">${ce.paintFull}</colorEnd>
-			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
+			<saturation ifSubset="paintGamelistForce:vividPaint|paintFull">1.05</saturation>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>
 			<saturation ifSubset="paintGamelistSaturation:50%">0.50</saturation>

@@ -151,7 +151,7 @@
 		<lang.softPaint>3-soft</lang.softPaint>
 		<lang.mediumPaint>4-medium</lang.mediumPaint>
 		<lang.vividPaint>5-high</lang.vividPaint>
-		<lang.paintFull>6-full (don't display FX)</lang.paintFull>
+		<lang.paintFull>6-full</lang.paintFull>
 		<lang.bands>display bands</lang.bands>
 
 		<lang.extendedInfos>extended infos</lang.extendedInfos>
