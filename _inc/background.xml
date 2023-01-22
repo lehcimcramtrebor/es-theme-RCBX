@@ -43,8 +43,10 @@
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
 			<pos>0 0</pos>
+			<pos ifSubset="paintSystemForce:paintFull">0.5 0.5</pos>
 			<maxSize>99 1</maxSize>
 			<origin>0 0</origin>
+			<origin ifSubset="paintSystemForce:paintFull">0.5 0.5</origin>
 			<gradientType>horizontal</gradientType>
 			<color>${c.paint}</color>
 			<colorEnd>${ce.paint}</colorEnd>
@@ -57,6 +59,8 @@
 			<saturation ifSubset="paintSystemForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintSystemForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintSystemForce:vividPaint">${ce.paintVivid}</colorEnd>
+			<color ifSubset="paintSystemForce:paintFull">${c.paintFull}</color>
+			<colorEnd ifSubset="paintSystemForce:paintFull">${ce.paintFull}</colorEnd>
 			<saturation ifSubset="paintSystemForce:vividPaint">1.1</saturation>
 			<saturation ifSubset="paintSystemSaturation:75%">0.75</saturation>
 			<saturation ifSubset="paintSystemSaturation:50%">0.50</saturation>
@@ -100,6 +104,8 @@
 			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
+			<color ifSubset="paintGamelistForce:paintFull">${c.paintFull}</color>
+			<colorEnd ifSubset="paintGamelistForce:paintFull">${ce.paintFull}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>
 			<saturation ifSubset="paintGamelistSaturation:50%">0.50</saturation>
@@ -158,6 +164,8 @@
 			<saturation ifSubset="paintGamelistForce:mediumPaint">1.05</saturation>
 			<color ifSubset="paintGamelistForce:vividPaint">${c.paintVivid}</color>
 			<colorEnd ifSubset="paintGamelistForce:vividPaint">${ce.paintVivid}</colorEnd>
+			<color ifSubset="paintGamelistForce:paintFull">${c.paintFull}</color>
+			<colorEnd ifSubset="paintGamelistForce:paintFull">${ce.paintFull}</colorEnd>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<saturation ifSubset="paintGamelistForce:vividPaint">1.1</saturation>
 			<saturation ifSubset="paintGamelistSaturation:75%">0.75</saturation>

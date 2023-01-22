@@ -151,6 +151,8 @@
 		<lang.softPaint>3-léger</lang.softPaint>
 		<lang.mediumPaint>4-moyen</lang.mediumPaint>
 		<lang.vividPaint>5-haute</lang.vividPaint>
+		<lang.paintFull>6-maximum (sans effets)</lang.paintFull>
+		<lang.bands>afficher les bandes animées</lang.bands>
 
 		<lang.extendedInfos>informations étendues</lang.extendedInfos>
 		<lang.enterDisplay>afficher message d'entrée</lang.enterDisplay>

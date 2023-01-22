@@ -202,6 +202,10 @@ by Helmic.-->
     <subset name="spacer 06" displayName=" ">
 		<include name=" "/>
     </subset>
+    <subset name="bands" displayName="${category.wall} • ${lang.bands}">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+	</subset>
     <subset name="backgroundFx" tinyScreen="false" displayName="${category.wall} • ${lang.backgroundFx}">
         <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
@@ -226,6 +230,7 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
 	</subset>
     <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
+        <include name="paintFull" displayName="${lang.paintFull}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
@@ -319,11 +324,12 @@ by Helmic.-->
         <include name="custom" displayName="${lang.custom}"/>
 	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
+        <include name="paintFull" displayName="${lang.paintFull}"/>
+        <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
-        <include name="vividPaint" displayName="${lang.vividPaint}"/>
-        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
 	</subset>
     <subset name="paintGamelistSaturation" displayName="${lang.paintGamelistSaturation}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="0%"/>
