@@ -72,6 +72,8 @@
 			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
 			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
 			<colorEnd>00000000</colorEnd>
+			<saturation>0</saturation>
+			<opacity>0.75</opacity>
 			<gradientType>horizontal</gradientType>
 		</image>
 	</view>
