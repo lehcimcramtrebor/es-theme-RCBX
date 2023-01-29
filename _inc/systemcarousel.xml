@@ -29,6 +29,7 @@
 			<logoScale>2</logoScale>
 			<logoScale tinyScreen="true" ifSubset="tiny:handheld">2.4</logoScale>
 			<logoRotation>18</logoRotation>
+			<logoRotation ifSubset="carouselWheelSpacing:ultraThin">9</logoRotation>
 			<logoRotation ifSubset="carouselWheelSpacing:thin">12</logoRotation>
 			<logoRotation ifSubset="carouselWheelSpacing:medium">15</logoRotation>
 			<logoRotationOrigin>-2 0.5</logoRotationOrigin>
@@ -58,6 +59,20 @@
 			<colorEnd ifSubset="mode:translucent">${ce.frameTranslucent}</colorEnd>
 			<colorEnd ifSubset="mode:translucent,backgroundFx:flat">${c.frameTranslucent}</colorEnd>
 			<gradientType ifSubset="mode:transparent|translucent">vertical</gradientType>
+		</image>
+		<image name="backCarousel" extra="true" ifSubset="paintSystem:yes,paintSystemForce:paintFull,carousel:wheel">
+			<tile>true</tile>
+			<zIndex>999</zIndex>
+			<path>./parts/${n.frame}.png</path>
+			<origin>0.5 0.5</origin>
+			<origin>0 0.5</origin>
+            <pos>0 0.5</pos>
+            <size>0.7 1</size>
+			<color>${c.framePlain}</color>
+			<color ifSubset="mode:transparent">${c.frameTransparent}</color>
+			<color ifSubset="mode:translucent">${c.frameTranslucent}</color>
+			<colorEnd>00000000</colorEnd>
+			<gradientType>horizontal</gradientType>
 		</image>
 	</view>
 </theme>

@@ -21,6 +21,7 @@
 			<fontPath ifSubset="infosFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
             <fontSize>0.02</fontSize>
             <glowColor>00000080</glowColor>
+            <glowColor ifSubset="paintSystem:yes,paintSystemForce:paintFull">000000</glowColor>
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
  			<text>${system.fullName}</text>
@@ -67,6 +68,7 @@
             <pos ifSubset="allowIllustrationsCustom:hexa">0.11 0.055</pos>
 
             <pos ifSubset="extendedInfos:yes">0.11 0.355</pos>
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.2098958333333333</x>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.61 0.5</pos>
@@ -74,6 +76,7 @@
 			<pos ifSubset="allowIllustrationsCustom:hexa">0.61 0.52</pos>
 
 			<pos ifSubset="extendedInfos:yes">0.61 0.82</pos>
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.7098958333333333</x>
 		</image>
 
 <!--Bottom carousel precise position-->

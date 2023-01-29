@@ -156,6 +156,7 @@ by Helmic.-->
         <include name="3"/>
     </subset>
      <subset name="carouselWheelSpacing" displayName="${category.carousel} • ${lang.carouselWheelSpacing}" ifSubset="carousel:wheel">
+        <include name="ultraThin" displayName="${lang.ultraThin}"/>
         <include name="thin" displayName="${lang.thin}"/>
         <include name="medium" displayName="${lang.medium}"/>
        <include name="large" displayName="${lang.large}"/>

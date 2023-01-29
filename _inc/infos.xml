@@ -74,6 +74,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 			<zIndex>1010</zIndex>
 			<color>${c.text}</color>
             <glowColor>00000080</glowColor>
+            <glowColor ifSubset="paintSystem:yes,paintSystemForce:paintFull">000000</glowColor>
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
 			<storyboard>
@@ -288,6 +289,7 @@ ${lang.lastPlayedDate} : {binding:lastPlayedDate}
 		<!--vertical carousels pos-->
 		<text name="systemInfoEx" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.14 0.405</pos>
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.2398958333333333</x>
 		</text>
 	</view>
 	<include>./../_rcbxCustom/extendedInfos/${system.theme}_replace.xml</include>

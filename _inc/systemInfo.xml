@@ -15,6 +15,7 @@
             <fontSize>0.02</fontSize>
             <fontSize tinyScreen="true" ifSubset="tiny:handheld">0.036</fontSize>
             <glowColor>00000080</glowColor>
+            <glowColor ifSubset="paintSystem:yes,paintSystemForce:paintFull">000000</glowColor>
 			<glowOffset>1</glowOffset>
 			<glowSize>1</glowSize>
             <opacity>0</opacity>
@@ -39,6 +40,8 @@
 			<pos tinyScreen="true" ifSubset="allowIllustrationsCustom:hexa">0.11 0.4</pos>
 
 			<pos tinyScreen="true" ifSubset="tiny:handheld">0.11 0.605</pos>
+
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.2098958333333333</x>
 		</text>
 
 <!--Bottom carousel precise-->

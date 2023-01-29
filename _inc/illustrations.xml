@@ -39,6 +39,7 @@
 			<maxSize ifSubset="allowIllustrationsCustom:hexa">0.3 0.38</maxSize>
 
 			<maxSize ifSubset="allowIllustrationsCustom:hexa,carousel:bottom|vertical|wheel">0.3 0.42</maxSize>
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.7098958333333333</x>
 		</image>
 		<image name="illustration" region="eu" extra="true"/>
 		<image name="illustration" region="us" extra="true" ifSubset="regionChoice:yes">
