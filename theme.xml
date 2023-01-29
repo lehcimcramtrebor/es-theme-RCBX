@@ -47,13 +47,13 @@ by Helmic.-->
 	
 	<!--subsets-->
     <subset name="music" tinyScreen="false" displayName="${category.music} • ${lang.music}">
-        <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
-        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
+        <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
         <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
         <include name="allowGeneral" displayName="${lang.allowGeneral}"/>
         <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
+        <include name="notAllowMusic" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
 	</subset>
     <subset name="music" tinyScreen="true" displayName="${category.music} • ${lang.music}">
         <include name="notAllowMusic" ifSubset="tiny:handheld" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
@@ -69,13 +69,13 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
     <subset name="helpIcons" tinyScreen="false" displayName="${category.interface} • ${lang.helpIcons}">
-        <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
+        <include name="xboxIcons" displayName="${lang.xboxIcons}"/>
+        <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
         <include name="arcadeIcons" displayName="${lang.arcadeIcons}"/>
         <include name="psxIcons" displayName="${lang.psxIcons}"/>
         <include name="snesIcons" displayName="${lang.snesIcons}"/>
         <include name="snesAltIcons" displayName="${lang.snesAltIcons}"/>
-        <include name="xboxOneIcons" displayName="${lang.xboxOneIcons}"/>
     </subset>
     <subset name="helpIcons" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.interface} • ${lang.helpIcons}">
         <include name="defaultIcons" displayName="${lang.defaultIcons}"/>
@@ -146,8 +146,8 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
      <subset name="carousel" displayName="${category.carousel} • ${lang.carousel}">
-        <include name="vertical" displayName="${lang.vertical}"/>
         <include name="bottom" displayName="${lang.bottom}"/>
+        <include name="vertical" displayName="${lang.vertical}"/>
         <include name="legacy" displayName="${lang.legacy}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
     </subset>
@@ -156,8 +156,8 @@ by Helmic.-->
         <include name="3"/>
     </subset>
      <subset name="carouselWheelSpacing" displayName="${category.carousel} • ${lang.carouselWheelSpacing}" ifSubset="carousel:wheel">
-        <include name="ultraThin" displayName="${lang.ultraThin}"/>
         <include name="thin" displayName="${lang.thin}"/>
+        <include name="ultraThin" displayName="${lang.ultraThin}"/>
         <include name="medium" displayName="${lang.medium}"/>
        <include name="large" displayName="${lang.large}"/>
     </subset>
@@ -169,9 +169,9 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
      <subset name="mode" displayName="${category.frames} • ${lang.mode}">
-        <include name="translucent" displayName="${lang.translucent}"/>
         <include name="plain" displayName="${lang.plain}"/>
         <include name="transparent" displayName="${lang.transparent}"/>
+        <include name="translucent" displayName="${lang.translucent}"/>
     </subset>
      <subset name="texture" displayName="${category.frames} • ${lang.texture}">
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
@@ -197,8 +197,8 @@ by Helmic.-->
     </subset>
 	<include tinyScreen="false">./_inc/random${bypass.shader}.xml</include>
     <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:asPaint|inFrame|onWall|fullScreen">
-        <include name="on" displayName="${lang.on}"/>
         <include name="off" displayName="${lang.off}"/>
+        <include name="on" displayName="${lang.on}"/>
 	</subset>
     <subset name="spacer 06" displayName=" ">
 		<include name=" "/>
@@ -208,13 +208,13 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
 	</subset>
     <subset name="backgroundFx" tinyScreen="false" displayName="${category.wall} • ${lang.backgroundFx}">
+        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
         <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
         <include name="scanlinesverticalFine" displayName="${lang.scanlinesverticalFine}"/>
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
-        <include name="flat" displayName="${lang.flat}"/>
 	</subset>
     <subset name="backgroundFx" tinyScreen="true" displayName="${category.wall} • ${lang.backgroundFx}">
         <include name="scanlinesFine" ifSubset="tiny:handheld" displayName="${lang.scanlinesFine}"/>
@@ -227,8 +227,8 @@ by Helmic.-->
         <include name="phosphore" displayName="${lang.phosphore}"/>
 	</subset>
     <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
-        <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
 	</subset>
     <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
         <include name="paintFull" displayName="${lang.paintFull}"/>
@@ -320,8 +320,8 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
     <subset name="paintGamelist" displayName="${lang.paintGamelist}" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
-        <include name="yes" displayName="${lang.fanart}"/>
         <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
 	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
@@ -374,8 +374,8 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow" ifSubset="mdVideos:yes">
-        <include name="on" displayName="${lang.on}"/>
         <include name="off" displayName="${lang.off}"/>
+        <include name="on" displayName="${lang.on}"/>
     </subset>
 	<include tinyScreen="false">./_inc/md${bypass.shader}.xml</include>
      <subset name="mdCenter" displayName="${lang.mdCenter}" appliesTo="detailed,grid,gamecarousel">
