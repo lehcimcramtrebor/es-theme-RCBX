@@ -42,10 +42,10 @@
 			<path ifSubset="allowSystemCustom:yes" ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
-			<pos>0 0</pos>
+			<pos>0.5 0.5</pos>
 			<pos ifSubset="paintSystemForce:paintFull">0.5 0.5</pos>
-			<maxSize>99 1</maxSize>
-			<origin>0 0</origin>
+			<minSize>1 1</minSize>
+			<origin>0.5 0.5</origin>
 			<origin ifSubset="paintSystemForce:paintFull">0.5 0.5</origin>
 			<gradientType>horizontal</gradientType>
 			<color>${c.paint}</color>
@@ -70,6 +70,26 @@
 			<visible ifSubset="randomVideos:asPaint">false</visible>
 		</image>
 	</view>
+	<view name="system" ifSubset="paintSystem:yes,animePaint:yes" >
+		<carousel name="systemcarousel">
+			<defaultTransition>fade</defaultTransition>
+		</carousel>
+		<image name="paintSystem" extra="true">
+			<minSize>1.2 1</minSize>
+			<opacity>0</opacity>
+		<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="350" duration="500" mode="easeIn"/>
+
+        		<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="0" duration="10000" mode="easeOut"/>
+
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="10000" duration="10000" mode="easeOut"/>
+				
+        		<animation property="opacity" to="0" begin="8000" duration="2000" mode="easeOut"/>
+        		<animation property="opacity" to="1" begin="10350" duration="500" mode="easeIn"/>
+        		<animation property="opacity" to="0" begin="18000" duration="2000" mode="easeOut"/>
+				</storyboard>
+		</image>
+	</view>
 	<view name="basic,detailed,grid,gamecarousel">
 		<image name="background" extra="true">
             <color>505050</color>
@@ -89,9 +109,9 @@
 			<default ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</default>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
-			<pos>0 0</pos>
-			<maxSize>99 1</maxSize>
-			<origin>0 0</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<origin>0.5 0.5</origin>
 			<gradientType>horizontal</gradientType>
 			<color>${c.paint}</color>
 			<colorEnd>${ce.paint}</colorEnd>
@@ -130,6 +150,39 @@
 			<visible ifSubset="paintGamelist:custom">false</visible>
 		</image>
 	</view>
+	<view name="detailed,grid,gamecarousel" ifSubset="paintGamelist:yes,animePaintGamelist:yes">
+		<image name="md_fanart">
+			<minSize>1.2 1</minSize>
+			<opacity>0</opacity>
+			<storyboard event="open" repeatAt="19999">
+        		<animation property="opacity" to="1" begin="350" duration="500" mode="easeIn"/>
+
+        		<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="0" duration="10000" mode="easeOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="10000" duration="10000" mode="easeInOut"/>
+ 
+				<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+			</storyboard>
+			<storyboard event="activateNext" repeatAt="19999">
+        		<animation property="opacity" to="1" begin="350" duration="500" mode="easeIn"/>
+
+        		<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="0" duration="10000" mode="easeOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="10000" duration="10000" mode="easeInOut"/>
+ 
+				<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+			</storyboard>
+			<storyboard event="activatePrev" repeatAt="19999">
+        		<animation property="opacity" to="1" begin="350" duration="500" mode="easeIn"/>
+
+        		<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="0" duration="10000" mode="easeOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="10000" duration="10000" mode="easeInOut"/>
+ 
+				<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="20000" duration="10000" mode="easeInOut"/>
+			</storyboard>
+		</image>
+	</view>
 	<view name="basic,detailed,grid,gamecarousel">
 		<image name="paintGamelist" ifSubset="paintGamelist:custom" extra="true">
 			<path>./parts/defaultPaint.jpg</path>
@@ -149,9 +202,9 @@
 			<path ifNotArch="windows">./../../../_rcbxCustom/paints/${system.theme}.png</path>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>101</zIndex>
-			<pos>0 0</pos>
-			<maxSize>99 1</maxSize>
-			<origin>0 0</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<origin>0.5 0.5</origin>
 			<gradientType>horizontal</gradientType>
 			<color>${c.paint}</color>
 			<colorEnd>${ce.paint}</colorEnd>
@@ -176,6 +229,23 @@
 			<storyboard>
 				<animation property="opacity" to="1" mode="easeIn" duration="250" begin="0"/>
 			</storyboard>
+		</image>
+	</view>
+	<view name="basic,detailed,grid,gamecarousel" ifSubset="paintGamelist:custom,animePaintGamelist:yes" >
+		<image name="paintGamelist" extra="true">
+			<minSize>1.2 1</minSize>
+			<opacity>0</opacity>
+		<storyboard repeat="forever">
+        		<animation property="opacity" to="1" begin="350" duration="500" mode="easeIn"/>
+
+        		<animation property="origin" from="0.45 0.5" to="0.55 0.5" begin="0" duration="10000" mode="easeOut"/>
+
+        		<animation property="origin" from="0.55 0.5" to="0.45 0.5" begin="10000" duration="10000" mode="easeOut"/>
+				
+        		<animation property="opacity" to="0" begin="8000" duration="2000" mode="easeOut"/>
+        		<animation property="opacity" to="1" begin="10350" duration="500" mode="easeIn"/>
+        		<animation property="opacity" to="0" begin="18000" duration="2000" mode="easeOut"/>
+				</storyboard>
 		</image>
 	</view>
 	<view name="system" ifSubset="randomVideos:asPaint">

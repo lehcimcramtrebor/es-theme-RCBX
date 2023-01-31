@@ -208,8 +208,8 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
 	</subset>
     <subset name="backgroundFx" tinyScreen="false" displayName="${category.wall} • ${lang.backgroundFx}">
-        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
+        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
         <include name="scanlinesverticalFine" displayName="${lang.scanlinesverticalFine}"/>
@@ -230,13 +230,17 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
 	</subset>
+    <subset name="animePaint" displayName="${category.wall} • ${lang.animePaint}" ifSubset="paintSystem:yes">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+	</subset>
     <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
-        <include name="paintFull" displayName="${lang.paintFull}"/>
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
+        <include name="paintFull" displayName="${lang.paintFull}"/>
 	</subset>
     <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}" ifSubset="paintSystem:yes">
         <include name="auto" displayName="${lang.auto}"/>
@@ -323,6 +327,10 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.fanart}"/>
         <include name="custom" displayName="${lang.custom}"/>
+	</subset>
+    <subset name="animePaintGamelist" displayName="${category.wall} • ${lang.animePaintGamelist}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
 	</subset>
      <subset name="paintGamelistForce" displayName="${lang.paintGamelistForce}" ifSubset="paintGamelist:yes|custom" appliesTo="basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="darkPaint" displayName="${lang.darkPaint}"/>
