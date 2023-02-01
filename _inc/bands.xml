@@ -72,4 +72,9 @@
 			</storyboard>
          </image>
 	</view>
+	<view name="system" ifSubset="paintSystem:yes,paintSystemForce:paintFull">
+		<image name="band1,band2,band3,band4" extra="true">
+			<opacity>1</opacity>
+		</image>
+	</view>
 </theme>
