@@ -2040,4 +2040,12 @@ md_cheevos,md_notcheevos,ghost_cheevos,md_kidgame, md_notkidgame,ghost_kidgame,m
 			</storyboard>
         </control>
 	</customView>
+
+	<!--FIX for gamecarousel frames with both wheels in unfied frames-->
+	<view name="gamecarousel" ifSubset="gamelistFrames:yes,bigGamecarousel:no">
+		<image name="frame2" extra="true">
+			<visible>false</visible>
+		</image>
+	</view>
+
 </theme>
