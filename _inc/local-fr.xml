@@ -136,6 +136,7 @@
 		<lang.animePaintGamelist>animer les peintures</lang.animePaintGamelist>
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
 		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>
+		<lang.allowFadeAnim>autoriser le fondu des animations de peintures</lang.allowFadeAnim>
 		<lang.allowSystemVideoCustom>autoriser la vidéo custom de la vue système</lang.allowSystemVideoCustom>
 		<lang.allowIllustrationsCustom>autoriser les illustrations custom (désactive le cadre vidéo)</lang.allowIllustrationsCustom>
 		<lang.randomIllustrations>illustrations par défaut(si manquantes)</lang.randomIllustrations>

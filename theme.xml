@@ -294,6 +294,10 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
+    <subset name="allowFadeAnim" displayName="${lang.allowFadeAnim}" ifSubset="paintSystem:yes,animePaint:yes" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
 	<subset name="allowIllustrationsCustom" tinyScreen="false" displayName="${lang.allowIllustrationsCustom}" appliesTo="system,basic,detailed,grid,gamecarousel,bigGrid,boxCarousel,library">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>

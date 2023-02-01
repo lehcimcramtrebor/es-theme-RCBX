@@ -136,7 +136,8 @@
 		<lang.animePaintGamelist>anime paints</lang.animePaintGamelist>
 		<lang.paintSystem>paint system wall</lang.paintSystem>
 		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
-		<lang.allowSystemCustom>allow system view custom paint</lang.allowSystemCustom>
+		<lang.allowFadeAnim>allow system paint fade anim</lang.allowFadeAnim>
+		<lang.allowSystemVideoCustom>allow system custom video</lang.allowSystemVideoCustom>
 		<lang.allowIllustrationsCustom>allow custom illustrations (deactivate in frame random)</lang.allowIllustrationsCustom>
 		<lang.randomIllustrations>default illustrations (if missing)</lang.randomIllustrations>
 		<lang.noIllustrations>none</lang.noIllustrations>
