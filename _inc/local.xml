@@ -10,6 +10,8 @@
 		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 		<lang.pp.no>no</lang.pp.no>
 
+		<lang.swapBySystem>(*) advanced • swap custom options by system</lang.swapBySystem>
+
         <lang.regionChoice>allow region (individual, need refresh)</lang.regionChoice>
 
         <lang.controller>controller activity icon</lang.controller>

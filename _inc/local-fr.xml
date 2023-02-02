@@ -10,6 +10,8 @@
 		<lang.pp.amberelec>amberelec</lang.pp.amberelec>
 		<lang.pp.no>non</lang.pp.no>
 
+		<lang.swapBySystem>(*) avancé • activer la personnalisation par système</lang.swapBySystem>
+
         <lang.regionChoice>autoriser région (individuel, nécessite de rafraîchir)</lang.regionChoice>
 
         <lang.controller>icône du contrôleur d'activité</lang.controller>

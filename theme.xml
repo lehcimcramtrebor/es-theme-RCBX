@@ -65,7 +65,11 @@ by Helmic.-->
         <include name="notAllowMusic" ifSubset="tiny:crt" displayName="${lang.notAllowMusic}">./_inc/notAllowMusic.xml</include>
         <include name="useCustomMusic" displayName="${lang.useCustomMusic}">./_inc/useCustomMusic.xml</include>
 	</subset>
-    <subset name="spacer 02" displayName=" ">
+    <subset name="swapBySystem" displayName="${lang.swapBySystem}">
+        <include name="no" displayName="${lang.no}"/>
+		<include name="yes" displayName="${lang.yes}"/>
+	</subset>
+     <subset name="spacer 02" displayName=" ">
 		<include name=" "/>
     </subset>
     <subset name="helpIcons" tinyScreen="false" displayName="${category.interface} • ${lang.helpIcons}">
@@ -177,17 +181,32 @@ by Helmic.-->
         <include name="texturePlain" displayName="${lang.texturePlain}">./_inc/variables/texturePlain.xml</include>
         <include name="textureDot" displayName="${lang.textureDot}">./_inc/variables/textureDot.xml</include>
     </subset>
-    <subset name="spacer 05" displayName=" ">
+    <subset name="spacer 05" displayName=" " ifSubset="swapBySystem:no">
 		<include name=" "/>
     </subset>
-    <subset name="randomVideosSaturation" displayName="${category.randomVideos} • ${lang.randomVideosSaturation}">
+    <subset name="randomVideosSaturation" displayName="${category.randomVideos} • ${lang.randomVideosSaturation}" ifSubset="swapBySystem:no">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0%">./_inc/cutShader.xml</include>
         <include name="25%">./_inc/cutShader.xml</include>
         <include name="50%">./_inc/cutShader.xml</include>
         <include name="75%">./_inc/cutShader.xml</include>
 	</subset>
-	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}">
+    <subset name="randomVideosSaturation" displayName="* ${category.randomVideos} • ${lang.randomVideosSaturation}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0%">./_inc/cutShader.xml</include>
+        <include name="25%">./_inc/cutShader.xml</include>
+        <include name="50%">./_inc/cutShader.xml</include>
+        <include name="75%">./_inc/cutShader.xml</include>
+	</subset>
+	<subset name="randomVideos" displayName="${category.randomVideos} • ${lang.randomVideos}" ifSubset="swapBySystem:no">
+        <include name="inFrame" displayName="${lang.inFrame}"/>
+        <include name="onWall" displayName="${lang.onWall}"/>
+        <include name="asPaint" displayName="${lang.asPaint}"/>
+        <include name="fullScreen" displayName="${lang.fullScreen} (${lang.fullScreenComment})"/>
+        <include name="onlyAudio" displayName="${lang.onlyAudio}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+	<subset name="randomVideos" displayName="* ${category.randomVideos} • ${lang.randomVideos}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="inFrame" displayName="${lang.inFrame}"/>
         <include name="onWall" displayName="${lang.onWall}"/>
         <include name="asPaint" displayName="${lang.asPaint}"/>
@@ -196,14 +215,22 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<include tinyScreen="false">./_inc/random${bypass.shader}.xml</include>
-    <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="randomVideos:asPaint|inFrame|onWall|fullScreen">
+    <subset name="randomVideosAudio" displayName="${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="swapBySystem:no,randomVideos:asPaint|inFrame|onWall|fullScreen">
+        <include name="off" displayName="${lang.off}"/>
+        <include name="on" displayName="${lang.on}"/>
+	</subset>
+    <subset name="randomVideosAudio" displayName="* ${category.randomVideos} • ${lang.randomVideosAudio}" ifSubset="swapBySystem:yes,randomVideos:asPaint|inFrame|onWall|fullScreen" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
 	</subset>
     <subset name="spacer 06" displayName=" ">
 		<include name=" "/>
     </subset>
-    <subset name="bands" displayName="${category.wall} • ${lang.bands}">
+    <subset name="bands" displayName="${category.wall} • ${lang.bands}" ifSubset="swapBySystem:no">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+	</subset>
+    <subset name="bands" displayName="* ${category.wall} • ${lang.bands}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
 	</subset>
@@ -226,7 +253,11 @@ by Helmic.-->
         <include name="crt" displayName="${lang.crt}"/>
         <include name="phosphore" displayName="${lang.phosphore}"/>
 	</subset>
-    <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}">
+    <subset name="paintSystem" displayName="${category.wall} • ${lang.paintSystem}" ifSubset="swapBySystem:no">
+        <include name="no" displayName="${lang.no}"/>
+        <include name="yes" displayName="${lang.yes}"/>
+	</subset>
+    <subset name="paintSystem" displayName="* ${category.wall} • ${lang.paintSystem}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
 	</subset>
@@ -234,7 +265,7 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
 	</subset>
-    <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes">
+    <subset name="paintSystemForce" displayName="${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes,swapBySystem:no">
         <include name="vividPaint" displayName="${lang.vividPaint}"/>
         <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
         <include name="softPaint" displayName="${lang.softPaint}"/>
@@ -242,7 +273,22 @@ by Helmic.-->
         <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
         <include name="paintFull" displayName="${lang.paintFull}"/>
 	</subset>
-    <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}" ifSubset="paintSystem:yes">
+    <subset name="paintSystemForce" displayName="* ${category.wall} • ${lang.paintSystemForce}" ifSubset="paintSystem:yes,swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
+        <include name="vividPaint" displayName="${lang.vividPaint}"/>
+        <include name="mediumPaint" displayName="${lang.mediumPaint}"/>
+        <include name="softPaint" displayName="${lang.softPaint}"/>
+        <include name="darkPaint" displayName="${lang.darkPaint}"/>
+        <include name="fadedPaint" displayName="${lang.fadedPaint}"/>
+        <include name="paintFull" displayName="${lang.paintFull}"/>
+	</subset>
+    <subset name="paintSystemSaturation" displayName="${category.wall} • ${lang.paintSystemSaturation}" ifSubset="paintSystem:yes,swapBySystem:no">
+        <include name="auto" displayName="${lang.auto}"/>
+        <include name="0%"/>
+        <include name="25%"/>
+        <include name="50%"/>
+        <include name="75%"/>
+	</subset>
+    <subset name="paintSystemSaturation" displayName="* ${category.wall} • ${lang.paintSystemSaturation}" ifSubset="paintSystem:yes,swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="auto" displayName="${lang.auto}"/>
         <include name="0%"/>
         <include name="25%"/>
@@ -252,7 +298,11 @@ by Helmic.-->
     <subset name="spacer 07" displayName=" ">
 		<include name=" "/>
     </subset>
-    <subset name="extendedInfos" tinyScreen="false" displayName="${category.various} • ${lang.extendedInfos}">
+    <subset name="extendedInfos" tinyScreen="false" displayName="${category.various} • ${lang.extendedInfos}" ifSubset="swapBySystem:no">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="extendedInfos" tinyScreen="false" displayName="* ${category.various} • ${lang.extendedInfos}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
@@ -267,7 +317,11 @@ by Helmic.-->
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
     </subset>
-    <subset name="enterDisplay" tinyScreen="false" displayName="${category.various} • ${lang.enterDisplay}">
+    <subset name="enterDisplay" tinyScreen="false" displayName="${category.various} • ${lang.enterDisplay}" ifSubset="swapBySystem:no">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+    </subset>
+    <subset name="enterDisplay" tinyScreen="false" displayName="* ${category.various} • ${lang.enterDisplay}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
     </subset>
