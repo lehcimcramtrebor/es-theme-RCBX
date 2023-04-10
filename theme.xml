@@ -440,8 +440,8 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
     </subset>
 	<subset name="mdVideosAudio" displayName="${lang.mdVideosAudio}" appliesTo="detailed,grid,gamecarousel,bigGrid,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow" ifSubset="mdVideos:yes">
-        <include name="off" displayName="${lang.off}"/>
         <include name="on" displayName="${lang.on}"/>
+        <include name="off" displayName="${lang.off}"/>
     </subset>
 	<include tinyScreen="false">./_inc/md${bypass.shader}.xml</include>
      <subset name="mdCenter" displayName="${lang.mdCenter}" appliesTo="detailed,grid,gamecarousel">
