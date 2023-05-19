@@ -263,7 +263,11 @@ by Helmic.-->
         <include name="no" displayName="${lang.no}"/>
         <include name="yes" displayName="${lang.yes}"/>
 	</subset>
-    <subset name="animePaint" displayName="${category.wall} • ${lang.animePaint}" ifSubset="paintSystem:yes">
+    <subset name="animePaint" displayName="${category.wall} • ${lang.animePaint}" ifSubset="paintSystem:yes,swapBySystem:no">
+        <include name="yes" displayName="${lang.yes}"/>
+        <include name="no" displayName="${lang.no}"/>
+	</subset>
+    <subset name="animePaint" displayName="${category.wall} • ${lang.animePaint}" ifSubset="paintSystem:yes,swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
 	</subset>
