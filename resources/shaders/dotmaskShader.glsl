@@ -100,9 +100,9 @@ uniform COMPAT_PRECISION float DOTMASK_STRENGTH;
 uniform COMPAT_PRECISION float maskDark;
 uniform COMPAT_PRECISION float maskLight;
 #else
-#define shadowMask 3.0
+#define shadowMask 1.0
 #define DOTMASK_STRENGTH 0.3
-#define maskDark 0.5
+#define maskDark 1.0
 #define maskLight 1.5
 #endif
 
@@ -188,6 +188,6 @@ void main()
       res *= Mask(floor(1.000001 * gl_FragCoord.xy + vec2(0.5,0.5)));
    }
    
-      FragColor = vec4(pow(res, vec3(1.0/2.2, 1.0/2.2, 1.0/2.2)), 1.0);
+      FragColor = vec4(pow(res, vec3(1.0/1.8, 1.0/1.8, 1.0/1.8)), 1.0);
 } 
 #endif
