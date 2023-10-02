@@ -25,13 +25,8 @@
 			<c.menubg>202028</c.menubg>
 	</variables>
 	<include>./fixedColors.xml</include>
-	<subset name="frameColorset" tinyScreen="false" displayName="${category.interface} • ${lang.frameColorset}">
-        <include name="no" displayName="${lang.no}">./frameColors.xml</include>
+	<subset name="frameColorset" displayName="${category.interface} • ${lang.frameColorset}">
         <include name="yes" displayName="${lang.yes}"/>
-    </subset>
-	<subset name="frameColorset" tinyScreen="true" displayName="${category.interface} • ${lang.frameColorset}">
-        <include name="yes" ifSubset="tiny:handheld" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}">./frameColors.xml</include>
-        <include name="yes" ifSubset="tiny:crt" displayName="${lang.yes}"/>
     </subset>
 </theme>
