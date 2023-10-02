@@ -6,11 +6,12 @@
 			<visible ifSubset="enterDisplay:no">false</visible>
 			<visible ifSubset="randomVideos:fullScreen">false</visible>
 			<zIndex>1010</zIndex>
-            <pos>0 0.405</pos>
-            <pos tinyScreen="true">0 0.435</pos>
-            <pos ifSubset="extendedInfos:no">0 0.21</pos>
-            <pos tinyScreen="true" ifSubset="extendedInfos:no">0 0.23</pos>
-			<size>1 1</size>
+            <origin>0.5 0</origin>
+            <pos>0.5 0.885</pos>
+            <pos tinyScreen="true">0.5 0.915</pos>
+            <pos ifSubset="extendedInfos:no">0.5 0.69</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no">0.5 0.91</pos>
+			<size>0.5 0.05</size>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase>
             <color>${c.text}</color>
@@ -63,12 +64,12 @@
 
 <!--Vertical/wheel precise position-->
 		<text name="enter" extra="true" ifSubset="carousel:vertical|wheel">
-            <pos>0.11 0.035</pos>
+            <pos>0.61 0.515</pos>
 
-            <pos ifSubset="allowIllustrationsCustom:hexa">0.11 0.055</pos>
+            <pos ifSubset="allowIllustrationsCustom:hexa">0.61 0.935</pos>
 
-            <pos ifSubset="extendedInfos:yes">0.11 0.355</pos>
-			<x ifSubset="carousel:vertical|wheel,bands:no">0.2098958333333333</x>
+            <pos ifSubset="extendedInfos:yes">0.61 0.835</pos>
+			<x ifSubset="carousel:vertical|wheel,bands:no">0.7098958333333333</x>
 		</text>
 		<image name="enterIcon" extra="true" ifSubset="carousel:vertical|wheel">
 			<pos>0.61 0.5</pos>
@@ -81,27 +82,27 @@
 
 <!--Bottom carousel precise position-->
 		<text name="enter" extra="true" ifSubset="carousel:bottom">
-            <pos>0 0</pos>
+            <pos>0.5 0.48</pos>
 
-            <pos ifSubset="extendedInfos:no">0 -0.25</pos>
-            <pos ifSubset="extendedInfos:no,randomVideos:inFrame">0 -0.05</pos>
-            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0 -0.09</pos>
-            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0 -0.03</pos>
+            <pos ifSubset="extendedInfos:no">0.5 -0.83</pos>
+            <pos ifSubset="extendedInfos:no,randomVideos:inFrame">0.5 0.38</pos>
+            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0.5 0.39</pos>
+            <pos ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0.5 0.45</pos>
 
-            <pos ifSubset="extendedInfos:yes">0 -0.13</pos>
-            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0 0.22</pos>
-            <pos ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0 0.22</pos>
+            <pos ifSubset="extendedInfos:yes">0.5 0.35</pos>
+            <pos ifSubset="extendedInfos:yes,randomVideos:inFrame">0.5 0.7</pos>
+            <pos ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0.5 0.7</pos>
 
-            <pos tinyScreen="true">0 -0.17</pos>
+            <pos tinyScreen="true">0.5 0.31</pos>
 
-            <pos tinyScreen="true" ifSubset="extendedInfos:no">0 -0.17</pos>
-            <pos tinyScreen="true" ifSubset="extendedInfos:no,randomVideos:inFrame">0 -0.05</pos>
-            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0 -0.1</pos>
-            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0 -0.03</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no">0.5 0.31</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,randomVideos:inFrame">0.5 0.43</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:yes">0.5 0.38</pos>
+            <pos tinyScreen="true" ifSubset="extendedInfos:no,allowIllustrationsCustom:hexa">0.5 0.45</pos>
 
-            <pos tinyScreen="true"  ifSubset="extendedInfos:yes">0 -0.25</pos>
-            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,randomVideos:inFrame">0 0.225</pos>
-            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0 0.225</pos>
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes">0.5 0.23</pos>
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,randomVideos:inFrame">0.5 0.705</pos>
+            <pos tinyScreen="true"  ifSubset="extendedInfos:yes,allowIllustrationsCustom:yes|hexa">0.5 0.705</pos>
 		</text>
 
 
