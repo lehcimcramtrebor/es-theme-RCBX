@@ -152,10 +152,12 @@ by Helmic.-->
 		<include name=" "/>
     </subset>
      <subset name="carousel" displayName="${category.carousel} • ${lang.carousel}">
+        <include tinyScreen="false" name="legacy" displayName="${lang.legacy}"/>
+        <include tinyScreen="true" ifSubset="tiny:crt" name="legacy" displayName="${lang.legacy}"/>
         <include name="bottom" displayName="${lang.bottom}"/>
         <include name="vertical" displayName="${lang.vertical}"/>
-        <include name="legacy" displayName="${lang.legacy}"/>
         <include name="wheel" displayName="${lang.wheel}"/>
+        <include tinyScreen="true" name="legacy" displayName="${lang.legacy}"/>
     </subset>
      <subset name="carouselVerticalCount" displayName="${category.carousel} • ${lang.carouselVerticalCount}" ifSubset="carousel:vertical">
         <include name="5"/>
@@ -322,18 +324,6 @@ by Helmic.-->
         <include name="regularBold" displayName="${lang.regularBold}"/>
         <include name="condensed" displayName="${lang.condensed}"/>
         <include name="condensedBold" displayName="${lang.condensedBold}"/>
-    </subset>
-    <subset name="enterDisplay" tinyScreen="false" displayName="${category.various} • ${lang.enterDisplay}" ifSubset="swapBySystem:no">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
-    </subset>
-    <subset name="enterDisplay" tinyScreen="false" displayName="* ${category.various} • ${lang.enterDisplay}" ifSubset="swapBySystem:yes" appliesTo="basic,detailed,grid,gamecarousel,boxCarousel,library,bigList,handheldGrid,handheldCoverFlow">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
-    </subset>
-   <subset name="enterDisplay" tinyScreen="true" ifSubset="tiny:crt" displayName="${category.various} • ${lang.enterDisplay}">
-        <include name="yes" displayName="${lang.yes}"/>
-        <include name="no" displayName="${lang.no}"/>
     </subset>
     <subset name="neogeo" displayName="${category.various} • ${lang.neogeo}">
         <include name="aes"/>
