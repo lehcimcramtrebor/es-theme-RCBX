@@ -135,7 +135,7 @@
 		<lang.randomShader>utiliser le shader</lang.randomShader>
 		<lang.mdShader>shader des vidéos et images de jeux</lang.mdShader>
 
-		<lang.animePaint>animer les peintures</lang.animePaint>
+		<lang.animePaint>animer les peintures (mieux pour les randoms)</lang.animePaint>
 		<lang.animePaintGamelist>animer les peintures</lang.animePaintGamelist>
 		<lang.paintSystem>décorer le mur système</lang.paintSystem>
 		<lang.allowSystemCustom>autoriser le fond custom de la vue système</lang.allowSystemCustom>
