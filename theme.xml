@@ -238,20 +238,10 @@ by Helmic.-->
         <include name="yes" displayName="${lang.yes}"/>
         <include name="no" displayName="${lang.no}"/>
 	</subset>
-    <subset name="backgroundFx" tinyScreen="false" displayName="${category.wall} • ${lang.backgroundFx}">
+    <subset name="backgroundFx" displayName="${category.wall} • ${lang.backgroundFx}">
+        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlines" displayName="${lang.scanlines}"/>
-        <include name="flat" displayName="${lang.flat}"/>
         <include name="scanlinesFine" displayName="${lang.scanlinesFine}"/>
-        <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
-        <include name="scanlinesverticalFine" displayName="${lang.scanlinesverticalFine}"/>
-        <include name="crt" displayName="${lang.crt}"/>
-        <include name="phosphore" displayName="${lang.phosphore}"/>
-	</subset>
-    <subset name="backgroundFx" tinyScreen="true" displayName="${category.wall} • ${lang.backgroundFx}">
-        <include name="scanlinesFine" ifSubset="tiny:handheld" displayName="${lang.scanlinesFine}"/>
-        <include name="flat" displayName="${lang.flat}"/>
-        <include name="scanlinesFine" ifSubset="tiny:crt" displayName="${lang.scanlinesFine}"/>
-		<include name="scanlines" displayName="${lang.scanlines}"/>
         <include name="scanlinesvertical" displayName="${lang.scanlinesvertical}"/>
         <include name="scanlinesverticalFine" displayName="${lang.scanlinesverticalFine}"/>
         <include name="crt" displayName="${lang.crt}"/>
