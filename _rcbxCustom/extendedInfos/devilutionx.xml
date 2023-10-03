@@ -19,6 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"DevilutionX: A fan-made Diablo engine reimplementation, allowing you to relive the classic action RPG, Diablo, with modern enhancements and compatibility."</desc>
+<desc lang="fr">"DevilutionX : Une réimplémentation du moteur de Diablo par des fans, vous permettant de revivre l'action RPG classique, Diablo, avec des améliorations modernes et une compatibilité accrue."</desc>
 
 
 

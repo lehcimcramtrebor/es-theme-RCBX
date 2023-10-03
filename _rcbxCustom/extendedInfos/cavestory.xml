@@ -19,6 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Cave Story: An indie platform-adventure game with a captivating story. Explore a mysterious cave, battle quirky enemies, and uncover the secrets of a compelling underground world."</desc>
+<desc lang="fr">"Cave Story : Un jeu indépendant de plateforme et d'aventure avec une histoire captivante. Explorez une grotte mystérieuse, combattez des ennemis excentriques et découvrez les secrets d'un monde souterrain fascinant."</desc>
 
 
 

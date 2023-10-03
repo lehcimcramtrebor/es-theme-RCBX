@@ -19,6 +19,8 @@
 
 <custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"RetroBat: A versatile retro gaming frontend. Manage and play your classic games with extensive customization options. Personnalisez votre expérience de jeu complètement."</desc>
+<desc lang="fr">"RetroBat : Un frontend de rétrogaming polyvalent. Gérez et jouez à vos jeux classiques avec des options de personnalisation étendues. Personnalisez votre expérience de jeu complètement."</desc>
 
 
 

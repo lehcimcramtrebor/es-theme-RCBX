@@ -19,6 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"EDuke32: An enhanced source port for Duke Nukem 3D, offering improved graphics, compatibility, and modding support for fans of this classic first-person shooter."</desc>
+<desc lang="fr">"EDuke32 : Un port source amélioré pour Duke Nukem 3D, offrant une meilleure qualité graphique, une compatibilité accrue et un support pour les mods pour les fans de ce jeu de tir à la première personne classique."</desc>
 
 
 

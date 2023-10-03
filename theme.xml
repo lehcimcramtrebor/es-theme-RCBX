@@ -10,6 +10,11 @@ by Helmic.-->
 	<!--check if es-theme-HEXA installed-->
 	<include>./../es-theme-HEXA/_inc/cross/rcbx.xml</include>
 
+    <variables>
+		<notWide>${screen.height} > ${screen.width}/1.6</notWide>
+		<ultraWide>${screen.width} > ${screen.height}*1.8</ultraWide>
+    </variables>
+    
 	<!--localisation-->
 	<include>./_inc/local.xml</include>
 	<include>./_inc/local-${lang}.xml</include>
