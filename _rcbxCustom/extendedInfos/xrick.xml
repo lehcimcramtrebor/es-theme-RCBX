@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2003</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"XRick: A faithful port of the classic action-adventure game Rick Dangerous. Embark on daring expeditions, face perilous challenges, and explore treacherous environments in this nostalgic adventure."</desc>
+<desc lang="fr">"XRick : Un port fidèle du jeu classique d'action-aventure Rick Dangerous. Partez pour des expéditions audacieuses, affrontez des défis périlleux et explorez des environnements traîtres dans cette aventure nostalgique."</desc>
 
 
 

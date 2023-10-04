@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2013</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"VitaQuake2: A port of the classic game Quake II for the PlayStation Vita. Experience intense first-person shooter action on the go with this nostalgic title."</desc>
+<desc lang="fr">"VitaQuake2 : Un port du jeu classique Quake II pour la PlayStation Vita. Découvrez l'action intense du jeu de tir à la première personne en déplacement avec ce titre nostalgique."</desc>
 
 
 

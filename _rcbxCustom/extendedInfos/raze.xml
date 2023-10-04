@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2015</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Raze: A source port for classic first-person shooters like Doom and Heretic. Enjoy enhanced gameplay, modding support, and retro gaming nostalgia in this versatile platform."</desc>
+<desc lang="fr">"Raze : Un port source pour les jeux de tir à la première personne classiques tels que Doom et Heretic. Profitez d'un gameplay amélioré, de la prise en charge des mods et de la nostalgie du jeu rétro sur cette plateforme polyvalente."</desc>
 
 
 

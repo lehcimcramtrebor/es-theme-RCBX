@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2009</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Xash3D: A game engine port for running Half-Life on various platforms. Enjoy the classic first-person shooter with enhanced graphics and compatibility for modern systems."</desc>
+<desc lang="fr">"Xash3D : Un port de moteur de jeu pour exécuter Half-Life sur différentes plateformes. Profitez du classique jeu de tir à la première personne avec des graphismes améliorés et une compatibilité avec les systèmes modernes."</desc>
 
 
 

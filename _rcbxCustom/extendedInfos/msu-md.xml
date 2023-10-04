@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>2020</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"MD-MSU: Sega Mega Drive emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Mega Drive games with improved soundtracks and audio immersion."</desc>
+<desc region="us">"MD-MSU: Sega Genesis emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Genesis games with improved soundtracks and audio immersion."</desc>
+<desc lang="fr">"MD-MSU : Émulation de la Sega Mega Drive avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Mega Drive avec des bandes sonores améliorées."</desc>
+<desc lang="fr" region="us">"MD-MSU : Émulation de la Sega Genesis avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Genesis avec des bandes sonores améliorées."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

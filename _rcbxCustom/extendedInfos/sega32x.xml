@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>1994</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Sega 32X: An add-on peripheral for the Sega Mega Drive, released in 1994. It aimed to enhance graphics and audio capabilities and introduce new games."</desc>
+<desc region="us">"Sega Genesis 32X: An add-on peripheral for the Sega Genesis, released in 1994. It aimed to enhance graphics and audio capabilities and introduce new games."</desc>
+<desc lang="fr">"Sega 32X : Un périphérique d'extension pour la Sega Mega Drive, sorti en 1994. Il visait à améliorer les capacités graphiques et sonores et à introduire de nouveaux jeux."</desc>
+<desc lang="fr" region="us">"Sega Genesis 32X : Un périphérique d'extension pour la Sega Genesis, sorti en 1994. Il visait à améliorer les capacités graphiques et sonores et à introduire de nouveaux jeux."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

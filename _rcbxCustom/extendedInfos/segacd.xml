@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>1991</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Sega Mega-CD: An add-on peripheral for the Sega Mega Drive, released in the early 1990s. It expanded the library with CD-ROM games, offering enhanced multimedia experiences."</desc>
+<desc region="us">"Sega CD: An add-on peripheral for the Sega Genesis, released in the early 1990s. It expanded the library with CD-ROM games, offering enhanced multimedia experiences."</desc>
+<desc lang="fr">"Sega Mega-CD : Un périphérique d'extension pour la Sega Mega Drive, sorti au début des années 1990. Il a enrichi la ludothèque avec des jeux CD-ROM et offert des expériences multimédias améliorées."</desc>
+<desc lang="fr" region="us">Sega CD : Un périphérique d'extension pour la Sega Genesis, sorti au début des années 1990. Il a enrichi la ludothèque avec des jeux CD-ROM et offert des expériences multimédias améliorées."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

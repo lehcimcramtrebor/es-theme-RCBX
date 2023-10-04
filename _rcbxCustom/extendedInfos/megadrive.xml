@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>1988</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Sega Mega Drive: A fourth-generation video game console by Sega, released in the late 1980s and early 1990s. Known for iconic games, including 'Sonic the Hedgehog.'"</desc>
+<desc region="us">"Sega Genesis: A fourth-generation video game console by Sega, released in the late 1980s and early 1990s. Known for iconic games, including 'Sonic the Hedgehog.'"</desc>
+<desc lang="fr">"Sega Mega Drive : Une console de jeux vidéo de quatrième génération de Sega, sortie à la fin des années 1980 et au début des années 1990. Célèbre pour des jeux emblématiques, dont 'Sonic the Hedgehog'."</desc>
+<desc lang="fr" region="us">"Sega Genesis : Une console de jeux vidéo de quatrième génération de Sega, sortie à la fin des années 1980 et au début des années 1990. Célèbre pour des jeux emblématiques, dont 'Sonic the Hedgehog'."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

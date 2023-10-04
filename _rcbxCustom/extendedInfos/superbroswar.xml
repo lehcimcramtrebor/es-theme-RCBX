@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2006</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Super Mario War: A fan-made multiplayer game set in the Mario universe. Battle friends in chaotic arenas using iconic Mario characters, power-ups, and diverse game modes."</desc>
+<desc lang="fr">"Super Mario War : Un jeu multijoueur créé par des fans dans l'univers Mario. Affrontez des amis dans des arènes chaotiques en utilisant les personnages emblématiques de Mario, des power-ups et des modes de jeu variés."</desc>
 
 
 

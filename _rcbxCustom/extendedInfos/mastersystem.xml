@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>1985</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Sega Master System: A 1980s home video game console by Sega with a diverse game library, including iconic titles like 'Sonic the Hedgehog.'"</desc>
+<desc region="jp">"Sega Mark III: A 1980s home video game console by Sega with a diverse game library, including iconic titles like 'Sonic the Hedgehog.'"</desc>
+<desc lang="fr">"Sega Master System : Console de jeu vidéo domestique des années 1980 par Sega, avec une bibliothèque variée incluant des titres emblématiques comme 'Sonic the Hedgehog'."</desc>
+<desc lang="fr" region="jp">"Sega Mark III : Console de jeu vidéo domestique des années 1980 par Sega, avec une bibliothèque variée incluant des titres emblématiques comme 'Sonic the Hedgehog'."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

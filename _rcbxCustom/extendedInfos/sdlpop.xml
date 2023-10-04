@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2007</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"SDLPop: An open-source reimplementation of the classic game Prince of Persia. Relive the adventure with improved graphics and compatibility for a nostalgic gaming experience."</desc>
+<desc lang="fr">"SDLPop : Une réimplémentation open source du jeu classique Prince of Persia. Revivez l'aventure avec des graphismes améliorés et une compatibilité pour une expérience de jeu nostalgique."</desc>
 
 
 

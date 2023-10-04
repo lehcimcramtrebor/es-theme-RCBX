@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2015</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Zaccaria Pinball: Experience the excitement of classic Zaccaria pinball tables in a virtual environment. Enjoy realistic gameplay, stunning 3D graphics, and a variety of vintage pinball machines."</desc>
+<desc lang="fr">"Zaccaria Pinball : Découvrez l'excitation des tables de flipper classiques de Zaccaria dans un environnement virtuel. Profitez d'un gameplay réaliste, de graphismes 3D époustouflants et d'une variété de machines à flipper vintage."</desc>
 
 
 

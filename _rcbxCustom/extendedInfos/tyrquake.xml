@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2009</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"TyrQuake: An enhanced source port for the classic game Quake. Experience the iconic first-person shooter with improved graphics, modding support, and modern compatibility."</desc>
+<desc lang="fr">"TyrQuake : Un port source amélioré pour le jeu classique Quake. Découvrez le jeu de tir à la première personne emblématique avec des graphismes améliorés, la prise en charge des mods et une compatibilité moderne."</desc>
 
 
 
