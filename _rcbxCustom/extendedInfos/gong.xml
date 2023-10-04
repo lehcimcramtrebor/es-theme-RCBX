@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2021</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Gong: A modern adaptation of the classic game Pong. Engage in nostalgic paddle-and-ball action with enhanced graphics and gameplay, perfect for retro gaming enthusiasts."</desc>
+<desc lang="fr">"Gong : Une adaptation moderne du jeu classique Pong. Plongez dans l'action nostalgique de raquette et de balle avec des graphismes et un gameplay améliorés, parfaits pour les amateurs de rétrogaming."</desc>
 
 
 

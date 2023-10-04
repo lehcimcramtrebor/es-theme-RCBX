@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2017</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Pinball FX3: A digital pinball platform offering a wide array of themed tables. Experience realistic physics, challenging gameplay, and competitive multiplayer in this pinball extravaganza."</desc>
+<desc lang="fr">"Pinball FX3 : Une plateforme de flipper numérique proposant une large gamme de tables thématiques. Découvrez une physique réaliste, un gameplay stimulant et du multijoueur compétitif dans cette extravagance du flipper."</desc>
 
 
 

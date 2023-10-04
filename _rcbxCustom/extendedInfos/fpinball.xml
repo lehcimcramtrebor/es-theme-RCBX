@@ -19,6 +19,8 @@
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"Future Pinball: A customizable pinball simulation platform. Create and play your own virtual pinball tables, or enjoy those created by the community for an immersive experience."</desc>
+<desc lang="fr">"Future Pinball : Une plateforme de simulation de flipper personnalisable. Créez et jouez à vos propres tables de flipper virtuelles, ou profitez de celles créées par la communauté pour une expérience immersive."</desc>
 
 
 

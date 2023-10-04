@@ -283,13 +283,13 @@ ${descXX}
 ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
             </text>
 
-            <text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
+			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
 ${descXX}
 
-${lang.lastPlayedDate}:  {binding:lastPlayedDate}
+${lang.music}:  {binding:total}
             </text>
-
+ 
         </text>
 
 <!----------------------------------------------------------------------------------------------------------------------------------------------------->

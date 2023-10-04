@@ -15,10 +15,12 @@
 
 
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1999</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
+<desc>"PRBoom: A source port for classic first-person shooters like Doom. Relive the iconic action, enhance graphics, and mod support for an authentic retro gaming experience."</desc>
+<desc lang="fr">"PRBoom : Un port source pour les jeux de tir à la première personne classiques tels que Doom. Revivez l'action emblématique, améliorez les graphismes et le support des mods pour une expérience de jeu rétro authentique."</desc>
 
 
 
