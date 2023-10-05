@@ -17,10 +17,10 @@
 
 <custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience d'émulation grâce à la section de configuration, où vous pouvez ajuster les paramètres de vos systèmes de jeux rétro préférés."</desc>
+<desc>"Immerse yourself in realistic experiences with a collection of simulation games, where you can simulate various aspects of life, professions, and more."</desc>
+<desc lang="fr">"Plongez-vous dans des expériences réalistes avec une collection de jeux de simulation, où vous pouvez simuler différents aspects de la vie, des métiers, et plus encore."</desc>
 
 
 

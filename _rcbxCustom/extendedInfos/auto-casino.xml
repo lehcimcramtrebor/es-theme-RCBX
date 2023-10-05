@@ -17,10 +17,10 @@
 
 <custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience d'émulation grâce à la section de configuration, où vous pouvez ajuster les paramètres de vos systèmes de jeux rétro préférés."</desc>
+<desc>"Try your luck with a variety of casino games, including slots, poker, and more, for a taste of the casino experience at home."</desc>
+<desc lang="fr">"Tentez votre chance avec une variété de jeux de casino, y compris les machines à sous, le poker, et plus encore, pour une expérience de casino à domicile."</desc>
 
 
 
