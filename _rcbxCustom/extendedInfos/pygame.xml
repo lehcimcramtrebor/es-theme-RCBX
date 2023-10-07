@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Pygame: A Python library for 2D game and multimedia development. Empowers developers to create interactive games, simulations, and applications with ease and flexibility."</desc>
-<desc lang="fr">"Pygame : Une bibliothèque Python pour le développement de jeux 2D et de multimédia. Permet aux développeurs de créer des jeux, des simulations et des applications interactifs avec facilité et flexibilité."</desc>
+<desc>"Pygame is a popular Python library for game development, providing tools and functionality for creating 2D games and multimedia applications."</desc>
+<desc lang="fr">"Pygame est une bibliothèque Python populaire pour le développement de jeux, offrant des outils et des fonctionnalités pour créer des jeux en 2D et des applications multimédias."</desc>
 
 
 

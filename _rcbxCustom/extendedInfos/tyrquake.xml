@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"TyrQuake: An enhanced source port for the classic game Quake. Experience the iconic first-person shooter with improved graphics, modding support, and modern compatibility."</desc>
-<desc lang="fr">"TyrQuake : Un port source amélioré pour le jeu classique Quake. Découvrez le jeu de tir à la première personne emblématique avec des graphismes améliorés, la prise en charge des mods et une compatibilité moderne."</desc>
+<desc>"TyrQuake is a source port of the classic first-person shooter Quake, designed to enhance and modernize the gameplay experience for fans of the original game."</desc>
+<desc lang="fr">"TyrQuake est un port source du jeu de tir à la première personne classique Quake, conçu pour améliorer et moderniser l'expérience de jeu pour les fans du jeu original."</desc>
 
 
 

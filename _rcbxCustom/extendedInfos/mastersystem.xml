@@ -19,10 +19,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Sega Master System: A 1980s home video game console by Sega with a diverse game library, including iconic titles like 'Sonic the Hedgehog.'"</desc>
-<desc region="jp">"Sega Mark III: A 1980s home video game console by Sega with a diverse game library, including iconic titles like 'Sonic the Hedgehog.'"</desc>
-<desc lang="fr">"Sega Master System : Console de jeu vidéo domestique des années 1980 par Sega, avec une bibliothèque variée incluant des titres emblématiques comme 'Sonic the Hedgehog'."</desc>
-<desc lang="fr" region="jp">"Sega Mark III : Console de jeu vidéo domestique des années 1980 par Sega, avec une bibliothèque variée incluant des titres emblématiques comme 'Sonic the Hedgehog'."</desc>
+<desc>"The Master System, released in the '80s, was a home video game console by SEGA known for its library of 8-bit games and iconic titles."</desc>
+<desc region="jp">"The Mark III, also known as the SEGA Master System, was a home video game console by SEGA known for its 8-bit gaming experiences and classic titles."</desc>
+<desc lang="fr">"La Master System, sortie dans les années 80, était une console de jeu vidéo domestique de SEGA réputée pour sa bibliothèque de jeux 8 bits et ses titres emblématiques."</desc>
+<desc lang="fr" region="jp">"La Mark III, également connue sous le nom de SEGA Master System, était une console de jeu vidéo domestique de SEGA réputée pour ses expériences de jeu 8 bits et ses titres classiques."</desc>
 
 
 

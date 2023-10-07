@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ECWolf: An advanced source port for classic first-person shooters like Wolfenstein 3D and Spear of Destiny, enhancing gameplay and supporting modern systems."</desc>
-<desc lang="fr">"ECWolf : Un port source avancé pour les jeux de tir à la première personne classiques comme Wolfenstein 3D et Spear of Destiny, améliorant le gameplay et prenant en charge les systèmes modernes."</desc>
+<desc>"ECWolf is a source port for classic first-person shooters like Wolfenstein 3D, offering modern features and compatibility with original content."</desc>
+<desc lang="fr">"ECWolf est un port source pour les jeux de tir à la première personne classiques comme Wolfenstein 3D, offrant des fonctionnalités modernes et une compatibilité avec le contenu original."</desc>
 
 
 

@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Neo Geo 64: A gaming platform by SNK, introduced as a successor to the original Neo Geo. Utilized magnetic disks for its games."</desc>
-<desc lang="fr">"Neo Geo 64: Une plateforme de jeu par SNK, présentée comme successeur de la Neo Geo originale. Utilisait des disques magnétiques pour ses jeux."</desc>
+<desc>"Hyper Neo Geo 64 was an arcade system board developed by SNK, offering 3D polygon-based arcade games during the '90s."</desc>
+<desc lang="fr">"Hyper Neo Geo 64 était une carte d'arcade développée par SNK, offrant des jeux d'arcade basés sur des polygones 3D dans les années 90."</desc>
 
 
 

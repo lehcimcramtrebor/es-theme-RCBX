@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"OpenBOR: An open-source game engine for creating and playing 2D beat 'em up games. It empowers developers to craft their own brawler experiences with flexibility and creativity."</desc>
-<desc lang="fr">"OpenBOR : Un moteur de jeu open source pour créer et jouer à des jeux de combat 2D. Il permet aux développeurs de concevoir leurs propres expériences de jeu avec flexibilité et créativité."</desc>
+<desc>"Open Beats of Rage is an open-source game engine that allows you to play custom beat 'em up games and mods, providing a versatile gaming experience."</desc>
+<desc lang="fr">"Open Beats of Rage est un moteur de jeu open-source qui vous permet de jouer à des jeux de combat personnalisés et à des mods, offrant une expérience de jeu polyvalente."</desc>
 
 
 

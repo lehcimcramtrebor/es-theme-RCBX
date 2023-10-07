@@ -19,10 +19,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Sega 32X: An add-on peripheral for the Sega Mega Drive, released in 1994. It aimed to enhance graphics and audio capabilities and introduce new games."</desc>
-<desc region="us">"Sega Genesis 32X: An add-on peripheral for the Sega Genesis, released in 1994. It aimed to enhance graphics and audio capabilities and introduce new games."</desc>
-<desc lang="fr">"Sega 32X : Un périphérique d'extension pour la Sega Mega Drive, sorti en 1994. Il visait à améliorer les capacités graphiques et sonores et à introduire de nouveaux jeux."</desc>
-<desc lang="fr" region="us">"Sega Genesis 32X : Un périphérique d'extension pour la Sega Genesis, sorti en 1994. Il visait à améliorer les capacités graphiques et sonores et à introduire de nouveaux jeux."</desc>
+<desc>"The Sega 32X, also known as the Sega Genesis 32X, was an add-on for the Sega Genesis (Mega Drive) console, offering enhanced graphics and additional games."</desc>
+<desc region="us">"The Sega Genesis 32X, often simply referred to as the 32X, was an add-on for the Sega Genesis (Mega Drive) console, enhancing its capabilities with improved graphics and a selection of additional games."</desc>
+<desc lang="fr">"La Sega 32X, également connue sous le nom de Sega Genesis 32X, était une extension pour la console Sega Genesis (Mega Drive), offrant des graphismes améliorés et des jeux supplémentaires."</desc>
+<desc lang="fr" region="us">"La Sega Genesis 32X, souvent simplement appelée 32X, était une extension pour la console Sega Genesis (Mega Drive), améliorant ses capacités avec des graphismes améliorés et une sélection de jeux supplémentaires."</desc>
 
 
 

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+
+<custom.year>1991</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"The Mega-CD, also known as the Sega CD, was an add-on for the SEGA Genesis (Mega Drive) console, offering CD-based gaming and multimedia capabilities in the '90s."</desc>
+<desc lang="fr">"Le Mega-CD, également connu sous le nom de Sega CD, était une extension pour la console SEGA Genesis (Mega Drive), offrant des jeux sur CD et des capacités multimédias dans les années 90."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

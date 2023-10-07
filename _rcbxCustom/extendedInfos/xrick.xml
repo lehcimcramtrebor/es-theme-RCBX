@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"XRick: A faithful port of the classic action-adventure game Rick Dangerous. Embark on daring expeditions, face perilous challenges, and explore treacherous environments in this nostalgic adventure."</desc>
-<desc lang="fr">"XRick : Un port fidèle du jeu classique d'action-aventure Rick Dangerous. Partez pour des expéditions audacieuses, affrontez des défis périlleux et explorez des environnements traîtres dans cette aventure nostalgique."</desc>
+<desc>"XRick is an open-source clone of the classic platformer game Rick Dangerous, offering nostalgic gameplay and challenging levels for fans of the original."</desc>
+<desc lang="fr">"XRick est un clone open-source du jeu de plateforme classique Rick Dangerous, offrant un gameplay nostalgique et des niveaux stimulants pour les fans de l'original."</desc>
 
 
 

@@ -19,8 +19,8 @@
 
 <custom.type>videos</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Kodi: A versatile media center application. Organize and enjoy your multimedia content, from movies and TV shows to music and photos, all in one powerful platform."</desc>
-<desc lang="fr">"Kodi : Une application polyvalente de centre multimédia. Organisez et profitez de votre contenu multimédia, des films et séries TV à la musique et aux photos, le tout sur une plateforme puissante."</desc>
+<desc>"Kodi is an open-source media center software that allows you to organize and stream your media content, making it a versatile home entertainment solution."</desc>
+<desc lang="fr">"Kodi est un logiciel de centre multimédia open-source qui vous permet d'organiser et de diffuser votre contenu multimédia, en faisant une solution polyvalente de divertissement à domicile."</desc>
 
 
 

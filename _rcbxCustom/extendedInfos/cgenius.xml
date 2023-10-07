@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Commander Genius: An open-source game engine designed to run games based on id Software's Commander Keen engine. It enables playing classic Commander Keen titles."</desc>
-<desc lang="fr">"Commander Genius : Un moteur de jeu open-source conçu pour exécuter des jeux basés sur le moteur de jeu Commander Keen d'id Software. Il permet de jouer aux titres classiques de Commander Keen."</desc>
+<desc>"Commander Genius is a fan-made game engine that allows you to play classic Commander Keen games on modern systems with enhanced features."</desc>
+<desc lang="fr">"Commander Genius est un moteur de jeu créé par des fans qui vous permet de jouer aux jeux classiques de Commander Keen sur des systèmes modernes avec des fonctionnalités améliorées."</desc>
 
 
 

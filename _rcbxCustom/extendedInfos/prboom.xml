@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"PRBoom: A source port for classic first-person shooters like Doom. Relive the iconic action, enhance graphics, and mod support for an authentic retro gaming experience."</desc>
-<desc lang="fr">"PRBoom : Un port source pour les jeux de tir à la première personne classiques tels que Doom. Revivez l'action emblématique, améliorez les graphismes et le support des mods pour une expérience de jeu rétro authentique."</desc>
+<desc>"PrBoom is a source port of the classic video game Doom, designed to run on modern systems with enhanced features and compatibility."</desc>
+<desc lang="fr">"PrBoom est un port source du jeu vidéo classique Doom, conçu pour fonctionner sur des systèmes modernes avec des fonctionnalités améliorées et une compatibilité accrue."</desc>
 
 
 

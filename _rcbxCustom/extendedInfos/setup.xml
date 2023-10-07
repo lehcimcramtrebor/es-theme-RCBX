@@ -19,8 +19,8 @@
 
 <custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Setup: Customize and fine-tune your EmuELEC experience."</desc>
-<desc lang="fr">"Configuration : Personnalisez et peaufinez votre expérience EmuELEC."</desc>
+<desc>"Customize and fine-tune your EmuELEC experience."</desc>
+<desc lang="fr">"Personnalisez et peaufinez votre expérience EmuELEC."</desc>
 
 
 

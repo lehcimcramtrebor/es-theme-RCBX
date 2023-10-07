@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Solarus: An open-source game engine designed for creating 2D retro-style adventure games. It empowers developers to craft games reminiscent of classic titles like 'The Legend of Zelda.'"</desc>
-<desc lang="fr">"Solarus : Un moteur de jeu open-source conçu pour créer des jeux d'aventure 2D de style rétro. Il permet aux développeurs de créer des jeux rappelant les titres classiques comme 'The Legend of Zelda.'"</desc>
+<desc>"Solarus is an open-source game engine designed for creating 2D action-adventure games, providing a versatile platform for game development."</desc>
+<desc lang="fr">"Solarus est un moteur de jeu open-source conçu pour créer des jeux d'action-aventure en 2D, offrant une plateforme polyvalente pour le développement de jeux."</desc>
 
 
 

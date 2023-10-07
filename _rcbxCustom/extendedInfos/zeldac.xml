@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Zelda Classic: A fan-made platform for recreating and playing Zelda-style adventures. Design and explore custom quests, relive classic gameplay, and share your creations with the community."</desc>
-<desc lang="fr">"Zelda Classic : Une plateforme créée par des fans pour recréer et jouer à des aventures de style Zelda. Concevez et explorez des quêtes personnalisées, revivez un gameplay classique et partagez vos créations avec la communauté."</desc>
+<desc>"Zelda Classic is a fan-made game engine and editor that allows players to create and play custom The Legend of Zelda quests, offering endless adventures in the Zelda universe."</desc>
+<desc lang="fr">"Zelda Classic est un moteur de jeu et un éditeur créés par des fans qui permettent aux joueurs de créer et de jouer à des quêtes personnalisées de The Legend of Zelda, offrant des aventures infinies dans l'univers de Zelda."</desc>
 
 
 

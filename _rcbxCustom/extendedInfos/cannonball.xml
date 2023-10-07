@@ -19,8 +19,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Cannonball: A thrilling high-speed racing game, inspired by the classic OutRun arcade title. Test your skills on scenic tracks and relive the arcade racing era."</desc>
-<desc lang="fr">"Cannonball : Un jeu de course palpitant à haute vitesse, inspiré du classique OutRun. Testez vos compétences sur des pistes pittoresques et revivez l'ère de la course d'arcade."</desc>
+<desc>"Cannonball is a high-speed arcade racing game based on the SEGA OutRun hardware, known for its fast-paced action and iconic music."</desc>
+<desc lang="fr">"Cannonball est un jeu de course d'arcade à grande vitesse basé sur le matériel SEGA OutRun, réputé pour son action rapide et sa musique emblématique."</desc>
 
 
 

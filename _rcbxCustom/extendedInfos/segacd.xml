@@ -19,10 +19,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Sega Mega-CD: An add-on peripheral for the Sega Mega Drive, released in the early 1990s. It expanded the library with CD-ROM games, offering enhanced multimedia experiences."</desc>
-<desc region="us">"Sega CD: An add-on peripheral for the Sega Genesis, released in the early 1990s. It expanded the library with CD-ROM games, offering enhanced multimedia experiences."</desc>
-<desc lang="fr">"Sega Mega-CD : Un périphérique d'extension pour la Sega Mega Drive, sorti au début des années 1990. Il a enrichi la ludothèque avec des jeux CD-ROM et offert des expériences multimédias améliorées."</desc>
-<desc lang="fr" region="us">Sega CD : Un périphérique d'extension pour la Sega Genesis, sorti au début des années 1990. Il a enrichi la ludothèque avec des jeux CD-ROM et offert des expériences multimédias améliorées."</desc>
+<desc>"The Mega-CD, also known as the Sega CD, was an add-on for the SEGA Genesis (Mega Drive) console, offering CD-based gaming and multimedia capabilities in the '90s."</desc>
+<desc region="us">"Sega CD, known as Mega-CD in some regions, was an add-on for the SEGA Genesis (Mega Drive) console, offering CD-based gaming and multimedia experiences in the '90s."</desc>
+<desc lang="fr">"Le Mega-CD, également connu sous le nom de Sega CD, était une extension pour la console SEGA Genesis (Mega Drive), offrant des jeux sur CD et des capacités multimédias dans les années 90."</desc>
+<desc lang="fr" region="us">"Sega CD, connu sous le nom de Mega-CD dans certaines régions, était une extension pour la console SEGA Genesis (Mega Drive), offrant des jeux sur CD et des expériences multimédias dans les années 90."</desc>
 
 
 

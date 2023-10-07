@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Video Game Music Player: Software designed for playing and managing video game music files, supporting various formats like MIDI, MOD, SPC, and NSF."</desc>
-<desc lang="fr">"Lecteur de musique de jeu vidéo : Logiciel conçu pour lire et gérer les fichiers de musique de jeu vidéo, prenant en charge divers formats tels que MIDI, MOD, SPC et NSF."</desc>
+<desc>"Video Game Music Player is a software application designed to play and organize video game music tracks, providing an enjoyable listening experience for gamers."</desc>
+<desc lang="fr">"Video Game Music Player est une application logicielle conçue pour lire et organiser des pistes de musique de jeux vidéo, offrant une expérience d'écoute agréable pour les joueurs."</desc>
 
 
 

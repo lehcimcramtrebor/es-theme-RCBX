@@ -19,8 +19,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Another Arcade Emulator: An arcade game emulator designed to recreate the arcade gaming experience. Play classic arcade titles on your computer and relive the nostalgia of arcade gaming."</desc>
-<desc lang="fr">"Another Arcade Emulator: Un émulateur de jeux d'arcade conçu pour recréer l'expérience du jeu d'arcade. Jouez à des titres d'arcade classiques sur votre ordinateur et revivez la nostalgie des salles d'arcade."</desc>
+<desc>"Another Arcade Emulator (AAE) is a versatile arcade game emulator designed for accuracy and support for a wide range of arcade systems."</desc>
+<desc lang="fr">"Another Arcade Emulator (AAE) est un émulateur de jeux d'arcade polyvalent conçu pour la précision et le support d'une large gamme de systèmes d'arcade."</desc>
 
 
 
