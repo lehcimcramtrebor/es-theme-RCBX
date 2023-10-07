@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1983</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"The Camputers Lynx was a home computer by Camputers Limited, known for its unique design and capabilities in the early '80s computing era."</desc>
+<desc lang="fr">"Le Camputers Lynx était un ordinateur personnel fabriqué par Camputers Limited, réputé pour son design unique et ses capacités dans l'ère de l'informatique du début des années 80."</desc>
 
 
 

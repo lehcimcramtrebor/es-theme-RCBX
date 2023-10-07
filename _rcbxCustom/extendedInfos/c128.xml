@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1985</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"The Commodore 128, often referred to as C128, was an 8-bit home computer by Commodore known for its versatility and compatibility with the Commodore 64, offering expanded capabilities in the '80s."</desc>
+<desc lang="fr">"Le Commodore 128, souvent désigné sous le nom de C128, était un ordinateur personnel 8 bits réputé pour sa polyvalence et sa compatibilité avec le Commodore 64, offrant des capacités étendues dans les années 80."</desc>
 
 
 

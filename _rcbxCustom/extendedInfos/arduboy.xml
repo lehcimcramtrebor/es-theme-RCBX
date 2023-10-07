@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2015</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"Arduboy is a credit-card-sized handheld gaming console with an open-source design that allows users to create and play their own games using Arduino-based programming."</desc>
+<desc lang="fr">"L'Arduboy est une console de jeu portable de la taille d'une carte de crédit avec un design open-source qui permet aux utilisateurs de créer et de jouer à leurs propres jeux en utilisant la programmation basée sur Arduino."</desc>
 
 
 

@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1980</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"The Commodore 20, often referred to as C20, was a home computer by Commodore known for its compact design and early contributions to the personal computing era in the late '70s."</desc>
+<desc lang="fr">"Le Commodore 20, souvent désigné sous le nom de C20, était un ordinateur personnel réputé pour son design compact et sa contribution précoce à l'ère de l'informatique personnelle à la fin des années 70."</desc>
 
 
 

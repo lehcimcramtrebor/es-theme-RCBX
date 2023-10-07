@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2016</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"TIC-80 is a fantasy computer for making, playing, and sharing tiny games and programs. It provides a simple and accessible platform for game development and coding projects."</desc>
+<desc lang="fr">"TIC-80 est un ordinateur imaginaire conçu pour créer, jouer et partager de petits jeux et programmes. Il offre une plateforme simple et accessible pour le développement de jeux et des projets de programmation."</desc>
 
 
 

@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2015</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"Pico-8 is a fantasy console for making, sharing, and playing tiny games and other computer programs. It's designed to be easy to use and comes with a built-in code editor."</desc>
+<desc lang="fr">"Pico-8 est une console de jeu imaginaire pour créer, partager et jouer à de petits jeux et autres programmes informatiques. Il est conçu pour être facile à utiliser et est livré avec un éditeur de code intégré."</desc>
 
 
 

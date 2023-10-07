@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1999</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"MUGEN is a versatile and open-source 2D fighting game engine that allows users to create their own custom fighting game characters and stages, offering endless possibilities for game customization."</desc>
+<desc lang="fr">"MUGEN est un moteur de jeu de combat 2D polyvalent et open-source qui permet aux utilisateurs de créer leurs propres personnages et niveaux de jeu, offrant d'innombrables possibilités de personnalisation."</desc>
 
 
 

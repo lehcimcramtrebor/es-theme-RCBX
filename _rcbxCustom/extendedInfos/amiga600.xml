@@ -15,12 +15,12 @@
 
 
 
-<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1992</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Megaduck, also known as the Cougar Boy, was a handheld gaming console by Creatronic known for its compact design and a library of games in the '90s."</desc>
-<desc lang="fr">"Le Megaduck, également connu sous le nom de Cougar Boy, était une console de jeu portable de Creatronic réputée pour son design compact et une bibliothèque de jeux dans les années 90."</desc>
+<desc>"The Amiga 600, often referred to as A600, was a compact home computer by Commodore known for its portability and gaming capabilities in the early '90s."</desc>
+<desc lang="fr">"L'Amiga 600, souvent désigné sous le nom de A600, était un ordinateur personnel compact de Commodore réputé pour sa portabilité et ses capacités de jeu au début des années 90."</desc>
 
 
 
