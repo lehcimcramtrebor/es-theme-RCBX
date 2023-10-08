@@ -20,8 +20,8 @@
 
 <custom.type>apps</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Flatpak Installation Hub: Easily discover, install, and manage a wide range of Linux applications using the Flatpak framework."</desc>
-<desc lang="fr">"Centre d'Installation Flatpak : Découvrez, installez et gérez facilement une vaste gamme d'applications Linux en utilisant le framework Flatpak."</desc>
+<desc>"Easily Use a wide range of Linux applications using the Flatpak framework."</desc>
+<desc lang="fr">"Utilisez facilement une vaste gamme d'applications Linux en utilisant le framework Flatpak."</desc>
 
 
 

@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>2011</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2006</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Nintendo 3DS was a handheld video game console by Nintendo known for its glasses-free 3D display and a diverse library of games, providing a unique gaming experience in the 2010s."</desc>
-<desc lang="fr">"La Nintendo 3DS était une console de jeu vidéo portable de Nintendo réputée pour son écran 3D sans lunettes et une bibliothèque diversifiée de jeux, offrant une expérience de jeu unique dans les années 2010."</desc>
+<desc>"The Wii was a video game console by Nintendo known for its motion-sensing controller, which introduced a new way to play games and encouraged physical activity in the mid-2000s."</desc>
+<desc lang="fr">"La Wii était une console de jeu vidéo de Nintendo réputée pour sa manette à détection de mouvement, qui a introduit une nouvelle façon de jouer et encouragé l'activité physique au milieu des années 2000."</desc>
 
 
 

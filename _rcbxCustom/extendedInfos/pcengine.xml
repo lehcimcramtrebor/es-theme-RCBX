@@ -15,6 +15,7 @@
 
 
 <!-- <system.fullName></system.fullName> -->
+<system.fullName region="us">TurboGrafx-16</system.fullName>
 
 <custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
 

@@ -15,8 +15,11 @@
 
 
 <!-- <system.fullName></system.fullName> -->
+<system.fullName region="eu">Mega-CD</system.fullName>
+<system.fullName region="jp">Mega-CD</system.fullName>
 
 <custom.year>1991</custom.year><!-- 4 numbers > 1958 -->
+<custom.year region="us">1992</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 

@@ -15,8 +15,10 @@
 
 
 <!-- <system.fullName></system.fullName> -->
+<system.fullName region="us">Sega Genesis</system.fullName>
 
 <custom.year>1988</custom.year><!-- 4 numbers > 1958 -->
+<custom.year region="us">1989</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 

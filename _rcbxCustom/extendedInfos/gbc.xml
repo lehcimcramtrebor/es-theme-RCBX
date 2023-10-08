@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>2011</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1998</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Nintendo 3DS was a handheld video game console by Nintendo known for its glasses-free 3D display and a diverse library of games, providing a unique gaming experience in the 2010s."</desc>
-<desc lang="fr">"La Nintendo 3DS était une console de jeu vidéo portable de Nintendo réputée pour son écran 3D sans lunettes et une bibliothèque diversifiée de jeux, offrant une expérience de jeu unique dans les années 2010."</desc>
+<desc>"The Game Boy Color was a handheld video game console by Nintendo, celebrated for its color display and a library of games that enhanced the original Game Boy experience in the late '90s and early 2000s."</desc>
+<desc lang="fr">"La Game Boy Color était une console de jeu vidéo portable de Nintendo, célèbre pour son écran couleur et une bibliothèque de jeux qui ont amélioré l'expérience de la Game Boy d'origine à la fin des années 90."</desc>
 
 
 

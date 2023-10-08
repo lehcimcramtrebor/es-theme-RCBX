@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>2011</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1980</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Nintendo 3DS was a handheld video game console by Nintendo known for its glasses-free 3D display and a diverse library of games, providing a unique gaming experience in the 2010s."</desc>
-<desc lang="fr">"La Nintendo 3DS était une console de jeu vidéo portable de Nintendo réputée pour son écran 3D sans lunettes et une bibliothèque diversifiée de jeux, offrant une expérience de jeu unique dans les années 2010."</desc>
+<desc>"Game & Watch was a series of handheld electronic games created by Nintendo in the early '80s, known for their simple yet addictive gameplay and LCD screens."</desc>
+<desc lang="fr">"Game & Watch était une série de jeux électroniques portables créés par Nintendo au début des années 80, réputée pour son gameplay simple mais addictif et ses écrans LCD."</desc>
 
 
 

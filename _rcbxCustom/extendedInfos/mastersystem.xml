@@ -15,8 +15,10 @@
 
 
 <!-- <system.fullName></system.fullName> -->
+<system.fullName region="jp">Sega Mark III</system.fullName>
 
-<custom.year>1985</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1986</custom.year><!-- 4 numbers > 1958 -->
+<custom.year region="jp">1985</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 

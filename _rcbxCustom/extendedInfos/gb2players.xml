@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>2011</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1989</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Nintendo 3DS was a handheld video game console by Nintendo known for its glasses-free 3D display and a diverse library of games, providing a unique gaming experience in the 2010s."</desc>
-<desc lang="fr">"La Nintendo 3DS était une console de jeu vidéo portable de Nintendo réputée pour son écran 3D sans lunettes et une bibliothèque diversifiée de jeux, offrant une expérience de jeu unique dans les années 2010."</desc>
+<desc>"Game Boy 2 Players refers to games and accessories that allowed multiplayer gaming on the original Game Boy, enabling players to connect their handheld consoles for cooperative or competitive gameplay."</desc>
+<desc lang="fr">"Game Boy 2 Players fait référence à des jeux et des accessoires qui ont permis le jeu multijoueur sur la Game Boy originale, permettant aux joueurs de connecter leurs consoles portables pour des parties en coopération ou en compétition."</desc>
 
 
 
