@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1979</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The Intellivision was a home video game console by Mattel known for its innovative controller and a library of games in the late '70s and early '80s."</desc>
+<desc lang="fr">"L'Intellivision était une console de jeu vidéo domestique de Mattel réputée pour sa manette innovante et une bibliothèque de jeux à la fin des années 70 et au début des années 80."</desc>
 
 
 

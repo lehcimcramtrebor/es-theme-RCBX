@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1992</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"Windows Games refer to a wide range of video games designed to run on Microsoft Windows operating systems, offering diverse gaming experiences across genres and styles."</desc>
+<desc lang="fr">"Les jeux Windows désignent une vaste gamme de jeux vidéo conçus pour fonctionner sur les systèmes d'exploitation Microsoft Windows, offrant diverses expériences de jeu dans différents genres et styles."</desc>
 
 
 

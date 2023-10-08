@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"Moonlight is an open-source implementation of NVIDIA's GameStream, allowing you to play streamed games from your PC on your favorite distribution."</desc>
+<desc lang="fr">"Moonlight est une implémentation open-source de GameStream de NVIDIA, vous permettant de jouer à des jeux streamés depuis votre PC sur votre distribution préférée."</desc>
 
 
 

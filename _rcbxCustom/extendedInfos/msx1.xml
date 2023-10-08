@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1983</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"MSX1, the first generation of MSX home computers, was introduced in the early '80s, offering a standardized platform for gaming and computing with various hardware manufacturers."</desc>
+<desc lang="fr">"MSX1, la première génération d'ordinateurs MSX, a été introduite au début des années 80, offrant une plateforme standardisée pour les jeux et l'informatique avec divers fabricants de matériel."</desc>
 
 
 

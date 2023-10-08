@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1981</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"MS-DOS games are a collection of video games developed and compatible with the MS-DOS operating system, offering a wide range of gaming experiences from the '80s and '90s."</desc>
+<desc lang="fr">"Les jeux MS-DOS sont une collection de jeux vidéo développés pour et compatibles avec le système d'exploitation MS-DOS, offrant une grande variété d'expériences de jeu des années 80 et 90."</desc>
 
 
 

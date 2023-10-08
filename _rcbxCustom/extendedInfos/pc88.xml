@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1981</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The PC-8000 series was a line of personal computers by NEC known for their compatibility with the PC-88 series and a variety of software applications in the '80s."</desc>
+<desc lang="fr">"La série PC-8000 était une gamme d'ordinateurs personnels de NEC réputée pour leur compatibilité avec la série PC-88 et une variété d'applications logicielles dans les années 80."</desc>
 
 
 

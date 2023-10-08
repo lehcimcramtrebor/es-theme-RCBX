@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
 <custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The TurboGrafx-16, also known as the PC Engine in Japan, was a home video game console by NEC and Hudson Soft known for its compact design and a library of games in the late '80s and early '90s."</desc>
+<desc lang="fr">"La TurboGrafx-16, également connue sous le nom de PC Engine au Japon, était une console de jeu vidéo domestique de NEC et Hudson Soft réputée pour son design compact et une bibliothèque de jeux à la fin des années 80."</desc>
 
 
 

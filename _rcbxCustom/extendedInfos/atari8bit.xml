@@ -14,9 +14,9 @@
 
 
 
-<!-- <system.fullName></system.fullName> -->
+<system.fullName>Atari 8-Bit</system.fullName>
 
-<custom.year>1979</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1979-1987</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 

@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1978</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The Odyssey 2, also known as the Philips Videopac G7000, was a home video game console by Magnavox known for its library of games and educational titles in the late '70s and early '80s."</desc>
+<desc lang="fr">"L'Odyssey 2, également connu sous le nom de Philips Videopac G7000, était une console de jeu vidéo domestique de Magnavox réputée pour sa bibliothèque de jeux et ses titres éducatifs à la fin des années 70 et au début des années 80."</desc>
 
 
 

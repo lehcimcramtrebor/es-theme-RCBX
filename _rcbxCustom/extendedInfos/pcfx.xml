@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1994</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The PC-FX was a home video game console by NEC known for its CD-based games and multimedia capabilities in the mid-'90s, although it had a limited game library and was not as successful as its predecessors."</desc>
+<desc lang="fr">"Le PC-FX était une console de jeu vidéo de NEC réputée pour ses jeux basés sur CD et ses capacités multimédia au milieu des années 90, bien qu'il ait eu une bibliothèque de jeux limitée et n'ait pas été aussi réussi que ses prédécesseurs."</desc>
 
 
 

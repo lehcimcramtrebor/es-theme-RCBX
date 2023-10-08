@@ -14,14 +14,14 @@
 
 
 
-<system.fullName>Action Max</system.fullName>
+<!-- <system.fullName></system.fullName> -->
 
-<custom.year>1987</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1989</custom.year><!-- 4 numbers > 1958 -->
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ActionMax was an interactive video game system that used VHS tapes to create unique shooting gameplay experiences in the 1980s."</desc>
-<desc lang="fr">"ActionMax était un système de jeu vidéo interactif utilisant des cassettes VHS pour créer des expériences de jeu de tir uniques dans les années 1980."</desc>
+<desc>"The SAM Coupé was a home computer by Miles Gordon Technology known for its enhanced graphics and sound capabilities, offering a unique computing experience in the late '80s and early '90s."</desc>
+<desc lang="fr">"Le SAM Coupé était un ordinateur domestique de Miles Gordon Technology, réputé pour ses capacités graphiques et sonores améliorées, offrant une expérience informatique unique à la fin des années 80."</desc>
 
 
 
