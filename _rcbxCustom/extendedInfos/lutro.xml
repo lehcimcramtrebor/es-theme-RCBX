@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>2013</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>"Lutro is an open-source emulator for the LÖVE game framework, allowing users to play LÖVE games on various platforms, extending the accessibility of LÖVE games."</desc>
+<desc lang="fr">"Lutro est un émulateur open source pour le framework de jeu LÖVE, permettant aux utilisateurs de jouer à des jeux LÖVE sur différentes plates-formes, étendant ainsi l'accessibilité des jeux LÖVE."</desc>
 
 
 

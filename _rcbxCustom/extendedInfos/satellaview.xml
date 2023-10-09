@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1995</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>"The Satellaview was a satellite modem peripheral for the Super Famicom (Super Nintendo) in Japan, allowing players to download and play games, receive news, and participate in unique gaming experiences in the '90s."</desc>
+<desc lang="fr">"Le Satellaview était un périphérique modem satellite pour le Super Famicom au Japon, permettant de télécharger et de jouer à des jeux, de recevoir des actualités et de participer à des expériences de jeu uniques dans les années 90."</desc>
 
 
 

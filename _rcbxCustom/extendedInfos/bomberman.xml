@@ -18,10 +18,10 @@
 
 <custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>"Bomberman is a classic video game franchise known for its maze-based gameplay, where players strategically place bombs to defeat enemies and solve puzzles."</desc>
+<desc lang="fr">"Bomberman est une franchise de jeux vidéo classique réputée pour son gameplay basé sur des labyrinthes, où les joueurs placent stratégiquement des bombes pour vaincre les ennemis et résoudre des énigmes."</desc>
 
 
 

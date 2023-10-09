@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Videopac</system.fullName>
+<system.fullName region="us">Odyssey 2</system.fullName>
+<system.fullName region="jp">Odyssey 2</system.fullName>
+
+<custom.year>1978</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Videopac, also known as the Odyssey² in North America, was a home video game console by Philips known for its unique games and keyboard controller in the late '70s and early '80s."</desc>
+<desc region="us">"The Odyssey 2, also known as the Philips Videopac G7000, was a home video game console by Magnavox known for its library of games and educational titles in the late '70s and early '80s."</desc>
+<desc region="jp">"The Odyssey 2, also known as the Philips Videopac G7000, was a home video game console by Magnavox known for its library of games and educational titles in the late '70s and early '80s."</desc>
+<desc lang="fr">"Videopac, également connue sous le nom d'Odyssey² en Amérique du Nord, était une console de jeu vidéo domestique de Philips réputée pour ses jeux uniques et son contrôleur à clavier à la fin des années 70 et au début des années 80."</desc>
+<desc lang="fr" region="us">"L'Odyssey 2, également connu sous le nom de Philips Videopac G7000, était une console de jeu vidéo domestique de Magnavox réputée pour sa bibliothèque de jeux et ses titres éducatifs à la fin des années 70 et au début des années 80."</desc>
+<desc lang="fr" region="jp">"L'Odyssey 2, également connu sous le nom de Philips Videopac G7000, était une console de jeu vidéo domestique de Magnavox réputée pour sa bibliothèque de jeux et ses titres éducatifs à la fin des années 70 et au début des années 80."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

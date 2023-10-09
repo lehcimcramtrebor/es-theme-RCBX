@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1983</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>"Videopac Plus was an upgraded version of the Videopac (Odyssey²) home video game console by Philips, offering enhanced features and a variety of games in the late '70s and early '80s."</desc>
+<desc lang="fr">"Videopac Plus était une version améliorée de la console de jeu vidéo Videopac (Odyssey²) de Philips, offrant des fonctionnalités améliorées et une variété de jeux à la fin des années 70 et au début des années 80."</desc>
 
 
 

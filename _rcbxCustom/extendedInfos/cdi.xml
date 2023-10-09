@@ -16,12 +16,12 @@
 
 <!-- <system.fullName></system.fullName> -->
 
-<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+<custom.year>1990</custom.year><!-- 4 numbers > 1958 -->
 
-<custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>"The CD-i, or Compact Disc Interactive, was a multimedia platform by Philips known for its interactive CD-based games, educational content, and multimedia applications in the early '90s."</desc>
+<desc lang="fr">"Le CD-i, ou Compact Disc Interactive, était une plateforme multimédia de Philips réputée pour ses jeux interactifs basés sur CD, son contenu éducatif et ses applications multimédia au début des années 90."</desc>
 
 
 
