@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>1994</custom.year><!-- 4 numbers > 1958 -->
+<custom.year region="jp">1993</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Sega Pico, also known as Kids Computer Pico, was an educational video game console by Sega designed for young children, offering interactive and educational games and activities."</desc>
+<desc lang="fr">"Sega Pico, également connue sous le nom de Kids Computer Pico, était une console de jeu vidéo éducative de Sega conçue pour les jeunes enfants, offrant des jeux interactifs et des activités éducatives."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

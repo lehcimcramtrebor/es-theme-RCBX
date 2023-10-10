@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>2001</custom.year><!-- 4 numbers > 1958 -->
+<custom.year region="us">2002</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"The Nintendo e-Reader was a peripheral for the Game Boy Advance that allowed players to scan physical cards with special codes to unlock content in compatible games, providing additional gameplay and features."</desc>
+<desc lang="fr">"Le Nintendo e-Reader était un périphérique pour la Game Boy Advance qui permettait aux joueurs de scanner des cartes physiques avec des codes spéciaux pour débloquer du contenu dans les jeux compatibles."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>
