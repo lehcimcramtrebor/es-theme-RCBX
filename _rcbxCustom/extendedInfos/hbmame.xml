@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>2015</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"HBMAME, or HomeBrew MAME, is a variant of the MAME software that focuses on preserving and emulating homebrew and hacked versions of arcade games, providing a unique gaming experience."</desc>
+<desc lang="fr">"HBMAME, ou HomeBrew MAME, est une variante du logiciel MAME qui se concentre sur la préservation et l'émulation de versions maison et piratées de jeux d'arcade, offrant une expérience de jeu unique."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

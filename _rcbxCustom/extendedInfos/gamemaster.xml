@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>1983</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"The Game Master by Hartung was a handheld gaming system known for its LCD-based games and portable entertainment in the '80s and '90s."</desc>
+<desc lang="fr">"Le Game Master par Hartung était un système de jeu portable réputé pour ses jeux à cristaux liquides (LCD) et son divertissement portable dans les années 80 et 90."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

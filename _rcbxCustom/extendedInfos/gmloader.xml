@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>1999</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"GameMaker is a game development software that allows users to create 2D and 3D games without extensive programming knowledge, making it accessible to both beginners and experienced developers."</desc>
+<desc lang="fr">"GameMaker est un logiciel de développement de jeux qui permet de créer des jeux en 2D et 3D sans nécessiter de connaissances en programmation approfondies, le rendant accessible aux débutants."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

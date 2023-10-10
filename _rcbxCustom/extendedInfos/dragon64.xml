@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>1983</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"The Dragon 64 was a home computer by Dragon Data known for its extended RAM of 64 kilobytes and a functional RS-232 serial port, distinguishing it from the Dragon 32."</desc>
+<desc lang="fr">"Le Dragon 64 était un ordinateur domestique de Dragon Data réputé pour sa mémoire RAM étendue de 64 kilo-octets et un port série RS-232 fonctionnel, le distinguant du Dragon 32."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

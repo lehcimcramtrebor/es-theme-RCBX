@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<!-- <system.fullName></system.fullName> -->
+
+<custom.year>2004</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"GemRB is an open-source game engine that aims to re-implement the Infinity Engine used in classic role-playing games like Baldur's Gate, Icewind Dale, and Planescape: Torment."</desc>
+<desc lang="fr">"GemRB est un moteur de jeu open source qui vise à réimplémenter le moteur Infinity Engine utilisé dans des jeux de rôle classiques tels que Baldur's Gate, Icewind Dale et Planescape: Torment."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>
