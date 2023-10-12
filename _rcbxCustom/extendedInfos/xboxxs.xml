@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Xbox X/S</system.fullName>
+
+<custom.year>2020</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Xbox Series X/S, Microsoft's next-gen consoles, released in 2020. They provide powerful gaming with enhanced graphics, speed, and loading times for a top-tier gaming experience."</desc>
+<desc lang="fr">"Xbox Series X/S, les consoles nouvelle génération de Microsoft, sont sorties en 2020. Elles offrent des jeux puissants avec graphismes améliorés, vitesse et temps de chargement rapides."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

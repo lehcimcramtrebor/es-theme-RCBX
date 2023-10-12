@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Windows 3.11</system.fullName>
+
+<custom.year>1993</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Windows 3.11, also known as Windows for Workgroups 3.11, was a graphical operating system released by Microsoft in 1993, providing networking capabilities and improved performance over its predecessors."</desc>
+<desc lang="fr">"Windows 3.11, également connu sous le nom de Windows for Workgroups 3.11, était un système d'exploitation graphique publié par Microsoft en 1993, offrant des capacités de mise en réseau et des performances améliorées."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

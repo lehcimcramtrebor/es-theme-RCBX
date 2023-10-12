@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Xbox Game Pass</system.fullName>
+
+<custom.year>2017</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Xbox Game Pass is a subscription service from Microsoft that offers access to a vast library of video games for Xbox consoles and PC, providing a diverse gaming experience."</desc>
+<desc lang="fr">"Xbox Game Pass est un service d'abonnement de Microsoft qui offre un accès à une vaste bibliothèque de jeux vidéo pour les consoles Xbox et PC, offrant une expérience de jeu diversifiée."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

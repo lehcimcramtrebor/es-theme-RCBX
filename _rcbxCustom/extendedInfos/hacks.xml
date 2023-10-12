@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Rom Hacks</system.fullName>
+
+<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"ROM hacks are modified versions of video game ROMs, often created by fans, to alter gameplay, graphics, or content, providing new experiences and challenges within existing games."</desc>
+<desc lang="fr">"Les ROM hacks sont des versions modifiées de ROMs de jeux vidéo, souvent créées par des fans, pour modifier le gameplay, les graphismes ou le contenu, offrant de nouvelles expériences et des défis au sein de jeux existants."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

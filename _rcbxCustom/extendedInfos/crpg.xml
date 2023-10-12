@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Computer RPG</system.fullName>
+
+<custom.year>ReplaceByYear</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>"Computer RPG, or Role-Playing Game, is a genre of video games where players take on the roles of characters in a fictional world, making choices that affect the story and their character's development."</desc>
+<desc lang="fr">"Le RPG sur ordinateur, ou jeu de rôle, est un genre de jeux vidéo où les joueurs incarnent des personnages dans un monde fictif, prenant des décisions qui influencent l'histoire et le développement de leur personnage."</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>
