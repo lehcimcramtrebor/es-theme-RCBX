@@ -23,6 +23,7 @@
 			<forceUppercase>true</forceUppercase>
 			<fontSize>0.019</fontSize>
 			<fontSize if="${notWide}">0.018</fontSize>
+			<fontSize if="${ultraWide}">0.020</fontSize>
 			<fontSize tinyScreen="true">0.014</fontSize>
 			<pos>0.5 0.64</pos>
             <origin>0.5 0</origin>
