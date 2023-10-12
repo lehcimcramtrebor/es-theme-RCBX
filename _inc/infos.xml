@@ -21,7 +21,7 @@
 			<fontPath ifSubset="infosFont:condensedBold">./fonts/CabinCondensed-Bold.ttf</fontPath>
 			<fontPath ifSubset="infosFont:regularBold">./fonts/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>true</forceUppercase>
-			<fontSize>0.020</fontSize>
+			<fontSize>0.019</fontSize>
 			<fontSize if="${notWide}">0.018</fontSize>
 			<fontSize tinyScreen="true">0.014</fontSize>
 			<pos>0.5 0.64</pos>
