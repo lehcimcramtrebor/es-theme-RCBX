@@ -29,10 +29,10 @@
             <origin>0.5 0</origin>
 			<offsetY tinyScreen="true" ifsubset="carousel:legacy">0.02</offsetY>
 
-			<offsetY ifSubset="carousel:bottom">-0.1</offsetY>
-			<offsetY tinyScreen="true" ifSubset="carousel:bottom">-0.12</offsetY>
+			<offsetY ifSubset="carousel:bottom">-0.22</offsetY>
+			<offsetY tinyScreen="true" ifSubset="carousel:bottom">-0.22</offsetY>
 
-			<offsetY ifSubset="carousel:bottom,randomVideos:inFrame">-0.24</offsetY>
+			<offsetY ifSubset="carousel:bottom,randomVideos:inFrame">-0.22</offsetY>
 			<offsetY tinyScreen="true" ifSubset="carousel:bottom,randomVideos:inFrame">-0.21</offsetY>
 
 			<offsetY ifSubset="carousel:bottom,allowIllustrationsCustom:yes">-0.28</offsetY>
