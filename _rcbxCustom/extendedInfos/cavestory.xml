@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Cave Story is a critically acclaimed indie video game known for its compelling storyline, challenging gameplay, and charming pixel art style."</desc>
-<desc lang="fr">"Cave Story est un jeu vidéo indépendant acclamé par la critique, connu pour son scénario captivant, son gameplay exigeant et son charmant style artistique en pixel."</desc>
+<desc>Cave Story is a critically acclaimed indie video game known for its compelling storyline, challenging gameplay, and charming pixel art style.</desc>
+<desc lang="fr">Cave Story est un jeu vidéo indépendant acclamé par la critique, connu pour son scénario captivant, son gameplay exigeant et son charmant style artistique en pixel.</desc>
 
 
 

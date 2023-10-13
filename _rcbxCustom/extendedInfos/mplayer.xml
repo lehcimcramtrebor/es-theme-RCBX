@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MPlayer is a free and open-source media player software that supports a wide range of audio and video formats, making it a versatile choice for multimedia playback and streaming."</desc>
-<desc lang="fr">"MPlayer est un logiciel de lecteur multimédia gratuit et open source qui prend en charge une large gamme de formats audio et vidéo, en faisant un choix polyvalent pour la lecture multimédia et le streaming."</desc>
+<desc>MPlayer is a free and open-source media player software that supports a wide range of audio and video formats, making it a versatile choice for multimedia playback and streaming.</desc>
+<desc lang="fr">MPlayer est un logiciel de lecteur multimédia gratuit et open source qui prend en charge une large gamme de formats audio et vidéo, en faisant un choix polyvalent pour la lecture multimédia et le streaming.</desc>
 
 
 

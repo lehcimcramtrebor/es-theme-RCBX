@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MAME4ALL is a specialized version of the MAME emulator tailored to run on older and less powerful hardware."</desc>
-<desc lang="fr">"MAME4ALL est une version spécialisée de l'émulateur MAME adaptée pour fonctionner sur du matériel plus ancien et moins puissant."</desc>
+<desc>MAME4ALL is a specialized version of the MAME emulator tailored to run on older and less powerful hardware.</desc>
+<desc lang="fr">MAME4ALL est une version spécialisée de l'émulateur MAME adaptée pour fonctionner sur du matériel plus ancien et moins puissant.</desc>
 
 
 

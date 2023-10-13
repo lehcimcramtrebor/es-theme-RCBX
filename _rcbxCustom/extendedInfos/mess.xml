@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MESS (Multi Emulator Super System) is an open-source emulator software that aims to emulate a wide variety of vintage computer and gaming systems, preserving the history of computing and gaming for enthusiasts and researchers."</desc>
-<desc lang="fr">"MESS (Multi Emulator Super System) est un logiciel d'émulation open source qui vise à émuler une grande variété de systèmes informatiques et de jeux vidéo anciens, préservant l'histoire de l'informatique et du jeu pour les passionnés."</desc>
+<desc>MESS (Multi Emulator Super System) is an open-source emulator software that aims to emulate a wide variety of vintage computer and gaming systems, preserving the history of computing and gaming for enthusiasts and researchers.</desc>
+<desc lang="fr">MESS (Multi Emulator Super System) est un logiciel d'émulation open source qui vise à émuler une grande variété de systèmes informatiques et de jeux vidéo anciens, préservant l'histoire de l'informatique et du jeu pour les passionnés.</desc>
 
 
 

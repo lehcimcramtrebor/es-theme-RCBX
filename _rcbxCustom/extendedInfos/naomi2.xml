@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"NAOMI 2 is an arcade system board developed by SEGA, succeeding the original NAOMI hardware, offering enhanced performance for arcade games."</desc>
-<desc lang="fr">"NAOMI 2 est une carte d'arcade développée par SEGA, succédant au matériel NAOMI d'origine, offrant des performances améliorées pour les jeux d'arcade."</desc>
+<desc>NAOMI 2 is an arcade system board developed by SEGA, succeeding the original NAOMI hardware, offering enhanced performance for arcade games.</desc>
+<desc lang="fr">NAOMI 2 est une carte d'arcade développée par SEGA, succédant au matériel NAOMI d'origine, offrant des performances améliorées pour les jeux d'arcade.</desc>
 
 
 

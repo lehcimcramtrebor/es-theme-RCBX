@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Commander Genius is a fan-made game engine that allows you to play classic Commander Keen games on modern systems with enhanced features."</desc>
-<desc lang="fr">"Commander Genius est un moteur de jeu créé par des fans qui vous permet de jouer aux jeux classiques de Commander Keen sur des systèmes modernes avec des fonctionnalités améliorées."</desc>
+<desc>Commander Genius is a fan-made game engine that allows you to play classic Commander Keen games on modern systems with enhanced features.</desc>
+<desc lang="fr">Commander Genius est un moteur de jeu créé par des fans qui vous permet de jouer aux jeux classiques de Commander Keen sur des systèmes modernes avec des fonctionnalités améliorées.</desc>
 
 
 

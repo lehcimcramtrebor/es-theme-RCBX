@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"NAOMI is an arcade system board developed by SEGA, known for its powerful hardware and support for a wide range of arcade games."</desc>
-<desc lang="fr">"NAOMI est une carte d'arcade développée par SEGA, réputée pour son matériel puissant et sa prise en charge d'une large gamme de jeux d'arcade."</desc>
+<desc>NAOMI is an arcade system board developed by SEGA, known for its powerful hardware and support for a wide range of arcade games.</desc>
+<desc lang="fr">NAOMI est une carte d'arcade développée par SEGA, réputée pour son matériel puissant et sa prise en charge d'une large gamme de jeux d'arcade.</desc>
 
 
 

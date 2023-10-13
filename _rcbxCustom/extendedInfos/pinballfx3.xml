@@ -20,8 +20,8 @@
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Pinball FX3 is a popular digital pinball platform that offers a wide variety of virtual pinball tables and a realistic pinball experience."</desc>
-<desc lang="fr">"Pinball FX3 est une plateforme de flipper numérique populaire qui propose une grande variété de tables de flipper virtuelles et une expérience de flipper réaliste."</desc>
+<desc>Pinball FX3 is a popular digital pinball platform that offers a wide variety of virtual pinball tables and a realistic pinball experience.</desc>
+<desc lang="fr">Pinball FX3 est une plateforme de flipper numérique populaire qui propose une grande variété de tables de flipper virtuelles et une expérience de flipper réaliste.</desc>
 
 
 

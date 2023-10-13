@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"EDuke32 is a source port of the classic Duke Nukem 3D, enhancing the game's graphics, compatibility, and modding capabilities."</desc>
-<desc lang="fr">"EDuke32 est un port source du classique Duke Nukem 3D, améliorant les graphismes, la compatibilité et les capacités de modding du jeu."</desc>
+<desc>EDuke32 is a source port of the classic Duke Nukem 3D, enhancing the game's graphics, compatibility, and modding capabilities.</desc>
+<desc lang="fr">EDuke32 est un port source du classique Duke Nukem 3D, améliorant les graphismes, la compatibilité et les capacités de modding du jeu.</desc>
 
 
 

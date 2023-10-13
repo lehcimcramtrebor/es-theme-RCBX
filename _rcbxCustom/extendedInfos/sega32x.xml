@@ -23,12 +23,12 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Sega 32X, also known as the Sega Genesis 32X, was an add-on for the Sega Genesis (Mega Drive) console, offering enhanced graphics and additional games."</desc>
-<desc region="us">"The Sega Genesis 32X, often simply referred to as the 32X, was an add-on for the Sega Genesis (Mega Drive) console, enhancing its capabilities with improved graphics and a selection of additional games."</desc>
-<desc region="jp">"The Super 32X, also known as the Sega 32X, was an add-on peripheral for the Sega Megadrive, offering enhanced graphics and expanding the library of games in the mid-'90s."</desc>
-<desc lang="fr">"La Sega 32X, également connue sous le nom de Sega Genesis 32X, était une extension pour la console Sega Genesis (Mega Drive), offrant des graphismes améliorés et des jeux supplémentaires."</desc>
-<desc lang="fr" region="us">"La Sega Genesis 32X, souvent simplement appelée 32X, était une extension pour la console Sega Genesis (Mega Drive), améliorant ses capacités avec des graphismes améliorés et une sélection de jeux supplémentaires."</desc>
-<desc lang="fr" region="jp">"Le Super 32X, également connu sous le nom de Sega 32X, était un périphérique d'extension pour la Sega Megadrive, offrant des graphismes améliorés et élargissant la bibliothèque de jeux au milieu des années 90."</desc>
+<desc>The Sega 32X, also known as the Sega Genesis 32X, was an add-on for the Sega Genesis (Mega Drive) console, offering enhanced graphics and additional games.</desc>
+<desc region="us">The Sega Genesis 32X, often simply referred to as the 32X, was an add-on for the Sega Genesis (Mega Drive) console, enhancing its capabilities with improved graphics and a selection of additional games.</desc>
+<desc region="jp">The Super 32X, also known as the Sega 32X, was an add-on peripheral for the Sega Megadrive, offering enhanced graphics and expanding the library of games in the mid-'90s.</desc>
+<desc lang="fr">La Sega 32X, également connue sous le nom de Sega Genesis 32X, était une extension pour la console Sega Genesis (Mega Drive), offrant des graphismes améliorés et des jeux supplémentaires.</desc>
+<desc lang="fr" region="us">La Sega Genesis 32X, souvent simplement appelée 32X, était une extension pour la console Sega Genesis (Mega Drive), améliorant ses capacités avec des graphismes améliorés et une sélection de jeux supplémentaires.</desc>
+<desc lang="fr" region="jp">Le Super 32X, également connu sous le nom de Sega 32X, était un périphérique d'extension pour la Sega Megadrive, offrant des graphismes améliorés et élargissant la bibliothèque de jeux au milieu des années 90.</desc>
 
 
 

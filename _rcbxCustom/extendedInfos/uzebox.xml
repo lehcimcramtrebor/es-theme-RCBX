@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Uzebox, an open-source game console designed for homebrew game development and retro gaming enthusiasts."</desc>
-<desc lang="fr">"L'Uzebox, une console de jeu open source conçue pour les passionnés du développement de jeux amateurs et du rétrogaming."</desc>
+<desc>The Uzebox, an open-source game console designed for homebrew game development and retro gaming enthusiasts.</desc>
+<desc lang="fr">L'Uzebox, une console de jeu open source conçue pour les passionnés du développement de jeux amateurs et du rétrogaming.</desc>
 
 
 

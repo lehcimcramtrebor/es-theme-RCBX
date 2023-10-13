@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Gong is a faithful port of the classic game Pong, offering simple yet addictive paddle and ball gameplay."</desc>
-<desc lang="fr">"Gong est une fidèle adaptation du jeu classique Pong, offrant un gameplay simple mais addictif avec des raquettes et une balle."</desc>
+<desc>Gong is a faithful port of the classic game Pong, offering simple yet addictive paddle and ball gameplay.</desc>
+<desc lang="fr">Gong est une fidèle adaptation du jeu classique Pong, offrant un gameplay simple mais addictif avec des raquettes et une balle.</desc>
 
 
 

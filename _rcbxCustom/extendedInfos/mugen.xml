@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MUGEN is a versatile and open-source 2D fighting game engine that allows users to create their own custom fighting game characters and stages, offering endless possibilities for game customization."</desc>
-<desc lang="fr">"MUGEN est un moteur de jeu de combat 2D polyvalent et open-source qui permet aux utilisateurs de créer leurs propres personnages et niveaux de jeu, offrant d'innombrables possibilités de personnalisation."</desc>
+<desc>MUGEN is a versatile and open-source 2D fighting game engine that allows users to create their own custom fighting game characters and stages, offering endless possibilities for game customization.</desc>
+<desc lang="fr">MUGEN est un moteur de jeu de combat 2D polyvalent et open-source qui permet aux utilisateurs de créer leurs propres personnages et niveaux de jeu, offrant d'innombrables possibilités de personnalisation.</desc>
 
 
 

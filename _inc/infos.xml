@@ -66,7 +66,7 @@
 <!--year null-->
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
                 
 ${lang.games}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}
@@ -78,7 +78,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 <!--year available-->
             <text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.games}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}
@@ -90,7 +90,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 <!--year added in customs-->
             <text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.games}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}
@@ -109,7 +109,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.games}:  {binding:total}
 ${lang.gamesPlayed}:  {binding:gamesPlayed}
@@ -127,7 +127,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.collections}:  {binding:subSystems}		
             </text>
@@ -142,7 +142,7 @@ ${lang.collections}:  {binding:subSystems}
 
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.applications}:  {binding:total}
             </text>
@@ -157,21 +157,21 @@ ${lang.applications}:  {binding:total}
 
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.elements}:  {binding:total}		
             </text>
             
 			<text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.elements}:  {binding:total}	
             </text>
             
 			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.elements}:  {binding:total}
             </text>
@@ -186,21 +186,21 @@ ${lang.elements}:  {binding:total}
 
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.images}:  {binding:total}	
             </text>
             
 			<text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.images}:  {binding:total}
             </text>
             
 			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.images}:  {binding:total}
             </text>
@@ -214,21 +214,21 @@ ${lang.images}:  {binding:total}
 			
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.videos}:  {binding:total}
             </text>
             
 			<text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.videos}:  {binding:total}
             </text>
             
 			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.videos}:  {binding:total}
             </text>
@@ -243,21 +243,21 @@ ${lang.videos}:  {binding:total}
             
 			<text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.music}:  {binding:total}
             </text>
             
 			<text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.music}:  {binding:total}
             </text>
             
 			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.music}:  {binding:total}
             </text>
@@ -272,21 +272,21 @@ ${lang.music}:  {binding:total}
 
             <text if="{system.releaseYear} >= '1958'">${system.fullName}  ( ${system.releaseYear} )
                 
-${desc}
+"${desc}"
 
 ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
             </text>
 
             <text if="{system.releaseYear} <= '1957'">${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
             </text>
 
 			<text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.music}:  {binding:total}
             </text>
@@ -302,7 +302,7 @@ ${lang.music}:  {binding:total}
 		<!--year null-->
             <text>${system.fullName}
                 
-${desc}
+"${desc}"
 
 ${lang.tables}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}
@@ -314,7 +314,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 		<!--year available-->
             <text if="{system.releaseYearOrNull} >= '1958'">${system.fullName}  ( ${system.releaseYearOrNull} )
                 
-${desc}
+"${desc}"
 
 ${lang.tables}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}
@@ -326,7 +326,7 @@ ${lang.lastPlayedDate}:  {binding:lastPlayedDate}
 		<!--year added in customs-->
             <text if="${custom.year} >= '1958'">${system.fullName}  ( ${custom.year} )
                 
-${desc}
+"${desc}"
 
 ${lang.tables}:  {binding:total}
 ${lang.favorites}:  {binding:favorites}

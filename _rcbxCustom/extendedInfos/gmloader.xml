@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"GameMaker is a game development software that allows users to create 2D and 3D games without extensive programming knowledge, making it accessible to both beginners and experienced developers."</desc>
-<desc lang="fr">"GameMaker est un logiciel de développement de jeux qui permet de créer des jeux en 2D et 3D sans nécessiter de connaissances en programmation approfondies, le rendant accessible aux débutants."</desc>
+<desc>GameMaker is a game development software that allows users to create 2D and 3D games without extensive programming knowledge, making it accessible to both beginners and experienced developers.</desc>
+<desc lang="fr">GameMaker est un logiciel de développement de jeux qui permet de créer des jeux en 2D et 3D sans nécessiter de connaissances en programmation approfondies, le rendant accessible aux débutants.</desc>
 
 
 

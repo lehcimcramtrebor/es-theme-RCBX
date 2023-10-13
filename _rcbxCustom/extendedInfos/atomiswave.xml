@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Atomiswave is an arcade system board developed by Sammy Corporation, offering a variety of arcade games with impressive graphics and gameplay."</desc>
-<desc lang="fr">"Atomiswave est une carte d'arcade développée par la société Sammy Corporation, proposant une variété de jeux d'arcade avec des graphismes et un gameplay impressionnants."</desc>
+<desc>Atomiswave is an arcade system board developed by Sammy Corporation, offering a variety of arcade games with impressive graphics and gameplay.</desc>
+<desc lang="fr">Atomiswave est une carte d'arcade développée par la société Sammy Corporation, proposant une variété de jeux d'arcade avec des graphismes et un gameplay impressionnants.</desc>
 
 
 

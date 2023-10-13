@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Games you've played, sorted from most recent to least recent."</desc>
-<desc lang="fr">"Les jeux auxquels vous avez récemment joué, triés du plus récent au plus ancien."</desc>
+<desc>Games you've played, sorted from most recent to least recent.</desc>
+<desc lang="fr">Les jeux auxquels vous avez récemment joué, triés du plus récent au plus ancien.</desc>
 
 
 

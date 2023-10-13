@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Infinity Engine is a game engine developed by BioWare and used in classic role-playing games like Baldur's Gate, Icewind Dale, and Planescape: Torment, known for its isometric view and deep storytelling."</desc>
-<desc lang="fr">"Le moteur Infinity est un moteur de jeu développé par BioWare et utilisé dans des jeux de rôle classiques tels que Baldur's Gate, Icewind Dale et Planescape: Torment, réputé pour sa vue isométrique et son récit profond."</desc>
+<desc>The Infinity Engine is a game engine developed by BioWare and used in classic role-playing games like Baldur's Gate, Icewind Dale, and Planescape: Torment, known for its isometric view and deep storytelling.</desc>
+<desc lang="fr">Le moteur Infinity est un moteur de jeu développé par BioWare et utilisé dans des jeux de rôle classiques tels que Baldur's Gate, Icewind Dale et Planescape: Torment, réputé pour sa vue isométrique et son récit profond.</desc>
 
 
 

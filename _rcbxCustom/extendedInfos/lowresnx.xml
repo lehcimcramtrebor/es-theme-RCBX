@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"LowRes NX is a fantasy computer for making and playing retro-style games. It provides a simple and accessible platform for game development and programming in a nostalgic style."</desc>
-<desc lang="fr">"LowRes NX est un ordinateur imaginaire conçu pour créer et jouer à des jeux rétro. Il offre une plateforme simple et accessible pour le développement de jeux et la programmation dans un style nostalgique."</desc>
+<desc>LowRes NX is a fantasy computer for making and playing retro-style games. It provides a simple and accessible platform for game development and programming in a nostalgic style.</desc>
+<desc lang="fr">LowRes NX est un ordinateur imaginaire conçu pour créer et jouer à des jeux rétro. Il offre une plateforme simple et accessible pour le développement de jeux et la programmation dans un style nostalgique.</desc>
 
 
 

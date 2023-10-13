@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"DevilutionX is an open-source reimplementation of the original Diablo game, enabling modern systems to experience the classic action RPG."</desc>
-<desc lang="fr">"DevilutionX est une réimplémentation open-source du jeu original Diablo, permettant aux systèmes modernes de vivre l'action RPG classique."</desc>
+<desc>DevilutionX is an open-source reimplementation of the original Diablo game, enabling modern systems to experience the classic action RPG.</desc>
+<desc lang="fr">DevilutionX est une réimplémentation open-source du jeu original Diablo, permettant aux systèmes modernes de vivre l'action RPG classique.</desc>
 
 
 

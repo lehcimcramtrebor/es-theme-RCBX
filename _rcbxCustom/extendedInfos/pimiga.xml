@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"PiMIGA is a Raspberry Pi distribution for Amiga emulation. Preconfigured with Amiberry, it offers an Amiga Workbench experience with audio support."</desc>
-<desc lang="fr">"PiMIGA est une distribution Raspberry Pi pour l'émulation Amiga. Préconfigurée avec Amiberry, elle offre une expérience Workbench Amiga avec support audio."</desc>
+<desc>PiMIGA is a Raspberry Pi distribution for Amiga emulation. Preconfigured with Amiberry, it offers an Amiga Workbench experience with audio support.</desc>
+<desc lang="fr">PiMIGA est une distribution Raspberry Pi pour l'émulation Amiga. Préconfigurée avec Amiberry, elle offre une expérience Workbench Amiga avec support audio.</desc>
 
 
 

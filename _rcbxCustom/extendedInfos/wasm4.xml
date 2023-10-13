@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"WASM4 is a fantasy computer for creating and playing games using the WebAssembly technology, offering a unique and accessible platform for game development."</desc>
-<desc lang="fr">"WASM4 est un ordinateur imaginaire pour créer et jouer à des jeux en utilisant la technologie WebAssembly, offrant une plateforme unique et accessible pour le développement de jeux."</desc>
+<desc>WASM4 is a fantasy computer for creating and playing games using the WebAssembly technology, offering a unique and accessible platform for game development.</desc>
+<desc lang="fr">WASM4 est un ordinateur imaginaire pour créer et jouer à des jeux en utilisant la technologie WebAssembly, offrant une plateforme unique et accessible pour le développement de jeux.</desc>
 
 
 

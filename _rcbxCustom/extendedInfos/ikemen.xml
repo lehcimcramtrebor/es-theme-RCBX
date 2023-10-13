@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Ikemen is an open-source 2D fighting game engine inspired by MUGEN, allowing users to create and customize their own fighting game experiences, complete with unique characters and stages."</desc>
-<desc lang="fr">"Ikemen est un moteur de jeu de combat 2D open-source inspiré de MUGEN, permettant aux utilisateurs de créer et de personnaliser leurs propres expériences de jeu de combat, avec des personnages et des niveaux uniques."</desc>
+<desc>Ikemen is an open-source 2D fighting game engine inspired by MUGEN, allowing users to create and customize their own fighting game experiences, complete with unique characters and stages.</desc>
+<desc lang="fr">Ikemen est un moteur de jeu de combat 2D open-source inspiré de MUGEN, permettant aux utilisateurs de créer et de personnaliser leurs propres expériences de jeu de combat, avec des personnages et des niveaux uniques.</desc>
 
 
 

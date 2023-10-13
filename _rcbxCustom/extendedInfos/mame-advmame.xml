@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"AdvanceMAME is an enhanced version of the MAME emulator, prioritizing accuracy and support for advanced arcade hardware."</desc>
-<desc lang="fr">"AdvanceMAME est une version améliorée de l'émulateur MAME, mettant l'accent sur la précision et la prise en charge du matériel d'arcade avancé."</desc>
+<desc>AdvanceMAME is an enhanced version of the MAME emulator, prioritizing accuracy and support for advanced arcade hardware.</desc>
+<desc lang="fr">AdvanceMAME est une version améliorée de l'émulateur MAME, mettant l'accent sur la précision et la prise en charge du matériel d'arcade avancé.</desc>
 
 
 

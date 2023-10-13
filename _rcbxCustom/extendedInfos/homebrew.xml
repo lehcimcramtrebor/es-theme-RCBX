@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Homebrew refers to software, games, or applications developed by independent creators and enthusiasts for various platforms, often not officially supported by the original manufacturers."</desc>
-<desc lang="fr">"Homebrew fait référence à des logiciels, des jeux ou des applications développés par des créateurs indépendants pour diverses plates-formes, souvent non officiellement pris en charge par les fabricants d'origine."</desc>
+<desc>Homebrew refers to software, games, or applications developed by independent creators and enthusiasts for various platforms, often not officially supported by the original manufacturers.</desc>
+<desc lang="fr">Homebrew fait référence à des logiciels, des jeux ou des applications développés par des créateurs indépendants pour diverses plates-formes, souvent non officiellement pris en charge par les fabricants d'origine.</desc>
 
 
 

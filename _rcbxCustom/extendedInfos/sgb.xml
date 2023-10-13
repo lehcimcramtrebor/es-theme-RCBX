@@ -20,11 +20,11 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Super Game Boy was an accessory for the Super Nintendo that allowed players to play Game Boy games on their television screen with added color features and customization options."</desc>
-<desc lang="fr">"Le Super Game Boy était un accessoire pour la Super Nintendo qui permettait aux joueurs de jouer aux jeux Game Boy sur leur écran de télévision avec des fonctionnalités de couleur et des options de personnalisation ajoutées."</desc>
+<desc>The Super Game Boy was an accessory for the Super Nintendo that allowed players to play Game Boy games on their television screen with added color features and customization options.</desc>
+<desc lang="fr">Le Super Game Boy était un accessoire pour la Super Nintendo qui permettait aux joueurs de jouer aux jeux Game Boy sur leur écran de télévision avec des fonctionnalités de couleur et des options de personnalisation ajoutées.</desc>
 
-<desc region="jp">"The Super Game Boy was an accessory for the Super Famicom that allowed players to play Game Boy games on their television screen with added color features and customization options."</desc>
-<desc lang="fr" region="jp">"Le Super Game Boy était un accessoire pour la Super Famicom qui permettait aux joueurs de jouer aux jeux Game Boy sur leur écran de télévision avec des fonctionnalités de couleur et des options de personnalisation ajoutées."</desc>
+<desc region="jp">The Super Game Boy was an accessory for the Super Famicom that allowed players to play Game Boy games on their television screen with added color features and customization options.</desc>
+<desc lang="fr" region="jp">Le Super Game Boy était un accessoire pour la Super Famicom qui permettait aux joueurs de jouer aux jeux Game Boy sur leur écran de télévision avec des fonctionnalités de couleur et des options de personnalisation ajoutées.</desc>
 
 
 

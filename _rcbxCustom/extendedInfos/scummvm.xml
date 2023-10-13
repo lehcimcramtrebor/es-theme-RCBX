@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"ScummVM is a cross-platform game engine that allows players to run classic graphical adventure games, providing compatibility and enhanced features for these beloved titles."</desc>
-<desc lang="fr">"ScummVM est un moteur de jeu multiplateforme qui permet aux joueurs de faire fonctionner des jeux d'aventure graphiques classiques, offrant une compatibilité et des fonctionnalités améliorées pour ces titres bien-aimés."</desc>
+<desc>ScummVM is a cross-platform game engine that allows players to run classic graphical adventure games, providing compatibility and enhanced features for these beloved titles.</desc>
+<desc lang="fr">ScummVM est un moteur de jeu multiplateforme qui permet aux joueurs de faire fonctionner des jeux d'aventure graphiques classiques, offrant une compatibilité et des fonctionnalités améliorées pour ces titres bien-aimés.</desc>
 
 
 

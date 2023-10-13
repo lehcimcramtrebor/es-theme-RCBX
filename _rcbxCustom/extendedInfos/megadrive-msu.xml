@@ -20,10 +20,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Sega Mega Drive emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Mega Drive games with improved soundtracks and audio immersion."</desc>
-<desc region="us">"Sega Genesis emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Genesis games with improved soundtracks and audio immersion."</desc>
-<desc lang="fr">"Émulation de la Sega Mega Drive avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Mega Drive avec des bandes sonores améliorées."</desc>
-<desc lang="fr" region="us">"Émulation de la Sega Genesis avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Genesis avec des bandes sonores améliorées."</desc>
+<desc>Sega Mega Drive emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Mega Drive games with improved soundtracks and audio immersion.</desc>
+<desc region="us">Sega Genesis emulation with enhanced CD-quality audio using the MSU-1 chip. Elevates classic Genesis games with improved soundtracks and audio immersion.</desc>
+<desc lang="fr">Émulation de la Sega Mega Drive avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Mega Drive avec des bandes sonores améliorées.</desc>
+<desc lang="fr" region="us">Émulation de la Sega Genesis avec audio de qualité CD améliorée grâce à la puce MSU-1. Rehausse les jeux classiques Genesis avec des bandes sonores améliorées.</desc>
 
 
 

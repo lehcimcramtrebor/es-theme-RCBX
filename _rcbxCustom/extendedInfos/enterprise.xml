@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Enterprise 64/128 is a line of home computers produced by British company Enterprise Computers in the 1980s. It featured both 64KB and 128KB RAM models and a Z80 CPU."</desc>
-<desc lang="fr">"L'Enterprise 64/128 est une gamme d'ordinateurs personnels produite par la société britannique Enterprise Computers dans les années 1980. Elle proposait des modèles avec 64 Ko et 128 Ko de RAM, ainsi qu'un processeur Z80."</desc>
+<desc>The Enterprise 64/128 is a line of home computers produced by British company Enterprise Computers in the 1980s. It featured both 64KB and 128KB RAM models and a Z80 CPU.</desc>
+<desc lang="fr">L'Enterprise 64/128 est une gamme d'ordinateurs personnels produite par la société britannique Enterprise Computers dans les années 1980. Elle proposait des modèles avec 64 Ko et 128 Ko de RAM, ainsi qu'un processeur Z80.</desc>
 
 
 

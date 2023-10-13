@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"GemRB is an open-source game engine that aims to re-implement the Infinity Engine used in classic role-playing games like Baldur's Gate, Icewind Dale, and Planescape: Torment."</desc>
-<desc lang="fr">"GemRB est un moteur de jeu open source qui vise à réimplémenter le moteur Infinity Engine utilisé dans des jeux de rôle classiques tels que Baldur's Gate, Icewind Dale et Planescape: Torment."</desc>
+<desc>GemRB is an open-source game engine that aims to re-implement the Infinity Engine used in classic role-playing games like Baldur's Gate, Icewind Dale, and Planescape: Torment.</desc>
+<desc lang="fr">GemRB est un moteur de jeu open source qui vise à réimplémenter le moteur Infinity Engine utilisé dans des jeux de rôle classiques tels que Baldur's Gate, Icewind Dale et Planescape: Torment.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Zaccaria Pinball is a digital pinball simulation game that faithfully recreates classic Zaccaria pinball tables, offering a realistic pinball experience for enthusiasts."</desc>
-<desc lang="fr">"Zaccaria Pinball est un jeu de simulation de flipper numérique qui recrée fidèlement les tables de flipper classiques de Zaccaria, offrant une expérience de flipper réaliste pour les passionnés."</desc>
+<desc>Zaccaria Pinball is a digital pinball simulation game that faithfully recreates classic Zaccaria pinball tables, offering a realistic pinball experience for enthusiasts.</desc>
+<desc lang="fr">Zaccaria Pinball est un jeu de simulation de flipper numérique qui recrée fidèlement les tables de flipper classiques de Zaccaria, offrant une expérience de flipper réaliste pour les passionnés.</desc>
 
 
 

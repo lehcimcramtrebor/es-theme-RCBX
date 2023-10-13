@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Nintendo eShop is a digital distribution service for Nintendo gaming consoles, offering a wide range of downloadable games, applications, and content, making it convenient for players to access and enjoy digital entertainment."</desc>
-<desc lang="fr">"Le Nintendo eShop est un service de distribution numérique pour les consoles de jeu Nintendo, proposant une vaste gamme de jeux téléchargeables, d'applications et de contenus, facilitant l'accès au divertissement numérique."</desc>
+<desc>The Nintendo eShop is a digital distribution service for Nintendo gaming consoles, offering a wide range of downloadable games, applications, and content, making it convenient for players to access and enjoy digital entertainment.</desc>
+<desc lang="fr">Le Nintendo eShop est un service de distribution numérique pour les consoles de jeu Nintendo, proposant une vaste gamme de jeux téléchargeables, d'applications et de contenus, facilitant l'accès au divertissement numérique.</desc>
 
 
 

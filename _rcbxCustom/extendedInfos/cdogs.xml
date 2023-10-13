@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"C-Dogs SDL is an open-source, top-down shooter video game, featuring frenetic action, a variety of weapons, and the ability to create and share custom content, making it a fan favorite."</desc>
-<desc lang="fr">"C-Dogs SDL est un jeu vidéo de tir en vue de dessus en open-source, offrant une action frénétique, une variété d'armes et la possibilité de créer et partager du contenu personnalisé, ce qui en fait un favori des fans."</desc>
+<desc>C-Dogs SDL is an open-source, top-down shooter video game, featuring frenetic action, a variety of weapons, and the ability to create and share custom content, making it a fan favorite.</desc>
+<desc lang="fr">C-Dogs SDL est un jeu vidéo de tir en vue de dessus en open-source, offrant une action frénétique, une variété d'armes et la possibilité de créer et partager du contenu personnalisé, ce qui en fait un favori des fans.</desc>
 
 
 

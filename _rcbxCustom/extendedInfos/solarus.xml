@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Solarus is an open-source game engine designed for creating 2D action-adventure games, providing a versatile platform for game development."</desc>
-<desc lang="fr">"Solarus est un moteur de jeu open-source conçu pour créer des jeux d'action-aventure en 2D, offrant une plateforme polyvalente pour le développement de jeux."</desc>
+<desc>Solarus is an open-source game engine designed for creating 2D action-adventure games, providing a versatile platform for game development.</desc>
+<desc lang="fr">Solarus est un moteur de jeu open-source conçu pour créer des jeux d'action-aventure en 2D, offrant une plateforme polyvalente pour le développement de jeux.</desc>
 
 
 

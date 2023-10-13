@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Pyxel is a retro game development environment that allows users to create pixel art games with a focus on simplicity and nostalgia, making it ideal for indie game developers."</desc>
-<desc lang="fr">"Pyxel est un environnement de développement qui permet aux utilisateurs de créer des jeux en pixel art en mettant l'accent sur la simplicité et la nostalgie. Un outil idéal pour les développeurs de jeux indépendants."</desc>
+<desc>Pyxel is a retro game development environment that allows users to create pixel art games with a focus on simplicity and nostalgia, making it ideal for indie game developers.</desc>
+<desc lang="fr">Pyxel est un environnement de développement qui permet aux utilisateurs de créer des jeux en pixel art en mettant l'accent sur la simplicité et la nostalgie. Un outil idéal pour les développeurs de jeux indépendants.</desc>
 
 
 

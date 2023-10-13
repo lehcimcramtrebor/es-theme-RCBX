@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Moonlight is an open-source implementation of NVIDIA's GameStream, allowing you to play streamed games from your PC on your favorite distribution."</desc>
-<desc lang="fr">"Moonlight est une implémentation open-source de GameStream de NVIDIA, vous permettant de jouer à des jeux streamés depuis votre PC sur votre distribution préférée."</desc>
+<desc>Moonlight is an open-source implementation of NVIDIA's GameStream, allowing you to play streamed games from your PC on your favorite distribution.</desc>
+<desc lang="fr">Moonlight est une implémentation open-source de GameStream de NVIDIA, vous permettant de jouer à des jeux streamés depuis votre PC sur votre distribution préférée.</desc>
 
 
 

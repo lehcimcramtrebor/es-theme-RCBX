@@ -8,7 +8,7 @@ by Helmic.-->
 	<variables region="eu">	<v.region> </v.region> </variables>
 
 	<!--check if es-theme-HEXA installed-->
-	<include>./../es-theme-HEXA/_inc/cross/rcbx.xml</include>
+	<include>./../es-theme-HEXA/_inc/cross/check.xml</include>
 
     <variables>
 		<notWide>${screen.height} > ${screen.width}/1.6</notWide>

@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Windows 3.11, also known as Windows for Workgroups 3.11, was a graphical operating system released by Microsoft in 1993, providing networking capabilities and improved performance over its predecessors."</desc>
-<desc lang="fr">"Windows 3.11, également connu sous le nom de Windows for Workgroups 3.11, était un système d'exploitation graphique publié par Microsoft en 1993, offrant des capacités de mise en réseau et des performances améliorées."</desc>
+<desc>Windows 3.11, also known as Windows for Workgroups 3.11, was a graphical operating system released by Microsoft in 1993, providing networking capabilities and improved performance over its predecessors.</desc>
+<desc lang="fr">Windows 3.11, également connu sous le nom de Windows for Workgroups 3.11, était un système d'exploitation graphique publié par Microsoft en 1993, offrant des capacités de mise en réseau et des performances améliorées.</desc>
 
 
 

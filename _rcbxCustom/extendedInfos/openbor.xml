@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Open Beats of Rage is an open-source game engine that allows you to play custom beat 'em up games and mods, providing a versatile gaming experience."</desc>
-<desc lang="fr">"Open Beats of Rage est un moteur de jeu open-source qui vous permet de jouer à des jeux de combat personnalisés et à des mods, offrant une expérience de jeu polyvalente."</desc>
+<desc>Open Beats of Rage is an open-source game engine that allows you to play custom beat 'em up games and mods, providing a versatile gaming experience.</desc>
+<desc lang="fr">Open Beats of Rage est un moteur de jeu open-source qui vous permet de jouer à des jeux de combat personnalisés et à des mods, offrant une expérience de jeu polyvalente.</desc>
 
 
 

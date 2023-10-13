@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Bomberman is a classic video game franchise known for its maze-based gameplay, where players strategically place bombs to defeat enemies and solve puzzles."</desc>
-<desc lang="fr">"Bomberman est une franchise de jeux vidéo classique réputée pour son gameplay basé sur des labyrinthes, où les joueurs placent stratégiquement des bombes pour vaincre les ennemis et résoudre des énigmes."</desc>
+<desc>Bomberman is a classic video game franchise known for its maze-based gameplay, where players strategically place bombs to defeat enemies and solve puzzles.</desc>
+<desc lang="fr">Bomberman est une franchise de jeux vidéo classique réputée pour son gameplay basé sur des labyrinthes, où les joueurs placent stratégiquement des bombes pour vaincre les ennemis et résoudre des énigmes.</desc>
 
 
 

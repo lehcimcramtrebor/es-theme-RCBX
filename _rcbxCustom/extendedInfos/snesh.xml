@@ -21,10 +21,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Hacked SNES ROMs are modified versions of original Super Nintendo games, offering new content, levels, and gameplay experiences created by the ROM hacking community."</desc>
-<desc region="jp">"Hacked Super Famicom ROMs are modified versions of original Super Nintendo (SNES) games, offering new content, levels, and gameplay experiences created by the ROM hacking community."</desc>
-<desc lang="fr">"Les ROMs hackées de SNES sont des versions modifiées de jeux originaux de Super Nintendo, offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs."</desc>
-<desc lang="fr" region="jp">"Les ROMs hackées de Super Famicom sont des versions modifiées de jeux originaux de Super Nintendo (SNES), offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs."</desc>
+<desc>Hacked SNES ROMs are modified versions of original Super Nintendo games, offering new content, levels, and gameplay experiences created by the ROM hacking community.</desc>
+<desc region="jp">Hacked Super Famicom ROMs are modified versions of original Super Nintendo (SNES) games, offering new content, levels, and gameplay experiences created by the ROM hacking community.</desc>
+<desc lang="fr">Les ROMs hackées de SNES sont des versions modifiées de jeux originaux de Super Nintendo, offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs.</desc>
+<desc lang="fr" region="jp">Les ROMs hackées de Super Famicom sont des versions modifiées de jeux originaux de Super Nintendo (SNES), offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Visual Pinball is a popular pinball simulation software that allows players to create, customize, and play virtual pinball tables, offering a realistic pinball experience."</desc>
-<desc lang="fr">"Visual Pinball est un logiciel de simulation de flipper populaire qui permet aux joueurs de créer, personnaliser et jouer sur des tables de flipper virtuelles, offrant une expérience de flipper réaliste."</desc>
+<desc>Visual Pinball is a popular pinball simulation software that allows players to create, customize, and play virtual pinball tables, offering a realistic pinball experience.</desc>
+<desc lang="fr">Visual Pinball est un logiciel de simulation de flipper populaire qui permet aux joueurs de créer, personnaliser et jouer sur des tables de flipper virtuelles, offrant une expérience de flipper réaliste.</desc>
 
 
 

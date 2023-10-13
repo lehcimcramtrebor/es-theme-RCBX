@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Chihiro is an arcade system board developed by SEGA, known for powering some of their arcade machines with impressive graphics and gameplay."</desc>
-<desc lang="fr">"Chihiro est une carte d'arcade développée par SEGA, réputée pour alimenter certaines de leurs machines d'arcade avec des graphismes et un gameplay impressionnants."</desc>
+<desc>Chihiro is an arcade system board developed by SEGA, known for powering some of their arcade machines with impressive graphics and gameplay.</desc>
+<desc lang="fr">Chihiro est une carte d'arcade développée par SEGA, réputée pour alimenter certaines de leurs machines d'arcade avec des graphismes et un gameplay impressionnants.</desc>
 
 
 

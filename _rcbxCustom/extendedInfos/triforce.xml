@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Triforce is an arcade system board jointly developed by Nintendo, Namco, and Sega, known for powering arcade games and featuring hardware elements from the Nintendo GameCube."</desc>
-<desc lang="fr">"Triforce est une carte mère de système d'arcade développée conjointement par Nintendo, Namco et Sega, réputée pour alimenter des jeux d'arcade et comportant des éléments matériels issus de la Nintendo GameCube."</desc>
+<desc>Triforce is an arcade system board jointly developed by Nintendo, Namco, and Sega, known for powering arcade games and featuring hardware elements from the Nintendo GameCube.</desc>
+<desc lang="fr">Triforce est une carte mère de système d'arcade développée conjointement par Nintendo, Namco et Sega, réputée pour alimenter des jeux d'arcade et comportant des éléments matériels issus de la Nintendo GameCube.</desc>
 
 
 

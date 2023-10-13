@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Lutro is an open-source emulator for the LÖVE game framework, allowing users to play LÖVE games on various platforms, extending the accessibility of LÖVE games."</desc>
-<desc lang="fr">"Lutro est un émulateur open source pour le framework de jeu LÖVE, permettant aux utilisateurs de jouer à des jeux LÖVE sur différentes plates-formes, étendant ainsi l'accessibilité des jeux LÖVE."</desc>
+<desc>Lutro is an open-source emulator for the LÖVE game framework, allowing users to play LÖVE games on various platforms, extending the accessibility of LÖVE games.</desc>
+<desc lang="fr">Lutro est un émulateur open source pour le framework de jeu LÖVE, permettant aux utilisateurs de jouer à des jeux LÖVE sur différentes plates-formes, étendant ainsi l'accessibilité des jeux LÖVE.</desc>
 
 
 

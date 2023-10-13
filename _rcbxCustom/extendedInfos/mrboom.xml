@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Mr. Boom: A classic Bomberman-style multiplayer game with explosive action. Challenge friends in fast-paced battles, strategically placing bombs to outwit opponents and claim victory."</desc>
-<desc lang="fr">"Mr. Boom : Un jeu multijoueur classique de style Bomberman avec une action explosive. Défiez vos amis dans des combats rapides, placez stratégiquement des bombes pour surpasser vos adversaires et remporter la victoire."</desc>
+<desc>Mr. Boom: A classic Bomberman-style multiplayer game with explosive action. Challenge friends in fast-paced battles, strategically placing bombs to outwit opponents and claim victory.</desc>
+<desc lang="fr">Mr. Boom : Un jeu multijoueur classique de style Bomberman avec une action explosive. Défiez vos amis dans des combats rapides, placez stratégiquement des bombes pour surpasser vos adversaires et remporter la victoire.</desc>
 
 
 

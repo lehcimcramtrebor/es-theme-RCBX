@@ -21,10 +21,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Hacked NES ROMs are modified versions of original Nintendo Entertainment System games, offering new levels, characters, and gameplay experiences created by the ROM hacking community."</desc>
-<desc region="jp">"Hacked Famicom ROMs are modified versions of original Nintendo Entertainment System (NES) games, offering new content, levels, and gameplay experiences created by the ROM hacking community."</desc>
-<desc lang="fr">"Les ROMs hackées de NES sont des versions modifiées de jeux originaux de la Nintendo Entertainment System, offrant de nouveaux niveaux, personnages et expériences de jeu créées par la communauté de hackers de ROMs."</desc>
-<desc lang="fr" region="jp">"Les ROMs hackées de Famicom sont des versions modifiées de jeux originaux de Nintendo Entertainment System (NES), offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs."</desc>
+<desc>Hacked NES ROMs are modified versions of original Nintendo Entertainment System games, offering new levels, characters, and gameplay experiences created by the ROM hacking community.</desc>
+<desc region="jp">Hacked Famicom ROMs are modified versions of original Nintendo Entertainment System (NES) games, offering new content, levels, and gameplay experiences created by the ROM hacking community.</desc>
+<desc lang="fr">Les ROMs hackées de NES sont des versions modifiées de jeux originaux de la Nintendo Entertainment System, offrant de nouveaux niveaux, personnages et expériences de jeu créées par la communauté de hackers de ROMs.</desc>
+<desc lang="fr" region="jp">Les ROMs hackées de Famicom sont des versions modifiées de jeux originaux de Nintendo Entertainment System (NES), offrant de nouveaux contenus, niveaux et expériences de jeu créés par la communauté de hackers de ROMs.</desc>
 
 
 

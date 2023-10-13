@@ -20,8 +20,8 @@
 
 <custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems."</desc>
-<desc lang="fr">"Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés."</desc>
+<desc>Customize your emulation experience with the configuration section, where you can fine-tune settings for your favorite retro game systems.</desc>
+<desc lang="fr">Personnalisez votre expérience, ajustez les paramètres d'émulateurs de vos systèmes de jeux rétro préférés.</desc>
 
 
 

@@ -21,10 +21,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The PC Engine CD, also known as the TurboGrafx-CD in North America, was an add-on peripheral for the PC Engine, providing CD-ROM gaming and expanding the library of games in the early '90s."</desc>
-<desc region="us">"The TurboGrafx-16 CD, also known as the PC Engine CD in Japan, was an add-on peripheral for the TurboGrafx-16, providing CD-ROM gaming and expanding the library of games in the early '90s."</desc>
-<desc lang="fr">"Le PC Engine CD, également connu sous le nom de TurboGrafx-CD en Amérique du Nord, était un périphérique d'extension pour le PC Engine, offrant des jeux sur CD-ROM et élargissant la bibliothèque de jeux au début des années 90."</desc>
-<desc lang="fr" region="us">"Le TurboGrafx-16 CD, également connu sous le nom de PC Engine CD au Japon, était un périphérique d'extension pour le TurboGrafx-16, offrant des jeux sur CD-ROM et élargissant la bibliothèque de jeux au début des années 90."</desc>
+<desc>The PC Engine CD, also known as the TurboGrafx-CD in North America, was an add-on peripheral for the PC Engine, providing CD-ROM gaming and expanding the library of games in the early '90s.</desc>
+<desc region="us">The TurboGrafx-16 CD, also known as the PC Engine CD in Japan, was an add-on peripheral for the TurboGrafx-16, providing CD-ROM gaming and expanding the library of games in the early '90s.</desc>
+<desc lang="fr">Le PC Engine CD, également connu sous le nom de TurboGrafx-CD en Amérique du Nord, était un périphérique d'extension pour le PC Engine, offrant des jeux sur CD-ROM et élargissant la bibliothèque de jeux au début des années 90.</desc>
+<desc lang="fr" region="us">Le TurboGrafx-16 CD, également connu sous le nom de PC Engine CD au Japon, était un périphérique d'extension pour le TurboGrafx-16, offrant des jeux sur CD-ROM et élargissant la bibliothèque de jeux au début des années 90.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"TIC-80 is a fantasy computer for making, playing, and sharing tiny games and programs. It provides a simple and accessible platform for game development and coding projects."</desc>
-<desc lang="fr">"TIC-80 est un ordinateur imaginaire conçu pour créer, jouer et partager de petits jeux et programmes. Il offre une plateforme simple et accessible pour le développement de jeux et des projets de programmation."</desc>
+<desc>TIC-80 is a fantasy computer for making, playing, and sharing tiny games and programs. It provides a simple and accessible platform for game development and coding projects.</desc>
+<desc lang="fr">TIC-80 est un ordinateur imaginaire conçu pour créer, jouer et partager de petits jeux et programmes. Il offre une plateforme simple et accessible pour le développement de jeux et des projets de programmation.</desc>
 
 
 

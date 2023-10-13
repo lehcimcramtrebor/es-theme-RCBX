@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MMFusion, also known as Multimedia Fusion, is a game development software that enables users to create 2D games and interactive applications without extensive programming knowledge, making game development more accessible."</desc>
-<desc lang="fr">"MMFusion est un logiciel de développement de jeux qui permet de créer des jeux en 2D et des applications interactives sans nécessiter de connaissances en programmation approfondies, rendant le développement plus accessible."</desc>
+<desc>MMFusion, also known as Multimedia Fusion, is a game development software that enables users to create 2D games and interactive applications without extensive programming knowledge, making game development more accessible.</desc>
+<desc lang="fr">MMFusion est un logiciel de développement de jeux qui permet de créer des jeux en 2D et des applications interactives sans nécessiter de connaissances en programmation approfondies, rendant le développement plus accessible.</desc>
 
 
 

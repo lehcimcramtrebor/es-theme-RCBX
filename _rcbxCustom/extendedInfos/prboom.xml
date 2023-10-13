@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"PrBoom is a source port of the classic video game Doom, designed to run on modern systems with enhanced features and compatibility."</desc>
-<desc lang="fr">"PrBoom est un port source du jeu vidéo classique Doom, conçu pour fonctionner sur des systèmes modernes avec des fonctionnalités améliorées et une compatibilité accrue."</desc>
+<desc>PrBoom is a source port of the classic video game Doom, designed to run on modern systems with enhanced features and compatibility.</desc>
+<desc lang="fr">PrBoom est un port source du jeu vidéo classique Doom, conçu pour fonctionner sur des systèmes modernes avec des fonctionnalités améliorées et une compatibilité accrue.</desc>
 
 
 

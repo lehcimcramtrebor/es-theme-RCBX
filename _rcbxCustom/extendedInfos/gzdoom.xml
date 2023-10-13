@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"GZDoom is a source port of the classic video game Doom, enhancing the original game with modern features, improved graphics, and modding capabilities."</desc>
-<desc lang="fr">"GZDoom est un port source du jeu vidéo classique Doom, améliorant le jeu original avec des fonctionnalités modernes, des graphismes améliorés et des possibilités de modding."</desc>
+<desc>GZDoom is a source port of the classic video game Doom, enhancing the original game with modern features, improved graphics, and modding capabilities.</desc>
+<desc lang="fr">GZDoom est un port source du jeu vidéo classique Doom, améliorant le jeu original avec des fonctionnalités modernes, des graphismes améliorés et des possibilités de modding.</desc>
 
 
 

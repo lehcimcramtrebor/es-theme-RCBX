@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Xbox Game Pass is a subscription service from Microsoft that offers access to a vast library of video games for Xbox consoles and PC, providing a diverse gaming experience."</desc>
-<desc lang="fr">"Xbox Game Pass est un service d'abonnement de Microsoft qui offre un accès à une vaste bibliothèque de jeux vidéo pour les consoles Xbox et PC, offrant une expérience de jeu diversifiée."</desc>
+<desc>Xbox Game Pass is a subscription service from Microsoft that offers access to a vast library of video games for Xbox consoles and PC, providing a diverse gaming experience.</desc>
+<desc lang="fr">Xbox Game Pass est un service d'abonnement de Microsoft qui offre un accès à une vaste bibliothèque de jeux vidéo pour les consoles Xbox et PC, offrant une expérience de jeu diversifiée.</desc>
 
 
 

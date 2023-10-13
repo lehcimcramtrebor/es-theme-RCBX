@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"SDLPop is a cross-platform open-source port of the classic Prince of Persia game, allowing players to experience this iconic adventure on modern systems."</desc>
-<desc lang="fr">"SDLPop est un port open-source multiplateforme du jeu classique Prince of Persia, permettant aux joueurs de vivre cette aventure emblématique sur des systèmes modernes."</desc>
+<desc>SDLPop is a cross-platform open-source port of the classic Prince of Persia game, allowing players to experience this iconic adventure on modern systems.</desc>
+<desc lang="fr">SDLPop est un port open-source multiplateforme du jeu classique Prince of Persia, permettant aux joueurs de vivre cette aventure emblématique sur des systèmes modernes.</desc>
 
 
 

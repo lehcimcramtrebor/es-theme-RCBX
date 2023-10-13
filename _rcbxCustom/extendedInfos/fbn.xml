@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"FBNeo, based on Final Burn Alpha, is a multi-arcade emulator that enables playing a wide range of retro arcade games on modern systems."</desc>
-<desc lang="fr">"FBNeo, basé sur Final Burn Alpha, est un émulateur multi-arcade qui permet de jouer à une large gamme de jeux d'arcade rétro sur des systèmes modernes."</desc>
+<desc>FBNeo, based on Final Burn Alpha, is a multi-arcade emulator that enables playing a wide range of retro arcade games on modern systems.</desc>
+<desc lang="fr">FBNeo, basé sur Final Burn Alpha, est un émulateur multi-arcade qui permet de jouer à une large gamme de jeux d'arcade rétro sur des systèmes modernes.</desc>
 
 
 

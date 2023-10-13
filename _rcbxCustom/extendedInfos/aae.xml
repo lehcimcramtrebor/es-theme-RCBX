@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Another Arcade Emulator (AAE) is a versatile arcade game emulator designed for accuracy and support for a wide range of arcade systems."</desc>
-<desc lang="fr">"Another Arcade Emulator (AAE) est un émulateur de jeux d'arcade polyvalent conçu pour la précision et le support d'une large gamme de systèmes d'arcade."</desc>
+<desc>Another Arcade Emulator (AAE) is a versatile arcade game emulator designed for accuracy and support for a wide range of arcade systems.</desc>
+<desc lang="fr">Another Arcade Emulator (AAE) est un émulateur de jeux d'arcade polyvalent conçu pour la précision et le support d'une large gamme de systèmes d'arcade.</desc>
 
 
 

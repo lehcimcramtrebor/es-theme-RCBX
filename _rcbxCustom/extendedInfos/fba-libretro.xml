@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"FBA Libretro is a version of the Final Burn Alpha emulator adapted to work with the Libretro interface, enabling it to be used within multi-platform emulators like RetroArch."</desc>
-<desc lang="fr">"FBA Libretro est une version de l'émulateur Final Burn Alpha adaptée pour fonctionner avec l'interface Libretro, ce qui permet de l'intégrer dans des émulateurs multiplateformes comme RetroArch."</desc>
+<desc>FBA Libretro is a version of the Final Burn Alpha emulator adapted to work with the Libretro interface, enabling it to be used within multi-platform emulators like RetroArch.</desc>
+<desc lang="fr">FBA Libretro est une version de l'émulateur Final Burn Alpha adaptée pour fonctionner avec l'interface Libretro, ce qui permet de l'intégrer dans des émulateurs multiplateformes comme RetroArch.</desc>
 
 
 

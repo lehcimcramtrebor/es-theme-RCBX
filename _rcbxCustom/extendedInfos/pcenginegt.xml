@@ -22,10 +22,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The PC Engine GT, also known as the TurboExpress in North America, was a handheld gaming console by NEC known for its compatibility with PC Engine games and a color screen, offering gaming on the go in the early '90s."</desc>
-<desc region="us">"The TurboExpress, also known as the PC Engine GT in Japan, was a handheld gaming console by NEC known for its compatibility with PC Engine games and a color screen, offering gaming on the go in the early '90s."</desc>
-<desc lang="fr">"Le PC Engine GT, également connu sous le nom de TurboExpress en Amérique du Nord, était une console de jeu portable de NEC réputée pour sa compatibilité avec les jeux PC Engine et son écran couleur."</desc>
-<desc lang="fr" region="us">"Le TurboExpress, également connu sous le nom de PC Engine GT au Japon, était une console de jeu portable de NEC réputée pour sa compatibilité avec les jeux PC Engine et son écran couleur, offrant du jeu en déplacement au début des années 90."</desc>
+<desc>The PC Engine GT, also known as the TurboExpress in North America, was a handheld gaming console by NEC known for its compatibility with PC Engine games and a color screen, offering gaming on the go in the early '90s.</desc>
+<desc region="us">The TurboExpress, also known as the PC Engine GT in Japan, was a handheld gaming console by NEC known for its compatibility with PC Engine games and a color screen, offering gaming on the go in the early '90s.</desc>
+<desc lang="fr">Le PC Engine GT, également connu sous le nom de TurboExpress en Amérique du Nord, était une console de jeu portable de NEC réputée pour sa compatibilité avec les jeux PC Engine et son écran couleur.</desc>
+<desc lang="fr" region="us">Le TurboExpress, également connu sous le nom de PC Engine GT au Japon, était une console de jeu portable de NEC réputée pour sa compatibilité avec les jeux PC Engine et son écran couleur, offrant du jeu en déplacement au début des années 90.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Video Game Music Player is a software application designed to play and organize video game music tracks, providing an enjoyable listening experience for gamers."</desc>
-<desc lang="fr">"Video Game Music Player est une application logicielle conçue pour lire et organiser des pistes de musique de jeux vidéo, offrant une expérience d'écoute agréable pour les joueurs."</desc>
+<desc>Video Game Music Player is a software application designed to play and organize video game music tracks, providing an enjoyable listening experience for gamers.</desc>
+<desc lang="fr">Video Game Music Player est une application logicielle conçue pour lire et organiser des pistes de musique de jeux vidéo, offrant une expérience d'écoute agréable pour les joueurs.</desc>
 
 
 

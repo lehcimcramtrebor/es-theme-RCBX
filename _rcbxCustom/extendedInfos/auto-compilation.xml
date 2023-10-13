@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Discover games bundled together in compilations."</desc>
-<desc lang="fr">"Découvrez les jeux regroupés dans des compilations."</desc>
+<desc>Discover games bundled together in compilations.</desc>
+<desc lang="fr">Découvrez les jeux regroupés dans des compilations.</desc>
 
 
 

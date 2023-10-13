@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"3dsen is an emulator that lets you experience classic NES games in 3D, giving new life to old favorites."</desc>
-<desc lang="fr">"3dsen est un émulateur qui vous permet de jouer à des jeux classiques NES en 3D, donnant une nouvelle vie à d'anciens favoris."</desc>
+<desc>3dsen is an emulator that lets you experience classic NES games in 3D, giving new life to old favorites.</desc>
+<desc lang="fr">3dsen est un émulateur qui vous permet de jouer à des jeux classiques NES en 3D, donnant une nouvelle vie à d'anciens favoris.</desc>
 
 
 

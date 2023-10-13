@@ -21,8 +21,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"This section allows you to easily install Windows games on your system. You can add .iso, .msi, or setup.exe files, which, once installed, will be available in the Windows section for you to enjoy your favorite games."</desc>
-<desc lang="fr">"Cette section vous permet d'installer des jeux Windows sur votre système. Vous pouvez ajouter des fichiers .iso, .msi ou des setup.exe, qui une fois installés, seront disponibles dans la section Windows."</desc>
+<desc>This section allows you to easily install Windows games on your system. You can add .iso, .msi, or setup.exe files, which, once installed, will be available in the Windows section for you to enjoy your favorite games.</desc>
+<desc lang="fr">Cette section vous permet d'installer des jeux Windows sur votre système. Vous pouvez ajouter des fichiers .iso, .msi ou des setup.exe, qui une fois installés, seront disponibles dans la section Windows.</desc>
 
 
 

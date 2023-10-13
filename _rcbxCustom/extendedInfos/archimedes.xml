@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Acorn Archimedes, a groundbreaking computer in the late '80s, introduced the ARM architecture and delivered impressive performance."</desc>
-<desc lang="fr">"L'Acorn Archimedes, un ordinateur révolutionnaire à la fin des années 80, a introduit l'architecture ARM et offrait des performances impressionnantes."</desc>
+<desc>The Acorn Archimedes, a groundbreaking computer in the late '80s, introduced the ARM architecture and delivered impressive performance.</desc>
+<desc lang="fr">L'Acorn Archimedes, un ordinateur révolutionnaire à la fin des années 80, a introduit l'architecture ARM et offrait des performances impressionnantes.</desc>
 
 
 

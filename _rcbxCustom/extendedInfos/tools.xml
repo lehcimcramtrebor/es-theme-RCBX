@@ -20,8 +20,8 @@
 
 <custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Access a suite of utilities to enhance your EmuELEC experience."</desc>
-<desc lang="fr">"Accédez à une suite d'utilitaires pour améliorer votre expérience EmuELEC."</desc>
+<desc>Access a suite of utilities to enhance your EmuELEC experience.</desc>
+<desc lang="fr">Accédez à une suite d'utilitaires pour améliorer votre expérience EmuELEC.</desc>
 
 
 

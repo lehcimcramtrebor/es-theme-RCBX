@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Arduboy is a credit-card-sized handheld gaming console with an open-source design that allows users to create and play their own games using Arduino-based programming."</desc>
-<desc lang="fr">"L'Arduboy est une console de jeu portable de la taille d'une carte de crédit avec un design open-source qui permet aux utilisateurs de créer et de jouer à leurs propres jeux en utilisant la programmation basée sur Arduino."</desc>
+<desc>Arduboy is a credit-card-sized handheld gaming console with an open-source design that allows users to create and play their own games using Arduino-based programming.</desc>
+<desc lang="fr">L'Arduboy est une console de jeu portable de la taille d'une carte de crédit avec un design open-source qui permet aux utilisateurs de créer et de jouer à leurs propres jeux en utilisant la programmation basée sur Arduino.</desc>
 
 
 

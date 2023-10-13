@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"HBMAME, or HomeBrew MAME, is a variant of the MAME software that focuses on preserving and emulating homebrew and hacked versions of arcade games, providing a unique gaming experience."</desc>
-<desc lang="fr">"HBMAME, ou HomeBrew MAME, est une variante du logiciel MAME qui se concentre sur la préservation et l'émulation de versions maison et piratées de jeux d'arcade, offrant une expérience de jeu unique."</desc>
+<desc>HBMAME, or HomeBrew MAME, is a variant of the MAME software that focuses on preserving and emulating homebrew and hacked versions of arcade games, providing a unique gaming experience.</desc>
+<desc lang="fr">HBMAME, ou HomeBrew MAME, est une variante du logiciel MAME qui se concentre sur la préservation et l'émulation de versions maison et piratées de jeux d'arcade, offrant une expérience de jeu unique.</desc>
 
 
 

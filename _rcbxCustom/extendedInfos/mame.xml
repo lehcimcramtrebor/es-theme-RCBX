@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"MAME, short for Multiple Arcade Machine Emulator, is a software emulator that enables playing vintage arcade games on modern computers."</desc>
-<desc lang="fr">"MAME, qui signifie Multiple Arcade Machine Emulator, est un émulateur logiciel permettant de jouer à d'anciens jeux d'arcade sur des ordinateurs modernes."</desc>
+<desc>MAME, short for Multiple Arcade Machine Emulator, is a software emulator that enables playing vintage arcade games on modern computers.</desc>
+<desc lang="fr">MAME, qui signifie Multiple Arcade Machine Emulator, est un émulateur logiciel permettant de jouer à d'anciens jeux d'arcade sur des ordinateurs modernes.</desc>
 
 
 

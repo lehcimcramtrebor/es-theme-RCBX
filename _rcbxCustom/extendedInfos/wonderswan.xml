@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The WonderSwan was a handheld gaming console by Bandai known for its compact design and a library of games, including titles from popular franchises."</desc>
-<desc lang="fr">"La WonderSwan était une console de jeu portable de Bandai réputée pour son design compact et une bibliothèque de jeux, y compris des titres de franchises populaires."</desc>
+<desc>The WonderSwan was a handheld gaming console by Bandai known for its compact design and a library of games, including titles from popular franchises.</desc>
+<desc lang="fr">La WonderSwan était une console de jeu portable de Bandai réputée pour son design compact et une bibliothèque de jeux, y compris des titres de franchises populaires.</desc>
 
 
 

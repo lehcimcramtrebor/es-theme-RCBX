@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Pico-8 is a fantasy console for making, sharing, and playing tiny games and other computer programs. It's designed to be easy to use and comes with a built-in code editor."</desc>
-<desc lang="fr">"Pico-8 est une console de jeu imaginaire pour créer, partager et jouer à de petits jeux et autres programmes informatiques. Il est conçu pour être facile à utiliser et est livré avec un éditeur de code intégré."</desc>
+<desc>Pico-8 is a fantasy console for making, sharing, and playing tiny games and other computer programs. It's designed to be easy to use and comes with a built-in code editor.</desc>
+<desc lang="fr">Pico-8 est une console de jeu imaginaire pour créer, partager et jouer à de petits jeux et autres programmes informatiques. Il est conçu pour être facile à utiliser et est livré avec un éditeur de code intégré.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Xash3D FWGS is a source port of the classic first-person shooter Half-Life, designed to run on modern systems and provide a way to play this iconic game on various platforms."</desc>
-<desc lang="fr">"Xash3D FWGS est un port source du jeu de tir à la première personne classique Half-Life, conçu pour fonctionner sur des systèmes modernes et offrir la possibilité de jouer à ce jeu emblématique sur différentes plates-formes."</desc>
+<desc>Xash3D FWGS is a source port of the classic first-person shooter Half-Life, designed to run on modern systems and provide a way to play this iconic game on various platforms.</desc>
+<desc lang="fr">Xash3D FWGS est un port source du jeu de tir à la première personne classique Half-Life, conçu pour fonctionner sur des systèmes modernes et offrir la possibilité de jouer à ce jeu emblématique sur différentes plates-formes.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Super Nintendo MSU-1 is a custom enhancement chip that allows for the playback of high-quality audio and video on certain SNES games, enhancing the gaming experience beyond the console's original capabilities."</desc>
-<desc lang="fr">"Le Super Nintendo MSU-1 est une puce d'amélioration personnalisée qui permet la lecture audio et vidéo de haute qualité sur certains jeux SNES, améliorant ainsi l'expérience de jeu au-delà des capacités d'origine de la console."</desc>
+<desc>The Super Nintendo MSU-1 is a custom enhancement chip that allows for the playback of high-quality audio and video on certain SNES games, enhancing the gaming experience beyond the console's original capabilities.</desc>
+<desc lang="fr">Le Super Nintendo MSU-1 est une puce d'amélioration personnalisée qui permet la lecture audio et vidéo de haute qualité sur certains jeux SNES, améliorant ainsi l'expérience de jeu au-delà des capacités d'origine de la console.</desc>
 
 
 

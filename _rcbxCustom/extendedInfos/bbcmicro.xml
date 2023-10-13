@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The BBC Micro, released in the early '80s, was a popular home computer known for its educational software and contributions to computer literacy."</desc>
-<desc lang="fr">"Le BBC Micro, sorti au début des années 80, était un ordinateur domestique populaire réputé pour son logiciel éducatif et ses contributions à la littératie informatique."</desc>
+<desc>The BBC Micro, released in the early '80s, was a popular home computer known for its educational software and contributions to computer literacy.</desc>
+<desc lang="fr">Le BBC Micro, sorti au début des années 80, était un ordinateur domestique populaire réputé pour son logiciel éducatif et ses contributions à la littératie informatique.</desc>
 
 
 

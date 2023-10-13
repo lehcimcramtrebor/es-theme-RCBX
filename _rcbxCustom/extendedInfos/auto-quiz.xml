@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Test your knowledge with a collection of quiz games, where questions and answers are your path to victory."</desc>
-<desc lang="fr">"Testez vos connaissances avec une collection de jeux de quiz, où les questions et les réponses sont votre chemin vers la victoire."</desc>
+<desc>Test your knowledge with a collection of quiz games, where questions and answers are your path to victory.</desc>
+<desc lang="fr">Testez vos connaissances avec une collection de jeux de quiz, où les questions et les réponses sont votre chemin vers la victoire.</desc>
 
 
 

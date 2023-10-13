@@ -22,10 +22,10 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The NES, or Nintendo Entertainment System, was a groundbreaking video game console by Nintendo known for revitalizing the gaming industry and introducing iconic franchises in the '80s."</desc>
-<desc region="jp">"The Famicom, or Family Computer, by Nintendo was the Japanese counterpart to the NES (Nintendo Entertainment System) in North America and other regions, playing a vital role in the '80s and '90s gaming industry."</desc>
-<desc lang="fr">"La NES, ou Nintendo Entertainment System, était une console de jeu vidéo révolutionnaire de Nintendo réputée pour avoir revitalisé l'industrie du jeu et introduit des franchises emblématiques dans les années 80."</desc>
-<desc lang="fr" region="jp">"Le Famicom, ou Family Computer, de Nintendo était l'équivalent japonais de la NES (Nintendo Entertainment System) en Amérique du Nord et dans d'autres régions, jouant un rôle essentiel dans l'industrie du jeu vidéo des années 80."</desc>
+<desc>The NES, or Nintendo Entertainment System, was a groundbreaking video game console by Nintendo known for revitalizing the gaming industry and introducing iconic franchises in the '80s.</desc>
+<desc region="jp">The Famicom, or Family Computer, by Nintendo was the Japanese counterpart to the NES (Nintendo Entertainment System) in North America and other regions, playing a vital role in the '80s and '90s gaming industry.</desc>
+<desc lang="fr">La NES, ou Nintendo Entertainment System, était une console de jeu vidéo révolutionnaire de Nintendo réputée pour avoir revitalisé l'industrie du jeu et introduit des franchises emblématiques dans les années 80.</desc>
+<desc lang="fr" region="jp">Le Famicom, ou Family Computer, de Nintendo était l'équivalent japonais de la NES (Nintendo Entertainment System) en Amérique du Nord et dans d'autres régions, jouant un rôle essentiel dans l'industrie du jeu vidéo des années 80.</desc>
 
 
 

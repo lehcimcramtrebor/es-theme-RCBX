@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"TeknoParrot is an arcade game emulator with a custom loader for modern PCs, allowing you to enjoy classic arcade titles without the original hardware."</desc>
-<desc lang="fr">"TeknoParrot est un émulateur de jeux d'arcade avec un chargeur personnalisé pour les PC modernes, vous permettant de jouer aux titres d'arcade classiques sans le matériel d'origine."</desc>
+<desc>TeknoParrot is an arcade game emulator with a custom loader for modern PCs, allowing you to enjoy classic arcade titles without the original hardware.</desc>
+<desc lang="fr">TeknoParrot est un émulateur de jeux d'arcade avec un chargeur personnalisé pour les PC modernes, vous permettant de jouer aux titres d'arcade classiques sans le matériel d'origine.</desc>
 
 
 

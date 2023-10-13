@@ -20,8 +20,8 @@
 
 <custom.type>elements</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"OD Commander is a file manager designed for use with a gamepad, providing a user-friendly interface for navigating and managing files on your system."</desc>
-<desc lang="fr">"OD Commander est un gestionnaire de fichiers conçu pour être utilisé avec une manette de jeu, offrant une interface conviviale pour naviguer et gérer les fichiers sur votre système."</desc>
+<desc>OD Commander is a file manager designed for use with a gamepad, providing a user-friendly interface for navigating and managing files on your system.</desc>
+<desc lang="fr">OD Commander est un gestionnaire de fichiers conçu pour être utilisé avec une manette de jeu, offrant une interface conviviale pour naviguer et gérer les fichiers sur votre système.</desc>
 
 
 

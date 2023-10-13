@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Neo Geo MVS, or Multi Video System, was an arcade system board by SNK, famous for its ability to run multiple games on a single cabinet."</desc>
-<desc lang="fr">"Le Neo Geo MVS, ou Multi Video System, était une carte d'arcade de SNK, célèbre pour sa capacité à exécuter plusieurs jeux sur une seule borne."</desc>
+<desc>The Neo Geo MVS, or Multi Video System, was an arcade system board by SNK, famous for its ability to run multiple games on a single cabinet.</desc>
+<desc lang="fr">Le Neo Geo MVS, ou Multi Video System, était une carte d'arcade de SNK, célèbre pour sa capacité à exécuter plusieurs jeux sur une seule borne.</desc>
 
 
 

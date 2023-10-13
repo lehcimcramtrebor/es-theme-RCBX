@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Z-Machine is a virtual machine designed for text adventure games, including the famous Infocom titles. It allows these games to run on various platforms and interpreters."</desc>
-<desc lang="fr">"La Z-Machine est une machine virtuelle conçue pour les jeux d'aventure textuels, y compris les titres célèbres d'Infocom. Elle permet à ces jeux de fonctionner sur différentes plates-formes et interprètes."</desc>
+<desc>The Z-Machine is a virtual machine designed for text adventure games, including the famous Infocom titles. It allows these games to run on various platforms and interpreters.</desc>
+<desc lang="fr">La Z-Machine est une machine virtuelle conçue pour les jeux d'aventure textuels, y compris les titres célèbres d'Infocom. Elle permet à ces jeux de fonctionner sur différentes plates-formes et interprètes.</desc>
 
 
 

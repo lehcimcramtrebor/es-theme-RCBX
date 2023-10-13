@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Cannonball is a high-speed arcade racing game based on the SEGA OutRun hardware, known for its fast-paced action and iconic music."</desc>
-<desc lang="fr">"Cannonball est un jeu de course d'arcade à grande vitesse basé sur le matériel SEGA OutRun, réputé pour son action rapide et sa musique emblématique."</desc>
+<desc>Cannonball is a high-speed arcade racing game based on the SEGA OutRun hardware, known for its fast-paced action and iconic music.</desc>
+<desc lang="fr">Cannonball est un jeu de course d'arcade à grande vitesse basé sur le matériel SEGA OutRun, réputé pour son action rapide et sa musique emblématique.</desc>
 
 
 

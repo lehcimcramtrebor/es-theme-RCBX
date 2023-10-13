@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"V.Smile, developed by VTech, was an educational gaming console designed for young children, offering a range of interactive and educational games."</desc>
-<desc lang="fr">"V.Smile, développé par VTech, était une console de jeu éducative conçue pour les jeunes enfants, proposant une gamme de jeux interactifs et éducatifs."</desc>
+<desc>V.Smile, developed by VTech, was an educational gaming console designed for young children, offering a range of interactive and educational games.</desc>
+<desc lang="fr">V.Smile, développé par VTech, était une console de jeu éducative conçue pour les jeunes enfants, proposant une gamme de jeux interactifs et éducatifs.</desc>
 
 
 

@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"The Sonic Retro Engine is a fan-made game engine designed to replicate the classic physics and gameplay of Sonic the Hedgehog games, providing a nostalgic experience for fans."</desc>
-<desc lang="fr">"Le Sonic Retro Engine est un moteur de jeu créé par des fans conçu pour reproduire la physique classique et le gameplay des jeux Sonic the Hedgehog, offrant une expérience nostalgique aux fans."</desc>
+<desc>The Sonic Retro Engine is a fan-made game engine designed to replicate the classic physics and gameplay of Sonic the Hedgehog games, providing a nostalgic experience for fans.</desc>
+<desc lang="fr">Le Sonic Retro Engine est un moteur de jeu créé par des fans conçu pour reproduire la physique classique et le gameplay des jeux Sonic the Hedgehog, offrant une expérience nostalgique aux fans.</desc>
 
 
 

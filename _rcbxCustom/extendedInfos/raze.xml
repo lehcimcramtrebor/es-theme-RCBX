@@ -20,8 +20,8 @@
 
 <custom.type>port</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"Raze is a source port of classic first-person shooters like Doom, Heretic, and Hexen, enhancing these games for modern systems with improved features."</desc>
-<desc lang="fr">"Raze est un port source de jeux de tir à la première personne classiques tels que Doom, Heretic et Hexen, améliorant ces jeux pour les systèmes modernes avec des fonctionnalités améliorées."</desc>
+<desc>Raze is a source port of classic first-person shooters like Doom, Heretic, and Hexen, enhancing these games for modern systems with improved features.</desc>
+<desc lang="fr">Raze est un port source de jeux de tir à la première personne classiques tels que Doom, Heretic et Hexen, améliorant ces jeux pour les systèmes modernes avec des fonctionnalités améliorées.</desc>
 
 
 

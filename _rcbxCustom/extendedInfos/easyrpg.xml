@@ -20,8 +20,8 @@
 
 <custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
 
-<desc>"EasyRPG is an open-source game engine designed to run RPG Maker 2000 and 2003 games, offering compatibility and enhanced features for fans of these classic RPG titles."</desc>
-<desc lang="fr">"EasyRPG est un moteur de jeu open-source conçu pour exécuter des jeux RPG Maker 2000 et 2003, offrant une compatibilité et des fonctionnalités améliorées pour les fans de ces titres de RPG classiques."</desc>
+<desc>EasyRPG is an open-source game engine designed to run RPG Maker 2000 and 2003 games, offering compatibility and enhanced features for fans of these classic RPG titles.</desc>
+<desc lang="fr">EasyRPG est un moteur de jeu open-source conçu pour exécuter des jeux RPG Maker 2000 et 2003, offrant une compatibilité et des fonctionnalités améliorées pour les fans de ces titres de RPG classiques.</desc>
 
 
 
