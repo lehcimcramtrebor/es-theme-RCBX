@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>zinc arcade emulator</system.fullName>
+<system.fullName lang="fr">émulateur d'arcade zinc</system.fullName>
+
+<custom.year>1999</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>system</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>Zinc, an arcade emulator that focuses on emulating Capcom's ZN1 and ZN2 systems, providing an authentic experience for playing classic arcade games on modern platforms.</desc>
+<desc lang="fr">Zinc, un émulateur d'arcade se concentrant sur l'émulation des systèmes ZN1 et ZN2 de Capcom, offrant une expérience authentique pour jouer à des jeux d'arcade classiques sur des plateformes modernes.</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>

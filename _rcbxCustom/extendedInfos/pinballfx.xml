@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><theme><formatVersion>7</formatVersion><variables>
+
+
+
+<!---------------DUPLICATE AND RENAME THIS FILE BY SYSTEM THEME, EXAMPLE: "megadrive.xml"----------------------->
+<!------------------------------------------------AND----------------------------------------------------------->
+<!----------------------------ADD YEAR > 1958 BETWEEN <custom.year> AND </custom.year>-------------------------->
+<!--------------------------ADD TYPE OF SYSTEM BETWEEN <custom.type> AND </custom.type>------------------------->
+
+
+
+
+
+
+
+
+<system.fullName>Pinball FX</system.fullName>
+
+<custom.year>2010</custom.year><!-- 4 numbers > 1958 -->
+
+<custom.type>pinball</custom.type><!-- system, port, elements, apps, pinball, collections, images, videos, music -->
+
+<desc>Pinball FX, a digital pinball platform offering a diverse collection of themed tables with realistic physics and engaging gameplay experiences.</desc>
+<desc lang="fr">Pinball FX, une plateforme de flipper numérique proposant une collection variée de tables thématiques avec une physique réaliste et des expériences de jeu captivantes.</desc>
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------->
+</variables></theme>
