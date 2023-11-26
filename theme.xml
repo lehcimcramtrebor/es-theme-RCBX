@@ -52,8 +52,8 @@ by Helmic.-->
 	
 	<!--subsets-->
     <subset name="music" tinyScreen="false" displayName="${category.music} • ${lang.music}">
-        <include name="useMrBoomMusic" displayName="${lang.useMrBoomMusic}">./_inc/useMrBoomMusic.xml</include>
         <include name="useRecalboxMusic" displayName="${lang.useRecalboxMusic}">./_inc/useRecalboxMusic.xml</include>
+        <include name="useMrBoomMusic" displayName="${lang.useMrBoomMusic}">./_inc/useMrBoomMusic.xml</include>
         <include name="useOldBatoceraMusic" displayName="${lang.useOldBatoceraMusic}">./_inc/useOldBatoceraMusic.xml</include>
         <include name="useComixZoneMusic" displayName="${lang.useComixZoneMusic}">./_inc/useComixZoneMusic.xml</include>
         <include name="useRetrobatMusic" displayName="${lang.useRetrobatMusic}">./_inc/useRetrobatMusic.xml</include>
