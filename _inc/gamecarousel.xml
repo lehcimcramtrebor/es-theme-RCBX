@@ -650,7 +650,7 @@
             <pos>0.025 0.15</pos>
             <size>0.73 0.69</size>
 			<logoScale>1.5</logoScale>
-			<logoSize>0.28 0.58</logoSize>
+			<logoSize>0.28 0.4</logoSize>
 			<logoAlignment>center</logoAlignment>
 			<maxLogoCount>3</maxLogoCount>
 			<imageSource>thumbnail</imageSource>
@@ -979,7 +979,7 @@
             <pos>0.025 0.96</pos>
             <size>0.73 0.345</size>
 			<logoScale>1.5</logoScale>
-			<logoSize>0.18 0.58</logoSize>
+			<logoSize>0.18 0.4</logoSize>
 			<logoAlignment>center</logoAlignment>
 			<maxLogoCount>5</maxLogoCount>
 			<imageSource>thumbnail</imageSource>
@@ -1310,7 +1310,7 @@
             <pos>0.025 0.96</pos>
             <size>0.73 0.345</size>
 			<logoScale>1.5</logoScale>
-			<logoSize>0.18 0.58</logoSize>
+			<logoSize>0.18 0.4</logoSize>
 			<logoAlignment>center</logoAlignment>
 			<maxLogoCount>5</maxLogoCount>
 			<imageSource>thumbnail</imageSource>
