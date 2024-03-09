@@ -81,7 +81,7 @@
 			</storyboard>
 		</video>
 		<image name="md_image">
-			<default>./parts/defgame.png</default>
+<!--			<default>./parts/defgame.png</default> -->
 			<zIndex>1001</zIndex>
 			<origin>0 0</origin>
 			<origin ifSubset="mdCenter:yes">0.5 0.5</origin>
