@@ -1,4 +1,5 @@
 # RCBX - Retrogaming Customizable Beautiful eXperience
+# no longer maintained
 
 Simple Emulationstation theme inspired by Recalbox theme for: 
 
